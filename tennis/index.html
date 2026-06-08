@@ -9,95 +9,151 @@
 </head>
 <body>
 
-<nav>
-  <div class="nav-logo">🎾 <span>SportGear</span> Finder</div>
+<!-- ── NAV ── -->
+<nav class="nav-v2">
+  <a href="../index.html" class="nav-logo-v2">
+    <div class="logo-mark">
+      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 2L10.5 6.5H13.5L11 9.5L12 14L8 11.5L4 14L5 9.5L2.5 6.5H5.5L8 2Z" fill="#111" stroke="#111" stroke-width="0.5" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <span class="logo-text"><em>SportGear</em> Finder</span>
+  </a>
   <ul class="nav-links">
     <li><a href="../index.html">Home</a></li>
     <li><a href="index.html" class="active">Tennis</a></li>
   </ul>
 </nav>
 
-<div class="hero">
-  <h1>Best <span>Tennis Gear</span> for Every Budget</h1>
-  <p>Skip the guesswork — we compare Budget, Best Value, and Premium options so you always know exactly what to buy and where to get it cheapest.</p>
+<!-- ── SPORT HUB HERO ── -->
+<section class="sport-hub-hero">
+  <img
+    src="https://images.unsplash.com/photo-1595435742656-5272d0b3fa82?w=1600&h=700&fit=crop&q=80"
+    alt="Tennis player serving on court"
+  />
+  <div class="hero-overlay"></div>
+  <div class="hub-content">
+    <span class="hub-eyebrow">
+      <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><circle cx="5" cy="5" r="4" stroke="#a3c900" stroke-width="1.5"/><circle cx="5" cy="5" r="1.5" fill="#a3c900"/></svg>
+      Tennis Hub
+    </span>
+    <h1>Best <em>Tennis Gear</em><br>For Every Budget</h1>
+    <p>We compare 6 real products per category — Budget, Best Value, and Premium — so you always know exactly what to buy.</p>
+  </div>
+</section>
+
+<!-- ── BREADCRUMB ── -->
+<div class="breadcrumb">
+  <a href="../index.html">Home</a> / Tennis
 </div>
 
 <div class="container">
 
-  <h2 style="font-size:1.05rem; color:var(--text-light); margin-bottom:8px; margin-top:8px; font-weight:600; text-transform:uppercase; letter-spacing:.05em;">🎾 Equipment</h2>
-  <div class="product-grid">
+  <!-- ── EQUIPMENT ── -->
+  <div class="section-label" style="margin-top: 36px;">Equipment</div>
 
-    <a href="rackets.html" class="product-card">
-      <div class="icon">🎾</div>
-      <h3>Tennis Rackets</h3>
-      <p>From first-timer frames to tour-level sticks. Find your match.</p>
-      <span class="card-badge equipment">From $28</span>
+  <div class="cat-grid">
+
+    <a href="rackets.html" class="cat-card">
+      <img src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?w=600&h=400&fit=crop&q=80" alt="Tennis Rackets" />
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info">
+        <h3>Tennis Rackets</h3>
+        <span class="cat-price-pill">From $28</span>
+      </div>
     </a>
 
-    <a href="balls.html" class="product-card">
-      <div class="icon">🟡</div>
-      <h3>Tennis Balls</h3>
-      <p>Court-approved balls that last — without overpaying.</p>
-      <span class="card-badge equipment">From $5</span>
+    <a href="balls.html" class="cat-card">
+      <img src="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=600&h=400&fit=crop&q=80" alt="Tennis Balls" />
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info">
+        <h3>Tennis Balls</h3>
+        <span class="cat-price-pill">From $5</span>
+      </div>
     </a>
 
-    <a href="shoes.html" class="product-card">
-      <div class="icon">👟</div>
-      <h3>Tennis Shoes</h3>
-      <p>The right grip and support for hard, clay, and grass courts.</p>
-      <span class="card-badge equipment">From $45</span>
+    <a href="shoes.html" class="cat-card">
+      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=400&fit=crop&q=80" alt="Tennis Shoes" />
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info">
+        <h3>Tennis Shoes</h3>
+        <span class="cat-price-pill">From $45</span>
+      </div>
     </a>
 
-    <a href="bags.html" class="product-card">
-      <div class="icon">🎒</div>
-      <h3>Tennis Bags</h3>
-      <p>Carry your racket, gear, and water without the bulk.</p>
-      <span class="card-badge equipment">From $18</span>
+    <a href="bags.html" class="cat-card">
+      <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=400&fit=crop&q=80" alt="Tennis Bags" />
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info">
+        <h3>Tennis Bags</h3>
+        <span class="cat-price-pill">From $18</span>
+      </div>
     </a>
 
-    <a href="strings.html" class="product-card">
-      <div class="icon">〰️</div>
-      <h3>Tennis Strings</h3>
-      <p>The right string can transform your game. Here's what to buy.</p>
-      <span class="card-badge equipment">From $5</span>
-    </a>
-
-  </div>
-
-  <h2 style="font-size:1.05rem; color:var(--text-light); margin-bottom:8px; margin-top:36px; font-weight:600; text-transform:uppercase; letter-spacing:.05em;">👕 Clothing</h2>
-  <div class="product-grid">
-
-    <a href="shirts.html" class="product-card">
-      <div class="icon">👕</div>
-      <h3>Tennis Shirts & Polos</h3>
-      <p>Breathable, moisture-wicking tops for hot court sessions.</p>
-      <span class="card-badge clothing">From $12</span>
-    </a>
-
-    <a href="shorts.html" class="product-card">
-      <div class="icon">🩳</div>
-      <h3>Tennis Shorts</h3>
-      <p>Lightweight shorts with the right stretch for lateral movement.</p>
-      <span class="card-badge clothing">From $12</span>
-    </a>
-
-    <a href="skirts.html" class="product-card">
-      <div class="icon">👗</div>
-      <h3>Tennis Skirts & Dresses</h3>
-      <p>Style and function on the court — with pockets.</p>
-      <span class="card-badge clothing">From $15</span>
-    </a>
-
-    <a href="socks.html" class="product-card">
-      <div class="icon">🧦</div>
-      <h3>Tennis Socks</h3>
-      <p>The most underrated piece of gear. Don't skip good socks.</p>
-      <span class="card-badge clothing">From $5</span>
+    <a href="strings.html" class="cat-card">
+      <img src="https://images.unsplash.com/photo-1617083934555-ac7e4a40b8bb?w=600&h=400&fit=crop&q=80" alt="Tennis Strings" />
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info">
+        <h3>Tennis Strings</h3>
+        <span class="cat-price-pill">From $5</span>
+      </div>
     </a>
 
   </div>
 
-  <div class="disclosure" style="margin-top:40px;">
+  <!-- ── CLOTHING ── -->
+  <div class="section-label" style="margin-top: 48px;">Clothing</div>
+
+  <div class="cat-grid">
+
+    <a href="shirts.html" class="cat-card">
+      <img src="https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=600&h=400&fit=crop&q=80" alt="Tennis Shirts" />
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill clothing">Clothing</span>
+      <div class="cat-info">
+        <h3>Shirts &amp; Polos</h3>
+        <span class="cat-price-pill">From $12</span>
+      </div>
+    </a>
+
+    <a href="shorts.html" class="cat-card">
+      <img src="https://images.unsplash.com/photo-1556906781-9a412961a28c?w=600&h=400&fit=crop&q=80" alt="Tennis Shorts" />
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill clothing">Clothing</span>
+      <div class="cat-info">
+        <h3>Tennis Shorts</h3>
+        <span class="cat-price-pill">From $12</span>
+      </div>
+    </a>
+
+    <a href="skirts.html" class="cat-card">
+      <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=600&h=400&fit=crop&q=80" alt="Tennis Skirts" />
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill clothing">Clothing</span>
+      <div class="cat-info">
+        <h3>Skirts &amp; Dresses</h3>
+        <span class="cat-price-pill">From $15</span>
+      </div>
+    </a>
+
+    <a href="socks.html" class="cat-card">
+      <img src="https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?w=600&h=400&fit=crop&q=80" alt="Tennis Socks" />
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill clothing">Clothing</span>
+      <div class="cat-info">
+        <h3>Tennis Socks</h3>
+        <span class="cat-price-pill">From $5</span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="disclosure" style="margin-top: 48px;">
     <strong>Affiliate Disclosure:</strong> SportGear Finder may earn a commission if you purchase through links on this site, at no extra cost to you. We only recommend gear we'd genuinely use.
   </div>
 
