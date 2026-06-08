@@ -1410,3 +1410,394 @@ nav.nav-v2 {
   .sport-grid-v2 { grid-template-columns: 1fr; }
   .sport-card-v2 { height: 260px; }
 }
+
+/* ══════════════════════════════════════════
+   PRODUCT PAGES — MOBILE-FIRST REDESIGN
+   All pcard, tier-v2, cat-page-hero styles
+══════════════════════════════════════════ */
+
+/* ── Category page hero ── */
+.cat-page-hero {
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+  background: #111;
+}
+
+.cat-page-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  display: block;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.7) 100%);
+}
+
+.cat-hero-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px 24px;
+}
+
+.cat-hero-eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--lime);
+  background: rgba(163,201,0,0.12);
+  border: 1px solid rgba(163,201,0,0.3);
+  padding: 3px 10px;
+  border-radius: 99px;
+  margin-bottom: 8px;
+}
+
+.cat-hero-content h1 {
+  font-family: 'Barlow Condensed', 'Inter', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.cat-hero-content h1 em {
+  color: var(--lime);
+  font-style: normal;
+}
+
+.cat-hero-content p {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.65);
+  margin: 0;
+  max-width: 480px;
+}
+
+/* ── Page intro ── */
+.page-intro-v2 {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--lime);
+  padding: 16px 18px;
+  margin-bottom: 28px;
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  line-height: 1.7;
+}
+
+.page-intro-v2 strong { color: var(--white); font-weight: 700; }
+
+/* ── Tier sections ── */
+.tier-v2 {
+  margin-bottom: 32px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.tier-v2-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 14px 18px;
+}
+
+.tier-v2-header.budget, .tier-v2 .tier-v2-header:has(.budget) { background: linear-gradient(135deg,#1e3a8a,#2563eb); }
+
+.tier-v2-badge {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 4px 12px;
+  border-radius: 99px;
+  flex-shrink: 0;
+}
+
+.tier-v2-badge.budget  { background: rgba(59,130,246,0.25); color: #93c5fd; border: 1px solid rgba(59,130,246,0.4); }
+.tier-v2-badge.value   { background: rgba(163,201,0,0.2);   color: var(--lime); border: 1px solid rgba(163,201,0,0.4); }
+.tier-v2-badge.premium { background: rgba(168,85,247,0.2);  color: #d8b4fe; border: 1px solid rgba(168,85,247,0.4); }
+
+.tier-v2-header {
+  background: var(--bg-card2);
+  border-bottom: 1px solid var(--border);
+}
+
+.tier-v2-title {
+  font-family: 'Barlow Condensed', 'Inter', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 900;
+  color: var(--white);
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.tier-v2-sub {
+  font-size: 0.78rem;
+  color: var(--text-light);
+  width: 100%;
+  margin-top: -4px;
+}
+
+/* ── Products grid ── */
+.products-v2 {
+  background: var(--bg-card);
+}
+
+/* ── Product card (mobile-first: full width stacked) ── */
+.pcard {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+
+.pcard:last-child { border-bottom: none; }
+.pcard:hover { background: var(--bg-card2); }
+
+.pcard-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.pcard-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 16px;
+}
+
+.pcard-body {
+  padding: 18px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pcard-name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+/* ── Price + score row ── */
+.pcard-meta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pcard-price-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.pcard-price {
+  font-family: 'Barlow Condensed', 'Inter', sans-serif;
+  font-size: 1.65rem;
+  font-weight: 900;
+  color: var(--lime);
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.pcard-price-note {
+  font-size: 0.72rem;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.pcard-score {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.pcard-score-num {
+  font-family: 'Barlow Condensed', 'Inter', sans-serif;
+  font-size: 1.65rem;
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.pcard-score-num span {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.pcard-score-label {
+  font-size: 0.68rem;
+  color: var(--text-light);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: right;
+}
+
+/* ── Description ── */
+.pcard-desc {
+  font-size: 0.875rem;
+  color: var(--text-mid);
+  line-height: 1.65;
+}
+
+/* ── Spec tags ── */
+.pcard-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pcard-spec {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-mid);
+  background: var(--bg-card3);
+  border: 1px solid var(--border-hi);
+  padding: 4px 10px;
+  border-radius: 99px;
+  white-space: nowrap;
+}
+
+/* ── Card footer ── */
+.pcard-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 4px;
+}
+
+.pcard-best-for {
+  font-size: 0.78rem;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.pcard-best-for::before {
+  content: "Best for: ";
+  color: var(--lime);
+  font-weight: 700;
+}
+
+.pcard-btns {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: opacity 0.15s, transform 0.1s;
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+}
+
+.btn:hover { opacity: 0.85; text-decoration: none; transform: translateY(-1px); }
+.btn:active { transform: scale(0.97); }
+
+.btn-sm {
+  font-size: 0.82rem;
+  padding: 10px 18px;
+  min-height: 40px;
+}
+
+.btn-amazon {
+  background: #ff9900;
+  color: #000;
+}
+
+.btn-walmart {
+  background: #0071ce;
+  color: #fff;
+}
+
+/* ── Affiliate disclosure ── */
+.disclosure {
+  margin-top: 40px;
+  padding: 14px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.78rem;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.disclosure strong { color: var(--text-mid); }
+
+/* ══════════════════════════════════════════
+   RESPONSIVE — PRODUCT PAGES
+══════════════════════════════════════════ */
+
+/* Tablet: 2-column product grid, image side-by-side with content */
+@media (min-width: 600px) {
+  .cat-page-hero { height: 340px; }
+  .cat-hero-content h1 { font-size: 3.2rem; }
+  .cat-hero-content { padding: 0 32px 36px; }
+
+  .products-v2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pcard {
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Remove right border from every other card */
+  .pcard:nth-child(2n) { border-right: none; }
+
+  /* Bottom row has no bottom border */
+  .pcard:nth-last-child(-n+2) { border-bottom: none; }
+
+  .pcard-img { height: 180px; }
+  .pcard-body { padding: 16px; }
+}
+
+/* Desktop: wider layout improvements */
+@media (min-width: 900px) {
+  .cat-page-hero { height: 400px; }
+  .cat-hero-content h1 { font-size: 4rem; }
+  
+  .pcard-img { height: 220px; }
+  .pcard-name { font-size: 1.1rem; }
+  .pcard-body { padding: 20px; gap: 14px; }
+  
+  .tier-v2-header { padding: 16px 24px; }
+  .tier-v2-title { font-size: 1.5rem; }
+}
+
