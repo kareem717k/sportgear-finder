@@ -1572,19 +1572,31 @@ nav.nav-v2 {
   width: 100%;
   height: 200px;
   overflow: hidden;
-  background: #181818;
+  background: #f5f3f0;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid var(--border);
   flex-shrink: 0;
+  position: relative;
+}
+
+/* Gradient fade from light image area into dark card body */
+.pcard-img::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45%;
+  background: linear-gradient(to bottom, transparent 0%, #141414 100%);
+  pointer-events: none;
 }
 
 .pcard-img img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  padding: 16px;
+  padding: 14px 14px 20px;
 }
 
 .pcard-body {
