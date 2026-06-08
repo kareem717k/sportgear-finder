@@ -408,6 +408,22 @@ nav {
   letter-spacing: 0;
 }
 
+.price-check-link {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: opacity 0.15s;
+}
+.price-check-link:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
 .card-desc {
   font-size: 0.855rem;
   color: var(--text-mid);
