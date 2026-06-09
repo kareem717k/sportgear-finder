@@ -1416,34 +1416,43 @@ nav.nav-v2 {
    All pcard, tier-v2, cat-page-hero styles
 ══════════════════════════════════════════ */
 
-/* ── Category page hero ── */
+/* ── Category page hero — pure CSS gradient (no photo) ── */
 .cat-page-hero {
   position: relative;
   height: 260px;
   overflow: hidden;
-  background: #111;
+  /* Lime glow from left, deep dark base */
+  background:
+    radial-gradient(ellipse 80% 120% at -8% 65%, rgba(163,201,0,0.20) 0%, transparent 55%),
+    radial-gradient(ellipse 45% 70% at 105% 5%, rgba(163,201,0,0.07) 0%, transparent 45%),
+    linear-gradient(155deg, #181818 0%, #0b0b0b 100%);
+  display: flex;
+  align-items: flex-end;
 }
 
-.cat-page-hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 25%;
-  display: block;
-}
-
-.hero-overlay {
+/* Subtle dot-grid texture */
+.cat-page-hero::before {
+  content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.7) 100%);
+  background-image: radial-gradient(rgba(255,255,255,0.055) 1px, transparent 1px);
+  background-size: 22px 22px;
+  pointer-events: none;
+}
+
+/* Fade bottom edge into page bg */
+.cat-page-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, rgba(11,11,11,0.7) 85%, #0b0b0b 100%);
+  pointer-events: none;
 }
 
 .cat-hero-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 0 20px 24px;
+  position: relative;
+  z-index: 2;
+  padding: 0 20px 28px;
 }
 
 .cat-hero-eyebrow {
@@ -1572,31 +1581,36 @@ nav.nav-v2 {
   width: 100%;
   height: 240px;
   overflow: hidden;
-  background: #dddbd7;
+  /* Light bg so multiply blend can erase the white from product photos */
+  background: #f0eeea;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   position: relative;
   border-bottom: none;
+  isolation: isolate;
 }
 
-/* Studio spotlight vignette — fades the white bg into darkness on all sides */
+/* Dark vignette fades edges + bottom into the card */
 .pcard-img::after {
   content: '';
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 75% at 50% 45%, transparent 30%, rgba(14,14,14,0.55) 65%, #141414 92%),
-    linear-gradient(to bottom, rgba(14,14,14,0.0) 30%, rgba(14,14,14,0.85) 80%, #141414 100%);
+    radial-gradient(ellipse 85% 80% at 50% 42%, transparent 28%, rgba(14,14,14,0.5) 62%, #141414 90%),
+    linear-gradient(to bottom, transparent 25%, rgba(14,14,14,0.9) 75%, #141414 100%);
   pointer-events: none;
+  z-index: 1;
 }
 
 .pcard-img img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  padding: 18px 18px 28px;
+  padding: 16px 16px 24px;
+  /* Multiply: white in the image × light bg = invisible. Product colours remain. */
+  mix-blend-mode: multiply;
   position: relative;
   z-index: 0;
 }
