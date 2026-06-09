@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -45,6 +45,7 @@
 </div>
 <span class="logo-text"><em>SportGear</em> Finder</span>
 </a>
+<button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
 <ul class="nav-links">
 <li><a href="../index.html">Home</a></li>
 <li><a class="active" href="index.html">Tennis</a></li>
@@ -254,7 +255,7 @@
 <img alt="Lacoste Sport Cap" loading="lazy" src="https://m.media-amazon.com/images/I/51YXgJiAHLL._AC_SL300_.jpg"/>
 </div>
 <div class="pcard-body">
-<div class="pcard-name">Lacoste Sport Novak Cap</div>
+<div class="pcard-name">Lacoste Sport Andy Roddick Cap</div>
 <div class="pcard-meta">
 <div class="pcard-price-block">
 <div class="pcard-price">~$50</div>
@@ -282,12 +283,12 @@
 </div>
 </div>
 </div>
-<div class="disclosure">
+<div class="disclosure" id="disclosure">
 <strong>Affiliate Disclosure:</strong> SportGear Finder may earn a small commission on qualifying purchases through links on this page, at no extra cost to you. Prices shown are approximate and subject to change.
 </div>
 </div>
 <footer>
-<p>© 2026 SportGear Finder · <a href="#">Privacy Policy</a> · <a href="#">Affiliate Disclosure</a></p>
+<p>© 2026 SportGear Finder · <a href="/sportgear-finder/privacy.html">Privacy Policy</a> · <a href="#disclosure">Affiliate Disclosure</a></p>
 </footer>
 </body>
 </html>

@@ -779,6 +779,48 @@ nav.nav-v2 {
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255,255,255,0.07);
   box-shadow: none;
+  position: relative;
+}
+
+/* ── Hamburger button ── */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 6px 4px;
+  background: none;
+  border: none;
+  margin-left: auto;
+}
+.nav-hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: 0.2s ease;
+}
+
+@media (max-width: 700px) {
+  .nav-hamburger { display: flex; }
+  .nav-links.open {
+    display: flex !important;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    right: 0;
+    background: rgba(10,10,10,0.97);
+    flex-direction: column;
+    gap: 0;
+    padding: 8px 16px 16px;
+    border-bottom: 1px solid var(--border);
+    z-index: 99;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .nav-links.open li { width: 100%; }
+  .nav-links.open a { display: block; padding: 10px 14px; width: 100%; }
 }
 
 .nav-logo-v2 {

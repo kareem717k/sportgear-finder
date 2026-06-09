@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sportgear",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "3456", "--directory", "D:\\kitwebsite\\sportgear-finder"],
+      "port": 3456
+    }
+  ]
+}
