@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sportgear.netlify.app/sitemap.xml
+Sitemap: https://kareem717k.github.io/sportgear-finder/sitemap.xml
