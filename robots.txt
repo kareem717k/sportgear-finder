@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kareem717k.github.io/sportgear-finder/sitemap.xml
+Sitemap: https://sportgearfinder.com/sitemap.xml
