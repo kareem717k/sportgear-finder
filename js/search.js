@@ -101,7 +101,58 @@
     { title: 'Nike Court AeroBill Heritage86 Cap', sub: 'Hats — Best Value', tag: 'Product', url: BASE + 'tennis/hats.html' },
     { title: 'Wilson Ultralight Tennis Cap', sub: 'Hats — Best Value', tag: 'Product', url: BASE + 'tennis/hats.html' },
     { title: 'Nike Court Advantage Cap', sub: 'Hats — Premium', tag: 'Product', url: BASE + 'tennis/hats.html' },
-    { title: 'Lacoste Sport Microfibre Player Cap', sub: 'Hats — Premium', tag: 'Product', url: BASE + 'tennis/hats.html' }
+    { title: 'Lacoste Sport Microfibre Player Cap', sub: 'Hats — Premium', tag: 'Product', url: BASE + 'tennis/hats.html' },
+    // ── Gym Hub
+    { title: 'Gym & Fitness Hub', sub: 'All gym categories', tag: 'Gym', url: BASE + 'gym/' },
+    // ── Gym categories
+    { title: 'Dumbbells', sub: 'Budget · Best Value · Premium', tag: 'Gym', url: BASE + 'gym/dumbbells.html' },
+    { title: 'Resistance Bands', sub: 'Budget · Best Value · Premium', tag: 'Gym', url: BASE + 'gym/resistance-bands.html' },
+    { title: 'Training Shoes', sub: 'Budget · Best Value · Premium', tag: 'Gym', url: BASE + 'gym/training-shoes.html' },
+    { title: 'Gym Bags', sub: 'Budget · Best Value · Premium', tag: 'Gym', url: BASE + 'gym/gym-bags.html' },
+    { title: 'Weightlifting Gloves', sub: 'Budget · Best Value · Premium', tag: 'Gym', url: BASE + 'gym/gloves.html' },
+    { title: 'Jump Ropes', sub: 'Budget · Best Value · Premium', tag: 'Gym', url: BASE + 'gym/jump-ropes.html' },
+    // ── Dumbbell products
+    { title: 'Yes4All Rubber Hex Dumbbells', sub: 'Dumbbells — Budget', tag: 'Product', url: BASE + 'gym/dumbbells.html' },
+    { title: 'CAP Barbell Rubber-Coated Hex', sub: 'Dumbbells — Budget', tag: 'Product', url: BASE + 'gym/dumbbells.html' },
+    { title: 'PowerBlock Sport 24 Adjustable', sub: 'Dumbbells — Best Value', tag: 'Product', url: BASE + 'gym/dumbbells.html' },
+    { title: 'Bowflex SelectTech 552', sub: 'Dumbbells — Best Value', tag: 'Product', url: BASE + 'gym/dumbbells.html' },
+    { title: 'REP Fitness Quickdraw Adjustable', sub: 'Dumbbells — Premium', tag: 'Product', url: BASE + 'gym/dumbbells.html' },
+    { title: 'Bowflex SelectTech 1090', sub: 'Dumbbells — Premium', tag: 'Product', url: BASE + 'gym/dumbbells.html' },
+    // ── Resistance Band products
+    { title: 'Fit Simplify Resistance Loop Bands', sub: 'Resistance Bands — Budget', tag: 'Product', url: BASE + 'gym/resistance-bands.html' },
+    { title: 'TheraBand Resistance Bands Set', sub: 'Resistance Bands — Budget', tag: 'Product', url: BASE + 'gym/resistance-bands.html' },
+    { title: 'WODFitters Pull-Up Assist Bands', sub: 'Resistance Bands — Best Value', tag: 'Product', url: BASE + 'gym/resistance-bands.html' },
+    { title: 'Bodylastics Resistance Band Set', sub: 'Resistance Bands — Best Value', tag: 'Product', url: BASE + 'gym/resistance-bands.html' },
+    { title: 'EliteFTS Pro Stretch Bands', sub: 'Resistance Bands — Premium', tag: 'Product', url: BASE + 'gym/resistance-bands.html' },
+    { title: 'Perform Better Superband', sub: 'Resistance Bands — Premium', tag: 'Product', url: BASE + 'gym/resistance-bands.html' },
+    // ── Training Shoe products
+    { title: 'New Balance 608 V5 Cross Trainer', sub: 'Training Shoes — Budget', tag: 'Product', url: BASE + 'gym/training-shoes.html' },
+    { title: 'Skechers Max Cushioning Arch Fit', sub: 'Training Shoes — Budget', tag: 'Product', url: BASE + 'gym/training-shoes.html' },
+    { title: 'Reebok Nano X3', sub: 'Training Shoes — Best Value', tag: 'Product', url: BASE + 'gym/training-shoes.html' },
+    { title: 'NOBULL Training Shoe', sub: 'Training Shoes — Best Value', tag: 'Product', url: BASE + 'gym/training-shoes.html' },
+    { title: 'Nike Metcon 9', sub: 'Training Shoes — Premium', tag: 'Product', url: BASE + 'gym/training-shoes.html' },
+    { title: 'Nike Metcon 9 AMP', sub: 'Training Shoes — Premium', tag: 'Product', url: BASE + 'gym/training-shoes.html' },
+    // ── Gym Bag products
+    { title: 'Amazon Basics Duffel Gym Bag', sub: 'Gym Bags — Budget', tag: 'Product', url: BASE + 'gym/gym-bags.html' },
+    { title: 'DALIX 21" Sports Duffle Bag', sub: 'Gym Bags — Budget', tag: 'Product', url: BASE + 'gym/gym-bags.html' },
+    { title: 'Nike Brasilia 9.5 Training Duffel', sub: 'Gym Bags — Best Value', tag: 'Product', url: BASE + 'gym/gym-bags.html' },
+    { title: 'Under Armour Undeniable 5.0 Duffle', sub: 'Gym Bags — Best Value', tag: 'Product', url: BASE + 'gym/gym-bags.html' },
+    { title: 'Nike Hoops Elite Duffel Bag', sub: 'Gym Bags — Premium', tag: 'Product', url: BASE + 'gym/gym-bags.html' },
+    { title: 'lululemon Early Embark Duffel 27L', sub: 'Gym Bags — Premium', tag: 'Product', url: BASE + 'gym/gym-bags.html' },
+    // ── Weightlifting Glove products
+    { title: 'RIMSports Workout Gloves', sub: 'Weightlifting Gloves — Budget', tag: 'Product', url: BASE + 'gym/gloves.html' },
+    { title: 'FREETOO Workout Gloves with Wrist Support', sub: 'Weightlifting Gloves — Budget', tag: 'Product', url: BASE + 'gym/gloves.html' },
+    { title: 'Trideer Workout Gloves', sub: 'Weightlifting Gloves — Best Value', tag: 'Product', url: BASE + 'gym/gloves.html' },
+    { title: 'Pro Wristwrap Weightlifting Gloves', sub: 'Weightlifting Gloves — Best Value', tag: 'Product', url: BASE + 'gym/gloves.html' },
+    { title: 'Harbinger Training Grip Gloves 3.0', sub: 'Weightlifting Gloves — Premium', tag: 'Product', url: BASE + 'gym/gloves.html' },
+    { title: 'Schiek Sports Platinum Lifting Gloves', sub: 'Weightlifting Gloves — Premium', tag: 'Product', url: BASE + 'gym/gloves.html' },
+    // ── Jump Rope products
+    { title: 'XYLsports Jump Rope', sub: 'Jump Ropes — Budget', tag: 'Product', url: BASE + 'gym/jump-ropes.html' },
+    { title: 'DEGOL Skipping Rope with Ball Bearings', sub: 'Jump Ropes — Budget', tag: 'Product', url: BASE + 'gym/jump-ropes.html' },
+    { title: 'WOD Nation Attack Speed Jump Rope', sub: 'Jump Ropes — Best Value', tag: 'Product', url: BASE + 'gym/jump-ropes.html' },
+    { title: 'RPM Speed Jump Rope 3.0', sub: 'Jump Ropes — Best Value', tag: 'Product', url: BASE + 'gym/jump-ropes.html' },
+    { title: 'Crossrope Get Lean Set', sub: 'Jump Ropes — Premium', tag: 'Product', url: BASE + 'gym/jump-ropes.html' },
+    { title: 'Crossrope Get Strong Set', sub: 'Jump Ropes — Premium', tag: 'Product', url: BASE + 'gym/jump-ropes.html' }
   ];
 
   // ── DOM ──────────────────────────────────────────────────
