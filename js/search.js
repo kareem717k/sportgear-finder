@@ -172,7 +172,7 @@
           '<button class="search-esc" aria-label="Close search">ESC</button>' +
         '</div>' +
         '<hr class="search-divider">' +
-        '<div class="search-results"><p class="search-hint">Type to search 72 products across 12 categories</p></div>' +
+        '<div class="search-results"><p class="search-hint">Type to search 108 products across 18 categories</p></div>' +
       '</div>';
     document.body.appendChild(overlay);
 
@@ -189,7 +189,7 @@
     var q = input.value.trim().toLowerCase();
     highlighted = -1;
     if (!q) {
-      resultsList.innerHTML = '<p class="search-hint">Type to search 72 products across 12 categories</p>';
+      resultsList.innerHTML = '<p class="search-hint">Type to search 108 products across 18 categories</p>';
       return;
     }
     var matches = INDEX.filter(function (item) {
@@ -236,7 +236,7 @@
   function openSearch() {
     overlay.classList.add('open');
     input.value = '';
-    resultsList.innerHTML = '<p class="search-hint">Type to search 72 products across 12 categories</p>';
+    resultsList.innerHTML = '<p class="search-hint">Type to search 108 products across 18 categories</p>';
     highlighted = -1;
     setTimeout(function () { input.focus(); }, 50);
     document.body.style.overflow = 'hidden';
