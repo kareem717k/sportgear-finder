@@ -513,7 +513,7 @@ nav::after {
 .hero-v2 h1 em {
   color: var(--lime);
   font-style: normal;
-  display: block;
+  display: inline;
   text-shadow: 0 0 60px var(--lime-glow);
 }
 
@@ -2206,6 +2206,87 @@ footer a:hover { text-decoration: none; color: var(--lime-dark); }
 footer a::after { display: none; }
 
 /* ══════════════════════════════════════════
+   PRODUCT PAGE — DARK THEME OVERRIDES
+   (inline styles in product pages used light
+   colours; these override them globally)
+══════════════════════════════════════════ */
+
+/* Comparison table */
+.cmp-wrap {
+  border-color: var(--border) !important;
+}
+.cmp-table th {
+  background: rgba(255,255,255,0.04) !important;
+  color: var(--text-light) !important;
+  border-bottom-color: var(--border) !important;
+}
+.cmp-table td {
+  color: var(--text-mid) !important;
+  border-bottom-color: rgba(255,255,255,0.05) !important;
+}
+.cmp-table tr:hover td {
+  background: rgba(255,255,255,0.03) !important;
+}
+.cmp-name a {
+  color: var(--white) !important;
+}
+.cmp-name a:hover {
+  color: var(--lime) !important;
+}
+
+/* Tier badge colours — dark-theme versions */
+.cmp-tier.budget {
+  background: rgba(59,130,246,0.18) !important;
+  color: #93c5fd !important;
+  border: 1px solid rgba(59,130,246,0.35) !important;
+}
+.cmp-tier.value {
+  background: rgba(200,255,0,0.12) !important;
+  color: var(--lime) !important;
+  border: 1px solid rgba(200,255,0,0.3) !important;
+}
+.cmp-tier.premium {
+  background: rgba(168,85,247,0.18) !important;
+  color: #d8b4fe !important;
+  border: 1px solid rgba(168,85,247,0.35) !important;
+}
+
+/* Buying guide section */
+.guide-section {
+  border-top-color: var(--border) !important;
+}
+.guide-section h2,
+.guide-section h3 {
+  color: var(--white) !important;
+}
+.guide-section p {
+  color: var(--text-mid) !important;
+}
+
+/* FAQ section */
+.faq-section {
+  border-top-color: var(--border) !important;
+}
+.faq-section h2 {
+  color: var(--white) !important;
+}
+.faq-item {
+  border-color: var(--border) !important;
+  background: var(--bg-card) !important;
+  border-radius: var(--radius-sm) !important;
+}
+.faq-item summary {
+  color: var(--white) !important;
+  background: none !important;
+}
+.faq-item summary::after {
+  color: var(--text-light) !important;
+}
+.faq-item p {
+  color: var(--text-mid) !important;
+}
+
+/* ══════════════════════════════════════════
    PAGE LAYOUT & HORIZONTAL SIDE NAV
 ══════════════════════════════════════════ */
 .page-layout {
@@ -2328,9 +2409,10 @@ footer a::after { display: none; }
     flex-direction: row;
   }
   .pcard-img {
-    width: 200px;
-    height: 200px;
+    width: 200px !important;
+    height: 200px !important;
     flex-shrink: 0;
+    align-self: flex-start;
     border-radius: 12px 0 0 12px;
   }
   .pcard-img::after {
