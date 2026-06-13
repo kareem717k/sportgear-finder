@@ -29,106 +29,104 @@
   }
 }</script>
 </head>
-<body>
+<body class="sport-gym">
+
 <!-- ── NAV ── -->
 <nav class="nav-v2">
-<a class="nav-logo-v2" href="../index.html">
-<div class="logo-mark">
-<svg fill="none" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 2L10.5 6.5H13.5L11 9.5L12 14L8 11.5L4 14L5 9.5L2.5 6.5H5.5L8 2Z" fill="#111" stroke="#111" stroke-linejoin="round" stroke-width="0.5"></path>
-</svg>
-</div>
-<span class="logo-text"><em>SportGear</em> Finder</span>
-</a>
-<button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
-<ul class="nav-links">
-<li><a href="../index.html">Home</a></li>
-<li><a href="../tennis/index.html">Tennis</a></li>
-<li><a class="active" href="index.html">Gym</a></li>
-<li><a href="../boxing/index.html">Boxing</a></li>
-<li><a href="../about.html">About</a></li>
-</ul>
-<button class="nav-search-btn" aria-label="Search" title="Search (press /)"><svg width="17" height="17" fill="none" viewBox="0 0 20 20"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M14.5 14.5L19 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+  <a class="nav-logo-v2" href="../index.html">
+    <div class="logo-mark">
+      <svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 2L10.5 6.5H13.5L11 9.5L12 14L8 11.5L4 14L5 9.5L2.5 6.5H5.5L8 2Z" fill="#000" stroke="#000" stroke-linejoin="round" stroke-width="0.5"/>
+      </svg>
+    </div>
+    <span class="logo-text"><em>SportGear</em> Finder</span>
+  </a>
+  <button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../tennis/index.html">Tennis</a></li>
+    <li><a class="active" href="index.html">Gym</a></li>
+    <li><a href="../boxing/index.html">Boxing</a></li>
+    <li><a href="../about.html">About</a></li>
+  </ul>
+  <button class="nav-search-btn" aria-label="Search" title="Search (press /)">
+    <svg width="17" height="17" fill="none" viewBox="0 0 20 20">
+      <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M14.5 14.5L19 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </button>
 </nav>
+
 <!-- ── HERO ── -->
 <section class="sport-hub-hero">
-<div class="hub-content">
-<span class="hub-eyebrow">
-<svg fill="none" height="10" viewbox="0 0 10 10" width="10"><circle cx="5" cy="5" r="4" stroke="#a3c900" stroke-width="1.5"></circle><circle cx="5" cy="5" fill="#a3c900" r="1.5"></circle></svg>
-  Gym &amp; Fitness Hub
-</span>
-<h1>Best <em>Gym Gear</em><br/>For Every Budget</h1>
-<p>We compare 6 real products per category — Budget, Best Value, and Premium — so you always know exactly what to buy.</p>
-</div>
+  <canvas id="sport-canvas"></canvas>
+  <img alt="Gym weights and equipment" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1400&h=600&fit=crop&q=80"/>
+  <div class="hero-overlay"></div>
+  <div class="hub-content">
+    <span class="hub-eyebrow">
+      <svg fill="none" height="8" viewBox="0 0 10 10" width="8"><circle cx="5" cy="5" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="5" cy="5" fill="currentColor" r="1.5"/></svg>
+      Gym &amp; Fitness Hub
+    </span>
+    <h1>Best <em>Gym Gear</em><br/>For Every Budget</h1>
+    <p>We compare 6 real products per category — Budget, Best Value, and Premium — so you always know exactly what to buy.</p>
+  </div>
 </section>
-<div class="breadcrumb">
-<a href="../index.html">Home</a> / Gym &amp; Fitness
-</div>
+
+<div class="breadcrumb"><a href="../index.html">Home</a> / Gym &amp; Fitness</div>
+
 <div class="container">
-<div class="section-label" style="margin-top: 36px;">Equipment</div>
-<div class="cat-grid">
-<a class="cat-card" href="dumbbells.html">
-<img alt="Dumbbells" src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&h=400&fit=crop&q=80"/>
-<div class="cat-overlay"></div>
-<span class="cat-type-pill equipment">Equipment</span>
-<div class="cat-info">
-<h3>Dumbbells</h3>
-<span class="cat-price-pill">From $20</span>
+  <div class="section-label" style="margin-top:36px;" data-reveal>Equipment</div>
+  <div class="cat-grid" data-reveal-stagger>
+    <a class="cat-card" href="dumbbells.html">
+      <img alt="Dumbbells" src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&h=400&fit=crop&q=80"/>
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info"><h3>Dumbbells</h3><span class="cat-price-pill">From $20</span></div>
+    </a>
+    <a class="cat-card" href="resistance-bands.html">
+      <img alt="Resistance Bands" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop&q=80"/>
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info"><h3>Resistance Bands</h3><span class="cat-price-pill">From $10</span></div>
+    </a>
+    <a class="cat-card" href="training-shoes.html">
+      <img alt="Training Shoes" src="https://images.unsplash.com/photo-1502224562085-639556652f33?w=600&h=400&fit=crop&q=80"/>
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info"><h3>Training Shoes</h3><span class="cat-price-pill">From $55</span></div>
+    </a>
+    <a class="cat-card" href="gym-bags.html">
+      <img alt="Gym Bags" src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=400&fit=crop&q=80"/>
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info"><h3>Gym Bags</h3><span class="cat-price-pill">From $15</span></div>
+    </a>
+    <a class="cat-card" href="gloves.html">
+      <img alt="Weightlifting Gloves" src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=600&h=400&fit=crop&q=80"/>
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info"><h3>Weightlifting Gloves</h3><span class="cat-price-pill">From $12</span></div>
+    </a>
+    <a class="cat-card" href="jump-ropes.html">
+      <img alt="Jump Ropes" src="https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&h=400&fit=crop&q=80"/>
+      <div class="cat-overlay"></div>
+      <span class="cat-type-pill equipment">Equipment</span>
+      <div class="cat-info"><h3>Jump Ropes</h3><span class="cat-price-pill">From $8</span></div>
+    </a>
+  </div>
+
+  <div class="disclosure" id="disclosure" style="margin-top:48px;" data-reveal>
+    <strong>Affiliate Disclosure:</strong> As an Amazon Associate, SportGear Finder earns from qualifying purchases. SportGear Finder may earn a commission if you purchase through links on this site, at no extra cost to you. We only recommend gear we'd genuinely use.
+  </div>
 </div>
-</a>
-<a class="cat-card" href="resistance-bands.html">
-<img alt="Resistance Bands" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop&q=80"/>
-<div class="cat-overlay"></div>
-<span class="cat-type-pill equipment">Equipment</span>
-<div class="cat-info">
-<h3>Resistance Bands</h3>
-<span class="cat-price-pill">From $10</span>
-</div>
-</a>
-<a class="cat-card" href="training-shoes.html">
-<img alt="Training Shoes" src="https://images.unsplash.com/photo-1502224562085-639556652f33?w=600&h=400&fit=crop&q=80"/>
-<div class="cat-overlay"></div>
-<span class="cat-type-pill equipment">Equipment</span>
-<div class="cat-info">
-<h3>Training Shoes</h3>
-<span class="cat-price-pill">From $55</span>
-</div>
-</a>
-<a class="cat-card" href="gym-bags.html">
-<img alt="Gym Bags" src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=400&fit=crop&q=80"/>
-<div class="cat-overlay"></div>
-<span class="cat-type-pill equipment">Equipment</span>
-<div class="cat-info">
-<h3>Gym Bags</h3>
-<span class="cat-price-pill">From $15</span>
-</div>
-</a>
-<a class="cat-card" href="gloves.html">
-<img alt="Weightlifting Gloves" src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=600&h=400&fit=crop&q=80"/>
-<div class="cat-overlay"></div>
-<span class="cat-type-pill equipment">Equipment</span>
-<div class="cat-info">
-<h3>Weightlifting Gloves</h3>
-<span class="cat-price-pill">From $12</span>
-</div>
-</a>
-<a class="cat-card" href="jump-ropes.html">
-<img alt="Jump Ropes" src="https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&h=400&fit=crop&q=80"/>
-<div class="cat-overlay"></div>
-<span class="cat-type-pill equipment">Equipment</span>
-<div class="cat-info">
-<h3>Jump Ropes</h3>
-<span class="cat-price-pill">From $8</span>
-</div>
-</a>
-</div>
-<div class="disclosure" id="disclosure" style="margin-top: 48px;">
-<strong>Affiliate Disclosure:</strong> As an Amazon Associate, SportGear Finder earns from qualifying purchases. SportGear Finder may earn a commission if you purchase through links on this site, at no extra cost to you. We only recommend gear we'd genuinely use.
-</div>
-</div>
+
 <footer>
-<p>© 2026 SportGear Finder · <a href="/about.html">About</a> · <a href="/privacy.html">Privacy Policy</a> · <a href="#disclosure">Affiliate Disclosure</a></p>
+  <p>© 2026 SportGear Finder · <a href="/about.html">About</a> · <a href="/privacy.html">Privacy Policy</a> · <a href="#disclosure">Affiliate Disclosure</a></p>
 </footer>
+
 <script src="../js/search.js"></script>
+<script src="../js/animations.js"></script>
 </body>
 </html>
