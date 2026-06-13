@@ -438,7 +438,7 @@
     if (!nav) return;
     window.addEventListener('scroll', function () {
       if (window.pageYOffset > 40) {
-        nav.style.background = 'rgba(5,5,5,0.97)';
+        nav.style.background = 'rgba(13,17,23,0.97)';
         nav.style.boxShadow = '0 4px 32px rgba(0,0,0,0.8)';
       } else {
         nav.style.background = '';
@@ -500,6 +500,75 @@
   }
 
   /* ═══════════════════════════════════════════════════════════
+     CONTENT CANVAS — Sparse background particles (all pages)
+  ═══════════════════════════════════════════════════════════ */
+  function initContentParticles() {
+    var canvas = document.createElement('canvas');
+    canvas.id = 'content-canvas';
+    document.body.insertBefore(canvas, document.body.firstChild);
+
+    var ctx = canvas.getContext('2d');
+    var particles = [];
+    var W, H;
+
+    function resize() {
+      W = canvas.width  = window.innerWidth;
+      H = canvas.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    function makeParticle() {
+      return {
+        x: Math.random() * W,
+        y: Math.random() * H,
+        vx: (Math.random() - 0.5) * 0.25,
+        vy: -Math.random() * 0.3 - 0.1,
+        life: 0,
+        maxLife: 300 + Math.random() * 300,
+        size: Math.random() * 1.2 + 0.3,
+        r: colors.primary[0],
+        g: colors.primary[1],
+        b: colors.primary[2]
+      };
+    }
+
+    for (var i = 0; i < 50; i++) {
+      var p = makeParticle();
+      p.life = Math.random() * p.maxLife;
+      particles.push(p);
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, W, H);
+
+      for (var i = particles.length - 1; i >= 0; i--) {
+        var p = particles[i];
+        p.life++;
+        p.x += p.vx;
+        p.y += p.vy;
+
+        if (p.x < 0) p.x = W;
+        if (p.x > W) p.x = 0;
+        if (p.y < -10) { particles[i] = makeParticle(); continue; }
+
+        var lr = p.life / p.maxLife;
+        var alpha = (lr < 0.2 ? lr / 0.2 : lr > 0.8 ? (1 - lr) / 0.2 : 1) * 0.18;
+
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(' + p.r + ',' + p.g + ',' + p.b + ',' + alpha + ')';
+        ctx.fill();
+
+        if (p.life >= p.maxLife) particles[i] = makeParticle();
+      }
+
+      requestAnimationFrame(animate);
+    }
+    animate();
+  }
+
+  /* ═══════════════════════════════════════════════════════════
      INIT
   ═══════════════════════════════════════════════════════════ */
   document.addEventListener('DOMContentLoaded', function () {
@@ -516,6 +585,9 @@
 
     /* Sport canvas (hub pages) */
     initSportCanvas();
+
+    /* Subtle background particles on all pages */
+    initContentParticles();
   });
 
 })();

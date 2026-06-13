@@ -9,10 +9,10 @@
 ══════════════════════════════════════════ */
 :root {
   /* Base palette */
-  --bg:          #050505;
-  --bg-card:     rgba(255,255,255,0.03);
-  --bg-card2:    rgba(255,255,255,0.055);
-  --bg-card3:    rgba(255,255,255,0.08);
+  --bg:          #0D1117;
+  --bg-card:     rgba(255,255,255,0.05);
+  --bg-card2:    rgba(255,255,255,0.08);
+  --bg-card3:    rgba(255,255,255,0.11);
   --border:      rgba(255,255,255,0.08);
   --border-hi:   rgba(255,255,255,0.14);
   --white:       #ffffff;
@@ -50,7 +50,7 @@
   --sport-primary:   #c8ff00;
   --sport-accent:    #ffffff;
   --sport-glow:      rgba(200,255,0,0.25);
-  --sport-hero-bg:   #050505;
+  --sport-hero-bg:   #0D1117;
 }
 
 /* ══════════════════════════════════════════
@@ -444,8 +444,8 @@ nav::after {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(to top, rgba(5,5,5,0.96) 0%, rgba(5,5,5,0.5) 45%, rgba(5,5,5,0.15) 100%),
-    linear-gradient(to right, rgba(5,5,5,0.4) 0%, transparent 60%);
+    linear-gradient(to top, rgba(13,17,23,0.97) 0%, rgba(13,17,23,0.5) 45%, rgba(13,17,23,0.15) 100%),
+    linear-gradient(to right, rgba(13,17,23,0.45) 0%, transparent 60%);
   z-index: 1;
 }
 
@@ -484,7 +484,7 @@ nav::after {
   text-transform: uppercase;
   padding: 7px 16px;
   border-radius: 99px;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   animation: fadeIn 0.8s ease 0.2s both;
 }
 
@@ -506,7 +506,7 @@ nav::after {
   letter-spacing: -0.01em;
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   animation: fadeInUp 0.9s cubic-bezier(0.4,0,0.2,1) 0.35s both;
 }
 
@@ -1235,7 +1235,7 @@ nav::after {
   background:
     radial-gradient(ellipse 70% 120% at -5% 65%, var(--sport-glow) 0%, transparent 50%),
     radial-gradient(ellipse 40% 60% at 105% 5%, rgba(200,255,0,0.06) 0%, transparent 45%),
-    linear-gradient(155deg, #141414 0%, #070707 100%);
+    linear-gradient(155deg, #141c26 0%, #0D1117 100%);
   display: flex;
   align-items: flex-end;
 }
@@ -1649,8 +1649,8 @@ nav::after {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 85% 80% at 50% 42%, transparent 28%, rgba(7,7,7,0.5) 62%, #141414 90%),
-    linear-gradient(to bottom, transparent 25%, rgba(7,7,7,0.9) 75%, #141414 100%);
+    radial-gradient(ellipse 85% 80% at 50% 42%, transparent 28%, rgba(13,17,23,0.4) 62%, #0D1117 90%),
+    linear-gradient(to bottom, transparent 25%, rgba(13,17,23,0.85) 75%, #0D1117 100%);
   pointer-events: none;
   z-index: 1;
 }
@@ -2204,6 +2204,168 @@ footer::before {
 footer a { color: var(--lime); }
 footer a:hover { text-decoration: none; color: var(--lime-dark); }
 footer a::after { display: none; }
+
+/* ══════════════════════════════════════════
+   PAGE LAYOUT & HORIZONTAL SIDE NAV
+══════════════════════════════════════════ */
+.page-layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.sidebar-content .container {
+  padding: 0;
+}
+
+.side-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 24px 0 28px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 40px;
+}
+
+.side-nav-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text-mid);
+  text-decoration: none;
+  padding: 9px 16px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.side-nav-back:hover {
+  color: var(--lime);
+  border-color: rgba(200,255,0,0.3);
+  background: rgba(200,255,0,0.04);
+}
+
+.side-nav-back::after { display: none; }
+
+.side-nav-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.side-nav-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-light);
+  padding: 0 6px;
+}
+
+.side-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-nav ul li a {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 18px;
+  border-radius: 99px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-mid);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.side-nav ul li a:hover {
+  color: var(--white);
+  border-color: var(--border-hi);
+  background: var(--bg-card2);
+}
+
+.side-nav ul li a.active {
+  color: var(--lime);
+  border-color: rgba(200,255,0,0.35);
+  background: rgba(200,255,0,0.06);
+  box-shadow: 0 0 12px rgba(200,255,0,0.08);
+}
+
+.side-nav ul li a::after { display: none; }
+
+@media (max-width: 680px) {
+  .side-nav {
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 16px;
+    scrollbar-width: none;
+  }
+  .side-nav::-webkit-scrollbar { display: none; }
+  .side-nav-group { flex-wrap: nowrap; }
+}
+
+/* ══════════════════════════════════════════
+   PRODUCT CARD — horizontal desktop layout
+══════════════════════════════════════════ */
+@media (min-width: 768px) {
+  .pcard {
+    flex-direction: row;
+  }
+  .pcard-img {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 12px 0 0 12px;
+  }
+  .pcard-img::after {
+    background: linear-gradient(to right, transparent 50%, rgba(13,17,23,0.6) 80%, rgba(13,17,23,0.95) 100%);
+  }
+  .pcard-img img {
+    mix-blend-mode: normal;
+    object-fit: contain;
+    padding: 14px;
+  }
+  .pcard-body {
+    flex: 1;
+    padding: 22px 22px 20px;
+  }
+}
+
+/* ══════════════════════════════════════════
+   CONTENT CANVAS — global background particles
+══════════════════════════════════════════ */
+#content-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Ensure content layers appear above the canvas */
+nav, section, .hero-v2, .sport-hub-hero, .stat-bar,
+.container, .page-layout, footer, .site-footer,
+.hiw-section, .breadcrumb, .cat-page-hero {
+  position: relative;
+  z-index: 1;
+}
 
 /* Rich footer grid */
 .site-footer { padding: 48px 24px 24px; text-align: left; }
