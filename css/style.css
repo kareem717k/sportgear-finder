@@ -2205,6 +2205,18 @@ footer a { color: var(--lime); }
 footer a:hover { text-decoration: none; color: var(--lime-dark); }
 footer a::after { display: none; }
 
+/* Rich footer grid */
+.site-footer { padding: 48px 24px 24px; text-align: left; }
+.footer-links { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; max-width: 1100px; margin: 0 auto 36px; }
+.footer-col { display: flex; flex-direction: column; gap: 8px; }
+.footer-heading { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--lime); margin-bottom: 4px; }
+.footer-col a { font-size: .83rem; color: var(--text-mid); text-decoration: none; line-height: 1.4; transition: color .2s; }
+.footer-col a:hover { color: var(--lime); }
+.footer-col a::after { display: none; }
+.footer-bottom { max-width: 1100px; margin: 0 auto; padding-top: 20px; border-top: 1px solid var(--border); text-align: center; font-size: .84rem; }
+@media(max-width:768px) { .footer-links { grid-template-columns: repeat(2,1fr); gap: 24px; } }
+@media(max-width:480px) { .footer-links { grid-template-columns: 1fr; } }
+
 /* ══════════════════════════════════════════
    SEARCH OVERLAY
 ══════════════════════════════════════════ */
