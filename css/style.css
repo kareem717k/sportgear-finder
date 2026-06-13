@@ -89,6 +89,17 @@
   --lime-dim:       rgba(255,215,0,0.08);
 }
 
+.sport-swimming {
+  --sport-primary:  #06d6a0;
+  --sport-accent:   #00b4d8;
+  --sport-glow:     rgba(6,214,160,0.3);
+  --sport-hero-bg:  #001a1a;
+  --lime:           #06d6a0;
+  --lime-dark:      #05b885;
+  --lime-glow:      rgba(6,214,160,0.28);
+  --lime-dim:       rgba(6,214,160,0.08);
+}
+
 /* ══════════════════════════════════════════
    KEYFRAMES
 ══════════════════════════════════════════ */

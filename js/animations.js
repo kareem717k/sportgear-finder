@@ -7,17 +7,19 @@
 
   /* ─── Detect sport theme ─────────────────────────────────── */
   var body = document.body;
-  var sport = body.classList.contains('sport-tennis') ? 'tennis'
-            : body.classList.contains('sport-gym')    ? 'gym'
-            : body.classList.contains('sport-boxing') ? 'boxing'
+  var sport = body.classList.contains('sport-tennis')   ? 'tennis'
+            : body.classList.contains('sport-gym')       ? 'gym'
+            : body.classList.contains('sport-boxing')    ? 'boxing'
+            : body.classList.contains('sport-swimming')  ? 'swimming'
             : 'home';
 
   /* ─── Sport accent colors ────────────────────────────────── */
   var SPORT_COLORS = {
-    home:   { primary: [200, 255,   0], secondary: [255, 255, 255] },
-    tennis: { primary: [  0, 212, 255], secondary: [232, 255,   0] },
-    gym:    { primary: [255,  51,  51], secondary: [192, 192, 192] },
-    boxing: { primary: [255, 215,   0], secondary: [204,  24,   0] }
+    home:     { primary: [200, 255,   0], secondary: [255, 255, 255] },
+    tennis:   { primary: [  0, 212, 255], secondary: [232, 255,   0] },
+    gym:      { primary: [255,  51,  51], secondary: [192, 192, 192] },
+    boxing:   { primary: [255, 215,   0], secondary: [204,  24,   0] },
+    swimming: { primary: [  6, 214, 160], secondary: [  0, 180, 216] }
   };
 
   var colors = SPORT_COLORS[sport] || SPORT_COLORS.home;
@@ -227,9 +229,74 @@
     resize();
     window.addEventListener('resize', resize);
 
-    if (sport === 'tennis') initTennisEffect(ctx);
-    else if (sport === 'gym') initGymEffect(ctx);
-    else if (sport === 'boxing') initBoxingEffect(ctx);
+    if (sport === 'tennis')    initTennisEffect(ctx);
+    else if (sport === 'gym')       initGymEffect(ctx);
+    else if (sport === 'boxing')    initBoxingEffect(ctx);
+    else if (sport === 'swimming')  initSwimmingEffect(ctx);
+  }
+
+  /* Swimming: rising bubbles */
+  function initSwimmingEffect(ctx) {
+    var bubbles = [];
+    var W, H;
+
+    function getSize() {
+      var c = ctx.canvas;
+      W = c.offsetWidth; H = c.offsetHeight;
+    }
+    getSize();
+    window.addEventListener('resize', getSize);
+
+    function spawnBubble() {
+      bubbles.push({
+        x:       W * (0.05 + Math.random() * 0.55),
+        y:       H + 20,
+        r:       3 + Math.random() * 10,
+        vy:      -(0.7 + Math.random() * 1.4),
+        wobble:  Math.random() * Math.PI * 2,
+        life:    0,
+        color:   Math.random() > 0.5 ? '6,214,160' : '0,180,216'
+      });
+    }
+
+    setInterval(spawnBubble, 350);
+    for (var i = 0; i < 12; i++) {
+      spawnBubble();
+      bubbles[bubbles.length - 1].y = Math.random() * H;
+    }
+
+    function animate() {
+      ctx.canvas.width  = W;
+      ctx.canvas.height = H;
+      ctx.clearRect(0, 0, W, H);
+
+      bubbles = bubbles.filter(function(b) { return b.y > -30; });
+
+      bubbles.forEach(function(b) {
+        b.life++;
+        b.wobble += 0.04;
+        b.x += Math.sin(b.wobble) * 0.45;
+        b.y += b.vy;
+
+        var fade = Math.min(b.life / 25, 1);
+        var nearTop = b.y < 60 ? b.y / 60 : 1;
+        var alpha = fade * nearTop * 0.45;
+
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+        ctx.strokeStyle = 'rgba(' + b.color + ',' + alpha + ')';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(b.x - b.r * 0.28, b.y - b.r * 0.28, b.r * 0.22, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(255,255,255,' + (alpha * 0.55) + ')';
+        ctx.fill();
+      });
+
+      requestAnimationFrame(animate);
+    }
+    animate();
   }
 
   /* Tennis: animated ball trails */
