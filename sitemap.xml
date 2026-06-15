@@ -6,6 +6,7 @@
   <url><loc>https://sportgearfinder.com/tennis/index.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://sportgearfinder.com/gym/index.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://sportgearfinder.com/boxing/index.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sportgearfinder.com/football/index.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://sportgearfinder.com/articles/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://sportgearfinder.com/about.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
   <url><loc>https://sportgearfinder.com/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
@@ -48,6 +49,14 @@
   <url><loc>https://sportgearfinder.com/boxing/headgear.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://sportgearfinder.com/boxing/speed-bags.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://sportgearfinder.com/boxing/shoes.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+
+  <!-- Football product pages -->
+  <url><loc>https://sportgearfinder.com/football/boots.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sportgearfinder.com/football/balls.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sportgearfinder.com/football/shin-guards.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sportgearfinder.com/football/goalkeeper-gloves.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sportgearfinder.com/football/jerseys.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sportgearfinder.com/football/socks.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
 
   <!-- Tennis articles -->
   <url><loc>https://sportgearfinder.com/articles/tennis/best-rackets-beginners-2026.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>

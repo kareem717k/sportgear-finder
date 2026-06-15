@@ -152,7 +152,140 @@
     { title: 'WOD Nation Attack Speed Jump Rope', sub: 'Jump Ropes — Best Value', tag: 'Product', url: BASE + 'gym/jump-ropes.html' },
     { title: 'RPM Speed Jump Rope 3.0', sub: 'Jump Ropes — Best Value', tag: 'Product', url: BASE + 'gym/jump-ropes.html' },
     { title: 'Crossrope Get Lean Set', sub: 'Jump Ropes — Premium', tag: 'Product', url: BASE + 'gym/jump-ropes.html' },
-    { title: 'Crossrope Get Strong Set', sub: 'Jump Ropes — Premium', tag: 'Product', url: BASE + 'gym/jump-ropes.html' }
+    { title: 'Crossrope Get Strong Set', sub: 'Jump Ropes — Premium', tag: 'Product', url: BASE + 'gym/jump-ropes.html' },
+    // Boxing
+    { title: 'Boxing Hub', sub: 'All boxing categories', tag: 'Boxing', url: BASE + 'boxing/' },
+    { title: 'Boxing Gloves', sub: 'Budget · Best Value · Premium', tag: 'Boxing', url: BASE + 'boxing/gloves.html' },
+    { title: 'Everlast Pro Style Training Gloves', sub: 'Boxing Gloves — Budget', tag: 'Product', url: BASE + 'boxing/gloves.html' },
+    { title: 'Sanabul Essential Gel Boxing Gloves', sub: 'Boxing Gloves — Budget', tag: 'Product', url: BASE + 'boxing/gloves.html' },
+    { title: 'Venum Challenger 2.0 Boxing Gloves', sub: 'Boxing Gloves — Budget', tag: 'Product', url: BASE + 'boxing/gloves.html' },
+    { title: 'Everlast Elite Pro Style Training Gloves', sub: 'Boxing Gloves — Best Value', tag: 'Product', url: BASE + 'boxing/gloves.html' },
+    { title: 'Ringside Competition Boxing Gloves', sub: 'Boxing Gloves — Best Value', tag: 'Product', url: BASE + 'boxing/gloves.html' },
+    { title: 'Hayabusa T3 Boxing Gloves', sub: 'Boxing Gloves — Premium', tag: 'Product', url: BASE + 'boxing/gloves.html' },
+    { title: 'Cleto Reyes Hook and Loop Training Gloves', sub: 'Boxing Gloves — Premium', tag: 'Product', url: BASE + 'boxing/gloves.html' },
+    { title: 'Punching Bags', sub: 'Budget · Best Value · Premium', tag: 'Boxing', url: BASE + 'boxing/punching-bags.html' },
+    { title: 'Ringside 40-Pound Boxing Heavy Bag Kit', sub: 'Punching Bags — Budget', tag: 'Product', url: BASE + 'boxing/punching-bags.html' },
+    { title: 'Everlast PowerCore Freestanding Heavy Bag', sub: 'Punching Bags — Budget', tag: 'Product', url: BASE + 'boxing/punching-bags.html' },
+    { title: 'Ringside 100-Pound Powerhide Heavy Bag', sub: 'Punching Bags — Best Value', tag: 'Product', url: BASE + 'boxing/punching-bags.html' },
+    { title: 'Ringside 100-Pound Leather Heavy Bag', sub: 'Punching Bags — Premium', tag: 'Product', url: BASE + 'boxing/punching-bags.html' },
+    { title: 'Outslayer 100-Pound Filled Heavy Bag', sub: 'Punching Bags — Premium', tag: 'Product', url: BASE + 'boxing/punching-bags.html' },
+    { title: 'Century BOB Body Opponent Bag', sub: 'Punching Bags — Premium', tag: 'Product', url: BASE + 'boxing/punching-bags.html' },
+    { title: 'Hand Wraps', sub: 'Budget · Best Value · Premium', tag: 'Boxing', url: BASE + 'boxing/hand-wraps.html' },
+    { title: 'Everlast 108-Inch Boxing Hand Wraps', sub: 'Hand Wraps — Budget', tag: 'Product', url: BASE + 'boxing/hand-wraps.html' },
+    { title: 'Sanabul Elastic 180-Inch Hand Wraps', sub: 'Hand Wraps — Budget', tag: 'Product', url: BASE + 'boxing/hand-wraps.html' },
+    { title: 'Ringside Apex 180-Inch Hand Wraps', sub: 'Hand Wraps — Budget', tag: 'Product', url: BASE + 'boxing/hand-wraps.html' },
+    { title: 'Title Boxing Mexican Style Hand Wraps', sub: 'Hand Wraps — Best Value', tag: 'Product', url: BASE + 'boxing/hand-wraps.html' },
+    { title: 'Hayabusa 180-Inch Perfect Stretch Wraps', sub: 'Hand Wraps — Best Value', tag: 'Product', url: BASE + 'boxing/hand-wraps.html' },
+    { title: 'Ringside Pro Mexican Handwraps 200-Inch', sub: 'Hand Wraps — Premium', tag: 'Product', url: BASE + 'boxing/hand-wraps.html' },
+    { title: 'Boxing Shoes', sub: 'Budget · Best Value · Premium', tag: 'Boxing', url: BASE + 'boxing/shoes.html' },
+    { title: 'Ringside Diablo Boxing Shoes', sub: 'Boxing Shoes — Budget', tag: 'Product', url: BASE + 'boxing/shoes.html' },
+    { title: 'Everlast PIVT Low Top Boxing Shoes', sub: 'Boxing Shoes — Budget', tag: 'Product', url: BASE + 'boxing/shoes.html' },
+    { title: 'Adidas Box Hog 4 Boxing Shoes', sub: 'Boxing Shoes — Best Value', tag: 'Product', url: BASE + 'boxing/shoes.html' },
+    { title: 'Everlast Elite High Top Boxing Shoes', sub: 'Boxing Shoes — Best Value', tag: 'Product', url: BASE + 'boxing/shoes.html' },
+    { title: 'Nike HyperKO 2 Boxing Shoes', sub: 'Boxing Shoes — Premium', tag: 'Product', url: BASE + 'boxing/shoes.html' },
+    { title: 'Hayabusa Pro Leather Boxing Shoes', sub: 'Boxing Shoes — Premium', tag: 'Product', url: BASE + 'boxing/shoes.html' },
+    { title: 'Headgear', sub: 'Budget · Best Value · Premium', tag: 'Boxing', url: BASE + 'boxing/headgear.html' },
+    { title: 'Venum Challenger 2.0 Headgear', sub: 'Headgear — Budget', tag: 'Product', url: BASE + 'boxing/headgear.html' },
+    { title: 'RDX Headgear with Removable Face Grill', sub: 'Headgear — Budget', tag: 'Product', url: BASE + 'boxing/headgear.html' },
+    { title: 'Ringside Competition-Like Headgear with Cheeks', sub: 'Headgear — Best Value', tag: 'Product', url: BASE + 'boxing/headgear.html' },
+    { title: 'Venum Elite Headgear', sub: 'Headgear — Best Value', tag: 'Product', url: BASE + 'boxing/headgear.html' },
+    { title: 'Hayabusa T3 Boxing Headgear', sub: 'Headgear — Premium', tag: 'Product', url: BASE + 'boxing/headgear.html' },
+    { title: 'Hayabusa Pro Leather Headgear', sub: 'Headgear — Premium', tag: 'Product', url: BASE + 'boxing/headgear.html' },
+    { title: 'Speed Bags', sub: 'Budget · Best Value · Premium', tag: 'Boxing', url: BASE + 'boxing/speed-bags.html' },
+    { title: 'Everlast Everhide Speed Bag', sub: 'Speed Bags — Budget', tag: 'Product', url: BASE + 'boxing/speed-bags.html' },
+    { title: 'Contender Fight Sports Speed Bag', sub: 'Speed Bags — Budget', tag: 'Product', url: BASE + 'boxing/speed-bags.html' },
+    { title: 'Title Boxing Gyro Balanced Speed Bag', sub: 'Speed Bags — Best Value', tag: 'Product', url: BASE + 'boxing/speed-bags.html' },
+    { title: 'Ringside Heritage Speed Bag', sub: 'Speed Bags — Best Value', tag: 'Product', url: BASE + 'boxing/speed-bags.html' },
+    { title: 'Everlast Elite Speed Bag', sub: 'Speed Bags — Premium', tag: 'Product', url: BASE + 'boxing/speed-bags.html' },
+    { title: 'Cleto Reyes Leather Speed Bag', sub: 'Speed Bags — Premium', tag: 'Product', url: BASE + 'boxing/speed-bags.html' },
+    // Swimming
+    { title: 'Swimming Hub', sub: 'All swimming categories', tag: 'Swimming', url: BASE + 'swimming/' },
+    { title: 'Goggles', sub: 'Budget · Best Value · Premium', tag: 'Swimming', url: BASE + 'swimming/goggles.html' },
+    { title: 'Speedo Vanquisher 2.0', sub: 'Goggles — Budget', tag: 'Product', url: BASE + 'swimming/goggles.html' },
+    { title: 'FINIS Bolt Goggle', sub: 'Goggles — Budget', tag: 'Product', url: BASE + 'swimming/goggles.html' },
+    { title: 'TYR Socket Rockets 2.0', sub: 'Goggles — Best Value', tag: 'Product', url: BASE + 'swimming/goggles.html' },
+    { title: 'Aqua Sphere Vista', sub: 'Goggles — Best Value', tag: 'Product', url: BASE + 'swimming/goggles.html' },
+    { title: 'Arena Cobra Ultra Swipe', sub: 'Goggles — Premium', tag: 'Product', url: BASE + 'swimming/goggles.html' },
+    { title: 'Speedo Fastskin Pure Focus', sub: 'Goggles — Premium', tag: 'Product', url: BASE + 'swimming/goggles.html' },
+    { title: 'Swimsuits', sub: 'Budget · Best Value · Premium', tag: 'Swimming', url: BASE + 'swimming/suits.html' },
+    { title: 'Speedo Endurance+ One Piece', sub: 'Swimsuits — Budget', tag: 'Product', url: BASE + 'swimming/suits.html' },
+    { title: 'TYR Durafast One Diamondfit', sub: 'Swimsuits — Budget', tag: 'Product', url: BASE + 'swimming/suits.html' },
+    { title: 'Speedo Flyback Training Suit', sub: 'Swimsuits — Best Value', tag: 'Product', url: BASE + 'swimming/suits.html' },
+    { title: 'Speedo Endurance+ Jammer', sub: 'Swimsuits — Best Value', tag: 'Product', url: BASE + 'swimming/suits.html' },
+    { title: 'Arena Powerskin Carbon-Flex VX', sub: 'Swimsuits — Premium', tag: 'Product', url: BASE + 'swimming/suits.html' },
+    { title: 'Speedo LZR Racer X Jammer', sub: 'Swimsuits — Premium', tag: 'Product', url: BASE + 'swimming/suits.html' },
+    { title: 'Swim Caps', sub: 'Budget · Best Value · Premium', tag: 'Swimming', url: BASE + 'swimming/caps.html' },
+    { title: 'Speedo Silicone Swim Cap', sub: 'Swim Caps — Budget', tag: 'Product', url: BASE + 'swimming/caps.html' },
+    { title: 'Arena Classic Silicone Cap', sub: 'Swim Caps — Budget', tag: 'Product', url: BASE + 'swimming/caps.html' },
+    { title: 'Speedo Long Hair Swim Cap', sub: 'Swim Caps — Best Value', tag: 'Product', url: BASE + 'swimming/caps.html' },
+    { title: 'FINIS Neoprene Swim Cap', sub: 'Swim Caps — Best Value', tag: 'Product', url: BASE + 'swimming/caps.html' },
+    { title: 'Speedo Fastskin Racing Cap', sub: 'Swim Caps — Premium', tag: 'Product', url: BASE + 'swimming/caps.html' },
+    { title: 'Arena Powerskin Racing Cap', sub: 'Swim Caps — Premium', tag: 'Product', url: BASE + 'swimming/caps.html' },
+    { title: 'Fins & Flippers', sub: 'Budget · Best Value · Premium', tag: 'Swimming', url: BASE + 'swimming/fins.html' },
+    { title: 'Speedo Short Training Fin', sub: 'Fins & Flippers — Budget', tag: 'Product', url: BASE + 'swimming/fins.html' },
+    { title: 'TYR Crossblade Fin', sub: 'Fins & Flippers — Budget', tag: 'Product', url: BASE + 'swimming/fins.html' },
+    { title: 'FINIS Zoomers Gold', sub: 'Fins & Flippers — Best Value', tag: 'Product', url: BASE + 'swimming/fins.html' },
+    { title: 'Speedo Biofuse Fin', sub: 'Fins & Flippers — Best Value', tag: 'Product', url: BASE + 'swimming/fins.html' },
+    { title: 'Arena Powerfin Pro', sub: 'Fins & Flippers — Premium', tag: 'Product', url: BASE + 'swimming/fins.html' },
+    { title: 'FINIS Long Floating Fin', sub: 'Fins & Flippers — Premium', tag: 'Product', url: BASE + 'swimming/fins.html' },
+    { title: 'Training Aids', sub: 'Budget · Best Value · Premium', tag: 'Swimming', url: BASE + 'swimming/training-aids.html' },
+    { title: 'Speedo Kickboard', sub: 'Training Aids — Budget', tag: 'Product', url: BASE + 'swimming/training-aids.html' },
+    { title: 'Speedo Pull Buoy', sub: 'Training Aids — Budget', tag: 'Product', url: BASE + 'swimming/training-aids.html' },
+    { title: 'FINIS Alignment Kickboard', sub: 'Training Aids — Best Value', tag: 'Product', url: BASE + 'swimming/training-aids.html' },
+    { title: 'TYR Pull Float', sub: 'Training Aids — Best Value', tag: 'Product', url: BASE + 'swimming/training-aids.html' },
+    { title: 'Speedo Power Paddle', sub: 'Training Aids — Premium', tag: 'Product', url: BASE + 'swimming/training-aids.html' },
+    { title: 'Arena Training Bundle', sub: 'Training Aids — Premium', tag: 'Product', url: BASE + 'swimming/training-aids.html' },
+    { title: 'Swim Bags', sub: 'Budget · Best Value · Premium', tag: 'Swimming', url: BASE + 'swimming/bags.html' },
+    { title: 'Speedo Mesh Bag', sub: 'Swim Bags — Budget', tag: 'Product', url: BASE + 'swimming/bags.html' },
+    { title: 'Arena Mesh Bag', sub: 'Swim Bags — Budget', tag: 'Product', url: BASE + 'swimming/bags.html' },
+    { title: 'Speedo Teamster 35L', sub: 'Swim Bags — Best Value', tag: 'Product', url: BASE + 'swimming/bags.html' },
+    { title: 'Arena Spiky 3 Backpack', sub: 'Swim Bags — Best Value', tag: 'Product', url: BASE + 'swimming/bags.html' },
+    { title: 'Speedo Teamster 2.0 50L', sub: 'Swim Bags — Premium', tag: 'Product', url: BASE + 'swimming/bags.html' },
+    { title: 'TYR Alliance Team Backpack', sub: 'Swim Bags — Premium', tag: 'Product', url: BASE + 'swimming/bags.html' },
+    // Football
+    { title: 'Football Hub', sub: 'All football categories', tag: 'Football', url: BASE + 'football/' },
+    { title: 'Boots', sub: 'Budget · Best Value · Premium', tag: 'Football', url: BASE + 'football/boots.html' },
+    { title: 'adidas Goletto VIII FG', sub: 'Boots — Budget', tag: 'Product', url: BASE + 'football/boots.html' },
+    { title: 'PUMA Tacto II TT', sub: 'Boots — Budget', tag: 'Product', url: BASE + 'football/boots.html' },
+    { title: 'Nike Tiempo Legend 10 Club FG', sub: 'Boots — Best Value', tag: 'Product', url: BASE + 'football/boots.html' },
+    { title: 'adidas Predator Club FG', sub: 'Boots — Best Value', tag: 'Product', url: BASE + 'football/boots.html' },
+    { title: 'Nike Phantom GX 2 Elite FG', sub: 'Boots — Premium', tag: 'Product', url: BASE + 'football/boots.html' },
+    { title: 'adidas Predator Elite FG', sub: 'Boots — Premium', tag: 'Product', url: BASE + 'football/boots.html' },
+    { title: 'Footballs', sub: 'Budget · Best Value · Premium', tag: 'Football', url: BASE + 'football/balls.html' },
+    { title: 'adidas Starlancer', sub: 'Footballs — Budget', tag: 'Product', url: BASE + 'football/balls.html' },
+    { title: 'Wilson NCAA Forte Fybrid II', sub: 'Footballs — Budget', tag: 'Product', url: BASE + 'football/balls.html' },
+    { title: 'Nike Academy Team', sub: 'Footballs — Best Value', tag: 'Product', url: BASE + 'football/balls.html' },
+    { title: 'adidas MLS Competition', sub: 'Footballs — Best Value', tag: 'Product', url: BASE + 'football/balls.html' },
+    { title: 'Nike Flight', sub: 'Footballs — Premium', tag: 'Product', url: BASE + 'football/balls.html' },
+    { title: 'adidas UCL Pro', sub: 'Footballs — Premium', tag: 'Product', url: BASE + 'football/balls.html' },
+    { title: 'Shin Guards', sub: 'Budget · Best Value · Premium', tag: 'Football', url: BASE + 'football/shin-guards.html' },
+    { title: 'Vizari Malaga', sub: 'Shin Guards — Budget', tag: 'Product', url: BASE + 'football/shin-guards.html' },
+    { title: 'Nike Charge', sub: 'Shin Guards — Budget', tag: 'Product', url: BASE + 'football/shin-guards.html' },
+    { title: 'Nike Mercurial Lite', sub: 'Shin Guards — Best Value', tag: 'Product', url: BASE + 'football/shin-guards.html' },
+    { title: 'adidas Predator Match', sub: 'Shin Guards — Best Value', tag: 'Product', url: BASE + 'football/shin-guards.html' },
+    { title: 'Storelli BodyShield', sub: 'Shin Guards — Premium', tag: 'Product', url: BASE + 'football/shin-guards.html' },
+    { title: 'G-Form Pro-S Elite 2', sub: 'Shin Guards — Premium', tag: 'Product', url: BASE + 'football/shin-guards.html' },
+    { title: 'Goalkeeper Gloves', sub: 'Budget · Best Value · Premium', tag: 'Football', url: BASE + 'football/goalkeeper-gloves.html' },
+    { title: 'adidas Predator Training', sub: 'Goalkeeper Gloves — Budget', tag: 'Product', url: BASE + 'football/goalkeeper-gloves.html' },
+    { title: 'Nike Match', sub: 'Goalkeeper Gloves — Budget', tag: 'Product', url: BASE + 'football/goalkeeper-gloves.html' },
+    { title: 'Reusch Attrakt Grip', sub: 'Goalkeeper Gloves — Best Value', tag: 'Product', url: BASE + 'football/goalkeeper-gloves.html' },
+    { title: 'adidas Predator Match', sub: 'Goalkeeper Gloves — Best Value', tag: 'Product', url: BASE + 'football/goalkeeper-gloves.html' },
+    { title: 'Nike Vapor Grip3', sub: 'Goalkeeper Gloves — Premium', tag: 'Product', url: BASE + 'football/goalkeeper-gloves.html' },
+    { title: 'Reusch Attrakt Gold X', sub: 'Goalkeeper Gloves — Premium', tag: 'Product', url: BASE + 'football/goalkeeper-gloves.html' },
+    { title: 'Jerseys', sub: 'Budget · Best Value · Premium', tag: 'Football', url: BASE + 'football/jerseys.html' },
+    { title: 'adidas Entrada 22', sub: 'Jerseys — Budget', tag: 'Product', url: BASE + 'football/jerseys.html' },
+    { title: 'Nike Park VII', sub: 'Jerseys — Budget', tag: 'Product', url: BASE + 'football/jerseys.html' },
+    { title: 'adidas Tiro 24', sub: 'Jerseys — Best Value', tag: 'Product', url: BASE + 'football/jerseys.html' },
+    { title: 'Nike Dri-FIT Stadium', sub: 'Jerseys — Best Value', tag: 'Product', url: BASE + 'football/jerseys.html' },
+    { title: 'Nike Dri-FIT ADV Match', sub: 'Jerseys — Premium', tag: 'Product', url: BASE + 'football/jerseys.html' },
+    { title: 'adidas Authentic Player', sub: 'Jerseys — Premium', tag: 'Product', url: BASE + 'football/jerseys.html' },
+    { title: 'Socks & Grip Socks', sub: 'Budget · Best Value · Premium', tag: 'Football', url: BASE + 'football/socks.html' },
+    { title: 'adidas Formotion Cushioned', sub: 'Socks & Grip Socks — Budget', tag: 'Product', url: BASE + 'football/socks.html' },
+    { title: 'Nike Academy OTC', sub: 'Socks & Grip Socks — Budget', tag: 'Product', url: BASE + 'football/socks.html' },
+    { title: 'Tapedesign Allround Classic', sub: 'Socks & Grip Socks — Best Value', tag: 'Product', url: BASE + 'football/socks.html' },
+    { title: 'Nike Strike', sub: 'Socks & Grip Socks — Best Value', tag: 'Product', url: BASE + 'football/socks.html' },
+    { title: 'SOXPro Classic Grip', sub: 'Socks & Grip Socks — Premium', tag: 'Product', url: BASE + 'football/socks.html' },
+    { title: 'Trusox 3.0 Mid-Calf', sub: 'Socks & Grip Socks — Premium', tag: 'Product', url: BASE + 'football/socks.html' }
   ];
 
   // ── DOM ──────────────────────────────────────────────────
@@ -172,7 +305,7 @@
           '<button class="search-esc" aria-label="Close search">ESC</button>' +
         '</div>' +
         '<hr class="search-divider">' +
-        '<div class="search-results"><p class="search-hint">Type to search 108 products across 18 categories</p></div>' +
+        '<div class="search-results"><p class="search-hint">Type to search 217 products across 36 categories</p></div>' +
       '</div>';
     document.body.appendChild(overlay);
 
@@ -189,7 +322,7 @@
     var q = input.value.trim().toLowerCase();
     highlighted = -1;
     if (!q) {
-      resultsList.innerHTML = '<p class="search-hint">Type to search 108 products across 18 categories</p>';
+      resultsList.innerHTML = '<p class="search-hint">Type to search 217 products across 36 categories</p>';
       return;
     }
     var matches = INDEX.filter(function (item) {
@@ -236,7 +369,7 @@
   function openSearch() {
     overlay.classList.add('open');
     input.value = '';
-    resultsList.innerHTML = '<p class="search-hint">Type to search 108 products across 18 categories</p>';
+    resultsList.innerHTML = '<p class="search-hint">Type to search 217 products across 36 categories</p>';
     highlighted = -1;
     setTimeout(function () { input.focus(); }, 50);
     document.body.style.overflow = 'hidden';
