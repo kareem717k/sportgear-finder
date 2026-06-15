@@ -6,6 +6,23 @@
 <title>SportGear Finder — Find the Best Sports Gear</title>
 <meta content="SportGear Finder helps you find the best sports gear across Budget, Best Value, and Premium tiers. Tennis, Gym, Swimming, Football, Boxing." name="description"/>
 <link href="css/style.css" rel="stylesheet"/>
+<style>
+/* ── HERO SLIDESHOW ── */
+.hero-slides{position:absolute;inset:0;z-index:0;overflow:hidden;}
+.hero-slide{position:absolute;inset:0;opacity:0;transition:opacity 1.4s cubic-bezier(.4,0,.2,1);}
+.hero-slide.active{opacity:1;}
+.hero-slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:transform;animation:sgf-kb 7s ease-out forwards;}
+@keyframes sgf-kb{from{transform:scale(1.07);}to{transform:scale(1);}}
+/* sport indicator pills */
+.hero-sports{display:flex;gap:6px;flex-wrap:wrap;margin-top:22px;}
+.hero-sport-pill{padding:5px 14px;border-radius:20px;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:1.5px solid rgba(255,255,255,.25);color:rgba(255,255,255,.55);background:transparent;transition:all .3s ease;user-select:none;}
+.hero-sport-pill.active{background:#a3c900;border-color:#a3c900;color:#000;}
+.hero-sport-pill:hover:not(.active){border-color:rgba(255,255,255,.6);color:#fff;}
+/* progress bar under active pill */
+.hero-progress{display:block;height:2px;background:#a3c900;border-radius:2px;margin-top:6px;transform-origin:left;animation:none;}
+.hero-sport-pill.active .hero-progress{animation:sgf-prog var(--slide-dur,5s) linear forwards;}
+@keyframes sgf-prog{from{transform:scaleX(0);}to{transform:scaleX(1);}}
+</style>
 <link href="https://sportgearfinder.com/" rel="canonical"/>
 <meta content="website" property="og:type"/>
 <meta content="https://sportgearfinder.com/" property="og:url"/>
@@ -64,7 +81,24 @@
 <!-- ── HERO ── -->
 <section class="hero-v2">
   <canvas id="hero-canvas"></canvas>
-  <img alt="Tennis player mid-action on court" class="hero-photo" src="https://images.unsplash.com/photo-1617883861744-13b534e3b928?w=1600&h=900&fit=crop&q=80"/>
+  <!-- Slideshow: 5 sports -->
+  <div class="hero-slides">
+    <div class="hero-slide active" data-sport="Tennis">
+      <img alt="Tennis player mid-action on court" src="https://images.unsplash.com/photo-1595435742656-5272d0b3fa82?w=1600&h=900&fit=crop&q=80"/>
+    </div>
+    <div class="hero-slide" data-sport="Gym &amp; Fitness">
+      <img alt="Gym fitness weights training" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&h=900&fit=crop&q=80"/>
+    </div>
+    <div class="hero-slide" data-sport="Boxing">
+      <img alt="Boxer throwing punch in training" src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=1600&h=900&fit=crop&q=80"/>
+    </div>
+    <div class="hero-slide" data-sport="Swimming">
+      <img alt="Swimmer in pool lane" src="https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=1600&h=900&fit=crop&q=80"/>
+    </div>
+    <div class="hero-slide" data-sport="Football">
+      <img alt="Football player on the field" src="https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=1600&h=900&fit=crop&q=80"/>
+    </div>
+  </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <span class="hero-eyebrow"><span></span> Curated Gear Reviews</span>
@@ -80,6 +114,14 @@
       <div class="hero-trust">
         <strong>217</strong> products reviewed across <strong>36</strong> categories
       </div>
+    </div>
+    <!-- Sport selector pills -->
+    <div class="hero-sports" id="hero-sports">
+      <button class="hero-sport-pill active" data-idx="0">Tennis<span class="hero-progress"></span></button>
+      <button class="hero-sport-pill" data-idx="1">Gym<span class="hero-progress"></span></button>
+      <button class="hero-sport-pill" data-idx="2">Boxing<span class="hero-progress"></span></button>
+      <button class="hero-sport-pill" data-idx="3">Swimming<span class="hero-progress"></span></button>
+      <button class="hero-sport-pill" data-idx="4">Football<span class="hero-progress"></span></button>
     </div>
   </div>
 </section>
@@ -282,5 +324,56 @@
 
 <script src="js/search.js"></script>
 <script src="js/animations.js"></script>
+<script>
+(function(){
+  var DURATION = 5000; // ms per slide
+  var slides = document.querySelectorAll('.hero-slide');
+  var pills  = document.querySelectorAll('.hero-sport-pill');
+  var current = 0;
+  var timer;
+
+  function resetKenBurns(slide){
+    var img = slide.querySelector('img');
+    img.style.animation = 'none';
+    void img.offsetWidth; // force reflow
+    img.style.animation = '';
+  }
+
+  function goTo(n){
+    slides[current].classList.remove('active');
+    pills[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    pills[current].classList.add('active');
+    resetKenBurns(slides[current]);
+    // restart progress bar animation
+    var bar = pills[current].querySelector('.hero-progress');
+    bar.style.animation = 'none';
+    void bar.offsetWidth;
+    bar.style.setProperty('--slide-dur', DURATION + 'ms');
+    bar.style.animation = 'sgf-prog ' + DURATION + 'ms linear forwards';
+  }
+
+  function startAuto(){
+    clearInterval(timer);
+    timer = setInterval(function(){ goTo(current + 1); }, DURATION);
+  }
+
+  // pill click
+  pills.forEach(function(pill, i){
+    pill.addEventListener('click', function(){
+      goTo(i);
+      startAuto();
+    });
+  });
+
+  // kick off progress bar on initial active pill
+  var initBar = pills[0].querySelector('.hero-progress');
+  initBar.style.setProperty('--slide-dur', DURATION + 'ms');
+  initBar.style.animation = 'sgf-prog ' + DURATION + 'ms linear forwards';
+
+  startAuto();
+})();
+</script>
 </body>
 </html>
