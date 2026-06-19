@@ -2421,6 +2421,8 @@ footer a::after { display: none; }
   }
   .side-nav::-webkit-scrollbar { display: none; }
   .side-nav-group { flex-wrap: nowrap; }
+  .side-nav ul { flex-wrap: nowrap; }
+  .side-nav-back { position: sticky; left: 0; z-index: 2; background: var(--bg); }
 }
 
 /* ══════════════════════════════════════════
