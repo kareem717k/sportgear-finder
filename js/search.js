@@ -1,5 +1,5 @@
 (function () {
-  var BASE = '/sportgear-finder/';
+  var BASE = '/';
 
   var INDEX = [
     // ── Hubs
