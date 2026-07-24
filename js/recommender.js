@@ -228,8 +228,13 @@
   }
 
   function renderCard(p) {
+    // The whole card is clickable via a stretched overlay link. An overlay is
+    // used instead of wrapping the card in an <a> because the card already
+    // contains its own links, and nested anchors are invalid HTML. The two
+    // buttons sit on a higher stacking layer so they still work individually.
     return (
       '<div class="pcard finder-pcard">' +
+        '<a class="finder-card-overlay" href="' + esc(p.affiliateLink) + '" rel="noopener sponsored" target="_blank" aria-label="View ' + esc(p.name) + ' on Amazon"></a>' +
         '<div class="pcard-img"><img src="' + esc(p.image) + '" alt="' + esc(p.name) + '" loading="lazy"></div>' +
         '<div class="pcard-body">' +
           '<span class="tier-v2-badge ' + esc(p.tier) + ' finder-tier-badge">' + (TIER_LABEL[p.tier] || p.tier) + '</span>' +
@@ -278,67 +283,109 @@
   // ─── UI BUILD ────────────────────────────────────────────────────────────
 
   var CSS = [
-    '.finder-section{padding:56px 0 8px;}',
-    '.finder-card{background:#141414;border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:32px;max-width:900px;margin:0 auto;}',
-    '.finder-title{font-family:"Barlow Condensed","Inter",sans-serif;font-size:2rem;font-weight:900;color:#fff;margin:0 0 6px;text-align:center;}',
-    '.finder-sub{color:#9a9a9a;text-align:center;margin:0 0 24px;font-size:.95rem;}',
-    '.finder-query-row{display:flex;gap:10px;margin-bottom:14px;}',
-    '.finder-query-input{flex:1;background:#1a1a1a;border:1px solid #2a2a2a;border-radius:8px;padding:14px 16px;color:#e8e8e8;font-size:1rem;font-family:inherit;}',
-    '.finder-query-input:focus{outline:none;border-color:#a3c900;}',
-    '.finder-quick-filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px;}',
-    '.finder-select{background:#1a1a1a;border:1px solid #2a2a2a;border-radius:8px;padding:10px 12px;color:#e8e8e8;font-size:.85rem;font-family:inherit;flex:1 1 140px;}',
-    '.finder-submit{width:100%;background:#a3c900;color:#0b0b0b;border:none;border-radius:8px;padding:14px;font-weight:800;font-size:.95rem;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;transition:opacity .15s;}',
-    '.finder-submit:hover{opacity:.88;}',
-    '.finder-results{margin-top:28px;}',
-    '.finder-note{color:#9a9a9a;font-size:.85rem;margin:0 0 14px;text-align:center;}',
+    /* ── Hero search bar ──────────────────────────────────────────────────
+       The hero is a fixed-height, overflow:hidden box aligned to flex-end,
+       so its content already overflows the top on short viewports. Adding
+       the search bar means reclaiming that space first: every rule below is
+       scoped to .hero-has-finder so no other page's hero is affected. */
+    '.hero-v2.hero-has-finder .hero-content{padding-bottom:40px;}',
+    '.hero-v2.hero-has-finder h1{font-size:clamp(2.4rem,5.4vw,4.4rem);line-height:1.04;margin-bottom:18px;}',
+    '.hero-v2.hero-has-finder .hero-eyebrow{margin-bottom:16px;}',
+    '.hero-v2.hero-has-finder .hero-sub{font-size:.95rem;line-height:1.55;margin-bottom:18px;max-width:560px;}',
+    '.hero-v2.hero-has-finder .hero-sports{margin-top:14px;}',
+
+    '.hero-finder{margin:0 0 16px;max-width:660px;}',
+    '.hero-finder-row{display:flex;gap:8px;margin-bottom:8px;}',
+    '.hero-finder-input{flex:1;min-width:0;background:rgba(10,10,10,.72);backdrop-filter:blur(6px);border:1.5px solid rgba(255,255,255,.22);border-radius:10px;padding:13px 16px;color:#fff;font-size:.95rem;font-family:inherit;}',
+    '.hero-finder-input::placeholder{color:rgba(255,255,255,.5);}',
+    '.hero-finder-input:focus{outline:none;border-color:#a3c900;background:rgba(10,10,10,.9);}',
+    '.hero-finder-btn{flex:0 0 auto;background:#a3c900;color:#0b0b0b;border:none;border-radius:10px;padding:13px 24px;font-weight:800;font-size:.82rem;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;font-family:inherit;transition:opacity .15s;}',
+    '.hero-finder-btn:hover{opacity:.88;}',
+    '.hero-finder-filters{display:flex;flex-wrap:wrap;gap:8px;}',
+    '.hero-finder-select{background:rgba(10,10,10,.72);backdrop-filter:blur(6px);border:1.5px solid rgba(255,255,255,.22);border-radius:8px;padding:8px 10px;color:#e8e8e8;font-size:.78rem;font-family:inherit;flex:1 1 120px;cursor:pointer;}',
+    '.hero-finder-select:focus{outline:none;border-color:#a3c900;}',
+
+    /* Short viewports: the tagline is the first thing to go — the search bar
+       and the headline matter more than the sub-copy. */
+    '@media(max-height:780px){.hero-v2.hero-has-finder .hero-sub{display:none;}}',
+    '@media(max-height:680px){.hero-v2.hero-has-finder .hero-eyebrow{display:none;}.hero-v2.hero-has-finder h1{font-size:clamp(2rem,4.4vw,3.2rem);}}',
+    '@media(max-width:640px){.hero-finder{max-width:none;}.hero-finder-row{flex-direction:column;}.hero-finder-btn{width:100%;padding:13px;}.hero-v2.hero-has-finder .hero-sub{display:none;}}',
+
+    /* ── Results section ──────────────────────────────────────────────── */
+    '.finder-section{padding:48px 0 8px;scroll-margin-top:84px;}',
+    '.finder-card{background:#141414;border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:32px;max-width:1100px;margin:0 auto;}',
+    '.finder-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap;}',
+    '.finder-title{font-family:"Barlow Condensed","Inter",sans-serif;font-size:1.75rem;font-weight:900;color:#fff;margin:0;}',
+    '.finder-reset{background:transparent;border:1px solid #333;color:#9a9a9a;border-radius:8px;padding:7px 14px;font-size:.78rem;font-family:inherit;cursor:pointer;transition:all .15s;}',
+    '.finder-reset:hover{border-color:#a3c900;color:#a3c900;}',
+    '.finder-note{color:#9a9a9a;font-size:.85rem;margin:0 0 16px;}',
     '.finder-empty{color:#9a9a9a;text-align:center;padding:20px;line-height:1.7;}',
     '.finder-empty a{color:#a3c900;}',
     '.finder-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;background:transparent;border-radius:12px;overflow:visible;}',
-    '.finder-pcard{border:1px solid rgba(255,255,255,0.08);border-radius:12px;background:rgba(255,255,255,0.02);}',
+
+    /* ── Fully clickable cards ─────────────────────────────────────────── */
+    '.finder-pcard{position:relative;border:1px solid rgba(255,255,255,0.08);border-radius:12px;background:rgba(255,255,255,0.02);transition:border-color .15s,transform .15s;}',
+    '.finder-pcard:hover{border-color:rgba(163,201,0,.55);transform:translateY(-2px);}',
+    '.finder-card-overlay{position:absolute;inset:0;z-index:1;border-radius:12px;}',
+    '.finder-card-overlay:focus-visible{outline:2px solid #a3c900;outline-offset:2px;}',
+    '.finder-pcard .pcard-btns{position:relative;z-index:2;}',
     '.finder-pcard .pcard-img{height:180px;}',
     '.finder-tier-badge{align-self:flex-start;margin-bottom:8px;}',
     '.finder-compare-link{background:transparent;border:1px solid #333;color:#ccc;}',
     '.finder-compare-link:hover{border-color:#a3c900;color:#a3c900;}',
-    '@media(max-width:640px){.finder-card{padding:20px;}.finder-title{font-size:1.5rem;}.finder-query-row{flex-direction:column;}}'
+    '@media(max-width:640px){.finder-card{padding:20px;}.finder-title{font-size:1.4rem;}}'
   ].join('');
 
-  function buildSection() {
+  var SELECTS =
+    '<select id="finder-sport" class="hero-finder-select" aria-label="Sport">' +
+      '<option value="any">Any sport</option>' +
+      '<option value="tennis">Tennis</option>' +
+      '<option value="gym">Gym &amp; Fitness</option>' +
+      '<option value="boxing">Boxing</option>' +
+      '<option value="swimming">Swimming</option>' +
+      '<option value="football">Football</option>' +
+    '</select>' +
+    '<select id="finder-budget" class="hero-finder-select" aria-label="Budget">' +
+      '<option value="any">Any budget</option>' +
+      '<option value="budget">Budget</option>' +
+      '<option value="value">Best Value</option>' +
+      '<option value="premium">Premium</option>' +
+    '</select>' +
+    '<select id="finder-skill" class="hero-finder-select" aria-label="Skill level">' +
+      '<option value="any">Any skill level</option>' +
+      '<option value="beginner">Beginner</option>' +
+      '<option value="intermediate">Intermediate</option>' +
+      '<option value="advanced">Advanced</option>' +
+    '</select>';
+
+  // Search lives in the hero so it is visible without scrolling.
+  function buildHeroForm() {
+    var form = document.createElement('form');
+    form.className = 'hero-finder';
+    form.id = 'finder-form';
+    form.innerHTML =
+      '<div class="hero-finder-row">' +
+        '<input type="text" id="finder-query" class="hero-finder-input" placeholder="What do you need? e.g. beginner tennis racket under $80" autocomplete="off" aria-label="Describe the gear you need">' +
+        '<button type="submit" class="hero-finder-btn">Find My Gear</button>' +
+      '</div>' +
+      '<div class="hero-finder-filters">' + SELECTS + '</div>';
+    return form;
+  }
+
+  // Results render further down the page and stay hidden until there is
+  // something to show, so the homepage keeps its normal flow until used.
+  function buildResultsSection() {
     var section = document.createElement('section');
     section.className = 'finder-section';
     section.id = 'gear-finder';
+    section.hidden = true;
     section.innerHTML =
       '<div class="container">' +
         '<div class="finder-card">' +
-          '<h2 class="finder-title">Find My Gear</h2>' +
-          '<p class="finder-sub">Tell us what you need — sport, budget, skill level — and we\'ll match you against 217 real products.</p>' +
-          '<form id="finder-form">' +
-            '<div class="finder-query-row">' +
-              '<input type="text" id="finder-query" class="finder-query-input" placeholder="e.g. beginner tennis racket for hard court, under $80" autocomplete="off">' +
-            '</div>' +
-            '<div class="finder-quick-filters">' +
-              '<select id="finder-sport" class="finder-select">' +
-                '<option value="any">Any sport</option>' +
-                '<option value="tennis">Tennis</option>' +
-                '<option value="gym">Gym &amp; Fitness</option>' +
-                '<option value="boxing">Boxing</option>' +
-                '<option value="swimming">Swimming</option>' +
-                '<option value="football">Football</option>' +
-              '</select>' +
-              '<select id="finder-budget" class="finder-select">' +
-                '<option value="any">Any budget</option>' +
-                '<option value="budget">Budget</option>' +
-                '<option value="value">Best Value</option>' +
-                '<option value="premium">Premium</option>' +
-              '</select>' +
-              '<select id="finder-skill" class="finder-select">' +
-                '<option value="any">Any skill level</option>' +
-                '<option value="beginner">Beginner</option>' +
-                '<option value="intermediate">Intermediate</option>' +
-                '<option value="advanced">Advanced</option>' +
-              '</select>' +
-            '</div>' +
-            '<button type="submit" class="finder-submit">Find My Gear</button>' +
-          '</form>' +
+          '<div class="finder-head">' +
+            '<h2 class="finder-title">Your Matches</h2>' +
+            '<button type="button" class="finder-reset" id="finder-reset">Clear results</button>' +
+          '</div>' +
           '<div id="finder-results" class="finder-results"></div>' +
         '</div>' +
       '</div>';
@@ -346,22 +393,60 @@
   }
 
   function init() {
-    var anchor = document.querySelector('.stat-bar');
-    if (!anchor || !document.querySelector('.sport-grid-v2')) return; // homepage only
+    var heroContent = document.querySelector('.hero-v2 .hero-content');
+    var statBar = document.querySelector('.stat-bar');
+    if (!heroContent || !statBar || !document.querySelector('.sport-grid-v2')) return; // homepage only
 
     var style = document.createElement('style');
     style.textContent = CSS;
     document.head.appendChild(style);
 
-    var section = buildSection();
-    anchor.parentNode.insertBefore(section, anchor.nextSibling);
+    // Signals the hero to tighten its spacing to make room for the search bar.
+    document.querySelector('.hero-v2').classList.add('hero-has-finder');
 
-    var form = section.querySelector('#finder-form');
-    var queryInput = section.querySelector('#finder-query');
-    var sportSelect = section.querySelector('#finder-sport');
-    var budgetSelect = section.querySelector('#finder-budget');
-    var skillSelect = section.querySelector('#finder-skill');
+    var form = buildHeroForm();
+    var pills = heroContent.querySelector('.hero-sports');
+    heroContent.insertBefore(form, pills || null);
+
+    var section = buildResultsSection();
+    statBar.parentNode.insertBefore(section, statBar.nextSibling);
+
+    var queryInput = form.querySelector('#finder-query');
+    var sportSelect = form.querySelector('#finder-sport');
+    var budgetSelect = form.querySelector('#finder-budget');
+    var skillSelect = form.querySelector('#finder-skill');
     var resultsEl = section.querySelector('#finder-results');
+
+    function reveal() {
+      section.hidden = false;
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Affiliate links open in a new tab, but popup blockers and in-app
+    // browsers silently swallow target="_blank" — the link then looks dead.
+    // Try the new tab first and fall back to same-tab navigation if it was
+    // blocked. Modified clicks (ctrl/cmd/shift/middle) are left to the browser.
+    section.addEventListener('click', function (e) {
+      if (e.defaultPrevented || e.button !== 0) return;
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      var link = e.target.closest && e.target.closest('a[target="_blank"]');
+      if (!link || !section.contains(link)) return;
+
+      e.preventDefault();
+      var opened = null;
+      try { opened = window.open(link.href, '_blank', 'noopener'); } catch (err) { opened = null; }
+      if (!opened || opened.closed || typeof opened.closed === 'undefined') {
+        window.location.href = link.href; // blocked — go there directly
+      }
+    });
+
+    section.querySelector('#finder-reset').addEventListener('click', function () {
+      section.hidden = true;
+      resultsEl.innerHTML = '';
+      queryInput.value = '';
+      sportSelect.value = budgetSelect.value = skillSelect.value = 'any';
+      document.querySelector('.hero-v2').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
 
     loadProducts();
 
@@ -372,6 +457,7 @@
 
       if (!q && filters.sport === 'any' && filters.budget === 'any' && filters.skill === 'any') {
         resultsEl.innerHTML = '<p class="finder-empty">Type what you\'re looking for, or pick a sport / budget / skill level above.</p>';
+        reveal();
         return;
       }
 
@@ -380,6 +466,7 @@
         renderResults(resultsEl, out.results, out.parsed);
       }
 
+      reveal();
       if (!PRODUCTS && !LOAD_ERROR) {
         resultsEl.innerHTML = '<p class="finder-empty">Loading catalog…</p>';
         loadProducts().then(run);
