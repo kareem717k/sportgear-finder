@@ -2235,6 +2235,2112 @@
       "affiliateLink": "https://www.amazon.com/dp/B07CSTV4JK",
       "score": 9.5,
       "bestFor": "Athletes wanting heavy rope strength conditioning"
+    },
+    {
+      "id": "bxgloves-001",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "budget",
+      "name": "Everlast Pro Style Training Gloves",
+      "price": 30,
+      "priceDisplay": "~$25\u201335",
+      "image": "https://m.media-amazon.com/images/I/71V+gyHRbgL._AC_SL300_.jpg",
+      "tags": [
+        "everlast",
+        "beginner",
+        "foam",
+        "mesh",
+        "adjustable"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08MXTCM1W?tag=sportgearfind-20",
+      "score": 7.8,
+      "bestFor": "New boxers learning the basics"
+    },
+    {
+      "id": "bxgloves-002",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "budget",
+      "name": "Sanabul Essential Gel Boxing Gloves",
+      "price": 38,
+      "priceDisplay": "~$30\u201345",
+      "image": "https://m.media-amazon.com/images/I/71eU1WmgAJL._AC_SL300_.jpg",
+      "tags": [
+        "sanabul",
+        "beginner",
+        "foam",
+        "gel",
+        "mesh"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07W7M5KZ3?tag=sportgearfind-20",
+      "score": 8.0,
+      "bestFor": "Beginners seeking above-average value"
+    },
+    {
+      "id": "bxgloves-003",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "budget",
+      "name": "Venum Challenger 2.0 Boxing Gloves",
+      "price": 45,
+      "priceDisplay": "~$35\u201355",
+      "image": "https://m.media-amazon.com/images/I/7109Sj9bQTL._AC_SL300_.jpg",
+      "tags": [
+        "venum",
+        "beginner",
+        "leather",
+        "foam",
+        "velcro"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B01AUEAL9A?tag=sportgearfind-20",
+      "score": 8.1,
+      "bestFor": "Budget-conscious fighters wanting brand quality"
+    },
+    {
+      "id": "bxgloves-004",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "value",
+      "name": "Everlast Elite Pro Style Training Gloves",
+      "price": 52,
+      "priceDisplay": "~$45\u201360",
+      "image": "https://m.media-amazon.com/images/I/61L3DHpv5QL._AC_SL300_.jpg",
+      "tags": [
+        "everlast",
+        "beginner",
+        "leather",
+        "foam",
+        "quick-dry"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07962Y2HR?tag=sportgearfind-20",
+      "score": 8.2,
+      "bestFor": "Intermediate fighters training 3+ days/week"
+    },
+    {
+      "id": "bxgloves-005",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "value",
+      "name": "Ringside Competition Boxing Gloves",
+      "price": 65,
+      "priceDisplay": "~$55\u201375",
+      "image": "https://m.media-amazon.com/images/I/71eLsuY2QCL._AC_SL300_.jpg",
+      "tags": [
+        "ringside",
+        "advanced",
+        "leather",
+        "foam",
+        "competition"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B006CV74Q4?tag=sportgearfind-20",
+      "score": 8.4,
+      "bestFor": "Dedicated club fighters and regular sparrers"
+    },
+    {
+      "id": "bxgloves-006",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "premium",
+      "name": "Hayabusa T3 Boxing Gloves",
+      "price": 140,
+      "priceDisplay": "~$120\u2013160",
+      "image": "https://m.media-amazon.com/images/I/81gYiCUNEdL._AC_SL300_.jpg",
+      "tags": [
+        "hayabusa",
+        "advanced",
+        "foam",
+        "moisture-wicking",
+        "hook-and-loop"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B075G2VHPT?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Serious fighters training 5+ days/week"
+    },
+    {
+      "id": "bxgloves-007",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "premium",
+      "name": "Cleto Reyes Hook and Loop Training Gloves",
+      "price": 168,
+      "priceDisplay": "~$150\u2013185",
+      "image": "https://m.media-amazon.com/images/I/61uPqVGnjML._AC_SL300_.jpg",
+      "tags": [
+        "cleto-reyes",
+        "advanced",
+        "leather",
+        "professional",
+        "synthetic"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B01MU5QODC?tag=sportgearfind-20",
+      "score": 9.5,
+      "bestFor": "Professional fighters and serious long-term training"
+    },
+    {
+      "id": "punchbags-001",
+      "sport": "boxing",
+      "category": "punching-bags",
+      "tier": "budget",
+      "name": "Ringside 40-Pound Boxing Heavy Bag Kit",
+      "price": 72,
+      "priceDisplay": "~$60\u201385",
+      "image": "https://m.media-amazon.com/images/I/71V3LYkpb5L._AC_SL300_.jpg",
+      "tags": [
+        "ringside",
+        "beginner",
+        "leather",
+        "steel",
+        "synthetic"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B01C64C9HO?tag=sportgearfind-20",
+      "score": 7.6,
+      "bestFor": "Beginners and first home gym setups"
+    },
+    {
+      "id": "punchbags-002",
+      "sport": "boxing",
+      "category": "punching-bags",
+      "tier": "budget",
+      "name": "Everlast PowerCore Freestanding Heavy Bag",
+      "price": 100,
+      "priceDisplay": "~$80\u2013120",
+      "image": "https://m.media-amazon.com/images/I/51tOOCPw5oL._AC_SL300_.jpg",
+      "tags": [
+        "everlast",
+        "beginner",
+        "foam",
+        "adjustable",
+        "power"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B002UKHEO8?tag=sportgearfind-20",
+      "score": 7.8,
+      "bestFor": "Apartments and rental spaces"
+    },
+    {
+      "id": "punchbags-003",
+      "sport": "boxing",
+      "category": "punching-bags",
+      "tier": "value",
+      "name": "Ringside 100-Pound Powerhide Heavy Bag",
+      "price": 122,
+      "priceDisplay": "~$100\u2013145",
+      "image": "https://m.media-amazon.com/images/I/51KpM4IgyUL._AC_SL300_.jpg",
+      "tags": [
+        "ringside",
+        "advanced",
+        "leather",
+        "durable",
+        "professional"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B006CV92DW?tag=sportgearfind-20",
+      "score": 8.3,
+      "bestFor": "Dedicated home gym training"
+    },
+    {
+      "id": "punchbags-004",
+      "sport": "boxing",
+      "category": "punching-bags",
+      "tier": "premium",
+      "name": "Ringside 100-Pound Leather Heavy Bag",
+      "price": 202,
+      "priceDisplay": "~$175\u2013230",
+      "image": "https://m.media-amazon.com/images/I/61dQnW+VkfL._AC_SL300_.jpg",
+      "tags": [
+        "ringside",
+        "advanced",
+        "leather",
+        "synthetic",
+        "power"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B006K412ES?tag=sportgearfind-20",
+      "score": 8.9,
+      "bestFor": "Advanced fighters and serious home gym owners"
+    },
+    {
+      "id": "punchbags-005",
+      "sport": "boxing",
+      "category": "punching-bags",
+      "tier": "premium",
+      "name": "Outslayer 100-Pound Filled Heavy Bag",
+      "price": 250,
+      "priceDisplay": "~$220\u2013280",
+      "image": "https://m.media-amazon.com/images/I/81jLkvBqwYL._AC_SL300_.jpg",
+      "tags": [
+        "outslayer",
+        "advanced",
+        "durable",
+        "reinforced"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00CRMMREQ?tag=sportgearfind-20",
+      "score": 9.1,
+      "bestFor": "Heavy hitters who want the last bag they'll ever buy"
+    },
+    {
+      "id": "punchbags-006",
+      "sport": "boxing",
+      "category": "punching-bags",
+      "tier": "premium",
+      "name": "Century BOB Body Opponent Bag",
+      "price": 310,
+      "priceDisplay": "~$270\u2013350",
+      "image": "https://m.media-amazon.com/images/I/41vpUGmSImL._AC_SL300_.jpg",
+      "tags": [
+        "century",
+        "advanced",
+        "adjustable"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00329TVEM?tag=sportgearfind-20",
+      "score": 9.0,
+      "bestFor": "Precision striking and combination work"
+    },
+    {
+      "id": "wraps-001",
+      "sport": "boxing",
+      "category": "hand-wraps",
+      "tier": "budget",
+      "name": "Everlast 108-Inch Boxing Hand Wraps",
+      "price": 10,
+      "priceDisplay": "~$8\u201312",
+      "image": "https://m.media-amazon.com/images/I/71zN2MsS6sS._AC_SL300_.jpg",
+      "tags": [
+        "everlast",
+        "beginner",
+        "cotton",
+        "velcro",
+        "hook-and-loop"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B000ZYD13E?tag=sportgearfind-20",
+      "score": 7.5,
+      "bestFor": "Beginners learning to wrap"
+    },
+    {
+      "id": "wraps-002",
+      "sport": "boxing",
+      "category": "hand-wraps",
+      "tier": "budget",
+      "name": "Sanabul Elastic 180-Inch Boxing Hand Wraps",
+      "price": 12,
+      "priceDisplay": "~$10\u201315",
+      "image": "https://m.media-amazon.com/images/I/81y1AyKrpdL._AC_SL300_.jpg",
+      "tags": [
+        "sanabul",
+        "beginner",
+        "elastic",
+        "cotton"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B017V088TG?tag=sportgearfind-20",
+      "score": 8.0,
+      "bestFor": "Beginners wanting more coverage and better fit"
+    },
+    {
+      "id": "wraps-003",
+      "sport": "boxing",
+      "category": "hand-wraps",
+      "tier": "budget",
+      "name": "Ringside Apex 180-Inch Boxing Hand Wraps",
+      "price": 15,
+      "priceDisplay": "~$12\u201318",
+      "image": "https://m.media-amazon.com/images/I/71viMqJHWwL._AC_SL300_.jpg",
+      "tags": [
+        "ringside",
+        "advanced",
+        "elastic",
+        "cotton"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0DHSCYVJL?tag=sportgearfind-20",
+      "score": 7.9,
+      "bestFor": "Regular training \u2014 a step up from cotton"
+    },
+    {
+      "id": "wraps-004",
+      "sport": "boxing",
+      "category": "hand-wraps",
+      "tier": "value",
+      "name": "Title Boxing Mexican Style Hand Wraps",
+      "price": 18,
+      "priceDisplay": "~$14\u201322",
+      "image": "https://m.media-amazon.com/images/I/715WmAJ4pQL._AC_SL300_.jpg",
+      "tags": [
+        "title-boxing",
+        "advanced",
+        "elastic",
+        "durable",
+        "reinforced"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B004LQ5NW4?tag=sportgearfind-20",
+      "score": 8.3,
+      "bestFor": "Fighters who prefer a firm, structured wrap"
+    },
+    {
+      "id": "wraps-005",
+      "sport": "boxing",
+      "category": "hand-wraps",
+      "tier": "value",
+      "name": "Hayabusa Perfect Stretch Hand Wraps",
+      "price": 21,
+      "priceDisplay": "~$17\u201325",
+      "image": "https://m.media-amazon.com/images/I/614NFKplbmL._AC_SL300_.jpg",
+      "tags": [
+        "hayabusa",
+        "advanced",
+        "elastic",
+        "moisture-wicking",
+        "stretch"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B079ZCNV1T?tag=sportgearfind-20",
+      "score": 8.7,
+      "bestFor": "Fighters wanting the best fit at a fair price"
+    },
+    {
+      "id": "wraps-006",
+      "sport": "boxing",
+      "category": "hand-wraps",
+      "tier": "premium",
+      "name": "Ringside Pro Mexican Handwraps 200-Inch",
+      "price": 32,
+      "priceDisplay": "~$25\u201340",
+      "image": "https://m.media-amazon.com/images/I/61QEyYAIbxL._AC_SL300_.jpg",
+      "tags": [
+        "ringside",
+        "advanced",
+        "elastic",
+        "competition",
+        "professional"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00C55VIYK?tag=sportgearfind-20",
+      "score": 9.0,
+      "bestFor": "Professional fighters and high-intensity sparring"
+    },
+    {
+      "id": "bxshoes-001",
+      "sport": "boxing",
+      "category": "shoes",
+      "tier": "budget",
+      "name": "Ringside Diablo Boxing Shoes",
+      "price": 48,
+      "priceDisplay": "~$40\u201355",
+      "image": "https://m.media-amazon.com/images/I/81T3srukEuL._AC_SL300_.jpg",
+      "tags": [
+        "ringside",
+        "beginner",
+        "leather",
+        "non-slip",
+        "rubber"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00M1UAQG0?tag=sportgearfind-20",
+      "score": 7.6,
+      "bestFor": "Beginners and recreational boxing"
+    },
+    {
+      "id": "bxshoes-002",
+      "sport": "boxing",
+      "category": "shoes",
+      "tier": "budget",
+      "name": "Everlast PIVT Low Top Boxing Shoes",
+      "price": 62,
+      "priceDisplay": "~$50\u201375",
+      "image": "https://m.media-amazon.com/images/I/51oGMX9-uuL._AC_SL300_.jpg",
+      "tags": [
+        "everlast",
+        "advanced",
+        "mesh",
+        "lightweight",
+        "grip"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B09X66W3NJ?tag=sportgearfind-20",
+      "score": 7.9,
+      "bestFor": "Gym-to-ring versatility on a budget"
+    },
+    {
+      "id": "bxshoes-003",
+      "sport": "boxing",
+      "category": "shoes",
+      "tier": "value",
+      "name": "Adidas Box Hog 4 Boxing Shoes",
+      "price": 85,
+      "priceDisplay": "~$70\u2013100",
+      "image": "https://m.media-amazon.com/images/I/71piASUR-zL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "advanced",
+        "mesh",
+        "grip",
+        "professional"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B09VYST1H4?tag=sportgearfind-20",
+      "score": 8.6,
+      "bestFor": "Fighters prioritizing speed and agility"
+    },
+    {
+      "id": "bxshoes-004",
+      "sport": "boxing",
+      "category": "shoes",
+      "tier": "value",
+      "name": "Everlast Elite High Top Boxing Shoes",
+      "price": 92,
+      "priceDisplay": "~$75\u2013110",
+      "image": "https://m.media-amazon.com/images/I/71Cn-ol3nzL._AC_SL300_.jpg",
+      "tags": [
+        "everlast",
+        "advanced",
+        "mesh",
+        "stability",
+        "support"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07C9KPLC8?tag=sportgearfind-20",
+      "score": 8.3,
+      "bestFor": "Fighters needing extra ankle support"
+    },
+    {
+      "id": "bxshoes-005",
+      "sport": "boxing",
+      "category": "shoes",
+      "tier": "premium",
+      "name": "Nike HyperKO 2 Boxing Shoes",
+      "price": 150,
+      "priceDisplay": "~$130\u2013170",
+      "image": "https://m.media-amazon.com/images/I/61jU7M2HQ8L._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "advanced",
+        "lightweight",
+        "professional",
+        "knit"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0D1CK8F51?tag=sportgearfind-20",
+      "score": 9.2,
+      "bestFor": "Competitive and professional fighters"
+    },
+    {
+      "id": "bxshoes-006",
+      "sport": "boxing",
+      "category": "shoes",
+      "tier": "premium",
+      "name": "Hayabusa Pro Leather Boxing Shoes",
+      "price": 180,
+      "priceDisplay": "~$160\u2013200",
+      "image": "https://m.media-amazon.com/images/I/81aOOh4XaNL._AC_SL300_.jpg",
+      "tags": [
+        "hayabusa",
+        "advanced",
+        "leather",
+        "grip",
+        "synthetic"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08MS1WFMW?tag=sportgearfind-20",
+      "score": 9.0,
+      "bestFor": "Fighters who want premium leather performance"
+    },
+    {
+      "id": "headgear-001",
+      "sport": "boxing",
+      "category": "headgear",
+      "tier": "budget",
+      "name": "Venum Challenger 2.0 Headgear",
+      "price": 42,
+      "priceDisplay": "~$35\u201350",
+      "image": "https://m.media-amazon.com/images/I/71V--Tete1L._AC_SL300_.jpg",
+      "tags": [
+        "venum",
+        "beginner",
+        "leather",
+        "foam",
+        "entry-level"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B075TD4VN4?tag=sportgearfind-20",
+      "score": 7.9,
+      "bestFor": "Beginners and light technical sparring"
+    },
+    {
+      "id": "headgear-002",
+      "sport": "boxing",
+      "category": "headgear",
+      "tier": "budget",
+      "name": "RDX Headgear with Removable Face Grill",
+      "price": 46,
+      "priceDisplay": "~$38\u201355",
+      "image": "https://m.media-amazon.com/images/I/81xmnOrmD8L._AC_SL300_.jpg",
+      "tags": [
+        "rdx",
+        "beginner",
+        "leather",
+        "foam",
+        "adjustable"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07BTPX325?tag=sportgearfind-20",
+      "score": 8.1,
+      "bestFor": "New boxers wanting versatile face protection"
+    },
+    {
+      "id": "headgear-003",
+      "sport": "boxing",
+      "category": "headgear",
+      "tier": "value",
+      "name": "Ringside Competition-Like Headgear with Cheeks",
+      "price": 62,
+      "priceDisplay": "~$50\u201375",
+      "image": "https://m.media-amazon.com/images/I/61IdMHGAtFL._AC_SL300_.jpg",
+      "tags": [
+        "ringside",
+        "advanced",
+        "leather",
+        "durable",
+        "competition"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B007ZZEK0O?tag=sportgearfind-20",
+      "score": 8.4,
+      "bestFor": "Amateur fighters and regular gym sparring"
+    },
+    {
+      "id": "headgear-004",
+      "sport": "boxing",
+      "category": "headgear",
+      "tier": "value",
+      "name": "Venum Elite Headgear",
+      "price": 82,
+      "priceDisplay": "~$70\u201395",
+      "image": "https://m.media-amazon.com/images/I/71NS8h0WcrL._AC_SL300_.jpg",
+      "tags": [
+        "venum",
+        "advanced",
+        "leather",
+        "foam",
+        "lightweight"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B013W77BTK?tag=sportgearfind-20",
+      "score": 8.8,
+      "bestFor": "Regular sparring and competition prep"
+    },
+    {
+      "id": "headgear-005",
+      "sport": "boxing",
+      "category": "headgear",
+      "tier": "premium",
+      "name": "Hayabusa T3 Boxing Headgear",
+      "price": 132,
+      "priceDisplay": "~$115\u2013150",
+      "image": "https://m.media-amazon.com/images/I/81c16Y4lkvL._AC_SL300_.jpg",
+      "tags": [
+        "hayabusa",
+        "advanced",
+        "foam"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0916MSJC1?tag=sportgearfind-20",
+      "score": 9.2,
+      "bestFor": "Serious fighters sparring at high intensity"
+    },
+    {
+      "id": "headgear-006",
+      "sport": "boxing",
+      "category": "headgear",
+      "tier": "premium",
+      "name": "Hayabusa Pro Leather Boxing Headgear",
+      "price": 180,
+      "priceDisplay": "~$160\u2013200",
+      "image": "https://m.media-amazon.com/images/I/81yibkA4DBL._AC_SL300_.jpg",
+      "tags": [
+        "hayabusa",
+        "advanced",
+        "leather",
+        "adjustable",
+        "professional"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0BG8ZTBCD?tag=sportgearfind-20",
+      "score": 9.4,
+      "bestFor": "Professional fighters and elite training environments"
+    },
+    {
+      "id": "speedbags-001",
+      "sport": "boxing",
+      "category": "speed-bags",
+      "tier": "budget",
+      "name": "Everlast Everhide Speed Bag",
+      "price": 28,
+      "priceDisplay": "~$20\u201335",
+      "image": "https://m.media-amazon.com/images/I/618L-O-uOjL._AC_SL300_.jpg",
+      "tags": [
+        "everlast",
+        "beginner",
+        "leather",
+        "reinforced",
+        "synthetic"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B002FXG5S6?tag=sportgearfind-20",
+      "score": 7.5,
+      "bestFor": "Beginners learning speed bag timing"
+    },
+    {
+      "id": "speedbags-002",
+      "sport": "boxing",
+      "category": "speed-bags",
+      "tier": "budget",
+      "name": "Contender Fight Sports Speed Bag",
+      "price": 31,
+      "priceDisplay": "~$22\u201340",
+      "image": "https://m.media-amazon.com/images/I/614by6c81lL._AC_SL300_.jpg",
+      "tags": [
+        "contender",
+        "advanced",
+        "leather",
+        "rubber",
+        "synthetic"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B006CUCINO?tag=sportgearfind-20",
+      "score": 7.8,
+      "bestFor": "Home gym users wanting leather at a budget price"
+    },
+    {
+      "id": "speedbags-003",
+      "sport": "boxing",
+      "category": "speed-bags",
+      "tier": "value",
+      "name": "Title Boxing Gyro Balanced Speed Bag",
+      "price": 49,
+      "priceDisplay": "~$38\u201360",
+      "image": "https://m.media-amazon.com/images/I/718zcGOwouL._AC_SL300_.jpg",
+      "tags": [
+        "title-boxing",
+        "beginner",
+        "leather",
+        "lace-up"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B002XOSGPW?tag=sportgearfind-20",
+      "score": 8.5,
+      "bestFor": "Intermediate fighters developing speed and rhythm"
+    },
+    {
+      "id": "speedbags-004",
+      "sport": "boxing",
+      "category": "speed-bags",
+      "tier": "value",
+      "name": "Ringside Heritage Speed Bag",
+      "price": 58,
+      "priceDisplay": "~$45\u201370",
+      "image": "https://m.media-amazon.com/images/I/51bBzKcvxyL._AC_SL300_.jpg",
+      "tags": [
+        "ringside",
+        "advanced",
+        "leather",
+        "durable",
+        "rubber"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B008XJPSYS?tag=sportgearfind-20",
+      "score": 8.6,
+      "bestFor": "Serious home gym and commercial gym training"
+    },
+    {
+      "id": "speedbags-005",
+      "sport": "boxing",
+      "category": "speed-bags",
+      "tier": "premium",
+      "name": "Everlast Elite Speed Bag",
+      "price": 80,
+      "priceDisplay": "~$65\u201395",
+      "image": "https://m.media-amazon.com/images/I/71pnXJwhe3L._AC_SL300_.jpg",
+      "tags": [
+        "everlast",
+        "advanced",
+        "leather"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0C7HMBV1W?tag=sportgearfind-20",
+      "score": 8.9,
+      "bestFor": "Advanced fighters and commercial gym owners"
+    },
+    {
+      "id": "speedbags-006",
+      "sport": "boxing",
+      "category": "speed-bags",
+      "tier": "premium",
+      "name": "Cleto Reyes Leather Speed Bag",
+      "price": 122,
+      "priceDisplay": "~$95\u2013150",
+      "image": "https://m.media-amazon.com/images/I/61Sqp4CwmNL._AC_SL300_.jpg",
+      "tags": [
+        "cleto-reyes",
+        "advanced",
+        "leather",
+        "professional",
+        "reinforced"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B006ZYU87A?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Professional fighters and serious practitioners"
+    },
+    {
+      "id": "goggles-001",
+      "sport": "swimming",
+      "category": "goggles",
+      "tier": "budget",
+      "name": "Speedo Unisex Vanquisher 2.0",
+      "price": 15,
+      "priceDisplay": "~$15",
+      "image": "https://m.media-amazon.com/images/I/71hc376V+AL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "adjustable"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B001GFFRP6?tag=sportgearfind-20",
+      "score": 7.8,
+      "bestFor": "Recreational lap swimmers and fitness training"
+    },
+    {
+      "id": "goggles-002",
+      "sport": "swimming",
+      "category": "goggles",
+      "tier": "budget",
+      "name": "FINIS Bolt Goggle",
+      "price": 13,
+      "priceDisplay": "~$13",
+      "image": "https://m.media-amazon.com/images/I/71sjT11gg9L._AC_SL300_.jpg",
+      "tags": [
+        "finis",
+        "beginner",
+        "silicone"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00E3OWRJ6?tag=sportgearfind-20",
+      "score": 7.5,
+      "bestFor": "Beginners, kids, and casual pool swimmers"
+    },
+    {
+      "id": "goggles-003",
+      "sport": "swimming",
+      "category": "goggles",
+      "tier": "value",
+      "name": "TYR Socket Rockets 2.0",
+      "price": 20,
+      "priceDisplay": "~$20",
+      "image": "https://m.media-amazon.com/images/I/61JiTOZ4RyL._AC_SL300_.jpg",
+      "tags": [
+        "tyr",
+        "advanced",
+        "adjustable",
+        "carbon"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B001MWRRM4?tag=sportgearfind-20",
+      "score": 8.5,
+      "bestFor": "Competitive and club swimmers who want race-day feel in training"
+    },
+    {
+      "id": "goggles-004",
+      "sport": "swimming",
+      "category": "goggles",
+      "tier": "value",
+      "name": "Aqua Sphere Vista",
+      "price": 35,
+      "priceDisplay": "~$35",
+      "image": "https://m.media-amazon.com/images/I/51UFJNHX5jL._AC_SL300_.jpg",
+      "tags": [
+        "aqua-sphere",
+        "intermediate",
+        "silicone",
+        "comfort"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B004WK4Q86?tag=sportgearfind-20",
+      "score": 8.6,
+      "bestFor": "Fitness swimmers, triathletes, and anyone with hard-to-fit faces"
+    },
+    {
+      "id": "goggles-005",
+      "sport": "swimming",
+      "category": "goggles",
+      "tier": "premium",
+      "name": "Arena Cobra Ultra Swipe Mirror",
+      "price": 55,
+      "priceDisplay": "~$55",
+      "image": "https://m.media-amazon.com/images/I/51ZN0g9Oe3L._AC_SL300_.jpg",
+      "tags": [
+        "arena",
+        "advanced",
+        "silicone",
+        "competition"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07R4BMCR7?tag=sportgearfind-20",
+      "score": 9.2,
+      "bestFor": "Club and competitive swimmers who race regularly"
+    },
+    {
+      "id": "goggles-006",
+      "sport": "swimming",
+      "category": "goggles",
+      "tier": "premium",
+      "name": "Speedo Fastskin Pure Focus Mirror",
+      "price": 75,
+      "priceDisplay": "~$75",
+      "image": "https://m.media-amazon.com/images/I/51X59UmmY8L._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08MFJXP4T?tag=sportgearfind-20",
+      "score": 9.4,
+      "bestFor": "Elite and competitive swimmers targeting race-day performance"
+    },
+    {
+      "id": "suits-001",
+      "sport": "swimming",
+      "category": "suits",
+      "tier": "budget",
+      "name": "Speedo Endurance+ One Piece",
+      "price": 30,
+      "priceDisplay": "~$30",
+      "image": "https://m.media-amazon.com/images/I/7190iAFro4L._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "beginner",
+        "stretch",
+        "polyester",
+        "comfort"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B085WCB1ST?tag=sportgearfind-20",
+      "score": 7.9,
+      "bestFor": "Women fitness and lap swimmers who swim 3+ times per week"
+    },
+    {
+      "id": "suits-002",
+      "sport": "swimming",
+      "category": "suits",
+      "tier": "budget",
+      "name": "TYR Durafast One Diamondfit",
+      "price": 35,
+      "priceDisplay": "~$35",
+      "image": "https://m.media-amazon.com/images/I/81rBlderi3L._AC_SL300_.jpg",
+      "tags": [
+        "tyr",
+        "beginner",
+        "compression"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B09K4P39HV?tag=sportgearfind-20",
+      "score": 8.0,
+      "bestFor": "Women who prioritise durability over all else at an accessible price"
+    },
+    {
+      "id": "suits-003",
+      "sport": "swimming",
+      "category": "suits",
+      "tier": "value",
+      "name": "Speedo Flyback Training Suit",
+      "price": 45,
+      "priceDisplay": "~$45",
+      "image": "https://m.media-amazon.com/images/I/81ijZVQU3LL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "compression",
+        "polyester"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B06XRYYY5X?tag=sportgearfind-20",
+      "score": 8.4,
+      "bestFor": "Women club and competitive swimmers who train multiple times per week"
+    },
+    {
+      "id": "suits-004",
+      "sport": "swimming",
+      "category": "suits",
+      "tier": "value",
+      "name": "Speedo Endurance+ Jammer",
+      "price": 38,
+      "priceDisplay": "~$38",
+      "image": "https://m.media-amazon.com/images/I/61yt7CRZkHL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "compression",
+        "polyester",
+        "support"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0CGYNNWR6?tag=sportgearfind-20",
+      "score": 8.5,
+      "bestFor": "Men training swimmers at all levels \u2014 the most versatile men's suit"
+    },
+    {
+      "id": "suits-005",
+      "sport": "swimming",
+      "category": "suits",
+      "tier": "premium",
+      "name": "Arena Powerskin Carbon-Flex VX",
+      "price": 180,
+      "priceDisplay": "~$180",
+      "image": "https://m.media-amazon.com/images/I/61GnNi4ZXeL._AC_SL300_.jpg",
+      "tags": [
+        "arena",
+        "advanced",
+        "carbon",
+        "competition",
+        "compression"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07M6856XW?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Elite women swimmers competing at club, collegiate, or national level"
+    },
+    {
+      "id": "suits-006",
+      "sport": "swimming",
+      "category": "suits",
+      "tier": "premium",
+      "name": "Speedo LZR Racer X Jammer",
+      "price": 200,
+      "priceDisplay": "~$200",
+      "image": "https://m.media-amazon.com/images/I/61ASecnAVTL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "compression"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B078D75HKC?tag=sportgearfind-20",
+      "score": 9.5,
+      "bestFor": "Elite men competing at championship level \u2014 race-day use only"
+    },
+    {
+      "id": "swimcaps-001",
+      "sport": "swimming",
+      "category": "caps",
+      "tier": "budget",
+      "name": "Speedo Silicone Swim Cap",
+      "price": 10,
+      "priceDisplay": "~$10",
+      "image": "https://m.media-amazon.com/images/I/518HC+aAZLL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "intermediate",
+        "silicone",
+        "durable",
+        "comfort"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00074USZQ?tag=sportgearfind-20",
+      "score": 7.8,
+      "bestFor": "All-level swimmers who train regularly in a pool"
+    },
+    {
+      "id": "swimcaps-002",
+      "sport": "swimming",
+      "category": "caps",
+      "tier": "budget",
+      "name": "Arena Classic Silicone Cap",
+      "price": 8,
+      "priceDisplay": "~$8",
+      "image": "https://m.media-amazon.com/images/I/91guMN9KT+L._AC_SL300_.jpg",
+      "tags": [
+        "arena",
+        "beginner",
+        "silicone"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B083644Q4P?tag=sportgearfind-20",
+      "score": 7.6,
+      "bestFor": "Beginners, young swimmers, and budget-conscious lap swimmers"
+    },
+    {
+      "id": "swimcaps-003",
+      "sport": "swimming",
+      "category": "caps",
+      "tier": "value",
+      "name": "Speedo Long Hair Swim Cap",
+      "price": 16,
+      "priceDisplay": "~$16",
+      "image": "https://m.media-amazon.com/images/I/610d8sdFhsL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "silicone"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B000FGZSNI?tag=sportgearfind-20",
+      "score": 8.7,
+      "bestFor": "Swimmers with long, thick, or curly hair of any level"
+    },
+    {
+      "id": "swimcaps-004",
+      "sport": "swimming",
+      "category": "caps",
+      "tier": "value",
+      "name": "ZONE3 Heat Tech Neoprene Swim Cap",
+      "price": 22,
+      "priceDisplay": "See price",
+      "image": "https://m.media-amazon.com/images/I/618-YzcmTkL._AC_SL1000_.jpg",
+      "tags": [
+        "zone3",
+        "advanced",
+        "silicone",
+        "neoprene",
+        "cushioned"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08TSS2T7D?tag=sportgearfind-20",
+      "score": 8.5,
+      "bestFor": "Open-water swimmers, triathletes, and cold-water pool training"
+    },
+    {
+      "id": "swimcaps-005",
+      "sport": "swimming",
+      "category": "caps",
+      "tier": "premium",
+      "name": "Speedo Fastskin Racing Cap",
+      "price": 35,
+      "priceDisplay": "~$35",
+      "image": "https://m.media-amazon.com/images/I/71Fl71NPmML._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "silicone"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08GNRL2VV?tag=sportgearfind-20",
+      "score": 9.1,
+      "bestFor": "Competitive swimmers using Fastskin goggle/suit system"
+    },
+    {
+      "id": "swimcaps-006",
+      "sport": "swimming",
+      "category": "caps",
+      "tier": "premium",
+      "name": "Arena Powerskin Racing Cap",
+      "price": 40,
+      "priceDisplay": "~$40",
+      "image": "https://m.media-amazon.com/images/I/51SU4nk8tyL._AC_SL300_.jpg",
+      "tags": [
+        "arena",
+        "advanced",
+        "silicone",
+        "carbon",
+        "grip"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07QRBX24J?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Elite and serious competitive swimmers in Arena race-day system"
+    },
+    {
+      "id": "fins-001",
+      "sport": "swimming",
+      "category": "fins",
+      "tier": "budget",
+      "name": "Speedo Short Training Fin",
+      "price": 28,
+      "priceDisplay": "~$28",
+      "image": "https://m.media-amazon.com/images/I/61dnW9gfylL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "beginner",
+        "silicone",
+        "entry-level",
+        "comfort"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B009IJACBG?tag=sportgearfind-20",
+      "score": 7.7,
+      "bestFor": "Fitness and beginner club swimmers building kick endurance"
+    },
+    {
+      "id": "fins-002",
+      "sport": "swimming",
+      "category": "fins",
+      "tier": "budget",
+      "name": "TYR Crossblade Fin",
+      "price": 32,
+      "priceDisplay": "~$32",
+      "image": "https://m.media-amazon.com/images/I/71yvzmgWG1L._AC_SL300_.jpg",
+      "tags": [
+        "tyr",
+        "advanced",
+        "durable",
+        "rubber",
+        "stability"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07WJR46Z2?tag=sportgearfind-20",
+      "score": 7.9,
+      "bestFor": "Swimmers who do butterfly and breaststroke drills regularly"
+    },
+    {
+      "id": "fins-003",
+      "sport": "swimming",
+      "category": "fins",
+      "tier": "value",
+      "name": "FINIS Zoomers Gold",
+      "price": 38,
+      "priceDisplay": "~$38",
+      "image": "https://m.media-amazon.com/images/I/51XqSylEl0L._AC_SL300_.jpg",
+      "tags": [
+        "finis",
+        "intermediate"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00KN25GHW?tag=sportgearfind-20",
+      "score": 9.0,
+      "bestFor": "Competitive swimmers and club teams \u2014 the definitive training fin"
+    },
+    {
+      "id": "fins-004",
+      "sport": "swimming",
+      "category": "fins",
+      "tier": "value",
+      "name": "Speedo Biofuse Training Fin",
+      "price": 42,
+      "priceDisplay": "~$42",
+      "image": "https://m.media-amazon.com/images/I/619a85LgoeL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "silicone",
+        "comfort",
+        "support"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07BZMPFK2?tag=sportgearfind-20",
+      "score": 8.6,
+      "bestFor": "Fitness swimmers who do long kick sets and prioritise comfort"
+    },
+    {
+      "id": "fins-005",
+      "sport": "swimming",
+      "category": "fins",
+      "tier": "premium",
+      "name": "Arena Powerfin Pro",
+      "price": 55,
+      "priceDisplay": "~$55",
+      "image": "https://m.media-amazon.com/images/I/61KO3A6D67L._AC_SL300_.jpg",
+      "tags": [
+        "arena",
+        "advanced",
+        "silicone",
+        "power"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B086DS4DQY?tag=sportgearfind-20",
+      "score": 9.1,
+      "bestFor": "Competitive swimmers focused on kick power development"
+    },
+    {
+      "id": "fins-006",
+      "sport": "swimming",
+      "category": "fins",
+      "tier": "premium",
+      "name": "FINIS Long Floating Fin",
+      "price": 65,
+      "priceDisplay": "~$65",
+      "image": "https://m.media-amazon.com/images/I/91CJKop+ADL._AC_SL300_.jpg",
+      "tags": [
+        "finis",
+        "advanced"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00OBMCA42?tag=sportgearfind-20",
+      "score": 9.2,
+      "bestFor": "Swimmers drilling stroke technique who need extra propulsion and float"
+    },
+    {
+      "id": "trainaids-001",
+      "sport": "swimming",
+      "category": "training-aids",
+      "tier": "budget",
+      "name": "Speedo Kickboard",
+      "price": 14,
+      "priceDisplay": "~$14",
+      "image": "https://m.media-amazon.com/images/I/81Dp+jeuNdL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "foam",
+        "lightweight",
+        "grip"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0172GZZNG?tag=sportgearfind-20",
+      "score": 7.8,
+      "bestFor": "All-level swimmers who need a reliable kickboard for kick sets"
+    },
+    {
+      "id": "trainaids-002",
+      "sport": "swimming",
+      "category": "training-aids",
+      "tier": "budget",
+      "name": "Speedo Pull Buoy",
+      "price": 12,
+      "priceDisplay": "~$12",
+      "image": "https://m.media-amazon.com/images/I/71HBr6IoH5L._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "beginner",
+        "foam",
+        "grip"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B001M5TY4A?tag=sportgearfind-20",
+      "score": 7.9,
+      "bestFor": "Swimmers isolating freestyle pull mechanics and upper-body endurance"
+    },
+    {
+      "id": "trainaids-003",
+      "sport": "swimming",
+      "category": "training-aids",
+      "tier": "value",
+      "name": "FINIS Alignment Kickboard",
+      "price": 28,
+      "priceDisplay": "~$28",
+      "image": "https://m.media-amazon.com/images/I/71DmRgqYtYL._AC_SL300_.jpg",
+      "tags": [
+        "finis",
+        "advanced",
+        "spin"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B001GQ2BP4?tag=sportgearfind-20",
+      "score": 8.8,
+      "bestFor": "Swimmers working on body position, head alignment, and streamlining"
+    },
+    {
+      "id": "trainaids-004",
+      "sport": "swimming",
+      "category": "training-aids",
+      "tier": "value",
+      "name": "TYR Pull Float",
+      "price": 18,
+      "priceDisplay": "~$18",
+      "image": "https://m.media-amazon.com/images/I/71XpsnCWS0L._AC_SL300_.jpg",
+      "tags": [
+        "tyr",
+        "advanced",
+        "foam",
+        "durable"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B008ULHSF6?tag=sportgearfind-20",
+      "score": 8.4,
+      "bestFor": "Swimmers who find standard pull buoys create an unnatural hip position"
+    },
+    {
+      "id": "trainaids-005",
+      "sport": "swimming",
+      "category": "training-aids",
+      "tier": "premium",
+      "name": "Speedo Power Paddle",
+      "price": 35,
+      "priceDisplay": "~$35",
+      "image": "https://m.media-amazon.com/images/I/41yY5XQ3oVL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "adjustable",
+        "power"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00074UU22?tag=sportgearfind-20",
+      "score": 9.0,
+      "bestFor": "Competitive swimmers building pull strength and refining catch angle"
+    },
+    {
+      "id": "trainaids-006",
+      "sport": "swimming",
+      "category": "training-aids",
+      "tier": "premium",
+      "name": "Arena Training Bundle",
+      "price": 55,
+      "priceDisplay": "~$55",
+      "image": "https://m.media-amazon.com/images/I/61hDvY5JiOL._AC_SL300_.jpg",
+      "tags": [
+        "arena",
+        "advanced",
+        "mesh",
+        "grip",
+        "comfort"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0BB1KPP1N?tag=sportgearfind-20",
+      "score": 9.2,
+      "bestFor": "New swimmers and club members who want a complete matched kit"
+    },
+    {
+      "id": "swimbags-001",
+      "sport": "swimming",
+      "category": "bags",
+      "tier": "budget",
+      "name": "Speedo Mesh Bag",
+      "price": 12,
+      "priceDisplay": "~$12",
+      "image": "https://m.media-amazon.com/images/I/81wwwrL5gYL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "beginner",
+        "mesh"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B00J2X1D5M?tag=sportgearfind-20",
+      "score": 7.6,
+      "bestFor": "Poolside storage of wet gear, training aids, and equipment"
+    },
+    {
+      "id": "swimbags-002",
+      "sport": "swimming",
+      "category": "bags",
+      "tier": "budget",
+      "name": "Arena Mesh Bag",
+      "price": 10,
+      "priceDisplay": "~$10",
+      "image": "https://m.media-amazon.com/images/I/91wQqALhvcL._AC_SL300_.jpg",
+      "tags": [
+        "arena",
+        "beginner",
+        "mesh",
+        "reinforced",
+        "stretch"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07QF6GNQ8?tag=sportgearfind-20",
+      "score": 7.5,
+      "bestFor": "Club swimmers and teams needing poolside storage for small equipment"
+    },
+    {
+      "id": "swimbags-003",
+      "sport": "swimming",
+      "category": "bags",
+      "tier": "value",
+      "name": "Speedo Teamster 35L",
+      "price": 55,
+      "priceDisplay": "~$55",
+      "image": "https://m.media-amazon.com/images/I/81RCRC4u1fL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "intermediate",
+        "mesh",
+        "padded"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08527LT1G?tag=sportgearfind-20",
+      "score": 8.9,
+      "bestFor": "Commuting swimmers who go directly from pool to work or school"
+    },
+    {
+      "id": "swimbags-004",
+      "sport": "swimming",
+      "category": "bags",
+      "tier": "value",
+      "name": "Arena Spiky 3 Backpack",
+      "price": 60,
+      "priceDisplay": "~$60",
+      "image": "https://m.media-amazon.com/images/I/71qviZ9adcL._AC_SL300_.jpg",
+      "tags": [
+        "arena",
+        "advanced",
+        "waterproof"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0CKTQ9YMR?tag=sportgearfind-20",
+      "score": 8.7,
+      "bestFor": "Competitive and club swimmers who want style and function"
+    },
+    {
+      "id": "swimbags-005",
+      "sport": "swimming",
+      "category": "bags",
+      "tier": "premium",
+      "name": "Speedo Teamster 2.0 50L",
+      "price": 75,
+      "priceDisplay": "~$75",
+      "image": "https://m.media-amazon.com/images/I/81O+TTuYfIL._AC_SL300_.jpg",
+      "tags": [
+        "speedo",
+        "advanced",
+        "padded",
+        "reinforced",
+        "stability"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B09VB2T1DC?tag=sportgearfind-20",
+      "score": 9.1,
+      "bestFor": "Swimmers carrying heavy kit loads or travelling to meets"
+    },
+    {
+      "id": "swimbags-006",
+      "sport": "swimming",
+      "category": "bags",
+      "tier": "premium",
+      "name": "TYR Alliance Team Backpack",
+      "price": 80,
+      "priceDisplay": "~$80",
+      "image": "https://m.media-amazon.com/images/I/81TKYYCHowL._AC_SL300_.jpg",
+      "tags": [
+        "tyr",
+        "advanced",
+        "waterproof",
+        "reinforced"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B01HCOKAZQ?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Collegiate and club swimmers who want the best organisation and durability"
+    },
+    {
+      "id": "boots-001",
+      "sport": "football",
+      "category": "boots",
+      "tier": "budget",
+      "name": "adidas Goletto VIII FG",
+      "price": 35,
+      "priceDisplay": "~$35",
+      "image": "https://m.media-amazon.com/images/I/61RdL9W5plL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "beginner",
+        "lightweight",
+        "grip",
+        "entry-level"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07S6MHRZ5?tag=sportgearfind-20",
+      "score": 7.6,
+      "bestFor": "Beginners and casual grass players"
+    },
+    {
+      "id": "boots-002",
+      "sport": "football",
+      "category": "boots",
+      "tier": "budget",
+      "name": "PUMA Tacto II TT",
+      "price": 45,
+      "priceDisplay": "~$45",
+      "image": "https://m.media-amazon.com/images/I/61er0pCZCdL._AC_SL300_.jpg",
+      "tags": [
+        "puma",
+        "beginner",
+        "padded",
+        "grip",
+        "durable"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08K4D8PBY?tag=sportgearfind-20",
+      "score": 7.9,
+      "bestFor": "5-a-side and artificial-turf players"
+    },
+    {
+      "id": "boots-003",
+      "sport": "football",
+      "category": "boots",
+      "tier": "value",
+      "name": "Nike Tiempo Legend 10 Club FG",
+      "price": 75,
+      "priceDisplay": "~$75",
+      "image": "https://m.media-amazon.com/images/I/71c3LzesGVL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "beginner",
+        "padded",
+        "cushioned",
+        "grip"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0CFXLMT7B?tag=sportgearfind-20",
+      "score": 8.3,
+      "bestFor": "Players who want comfort and a soft touch"
+    },
+    {
+      "id": "boots-004",
+      "sport": "football",
+      "category": "boots",
+      "tier": "value",
+      "name": "adidas Predator Club FG",
+      "price": 70,
+      "priceDisplay": "~$70",
+      "image": "https://m.media-amazon.com/images/I/71yFN84rihL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "advanced",
+        "grip",
+        "synthetic",
+        "control"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0CX741ZCF?tag=sportgearfind-20",
+      "score": 8.5,
+      "bestFor": "Midfielders and passers who want ball grip"
+    },
+    {
+      "id": "boots-005",
+      "sport": "football",
+      "category": "boots",
+      "tier": "premium",
+      "name": "Nike Phantom GX 2 Elite FG",
+      "price": 250,
+      "priceDisplay": "~$250",
+      "image": "https://m.media-amazon.com/images/I/71ErbnkdmtL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "advanced",
+        "grip",
+        "knit",
+        "spin"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0CT63JZGF?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Attackers and creators chasing control in the box"
+    },
+    {
+      "id": "boots-006",
+      "sport": "football",
+      "category": "boots",
+      "tier": "premium",
+      "name": "adidas Predator Elite FG",
+      "price": 280,
+      "priceDisplay": "~$280",
+      "image": "https://m.media-amazon.com/images/I/51gVpxxeXcL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "advanced",
+        "grip",
+        "rubber",
+        "control"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0D5KJNBKJ?tag=sportgearfind-20",
+      "score": 9.4,
+      "bestFor": "Elite midfielders and dead-ball specialists"
+    },
+    {
+      "id": "footballs-001",
+      "sport": "football",
+      "category": "balls",
+      "tier": "budget",
+      "name": "adidas Starlancer",
+      "price": 15,
+      "priceDisplay": "~$15",
+      "image": "https://m.media-amazon.com/images/I/61WVLvbrVKL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "beginner",
+        "durable"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0C1XMPZZ4?tag=sportgearfind-20",
+      "score": 7.4,
+      "bestFor": "Backyard kickabouts and young beginners"
+    },
+    {
+      "id": "footballs-002",
+      "sport": "football",
+      "category": "balls",
+      "tier": "budget",
+      "name": "Wilson NCAA Forte Fybrid II",
+      "price": 22,
+      "priceDisplay": "~$22",
+      "image": "https://m.media-amazon.com/images/I/81INUOw7QML._AC_SL300_.jpg",
+      "tags": [
+        "wilson",
+        "beginner",
+        "reinforced"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07BCBLLGG?tag=sportgearfind-20",
+      "score": 7.7,
+      "bestFor": "Daily training on hard, rough surfaces"
+    },
+    {
+      "id": "footballs-003",
+      "sport": "football",
+      "category": "balls",
+      "tier": "value",
+      "name": "Nike Academy Team",
+      "price": 35,
+      "priceDisplay": "~$35",
+      "image": "https://m.media-amazon.com/images/I/61P0nb2ImsL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "intermediate",
+        "grip",
+        "reinforced"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08R4Q38FY?tag=sportgearfind-20",
+      "score": 8.2,
+      "bestFor": "Club and team training sessions"
+    },
+    {
+      "id": "footballs-004",
+      "sport": "football",
+      "category": "balls",
+      "tier": "value",
+      "name": "adidas MLS Competition",
+      "price": 50,
+      "priceDisplay": "~$50",
+      "image": "https://m.media-amazon.com/images/I/61lJvmEZTyL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "advanced",
+        "competition",
+        "professional"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B01D5FAS4O?tag=sportgearfind-20",
+      "score": 8.6,
+      "bestFor": "League matches and competitive players"
+    },
+    {
+      "id": "footballs-005",
+      "sport": "football",
+      "category": "balls",
+      "tier": "premium",
+      "name": "Nike Flight",
+      "price": 160,
+      "priceDisplay": "~$160",
+      "image": "https://m.media-amazon.com/images/I/71+gxFNiBsL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "advanced",
+        "grip",
+        "aero",
+        "stability"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0BS3YDPT4?tag=sportgearfind-20",
+      "score": 9.2,
+      "bestFor": "Serious players who want televised match-day flight"
+    },
+    {
+      "id": "footballs-006",
+      "sport": "football",
+      "category": "balls",
+      "tier": "premium",
+      "name": "adidas UEFA Champions League Pro",
+      "price": 165,
+      "priceDisplay": "~$165",
+      "image": "https://m.media-amazon.com/images/I/61nrShy4q3L._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "advanced",
+        "power"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0DXNB231F?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Elite players and collectors wanting the official ball"
+    },
+    {
+      "id": "shinguards-001",
+      "sport": "football",
+      "category": "shin-guards",
+      "tier": "budget",
+      "name": "Vizari Malaga",
+      "price": 12,
+      "priceDisplay": "~$12",
+      "image": "https://m.media-amazon.com/images/I/71VszvSGJnL._AC_SL300_.jpg",
+      "tags": [
+        "vizari",
+        "beginner",
+        "adjustable",
+        "padded"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B006IXH16O?tag=sportgearfind-20",
+      "score": 7.5,
+      "bestFor": "Youth players and nervous beginners"
+    },
+    {
+      "id": "shinguards-002",
+      "sport": "football",
+      "category": "shin-guards",
+      "tier": "budget",
+      "name": "Nike Charge",
+      "price": 16,
+      "priceDisplay": "~$16",
+      "image": "https://m.media-amazon.com/images/I/81GkQLBXq6L._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "advanced",
+        "foam",
+        "lightweight",
+        "comfort"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B015YVM0DO?tag=sportgearfind-20",
+      "score": 7.8,
+      "bestFor": "Casual outfield players wanting low bulk"
+    },
+    {
+      "id": "shinguards-003",
+      "sport": "football",
+      "category": "shin-guards",
+      "tier": "value",
+      "name": "Nike Mercurial Lite",
+      "price": 25,
+      "priceDisplay": "~$25",
+      "image": "https://m.media-amazon.com/images/I/61aDqcuzrxL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "intermediate",
+        "foam",
+        "compression"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07M5H2Z2S?tag=sportgearfind-20",
+      "score": 8.4,
+      "bestFor": "Weekly outfield players wanting low weight"
+    },
+    {
+      "id": "shinguards-004",
+      "sport": "football",
+      "category": "shin-guards",
+      "tier": "value",
+      "name": "adidas Predator Match",
+      "price": 30,
+      "priceDisplay": "~$30",
+      "image": "https://m.media-amazon.com/images/I/61l60qOtb5L._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "advanced",
+        "foam",
+        "anti-slip"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0993725V1?tag=sportgearfind-20",
+      "score": 8.5,
+      "bestFor": "Committed players who want more protection"
+    },
+    {
+      "id": "shinguards-005",
+      "sport": "football",
+      "category": "shin-guards",
+      "tier": "premium",
+      "name": "Storelli BodyShield Leg Guards",
+      "price": 45,
+      "priceDisplay": "~$45",
+      "image": "https://m.media-amazon.com/images/I/61p3yGvg5kS._AC_SL300_.jpg",
+      "tags": [
+        "storelli",
+        "advanced",
+        "compression"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0BF9BT3KN?tag=sportgearfind-20",
+      "score": 9.1,
+      "bestFor": "Defenders and players wanting maximum coverage"
+    },
+    {
+      "id": "shinguards-006",
+      "sport": "football",
+      "category": "shin-guards",
+      "tier": "premium",
+      "name": "G-Form Pro-S Elite 2",
+      "price": 55,
+      "priceDisplay": "~$55",
+      "image": "https://m.media-amazon.com/images/I/41LRam3HYpL._AC_SL300_.jpg",
+      "tags": [
+        "g-form",
+        "advanced",
+        "breathable"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08W5XVQNJ?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Players wanting elite protection with zero bulk"
+    },
+    {
+      "id": "gkgloves-001",
+      "sport": "football",
+      "category": "goalkeeper-gloves",
+      "tier": "budget",
+      "name": "adidas Predator Training",
+      "price": 30,
+      "priceDisplay": "~$30",
+      "image": "https://m.media-amazon.com/images/I/71-O39qVMmL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "beginner",
+        "durable"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0799W1QD7?tag=sportgearfind-20",
+      "score": 7.7,
+      "bestFor": "Beginners and daily training sessions"
+    },
+    {
+      "id": "gkgloves-002",
+      "sport": "football",
+      "category": "goalkeeper-gloves",
+      "tier": "budget",
+      "name": "Nike Match",
+      "price": 35,
+      "priceDisplay": "~$35",
+      "image": "https://m.media-amazon.com/images/I/61KBiBk-1qL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "beginner",
+        "grip",
+        "power"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07DGZ8224?tag=sportgearfind-20",
+      "score": 7.9,
+      "bestFor": "Youth and amateur match keepers"
+    },
+    {
+      "id": "gkgloves-003",
+      "sport": "football",
+      "category": "goalkeeper-gloves",
+      "tier": "value",
+      "name": "Reusch Attrakt Grip",
+      "price": 70,
+      "priceDisplay": "~$70",
+      "image": "https://m.media-amazon.com/images/I/71kMgYsrJcL._AC_SL300_.jpg",
+      "tags": [
+        "reusch",
+        "intermediate",
+        "breathable",
+        "grip",
+        "control"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0CPJTHNW6?tag=sportgearfind-20",
+      "score": 8.5,
+      "bestFor": "Weekly competitive match keepers"
+    },
+    {
+      "id": "gkgloves-004",
+      "sport": "football",
+      "category": "goalkeeper-gloves",
+      "tier": "value",
+      "name": "adidas Predator Match",
+      "price": 80,
+      "priceDisplay": "~$80",
+      "image": "https://m.media-amazon.com/images/I/81k7XWkLJSL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "intermediate",
+        "grip",
+        "control",
+        "comfort"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B099MY1XQX?tag=sportgearfind-20",
+      "score": 8.6,
+      "bestFor": "Committed keepers wanting a match pair"
+    },
+    {
+      "id": "gkgloves-005",
+      "sport": "football",
+      "category": "goalkeeper-gloves",
+      "tier": "premium",
+      "name": "Nike Vapor Grip3",
+      "price": 140,
+      "priceDisplay": "~$140",
+      "image": "https://m.media-amazon.com/images/I/71xaXpqSCXL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "advanced",
+        "adjustable",
+        "grip",
+        "power"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0163G8M4K?tag=sportgearfind-20",
+      "score": 9.2,
+      "bestFor": "Advanced keepers chasing match-day grip"
+    },
+    {
+      "id": "gkgloves-006",
+      "sport": "football",
+      "category": "goalkeeper-gloves",
+      "tier": "premium",
+      "name": "Reusch Attrakt Gold X",
+      "price": 160,
+      "priceDisplay": "~$160",
+      "image": "https://m.media-amazon.com/images/I/71UvfGrukLL._AC_SL300_.jpg",
+      "tags": [
+        "reusch",
+        "advanced",
+        "grip"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0BS99KMJR?tag=sportgearfind-20",
+      "score": 9.4,
+      "bestFor": "Elite keepers who want the very best grip"
+    },
+    {
+      "id": "jerseys-001",
+      "sport": "football",
+      "category": "jerseys",
+      "tier": "budget",
+      "name": "adidas Entrada 22",
+      "price": 25,
+      "priceDisplay": "~$25",
+      "image": "https://m.media-amazon.com/images/I/61aFRWBwVcL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "beginner",
+        "lightweight",
+        "aero",
+        "comfort"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B091LDV7M1?tag=sportgearfind-20",
+      "score": 7.6,
+      "bestFor": "Team kits and casual everyday wear"
+    },
+    {
+      "id": "jerseys-002",
+      "sport": "football",
+      "category": "jerseys",
+      "tier": "budget",
+      "name": "Nike Park VII",
+      "price": 30,
+      "priceDisplay": "~$30",
+      "image": "https://m.media-amazon.com/images/I/51sxf+1TT+L._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "intermediate",
+        "durable",
+        "dri-fit"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08NY22RD4?tag=sportgearfind-20",
+      "score": 7.8,
+      "bestFor": "Training and 5-a-side teams"
+    },
+    {
+      "id": "jerseys-003",
+      "sport": "football",
+      "category": "jerseys",
+      "tier": "value",
+      "name": "adidas Tiro 24",
+      "price": 45,
+      "priceDisplay": "~$45",
+      "image": "https://m.media-amazon.com/images/I/416ZP82723L._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "intermediate",
+        "mesh",
+        "durable",
+        "aero"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0DN1RMGMG?tag=sportgearfind-20",
+      "score": 8.4,
+      "bestFor": "Regular players who train weekly"
+    },
+    {
+      "id": "jerseys-004",
+      "sport": "football",
+      "category": "jerseys",
+      "tier": "value",
+      "name": "Nike Dri-FIT Stadium",
+      "price": 90,
+      "priceDisplay": "~$90",
+      "image": "https://m.media-amazon.com/images/I/71Y1JLnOZcL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "advanced",
+        "breathable",
+        "dri-fit",
+        "comfort"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0F932KB8G?tag=sportgearfind-20",
+      "score": 8.5,
+      "bestFor": "Fans wanting licensed colours for everyday wear"
+    },
+    {
+      "id": "jerseys-005",
+      "sport": "football",
+      "category": "jerseys",
+      "tier": "premium",
+      "name": "Nike Dri-FIT ADV Match",
+      "price": 130,
+      "priceDisplay": "~$130",
+      "image": "https://m.media-amazon.com/images/I/71z5vDP+0WL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "advanced",
+        "breathable",
+        "dri-fit"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0FBG59HBS?tag=sportgearfind-20",
+      "score": 9.2,
+      "bestFor": "Players and collectors wanting true match spec"
+    },
+    {
+      "id": "jerseys-006",
+      "sport": "football",
+      "category": "jerseys",
+      "tier": "premium",
+      "name": "adidas Authentic Player (HEAT.RDY)",
+      "price": 135,
+      "priceDisplay": "~$135",
+      "image": "https://m.media-amazon.com/images/I/61k9XKClpAL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "advanced",
+        "support"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0CDQJNS1S?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Supporters wanting the genuine match jersey"
+    },
+    {
+      "id": "ftsocks-001",
+      "sport": "football",
+      "category": "socks",
+      "tier": "budget",
+      "name": "adidas Formotion Cushioned",
+      "price": 12,
+      "priceDisplay": "~$12",
+      "image": "https://m.media-amazon.com/images/I/817HxlJCtIL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "intermediate",
+        "cushioned",
+        "durable",
+        "knit"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B002GWWDIW?tag=sportgearfind-20",
+      "score": 7.6,
+      "bestFor": "Everyday training and casual matches"
+    },
+    {
+      "id": "ftsocks-002",
+      "sport": "football",
+      "category": "socks",
+      "tier": "budget",
+      "name": "Nike Academy OTC",
+      "price": 14,
+      "priceDisplay": "~$14",
+      "image": "https://m.media-amazon.com/images/I/51MUBgYr7iL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "advanced",
+        "elastic",
+        "cushioned",
+        "dri-fit"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B072BVQDY6?tag=sportgearfind-20",
+      "score": 7.8,
+      "bestFor": "Match and training over shin guards"
+    },
+    {
+      "id": "ftsocks-003",
+      "sport": "football",
+      "category": "socks",
+      "tier": "value",
+      "name": "Tapedesign Allround Classic",
+      "price": 20,
+      "priceDisplay": "~$20",
+      "image": "https://m.media-amazon.com/images/I/81FkoJdPxcL._AC_SL300_.jpg",
+      "tags": [
+        "tapedesign",
+        "beginner",
+        "breathable",
+        "grip",
+        "anti-slip"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B07QVMG64L?tag=sportgearfind-20",
+      "score": 8.5,
+      "bestFor": "Players trying grip socks for the first time"
+    },
+    {
+      "id": "ftsocks-004",
+      "sport": "football",
+      "category": "socks",
+      "tier": "value",
+      "name": "Nike Strike",
+      "price": 22,
+      "priceDisplay": "~$22",
+      "image": "https://m.media-amazon.com/images/I/71gDSNSaGfL._AC_SL300_.jpg",
+      "tags": [
+        "nike",
+        "intermediate",
+        "lightweight",
+        "grip",
+        "dri-fit"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0113OFSTO?tag=sportgearfind-20",
+      "score": 8.4,
+      "bestFor": "Players wanting premium team-sock comfort"
+    },
+    {
+      "id": "ftsocks-005",
+      "sport": "football",
+      "category": "socks",
+      "tier": "premium",
+      "name": "SOXPro Classic Grip",
+      "price": 30,
+      "priceDisplay": "~$30",
+      "image": "https://m.media-amazon.com/images/I/61qwEHhAhWL._AC_SL300_.jpg",
+      "tags": [
+        "soxpro",
+        "advanced",
+        "breathable",
+        "cushioned",
+        "grip"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0BXY1R43T?tag=sportgearfind-20",
+      "score": 9.0,
+      "bestFor": "Regular players committed to grip socks"
+    },
+    {
+      "id": "ftsocks-006",
+      "sport": "football",
+      "category": "socks",
+      "tier": "premium",
+      "name": "Trusox 3.0 Mid-Calf",
+      "price": 40,
+      "priceDisplay": "~$40",
+      "image": "https://m.media-amazon.com/images/I/61I+G8t3ksL._AC_SL300_.jpg",
+      "tags": [
+        "trusox",
+        "advanced",
+        "grip",
+        "professional"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08YYS2V94?tag=sportgearfind-20",
+      "score": 9.3,
+      "bestFor": "Players wanting elite, original grip-sock traction"
     }
   ]
 }
