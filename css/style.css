@@ -2964,3 +2964,118 @@ nav, section, .hero-v2, .sport-hub-hero, .stat-bar,
    SEARCH RESULT EXTRAS
 ══════════════════════════════════════════ */
 .search-no-results { padding: 20px; color: rgba(255,255,255,0.3); font-size: 0.9rem; text-align: center; }
+
+/* ══════════════════════════════════════════
+   FREE TOOLS — nav accent, homepage promo,
+   inline CTA on gear pages
+══════════════════════════════════════════ */
+.nav-links a.nav-tools { color: var(--lime); }
+.nav-links a.nav-tools::after { content: none; }
+
+.tools-promo {
+  background: rgba(255,255,255,0.02);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: 76px 0 80px;
+  margin-top: 88px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tools-promo::before {
+  content: '';
+  position: absolute;
+  top: -220px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 760px;
+  height: 400px;
+  background: radial-gradient(ellipse, var(--lime-dim) 0%, transparent 62%);
+  pointer-events: none;
+}
+
+.tools-promo-inner { max-width: 1100px; margin: 0 auto; padding: 0 24px; position: relative; }
+
+.tools-promo-head { margin-bottom: 44px; }
+
+.tools-promo-head h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--white);
+  letter-spacing: 0.01em;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.tools-promo-head h2 span { color: var(--lime); }
+.tools-promo-head p { color: var(--text-mid); font-size: 0.95rem; }
+
+.tools-promo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.tool-promo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 26px 24px 22px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none !important;
+  transition: border-color 0.25s, transform 0.25s;
+}
+
+.tool-promo-card:hover { border-color: var(--lime); transform: translateY(-3px); }
+
+.tpc-icon { font-size: 1.9rem; line-height: 1; }
+
+.tool-promo-card h3 {
+  margin: 0;
+  font-size: 1.02rem;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.tool-promo-card p {
+  margin: 0;
+  font-size: 0.87rem;
+  line-height: 1.6;
+  color: var(--text-mid);
+  flex: 1;
+}
+
+.tpc-go { font-size: 0.83rem; font-weight: 700; color: var(--lime); margin-top: 4px; }
+
+/* inline CTA dropped into category pages and articles */
+.tool-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  margin: 32px 0;
+  padding: 16px 20px;
+  background: var(--bg-card2);
+  border: 1px solid var(--border-hi);
+  border-left: 3px solid var(--lime);
+  border-radius: var(--radius);
+}
+
+.tool-cta-q { color: var(--off-white); font-weight: 600; font-size: 0.93rem; }
+
+.tool-cta a {
+  color: var(--lime) !important;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+}
+
+.tool-cta a:hover { text-decoration: underline !important; }
+
+@media (max-width: 600px) {
+  .tools-promo { padding: 56px 0 60px; margin-top: 60px; }
+  .tools-promo-head h2 { font-size: 2.1rem; }
+}
