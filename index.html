@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>SportGear Finder — Best Sports Gear for Every Budget</title>
-<meta content="6 real picks per category across Budget, Best Value, and Premium — Tennis, Gym, Boxing, Swimming &amp; Football. Skip the guesswork. Find the right gear fast." name="description"/>
+<meta content="6 real picks per category across Budget, Best Value, and Premium — Tennis, Gym, Boxing, Swimming, Football &amp; Volleyball. Skip the guesswork. Find the right gear fast." name="description"/>
 <link href="css/style.css" rel="stylesheet"/>
 <link href="https://m.media-amazon.com" rel="preconnect"/>
 <link crossorigin="" href="https://m.media-amazon.com" rel="preconnect"/>
@@ -31,18 +31,18 @@
 <meta content="website" property="og:type"/>
 <meta content="https://sportgearfinder.com/" property="og:url"/>
 <meta content="SportGear Finder — Find the Best Sports Gear" property="og:title"/>
-<meta content="SportGear Finder helps you find the best sports gear across Budget, Best Value, and Premium tiers. Tennis, Gym, Swimming, Football, Boxing." property="og:description"/>
+<meta content="SportGear Finder helps you find the best sports gear across Budget, Best Value, and Premium tiers. Tennis, Gym, Swimming, Football, Boxing, Volleyball." property="og:description"/>
 <meta content="https://sportgearfinder.com/og-image.png" property="og:image"/>
 <meta content="SportGear Finder" property="og:site_name"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="SportGear Finder — Find the Best Sports Gear" name="twitter:title"/>
-<meta content="SportGear Finder helps you find the best sports gear across Budget, Best Value, and Premium tiers. Tennis, Gym, Swimming, Football, Boxing." name="twitter:description"/>
+<meta content="SportGear Finder helps you find the best sports gear across Budget, Best Value, and Premium tiers. Tennis, Gym, Swimming, Football, Boxing, Volleyball." name="twitter:description"/>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "SportGear Finder",
   "url": "https://sportgearfinder.com",
-  "description": "SportGear Finder helps you find the best sports gear across Budget, Best Value, and Premium tiers. Tennis, Gym, Swimming, Football, Boxing.",
+  "description": "SportGear Finder helps you find the best sports gear across Budget, Best Value, and Premium tiers. Tennis, Gym, Swimming, Football, Boxing, Volleyball.",
   "potentialAction": {
     "@type": "SearchAction",
     "target": "https://sportgearfinder.com/tennis/?q={search_term_string}",
@@ -78,6 +78,7 @@ gtag('config','G-0C1DTCG2NX');
     <li><a href="boxing/index.html">Boxing</a></li>
     <li><a href="swimming/index.html">Swimming</a></li>
     <li><a href="football/index.html">Football</a></li>
+    <li><a href="volleyball/index.html">Volleyball</a></li>
     <li><a class="nav-tools" href="/tools/">Tools</a></li>
 <li><a href="about.html">About</a></li>
   </ul>
@@ -92,7 +93,7 @@ gtag('config','G-0C1DTCG2NX');
 <!-- ── HERO ── -->
 <section class="hero-v2">
   <canvas id="hero-canvas"></canvas>
-  <!-- Slideshow: 5 sports -->
+  <!-- Slideshow: 6 sports -->
   <div class="hero-slides">
     <div class="hero-slide active" data-sport="Tennis">
       <img alt="Tennis player mid-action on court" src="https://images.unsplash.com/photo-1595435742656-5272d0b3fa82?w=1600&h=900&fit=crop&q=80" fetchpriority="high"/>
@@ -109,6 +110,9 @@ gtag('config','G-0C1DTCG2NX');
     <div class="hero-slide" data-sport="Football">
       <img alt="Football player on the field" src="https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=1600&h=900&fit=crop&q=80"/>
     </div>
+    <div class="hero-slide" data-sport="Volleyball">
+      <img alt="Volleyball players contesting a spike at the net" src="https://images.unsplash.com/photo-1601512986351-9b0e01780eef?w=1600&h=900&fit=crop&q=80"/>
+    </div>
   </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
@@ -123,7 +127,7 @@ gtag('config','G-0C1DTCG2NX');
         </svg>
       </a>
       <div class="hero-trust">
-        <strong>217</strong> products reviewed across <strong>36</strong> categories
+        <strong>253</strong> products reviewed across <strong>42</strong> categories
       </div>
     </div>
     <!-- Sport selector pills -->
@@ -133,6 +137,7 @@ gtag('config','G-0C1DTCG2NX');
       <button class="hero-sport-pill" data-idx="2">Boxing<span class="hero-progress"></span></button>
       <button class="hero-sport-pill" data-idx="3">Swimming<span class="hero-progress"></span></button>
       <button class="hero-sport-pill" data-idx="4">Football<span class="hero-progress"></span></button>
+      <button class="hero-sport-pill" data-idx="5">Volleyball<span class="hero-progress"></span></button>
     </div>
   </div>
 </section>
@@ -140,11 +145,11 @@ gtag('config','G-0C1DTCG2NX');
 <!-- ── STAT BAR ── -->
 <div class="stat-bar" data-reveal-stagger>
   <div class="stat-item">
-    <span class="stat-number">217</span>
+    <span class="stat-number">253</span>
     <span class="stat-label">Products Reviewed</span>
   </div>
   <div class="stat-item">
-    <span class="stat-number">36</span>
+    <span class="stat-number">42</span>
     <span class="stat-label">Categories</span>
   </div>
   <div class="stat-item">
@@ -152,7 +157,7 @@ gtag('config','G-0C1DTCG2NX');
     <span class="stat-label">Budget Tiers</span>
   </div>
   <div class="stat-item">
-    <span class="stat-number">5</span>
+    <span class="stat-number">6</span>
     <span class="stat-label">Live Sports</span>
   </div>
 </div>
@@ -245,6 +250,24 @@ gtag('config','G-0C1DTCG2NX');
       <div class="sc-bottom">
         <h2>Football</h2>
         <p class="sc-desc">Boots, balls, shin guards, goalkeeper gloves, jerseys &amp; socks</p>
+        <span class="sc-cta">
+          Explore
+          <svg fill="none" height="12" viewBox="0 0 12 12" width="12"><path d="M2 6H10M10 6L7 3M10 6L7 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></svg>
+        </span>
+      </div>
+    </a>
+
+    <!-- Volleyball — LIVE -->
+    <a class="sport-card-v2" href="volleyball/index.html">
+      <img alt="Volleyball" class="sc-photo" src="https://images.unsplash.com/photo-1601512986351-9b0e01780eef?w=700&h=500&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <div class="sc-gradient"></div>
+      <div class="sc-top">
+        <span class="sc-cat-count">6 categories</span>
+        <span class="sc-pill live">Live</span>
+      </div>
+      <div class="sc-bottom">
+        <h2>Volleyball</h2>
+        <p class="sc-desc">Volleyballs, shoes, knee pads, ankle braces, nets &amp; training aids</p>
         <span class="sc-cta">
           Explore
           <svg fill="none" height="12" viewBox="0 0 12 12" width="12"><path d="M2 6H10M10 6L7 3M10 6L7 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></svg>

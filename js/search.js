@@ -285,7 +285,52 @@
     { title: 'Tapedesign Allround Classic', sub: 'Socks & Grip Socks — Best Value', tag: 'Product', url: BASE + 'football/socks.html' },
     { title: 'Nike Strike', sub: 'Socks & Grip Socks — Best Value', tag: 'Product', url: BASE + 'football/socks.html' },
     { title: 'SOXPro Classic Grip', sub: 'Socks & Grip Socks — Premium', tag: 'Product', url: BASE + 'football/socks.html' },
-    { title: 'Trusox 3.0 Mid-Calf', sub: 'Socks & Grip Socks — Premium', tag: 'Product', url: BASE + 'football/socks.html' }
+    { title: 'Trusox 3.0 Mid-Calf', sub: 'Socks & Grip Socks — Premium', tag: 'Product', url: BASE + 'football/socks.html' },
+
+    // Volleyball
+    { title: 'Volleyball Hub', sub: 'All volleyball categories', tag: 'Volleyball', url: BASE + 'volleyball/' },
+    { title: 'Volleyballs', sub: 'Budget · Best Value · Premium', tag: 'Volleyball', url: BASE + 'volleyball/volleyballs.html' },
+    { title: 'Tachikara SV-5WSC', sub: 'Volleyballs — Budget', tag: 'Product', url: BASE + 'volleyball/volleyballs.html' },
+    { title: 'Wilson AVP Official Beach', sub: 'Volleyballs — Budget', tag: 'Product', url: BASE + 'volleyball/volleyballs.html' },
+    { title: 'Mikasa VQ2000 Micro Cell', sub: 'Volleyballs — Best Value', tag: 'Product', url: BASE + 'volleyball/volleyballs.html' },
+    { title: 'Molten V5M5000 FLISTATEC', sub: 'Volleyballs — Best Value', tag: 'Product', url: BASE + 'volleyball/volleyballs.html' },
+    { title: 'Molten Super Touch IV58L', sub: 'Volleyballs — Premium', tag: 'Product', url: BASE + 'volleyball/volleyballs.html' },
+    { title: 'Mikasa V200W', sub: 'Volleyballs — Premium', tag: 'Product', url: BASE + 'volleyball/volleyballs.html' },
+    { title: 'Volleyball Shoes', sub: 'Budget · Best Value · Premium', tag: 'Volleyball', url: BASE + 'volleyball/shoes.html' },
+    { title: 'ASICS Upcourt 5 (Men’s)', sub: 'Volleyball Shoes — Budget', tag: 'Product', url: BASE + 'volleyball/shoes.html' },
+    { title: 'ASICS Upcourt 5 (Women’s)', sub: 'Volleyball Shoes — Budget', tag: 'Product', url: BASE + 'volleyball/shoes.html' },
+    { title: 'ASICS Gel-Rocket 11', sub: 'Volleyball Shoes — Best Value', tag: 'Product', url: BASE + 'volleyball/shoes.html' },
+    { title: 'Nike Zoom HyperSpeed Court', sub: 'Volleyball Shoes — Best Value', tag: 'Product', url: BASE + 'volleyball/shoes.html' },
+    { title: 'Mizuno Wave Lightning Z8', sub: 'Volleyball Shoes — Premium', tag: 'Product', url: BASE + 'volleyball/shoes.html' },
+    { title: 'ASICS Sky Elite FF 3', sub: 'Volleyball Shoes — Premium', tag: 'Product', url: BASE + 'volleyball/shoes.html' },
+    { title: 'Knee Pads', sub: 'Budget · Best Value · Premium', tag: 'Volleyball', url: BASE + 'volleyball/knee-pads.html' },
+    { title: 'ASICS Ace Low Profile', sub: 'Knee Pads — Budget', tag: 'Product', url: BASE + 'volleyball/knee-pads.html' },
+    { title: 'Mizuno T10 Plus', sub: 'Knee Pads — Budget', tag: 'Product', url: BASE + 'volleyball/knee-pads.html' },
+    { title: 'ASICS Gel-Conform II', sub: 'Knee Pads — Best Value', tag: 'Product', url: BASE + 'volleyball/knee-pads.html' },
+    { title: 'Nike Streak', sub: 'Knee Pads — Best Value', tag: 'Product', url: BASE + 'volleyball/knee-pads.html' },
+    { title: 'Mizuno LR6', sub: 'Knee Pads — Premium', tag: 'Product', url: BASE + 'volleyball/knee-pads.html' },
+    { title: 'Mizuno VS-1', sub: 'Knee Pads — Premium', tag: 'Product', url: BASE + 'volleyball/knee-pads.html' },
+    { title: 'Ankle Braces', sub: 'Budget · Best Value · Premium', tag: 'Volleyball', url: BASE + 'volleyball/ankle-braces.html' },
+    { title: 'McDavid Lace-Up Ankle Brace', sub: 'Ankle Braces — Budget', tag: 'Product', url: BASE + 'volleyball/ankle-braces.html' },
+    { title: 'McDavid 195 Ultralight', sub: 'Ankle Braces — Budget', tag: 'Product', url: BASE + 'volleyball/ankle-braces.html' },
+    { title: 'ASO Ankle Stabilizing Orthosis', sub: 'Ankle Braces — Best Value', tag: 'Product', url: BASE + 'volleyball/ankle-braces.html' },
+    { title: 'Active Ankle T2', sub: 'Ankle Braces — Best Value', tag: 'Product', url: BASE + 'volleyball/ankle-braces.html' },
+    { title: 'Ultra Zoom', sub: 'Ankle Braces — Premium', tag: 'Product', url: BASE + 'volleyball/ankle-braces.html' },
+    { title: 'Zamst A2-DX', sub: 'Ankle Braces — Premium', tag: 'Product', url: BASE + 'volleyball/ankle-braces.html' },
+    { title: 'Nets & Systems', sub: 'Budget · Best Value · Premium', tag: 'Volleyball', url: BASE + 'volleyball/nets.html' },
+    { title: 'Baden Champions Net Set', sub: 'Nets & Systems — Budget', tag: 'Product', url: BASE + 'volleyball/nets.html' },
+    { title: 'Park & Sun Tournament 179', sub: 'Nets & Systems — Budget', tag: 'Product', url: BASE + 'volleyball/nets.html' },
+    { title: 'Park & Sun Spectrum Classic', sub: 'Nets & Systems — Best Value', tag: 'Product', url: BASE + 'volleyball/nets.html' },
+    { title: 'Park & Sun Spiker Flex', sub: 'Nets & Systems — Best Value', tag: 'Product', url: BASE + 'volleyball/nets.html' },
+    { title: 'Park & Sun Tournament Flex 1000', sub: 'Nets & Systems — Premium', tag: 'Product', url: BASE + 'volleyball/nets.html' },
+    { title: 'Park & Sun Spectrum 2000', sub: 'Nets & Systems — Premium', tag: 'Product', url: BASE + 'volleyball/nets.html' },
+    { title: 'Volleyball Training Aids', sub: 'Budget · Best Value · Premium', tag: 'Volleyball', url: BASE + 'volleyball/training-aids.html' },
+    { title: 'Tandem Volleyball Pal', sub: 'Training Aids — Budget', tag: 'Product', url: BASE + 'volleyball/training-aids.html' },
+    { title: 'Tandem Pass Rite', sub: 'Training Aids — Budget', tag: 'Product', url: BASE + 'volleyball/training-aids.html' },
+    { title: 'Tandem Spike Pal', sub: 'Training Aids — Best Value', tag: 'Product', url: BASE + 'volleyball/training-aids.html' },
+    { title: 'Tandem Net Extender', sub: 'Training Aids — Best Value', tag: 'Product', url: BASE + 'volleyball/training-aids.html' },
+    { title: 'Tandem Spike Trainer', sub: 'Training Aids — Premium', tag: 'Product', url: BASE + 'volleyball/training-aids.html' },
+    { title: 'Tandem Collapsible Spike Trainer', sub: 'Training Aids — Premium', tag: 'Product', url: BASE + 'volleyball/training-aids.html' }
   ];
 
   // ── DOM ──────────────────────────────────────────────────
@@ -305,7 +350,7 @@
           '<button class="search-esc" aria-label="Close search">ESC</button>' +
         '</div>' +
         '<hr class="search-divider">' +
-        '<div class="search-results"><p class="search-hint">Type to search 217 products across 36 categories</p></div>' +
+        '<div class="search-results"><p class="search-hint">Type to search 253 products across 42 categories</p></div>' +
       '</div>';
     document.body.appendChild(overlay);
 
@@ -322,7 +367,7 @@
     var q = input.value.trim().toLowerCase();
     highlighted = -1;
     if (!q) {
-      resultsList.innerHTML = '<p class="search-hint">Type to search 217 products across 36 categories</p>';
+      resultsList.innerHTML = '<p class="search-hint">Type to search 253 products across 42 categories</p>';
       return;
     }
     var matches = INDEX.filter(function (item) {
@@ -369,7 +414,7 @@
   function openSearch() {
     overlay.classList.add('open');
     input.value = '';
-    resultsList.innerHTML = '<p class="search-hint">Type to search 217 products across 36 categories</p>';
+    resultsList.innerHTML = '<p class="search-hint">Type to search 253 products across 42 categories</p>';
     highlighted = -1;
     setTimeout(function () { input.focus(); }, 50);
     document.body.style.overflow = 'hidden';

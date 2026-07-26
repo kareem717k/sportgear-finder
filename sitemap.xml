@@ -7,6 +7,7 @@
   <url><loc>https://sportgearfinder.com/gym/</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://sportgearfinder.com/boxing/</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://sportgearfinder.com/football/</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sportgearfinder.com/volleyball/</loc><lastmod>2026-07-25</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://sportgearfinder.com/articles/</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://sportgearfinder.com/about.html</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
   <url><loc>https://sportgearfinder.com/privacy.html</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
@@ -57,6 +58,14 @@
   <url><loc>https://sportgearfinder.com/football/goalkeeper-gloves.html</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://sportgearfinder.com/football/jerseys.html</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://sportgearfinder.com/football/socks.html</loc><lastmod>2026-07-24</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+
+  <!-- Volleyball product pages -->
+  <url><loc>https://sportgearfinder.com/volleyball/volleyballs.html</loc><lastmod>2026-07-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sportgearfinder.com/volleyball/shoes.html</loc><lastmod>2026-07-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sportgearfinder.com/volleyball/knee-pads.html</loc><lastmod>2026-07-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sportgearfinder.com/volleyball/ankle-braces.html</loc><lastmod>2026-07-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sportgearfinder.com/volleyball/nets.html</loc><lastmod>2026-07-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sportgearfinder.com/volleyball/training-aids.html</loc><lastmod>2026-07-25</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 
   <!-- Tennis articles -->
   <url><loc>https://sportgearfinder.com/articles/tennis/best-rackets-beginners-2026.html</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
