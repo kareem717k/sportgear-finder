@@ -92,6 +92,10 @@
   var TIER_KEYWORDS = {
     budget: ['cheap', 'budget', 'affordable', 'inexpensive', 'entry-level', 'low cost', 'lowest price'],
     value: ['value', 'mid-range', 'midrange', 'decent', 'good balance'],
+    // `cool` is checked before `premium`: detectFromKeywordMap takes the first
+    // key that hits, and premium's bare 'best' would otherwise swallow
+    // phrases like 'best looking'.
+    cool: ['cool', 'stylish', 'good looking', 'best looking', 'flashy', 'eye-catching', 'stand out', 'unique design', 'limited edition'],
     premium: ['premium', 'best', 'top', 'expensive', 'high-end', 'pro-level', 'professional']
   };
 
@@ -228,7 +232,7 @@
 
   // ─── RENDER ──────────────────────────────────────────────────────────────
 
-  var TIER_LABEL = { budget: 'Budget', value: 'Best Value', premium: 'Premium' };
+  var TIER_LABEL = { budget: 'Budget', value: 'Best Value', premium: 'Premium', cool: 'Cool Picks' };
 
   function esc(str) {
     return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

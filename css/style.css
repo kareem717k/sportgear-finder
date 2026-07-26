@@ -1414,6 +1414,13 @@ nav::after {
   box-shadow: 0 0 12px rgba(168,85,247,0.15);
 }
 
+.tier-v2-badge.cool {
+  background: rgba(251,146,60,0.18);
+  color: #fdba74;
+  border: 1px solid rgba(251,146,60,0.35);
+  box-shadow: 0 0 12px rgba(251,146,60,0.15);
+}
+
 .tier-v2-title {
   font-family: 'Barlow Condensed', 'Inter', sans-serif;
   font-size: 1.45rem;
@@ -2282,6 +2289,11 @@ footer a::after { display: none; }
   background: rgba(168,85,247,0.18) !important;
   color: #d8b4fe !important;
   border: 1px solid rgba(168,85,247,0.35) !important;
+}
+.cmp-tier.cool {
+  background: rgba(251,146,60,0.18) !important;
+  color: #fdba74 !important;
+  border: 1px solid rgba(251,146,60,0.35) !important;
 }
 
 /* Buying guide section */

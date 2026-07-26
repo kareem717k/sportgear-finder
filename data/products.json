@@ -2377,6 +2377,86 @@
       "bestFor": "Professional fighters and serious long-term training"
     },
     {
+      "id": "bxgloves-008",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "cool",
+      "name": "Fairtex Beauty of Survival Limited Edition Gloves",
+      "price": 140,
+      "priceDisplay": "~$130–145",
+      "image": "https://m.media-amazon.com/images/I/612B+lLLjrL._AC_SL300_.jpg",
+      "tags": [
+        "fairtex",
+        "limited-edition",
+        "leather",
+        "artwork",
+        "advanced"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B08MV8PCX8?tag=sportgearfind-20",
+      "score": 8.9,
+      "bestFor": "Fighters who want a glove nobody else in the gym has"
+    },
+    {
+      "id": "bxgloves-009",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "cool",
+      "name": "Venum Elite Boxing Gloves",
+      "price": 110,
+      "priceDisplay": "~$95–110",
+      "image": "https://m.media-amazon.com/images/I/81HusU4ahqL._AC_SL300_.jpg",
+      "tags": [
+        "venum",
+        "leather",
+        "handmade",
+        "intermediate",
+        "mesh"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B010HWJRI6?tag=sportgearfind-20",
+      "score": 9.0,
+      "bestFor": "Training in the sharpest-looking glove Venum makes"
+    },
+    {
+      "id": "bxgloves-010",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "cool",
+      "name": "Venum Impact Boxing Gloves",
+      "price": 80,
+      "priceDisplay": "~$70–80",
+      "image": "https://m.media-amazon.com/images/I/71DP0NeETxL._AC_SL300_.jpg",
+      "tags": [
+        "venum",
+        "camo",
+        "leather",
+        "intermediate",
+        "triple-density"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B06Y5F49R7?tag=sportgearfind-20",
+      "score": 8.6,
+      "bestFor": "Standing out on the bag without paying premium prices"
+    },
+    {
+      "id": "bxgloves-011",
+      "sport": "boxing",
+      "category": "gloves",
+      "tier": "cool",
+      "name": "Twisto S6 Boxing Gloves",
+      "price": 45,
+      "priceDisplay": "See price",
+      "image": "https://m.media-amazon.com/images/I/914Bxyw1JpL._AC_SL300_.jpg",
+      "tags": [
+        "twisto",
+        "beginner",
+        "maya-hide",
+        "colorful",
+        "budget"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0C1CWL22Q?tag=sportgearfind-20",
+      "score": 7.9,
+      "bestFor": "Beginners who want bold colors on a tight budget"
+    },
+    {
       "id": "punchbags-001",
       "sport": "boxing",
       "category": "punching-bags",

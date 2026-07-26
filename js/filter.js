@@ -72,14 +72,33 @@
     return h1.textContent.trim().replace(/\s+/g, ' ');
   }
 
+  /** Tier slugs in display order, with their button labels */
+  var TIERS = [
+    { value: 'budget',  label: 'Budget' },
+    { value: 'value',   label: 'Best Value' },
+    { value: 'premium', label: 'Premium' },
+    { value: 'cool',    label: 'Cool Picks' }
+  ];
+
   /** Determine tier from a .tier-v2 section element */
   function getSectionTier(section) {
     var badge = section.querySelector('.tier-v2-badge');
     if (!badge) return 'unknown';
-    if (badge.classList.contains('budget')) return 'budget';
-    if (badge.classList.contains('value')) return 'value';
-    if (badge.classList.contains('premium')) return 'premium';
+    for (var i = 0; i < TIERS.length; i++) {
+      if (badge.classList.contains(TIERS[i].value)) return TIERS[i].value;
+    }
     return 'unknown';
+  }
+
+  /** Only offer buttons for tiers this page actually renders */
+  function getPageTiers() {
+    var present = {};
+    document.querySelectorAll('.tier-v2').forEach(function (section) {
+      present[getSectionTier(section)] = true;
+    });
+    return [{ value: 'all', label: 'All' }].concat(
+      TIERS.filter(function (t) { return present[t.value]; })
+    );
   }
 
   /** Get searchable text from a .pcard element */
@@ -188,12 +207,7 @@
     tierBtns.setAttribute('role', 'group');
     tierBtns.setAttribute('aria-label', 'Filter by budget tier');
 
-    var tiers = [
-      { value: 'all',     label: 'All' },
-      { value: 'budget',  label: 'Budget' },
-      { value: 'value',   label: 'Best Value' },
-      { value: 'premium', label: 'Premium' }
-    ];
+    var tiers = getPageTiers();
 
     tiers.forEach(function (t) {
       var btn = document.createElement('button');
