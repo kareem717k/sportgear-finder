@@ -1,13 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Product image not yet available">
-  <rect width="300" height="300" fill="#f4f4f2"/>
-  <g fill="none" stroke="#c9c9c4" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M150 62c34 0 60 27 60 62 0 30-19 54-45 60l-6 44h-18l-6-44c-26-6-45-30-45-60 0-35 26-62 60-62z"/>
-    <circle cx="128" cy="112" r="5" fill="#c9c9c4" stroke="none"/>
-    <circle cx="150" cy="104" r="5" fill="#c9c9c4" stroke="none"/>
-    <circle cx="172" cy="112" r="5" fill="#c9c9c4" stroke="none"/>
-    <circle cx="128" cy="140" r="5" fill="#c9c9c4" stroke="none"/>
-    <circle cx="150" cy="132" r="5" fill="#c9c9c4" stroke="none"/>
-    <circle cx="172" cy="140" r="5" fill="#c9c9c4" stroke="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Product photo available on Amazon">
+  <!-- No background rect on purpose: .pcard-img already supplies a light panel,
+       and painting a second near-identical one made this read as a failed load.
+       Rendered at 200x200, so sizes here are 1.5x their on-screen value. -->
+  <g stroke="#8d8d86" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <path d="M150 54c37 0 65 29 65 67 0 32-21 58-49 65l-6 47h-20l-6-47c-28-7-49-33-49-65 0-38 28-67 65-67z"/>
   </g>
-  <text x="150" y="252" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#a0a09a">See it on Amazon</text>
+  <g fill="#8d8d86">
+    <circle cx="126" cy="104" r="6.5"/>
+    <circle cx="150" cy="96" r="6.5"/>
+    <circle cx="174" cy="104" r="6.5"/>
+    <circle cx="126" cy="134" r="6.5"/>
+    <circle cx="150" cy="126" r="6.5"/>
+    <circle cx="174" cy="134" r="6.5"/>
+    <circle cx="126" cy="164" r="6.5"/>
+    <circle cx="150" cy="156" r="6.5"/>
+    <circle cx="174" cy="164" r="6.5"/>
+  </g>
+  <text x="150" y="288" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="21" font-weight="600" letter-spacing="0.5" fill="#7a7a73">Photo on Amazon</text>
 </svg>
