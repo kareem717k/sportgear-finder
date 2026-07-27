@@ -1792,6 +1792,14 @@ nav::after {
    always sat, rather than letting it fall left as the sole flex child. */
 .finder-pcard .pcard-meta { justify-content: flex-end; }
 
+/* Keep finder cards stacked at every width. The @media (min-width: 768px) rule
+   below turns .pcard horizontal, which suits a full-width category card but not
+   these: the finder grid gives them ~268px columns, and a horizontal card needs
+   ~359px there (200px image + 159px body), so the body overflowed and clipped.
+   Written as .pcard.finder-pcard rather than .finder-pcard on purpose — the
+   media query is later in this file, so at equal specificity it would win. */
+.pcard.finder-pcard { flex-direction: column; }
+
 .pcard-score-num {
   font-family: 'Barlow Condensed', 'Inter', sans-serif;
   font-size: 1.7rem;
