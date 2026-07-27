@@ -107,7 +107,7 @@ foreach ($a in $def.articles) {
                 $body += @"
 
 <div class="pick">
-<img alt="$(Esc $p.name)" src="../../img/product-placeholder.svg" loading="lazy" decoding="async"/>
+<img alt="$(Esc $p.name)" src="$(Esc $p.image)" loading="lazy" decoding="async"/>
 <div class="pick-info">
 <span class="badge $($b.badgeClass)">$(Esc $b.badge)</span>
 <h3>$(Esc $p.name)</h3>

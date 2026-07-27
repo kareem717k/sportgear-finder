@@ -219,7 +219,7 @@ $($faqLd -join ",`n")
             $specs = ($c.specs | ForEach-Object { "<span class=`"pcard-spec`">$(Esc $_)</span>" }) -join ''
 @"
 <div class="pcard" id="$($c.anchor)">
-<div class="pcard-img"><img alt="$(Esc $p.name)" src="../img/product-placeholder.svg" loading="lazy" decoding="async"/></div>
+<div class="pcard-img"><img alt="$(Esc $p.name)" src="$(Esc $p.image)" loading="lazy" decoding="async"/></div>
 <div class="pcard-body">
 <div class="pcard-name">$(Esc $p.name)</div>
 <div class="pcard-meta">
