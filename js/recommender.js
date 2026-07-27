@@ -27,7 +27,8 @@
     boxing: ['boxing', 'box', 'fight', 'sparring', 'punch', 'heavy bag', 'mma'],
     swimming: ['swim', 'swimming', 'pool', 'lap', 'triathlon', 'open water'],
     football: ['football', 'soccer', 'futbol', 'pitch', 'goalkeeper', 'keeper'],
-    volleyball: ['volleyball', 'volley', 'setter', 'libero', 'spike', 'beach volleyball']
+    volleyball: ['volleyball', 'volley', 'setter', 'libero', 'spike', 'beach volleyball'],
+    pickleball: ['pickleball', 'pickle ball', 'pickle', 'paddle', 'dink', 'kitchen line']
   };
 
   var CATEGORY_KEYWORDS = {
@@ -86,6 +87,16 @@
       nets: ['net system', 'net', 'nets', 'pole'],
       shoes: ['shoe', 'shoes', 'court shoe', 'sneaker'],
       volleyballs: ['ball', 'balls']
+    },
+    // Same trap as volleyball: "pickleball" contains "ball", so the generic
+    // ball category must be checked last or every query matches it.
+    pickleball: {
+      paddles: ['paddle', 'paddles'],
+      shoes: ['shoe', 'shoes', 'court shoe', 'sneaker', 'trainer'],
+      nets: ['net system', 'net', 'nets', 'portable net'],
+      bags: ['bag', 'bags', 'backpack', 'sling', 'duffel'],
+      grips: ['grip', 'grips', 'overgrip', 'cover', 'paddle cover'],
+      balls: ['ball', 'balls', 'indoor ball', 'outdoor ball']
     }
   };
 
@@ -280,7 +291,7 @@
       container.innerHTML =
         '<p class="finder-empty">No exact matches yet — try a different sport, budget, or fewer words. ' +
         '<a href="tennis/index.html">Browse Tennis</a>, <a href="gym/index.html">Gym</a>, <a href="boxing/index.html">Boxing</a>, ' +
-        '<a href="swimming/index.html">Swimming</a>, <a href="football/index.html">Football</a> or <a href="volleyball/index.html">Volleyball</a> instead.</p>';
+        '<a href="swimming/index.html">Swimming</a>, <a href="football/index.html">Football</a>, <a href="volleyball/index.html">Volleyball</a> or <a href="pickleball/index.html">Pickleball</a> instead.</p>';
       return;
     }
     var note = '';
@@ -371,6 +382,7 @@
       '<option value="swimming">Swimming</option>' +
       '<option value="football">Football</option>' +
       '<option value="volleyball">Volleyball</option>' +
+      '<option value="pickleball">Pickleball</option>' +
     '</select>' +
     '<select id="finder-budget" class="hero-finder-select" aria-label="Budget">' +
       '<option value="any">Any budget</option>' +

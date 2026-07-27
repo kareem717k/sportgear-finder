@@ -1,0 +1,277 @@
+{
+  "hubName": "Pickleball",
+  "hubShortName": "Pickleball Hub",
+  "lastUpdated": "July 2026",
+  "categories": [
+    {
+      "slug": "paddles",
+      "productCategory": "paddles",
+      "navLabel": "Paddles",
+      "tableNoun": "Paddle",
+      "title": "Best Pickleball Paddles 2026: 6 Picks from Beginner to Pro",
+      "metaDescription": "Six pickleball paddles compared across Budget, Best Value and Premium. Core thickness, face material and shape explained so you buy the right one first time.",
+      "ogTitle": "Best Pickleball Paddles 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best pickleball paddles across Budget, Best Value and Premium tiers, with core, face and shape explained.",
+      "listName": "Best Pickleball Paddles 2026 — Budget to Premium",
+      "h1": "Pickleball <em>Paddles</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. One for every level.",
+      "intro": "The paddle is the only piece of pickleball kit that changes how the game feels. Three things decide that: <strong>face material</strong> (fibreglass for pop, graphite for control, raw carbon for spin), <strong>core thickness</strong> (13mm plays fast and punchy, 16mm plays soft and forgiving), and <strong>shape</strong> (standard for an easy sweet spot, elongated for reach at the cost of forgiveness). Beginners should ignore price and buy a 16mm standard-shape paddle — the extra forgiveness is worth more than any technology on the market.",
+      "tableColumns": [
+        { "label": "Face", "key": "face" },
+        { "label": "Shape", "key": "shape" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Starter Paddles", "sub": "Real paddles that beat any wooden loaner set" },
+        "value": { "title": "The Step-Up", "sub": "Where most rec players should actually land" },
+        "premium": { "title": "Tournament Grade", "sub": "Raw carbon faces built for spin and put-away power" }
+      },
+      "guideHeading": "How to Choose a Pickleball Paddle",
+      "guide": [
+        { "h": "Core Thickness Matters More Than Brand", "p": "A 16mm core flexes more on contact, which slows the ball down and makes dinks and resets far easier to control. A 13mm core is punchier and rewards players who already have hands at the net. If you are under a 4.0 rating, 16mm is almost always the better buy — the forgiveness shows up on every mis-hit." },
+        { "h": "Face Material Sets the Ceiling", "p": "Fibreglass faces are the cheapest and give the most raw pop, which flatters beginners but makes touch shots harder. Graphite is the middle ground: quieter, more predictable, easier to place. Raw carbon fibre grips the ball long enough to generate genuine spin, which is why every premium paddle now uses it — but it only pays off once you can brush the ball deliberately." },
+        { "h": "Shape Is a Trade, Not an Upgrade", "p": "Standard shape gives the widest sweet spot and is the most forgiving on off-centre hits. Elongated paddles add roughly half an inch of reach and more leverage on serves and overheads, but narrow the sweet spot and add swing weight. Singles players and taller people tend to prefer elongated; doubles players who live at the kitchen line usually do not." },
+        { "h": "Grip Size and Weight", "p": "Most paddles ship with a 4.125 to 4.25 inch grip, which suits most adults. If it feels too small you can build it up with an overgrip; you cannot make a grip smaller. Total weight between 7.8 and 8.3 ounces suits most players — lighter is faster at the net, heavier is more stable against pace." }
+      ],
+      "faq": [
+        { "q": "What paddle should a complete beginner buy?", "a": "A 16mm standard-shape paddle with a graphite or fibreglass face. The thicker core gives you a bigger, softer sweet spot, which matters far more at the start than spin potential. Avoid the wooden paddles that come in cheap net sets — they are heavy, dead and teach bad habits." },
+        { "q": "Is an expensive pickleball paddle actually worth it?", "a": "Only once your technique is repeatable. A premium raw carbon paddle generates more spin and a more predictable response, but it also punishes sloppy contact. Below a 3.5 rating you will get more improvement from lessons and court time than from a paddle upgrade." },
+        { "q": "What does USAPA approved mean?", "a": "It means the paddle appears on USA Pickleball's approved equipment list and is legal for sanctioned tournament play. If you only play socially it does not matter, but every paddle worth buying carries the approval anyway, so there is no reason to buy one that does not." },
+        { "q": "13mm or 16mm core - which is better?", "a": "Neither is better outright. 16mm is softer, more controlled and more forgiving, which suits most recreational and improving players. 13mm is faster off the face and better for players who want to counter-attack hard at the net and already have the hands to do it." },
+        { "q": "How long does a pickleball paddle last?", "a": "Playing three or four times a week, expect 12 to 24 months before the core softens and the face loses grit. You will notice it as balls dying short and spin dropping off. Raw carbon faces lose their texture faster than painted ones, which is the trade for the extra bite when new." }
+      ],
+      "products": {
+        "pb-paddle-001": { "anchor": "niupipo-graphite", "shortName": "Niupipo Graphite", "note": "cover included", "face": "Graphite", "shape": "Standard", "specs": ["Graphite face", "Polymer honeycomb core", "USAPA approved", "~7.8 oz"], "desc": "The paddle most people should buy to find out whether they like pickleball. A graphite face over a polymer honeycomb core gives a genuinely soft, quiet response rather than the trampoline feel of cheap fibreglass, and the standard shape keeps the sweet spot wide. It will not generate much spin, but nothing at this level does. Comes with a cover, which is more than most budget paddles manage." },
+        "pb-paddle-002": { "anchor": "amazin-aces-signature", "shortName": "Amazin' Aces Signature", "note": "cover included", "face": "Graphite", "shape": "Standard", "specs": ["Graphite face", "Polymer core", "USAPA approved", "Cushioned grip"], "desc": "Very close to the Niupipo in construction and feel, and worth choosing on whichever is cheaper the week you buy. The grip is slightly tackier out of the box and the edge guard is a little more substantial. As with every paddle at this price, the face is painted rather than raw, so spin is limited — treat it as a paddle to learn the soft game with, not one to grow into." },
+        "pb-paddle-003": { "anchor": "onix-graphite-z5", "shortName": "ONIX Graphite Z5", "note": "widebody shape", "face": "Graphite", "shape": "Widebody", "specs": ["Graphite face", "Nomex honeycomb core", "Widebody shape", "USAPA approved"], "desc": "The paddle that has been the default step-up recommendation for years, and still deserves it. The widebody shape gives one of the most forgiving sweet spots you can buy, and the Nomex core is louder and firmer than polymer — you get more feedback on where you hit it, which is genuinely useful when you are learning to control depth. Not a spin paddle, but an excellent one to develop touch on." },
+        "pb-paddle-004": { "anchor": "selkirk-slk-evo", "shortName": "Selkirk SLK Evo Hybrid 2.0", "note": "16mm core", "face": "Fibreglass", "shape": "Hybrid", "specs": ["Fibreglass face", "16mm polymer core", "Hybrid shape", "USAPA approved"], "desc": "Selkirk's budget line, and the first paddle on this page with a proper 16mm core. That thickness is what you are paying for: dinks land shorter, resets stay down, and mis-hits still make it over the net. The hybrid shape splits the difference between standard and elongated, adding a little reach without gutting the sweet spot. A sensible last paddle before premium." },
+        "pb-paddle-005": { "anchor": "joola-hyperion-cfs", "shortName": "JOOLA Hyperion CFS 16", "note": "raw carbon face", "face": "Raw carbon", "shape": "Elongated", "specs": ["Carbon friction surface", "16mm reactive polymer core", "Elongated", "USAPA approved"], "desc": "The paddle that defined the modern spin era, and still the reference point for a carbon face. The grit holds the ball long enough that topspin dinks and rolls become a real weapon rather than a hopeful swipe. The elongated head adds reach on the stretch and leverage on serves, at the cost of a narrower sweet spot — this is a paddle that rewards clean contact and punishes lazy contact." },
+        "pb-paddle-006": { "anchor": "selkirk-power-air-invikta", "shortName": "Selkirk Power Air Invikta", "note": "throat cutout", "face": "Raw carbon", "shape": "Elongated", "specs": ["Raw carbon face", "Air Dynamic Throat", "Elongated", "USAPA approved"], "desc": "The most aggressive paddle here. The cutout throat cuts air resistance so the head moves faster for the same effort, which shows up on drives and overheads rather than at the kitchen. Combined with the elongated Invikta shape it is a singles player's paddle: reach, leverage and put-away power. Doubles players who mostly dink will find it less forgiving than the SLK." }
+      }
+    },
+    {
+      "slug": "balls",
+      "productCategory": "balls",
+      "navLabel": "Balls",
+      "tableNoun": "Ball",
+      "title": "Best Pickleball Balls 2026: Indoor and Outdoor Compared",
+      "metaDescription": "Indoor vs outdoor pickleballs explained, and 6 balls compared. Hole count, wall thickness and why an outdoor ball indoors plays completely differently.",
+      "ogTitle": "Best Pickleballs 2026 — Indoor and Outdoor | SportGear Finder",
+      "ogDescription": "Compare the 6 best pickleball balls for indoor and outdoor play, with hole count and durability explained.",
+      "listName": "Best Pickleball Balls 2026 — Indoor and Outdoor",
+      "h1": "Pickleball <em>Balls</em>",
+      "heroSub": "6 real picks — indoor and outdoor balls that fly true and last.",
+      "intro": "Pickleballs are not interchangeable, and using the wrong one is the fastest way to make a good paddle feel bad. <strong>Outdoor balls</strong> have 40 small holes, thicker walls and more mass, so wind moves them less and they fly faster and harder. <strong>Indoor balls</strong> have around 26 larger holes, thinner walls and a softer feel, so they travel slower and spin more. Buy for the surface you actually play on — outdoor balls indoors feel harsh and skid, and indoor balls outdoors get blown around and crack quickly in the cold.",
+      "tableColumns": [
+        { "label": "Use", "key": "use" },
+        { "label": "Holes", "key": "holes" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Everyday Balls", "sub": "Buy these by the dozen and stop worrying about cracks" },
+        "value": { "title": "Match Standard", "sub": "What most leagues and tournaments actually put on court" },
+        "premium": { "title": "Best Flight", "sub": "The most consistent bounce and truest flight you can buy" }
+      },
+      "guideHeading": "Choosing the Right Pickleball",
+      "guide": [
+        { "h": "Indoor and Outdoor Are Genuinely Different Balls", "p": "This is the single most common beginner mistake. Outdoor balls have 40 small holes and heavier, harder plastic so wind does not push them around. Indoor balls have about 26 larger holes and softer plastic so they stay controllable on a slick gym floor. Swap them and the game changes completely — an outdoor ball on a gym floor skids and stings, an indoor ball outside is unplayable in any breeze." },
+        { "h": "Cracking Is Normal, and Cold Makes It Worse", "p": "Every pickleball eventually cracks; that is the nature of moulded plastic being hit hard. Cold weather makes it dramatically worse, because the plastic gets brittle. If you play outdoors below about 10C, expect to go through balls faster and buy a ball specifically rated for cold. A cracked ball is not just softer, it flies unpredictably — bin it." },
+        { "h": "Check It Is USA Pickleball Approved", "p": "If you play in any organised league or tournament, the ball needs to be on the USA Pickleball approved list. Every ball here is. For back-garden play it does not matter, but approved balls also tend to be more consistent between batches, which is worth having even socially." },
+        { "h": "Buy More Than You Think", "p": "Balls are consumable. A three-pack lasts a serious outdoor player a few weeks at most. Buying a bulk pack is substantially cheaper per ball and means you are never tempted to keep playing with a cracked one, which is how bad habits and inconsistent contact creep in." }
+      ],
+      "faq": [
+        { "q": "What is the difference between indoor and outdoor pickleballs?", "a": "Outdoor balls have 40 small holes, thicker walls and more weight, so wind affects them less and they play fast and hard. Indoor balls have around 26 larger holes and softer, thinner plastic, so they are slower, quieter and easier to control on a gym floor. They are not interchangeable and playing with the wrong one changes the game noticeably." },
+        { "q": "How long does a pickleball last?", "a": "Outdoors, a ball might last a few sessions before it cracks or goes soft — sometimes a single cold morning. Indoors they last considerably longer because the surface and temperature are kinder. Once a ball cracks, or you can squeeze it noticeably out of round, replace it: the flight becomes unpredictable." },
+        { "q": "Why do pickleballs crack so easily?", "a": "They are single-piece moulded plastic being struck hard, repeatedly, often on abrasive outdoor courts. Cold makes the plastic brittle and accelerates it. Some outdoor balls are specifically formulated to stay flexible in low temperatures, which is worth paying for if you play through winter." },
+        { "q": "Can I use an outdoor ball indoors?", "a": "You can, but it plays badly. The heavier, harder outdoor ball skids on a smooth gym floor, comes off the paddle faster than you expect and stings on the hands. If the venue supplies balls, use theirs — most indoor venues have standardised on an indoor ball for good reason." },
+        { "q": "What colour pickleball should I buy?", "a": "Whatever contrasts most with your court surface and background. Yellow and neon green are the safest defaults outdoors; on a dark indoor floor a lighter ball is easier to track. Colour has no effect on flight, only on how well you see it." }
+      ],
+      "products": {
+        "pb-ball-001": { "anchor": "franklin-x40", "shortName": "Franklin X-40", "note": "US Open ball", "use": "Outdoor", "holes": "40", "specs": ["40 holes", "Outdoor", "USA Pickleball approved", "Official US Open ball"], "desc": "The most widely played outdoor ball in the US, and the official ball of the US Open, so if you play tournaments this is probably what you will meet. The one-piece construction keeps the seam from being a weak point, and flight is genuinely consistent out of the pack. It is not the most durable ball in cold weather, but at this price you buy them by the dozen and stop caring." },
+        "pb-ball-002": { "anchor": "onix-fuse-g2", "shortName": "ONIX Fuse G2", "note": "cold-weather friendly", "use": "Outdoor", "holes": "40", "specs": ["40 holes", "Outdoor", "USA Pickleball approved", "Rotationally moulded"], "desc": "The ball to buy if you play outdoors through winter. The plastic formulation stays flexible at lower temperatures, so it resists the brittle cracking that ruins cheaper balls on cold mornings. Flight is slightly softer than the X-40 and it holds its shape well over a long session. A sensible default for anyone who plays outdoors year round." },
+        "pb-ball-003": { "anchor": "dura-fast-40", "shortName": "Dura Fast 40", "note": "tournament standard", "use": "Outdoor", "holes": "40", "specs": ["40 holes", "Outdoor", "USA Pickleball approved", "Tournament sanctioned"], "desc": "The fastest-playing outdoor ball in common use, and the one most serious outdoor tournaments have historically run. It comes off the paddle quicker than the X-40 and rewards players who can handle pace, which is exactly why some rec groups dislike it. Durability is its weak point — it cracks sooner than the ONIX — but nothing else feels quite the same in a fast outdoor rally." },
+        "pb-ball-004": { "anchor": "onix-fuse-indoor", "shortName": "ONIX Fuse Indoor", "note": "gym floors", "use": "Indoor", "holes": "26", "specs": ["26 holes", "Indoor", "USA Pickleball approved", "Softer plastic"], "desc": "A soft, quiet indoor ball that behaves predictably on a polished gym floor. The larger holes and thinner walls slow it down noticeably compared to any outdoor ball, which makes long dink rallies possible and takes the sting out of hard drives. If your venue is a sports hall or church hall, this is the ball to bring." },
+        "pb-ball-005": { "anchor": "franklin-x26", "shortName": "Franklin X-26", "note": "league standard", "use": "Indoor", "holes": "26", "specs": ["26 holes", "Indoor", "USA Pickleball approved", "Consistent flight"], "desc": "Franklin's indoor equivalent of the X-40, and the ball a lot of indoor leagues have standardised on. Flight consistency between balls in a pack is its real strength — you are not re-learning the bounce every time you open a new one. Slightly firmer than the ONIX Fuse Indoor, which suits players who find soft indoor balls too dead." },
+        "pb-ball-006": { "anchor": "gamma-photon", "shortName": "GAMMA Photon", "note": "softest feel", "use": "Indoor", "holes": "26", "specs": ["26 holes", "Indoor", "Soft feel", "High visibility"], "desc": "The softest-feeling ball here and the easiest on the hands and elbows, which matters if you play several indoor sessions a week. It comes off the paddle slowly enough that touch shots are very controllable, though players who like to drive hard will find it muted. High-visibility colouring makes it easy to track against a busy sports hall background." }
+      }
+    },
+    {
+      "slug": "shoes",
+      "productCategory": "shoes",
+      "navLabel": "Shoes",
+      "tableNoun": "Shoe",
+      "title": "Best Pickleball Shoes 2026: Court Shoes That Survive the Split Step",
+      "metaDescription": "Six pickleball shoes compared for lateral support, outsole durability and fit. Why running shoes are the wrong choice and what to buy instead.",
+      "ogTitle": "Best Pickleball Shoes 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best pickleball shoes for lateral stability, cushioning and outsole durability.",
+      "listName": "Best Pickleball Shoes 2026 — Budget to Premium",
+      "h1": "Pickleball <em>Shoes</em>",
+      "heroSub": "6 real picks — court shoes built for lateral load, not forward running.",
+      "intro": "Running shoes are the most common and most expensive mistake in pickleball. They are built to move you forwards and have soft, tall midsoles that roll over sideways — exactly the load pickleball puts on you every single point. A <strong>court shoe</strong> sits lower, has a wider and flatter base, a reinforced upper that resists lateral shear, and a non-marking outsole. If you play more than once a week, this is the piece of kit most likely to keep you off the physio's table.",
+      "tableColumns": [
+        { "label": "Strength", "key": "strength" },
+        { "label": "Fit", "key": "fit" }
+      ],
+      "tierBands": {
+        "budget": { "title": "First Court Shoe", "sub": "Anything here beats running shoes for lateral support" },
+        "value": { "title": "The Sweet Spot", "sub": "Where durability and support start justifying the price" },
+        "premium": { "title": "Built to Last", "sub": "Outsoles that survive abrasive outdoor courts" }
+      },
+      "guideHeading": "How to Choose Pickleball Shoes",
+      "guide": [
+        { "h": "Never Play in Running Shoes", "p": "Running shoes have narrow, tall, soft midsoles designed for forward motion. Pickleball is almost entirely lateral: split steps, side shuffles, sudden stops. A running shoe rolls at the ankle under that load, and the outsole rubber is not built for the abrasion of a hard court. Rolled ankles and shredded soles are both avoidable with a proper court shoe." },
+        { "h": "Indoor and Outdoor Wear Differently", "p": "Outdoor courts are abrasive concrete or asphalt and destroy soft outsoles fast. Indoor gym floors are far gentler but demand a genuinely non-marking sole that grips a polished surface. If you play mostly outdoors, prioritise outsole durability — some manufacturers offer a six-month outsole warranty, which tells you where they expect the wear." },
+        { "h": "Fit Wide If You Are Between Sizes", "p": "Court shoes are cut narrower than running shoes because a snug fit stops your foot sliding inside the shoe during lateral moves. That is correct, but it means anyone with a wider foot should look specifically for a 2E or wide fitting rather than sizing up, which just makes the shoe longer without adding width where you need it." },
+        { "h": "Replace Them Before They Look Finished", "p": "The support in a court shoe fails before the upper looks worn. If the midsole has compressed and the shoe feels flat, or you can twist it easily along its length, the lateral support has gone even if the outsole still has tread. Playing three times a week, expect six to nine months outdoors." }
+      ],
+      "faq": [
+        { "q": "Can I use tennis shoes for pickleball?", "a": "Yes, and it is the most sensible substitute. Tennis and pickleball make almost identical demands: lateral movement, sudden stops, hard court abrasion. Most dedicated pickleball shoes are lightly modified tennis shoes. What you should not use is a running, walking or gym trainer." },
+        { "q": "What is the difference between indoor and outdoor pickleball shoes?", "a": "Mostly outsole rubber. Outdoor shoes use a harder, more abrasion-resistant compound and a more aggressive tread to survive concrete. Indoor shoes use a softer gum-style non-marking rubber that grips polished wood. An outdoor shoe works indoors but may feel slippery; an indoor shoe outdoors will wear through quickly." },
+        { "q": "How long do pickleball shoes last?", "a": "Playing three or four times a week outdoors, six to nine months is realistic. Indoors they last considerably longer. Judge by support rather than looks: if the shoe twists easily or the midsole feels flat and dead, it has stopped protecting you regardless of how much tread is left." },
+        { "q": "Do I need wide pickleball shoes?", "a": "If you normally buy wide shoes, yes — court shoes are cut deliberately narrow to keep your foot locked in place, so a standard fitting will be tighter than you expect. Sizing up in a standard width is the wrong fix, because it adds length without adding the width you actually need." },
+        { "q": "Are expensive pickleball shoes worth it?", "a": "For durability, usually yes. The gap between a budget and a premium court shoe shows up in how long the outsole survives outdoor concrete and how long the midsole keeps its support. If you play once a week indoors, a budget court shoe is fine. Four times a week on concrete and the premium option often works out cheaper per month." }
+      ],
+      "products": {
+        "pb-shoe-001": { "anchor": "fila-volley-zone", "shortName": "FILA Volley Zone", "note": "true to size", "strength": "Price", "fit": "Standard", "specs": ["Non-marking outsole", "Lateral support cage", "Court last", "Standard width"], "desc": "The cheapest shoe here that is genuinely a court shoe rather than a trainer with a flat sole. The upper has a proper support cage across the midfoot, and the outsole is non-marking and flat enough to stay stable in a side shuffle. Cushioning is basic and the outsole will not last long on rough concrete, but as a first pair to replace running shoes it does the important job." },
+        "pb-shoe-002": { "anchor": "skechers-viper-court", "shortName": "Skechers Viper Court", "note": "wide fitting available", "strength": "Comfort", "fit": "Standard or wide", "specs": ["Non-marking outsole", "Cushioned midsole", "Wide fitting available", "Lightweight"], "desc": "The best-selling pickleball shoe in the US by volume, and it earns that on comfort. The midsole is noticeably plusher than anything else at this price, which is why it is the common recommendation for players with knee complaints or long social sessions. Lateral support is adequate rather than exceptional — it is a comfort shoe first, a stability shoe second." },
+        "pb-shoe-003": { "anchor": "kswiss-express-light", "shortName": "K-Swiss Express Light", "note": "low to the ground", "strength": "Stability", "fit": "Standard or wide", "specs": ["Non-marking outsole", "Midfoot support banding", "Low-profile midsole", "Wide fitting available"], "desc": "The best value-to-performance court shoe on this page for players who prioritise stability over cushioning. It sits low to the ground with structured banding across the midfoot, so direction changes feel locked in and there is very little roll at the ankle. The trade is a firmer ride — if you want plush, the Skechers is the better pick." },
+        "pb-shoe-004": { "anchor": "skechers-viper-court-pro", "shortName": "Skechers Viper Court Pro 2.0", "note": "arch support", "strength": "Cushioning", "fit": "Standard or wide", "specs": ["Non-marking outsole", "Arch-supportive footbed", "Cushioned midsole", "Wide fitting available"], "desc": "The Viper Court with the problems fixed. The footbed adds genuine arch support, the upper is more structured through the midfoot, and the outsole compound lasts noticeably longer outdoors. It keeps the plush ride that made the original popular, which makes it the best choice for anyone playing long sessions who does not want to give up cushioning for stability." },
+        "pb-shoe-005": { "anchor": "asics-gel-resolution-x", "shortName": "ASICS Gel-Resolution X", "note": "outsole warranty", "strength": "Durability", "fit": "Standard or wide", "specs": ["Abrasion-resistant outsole", "Gel rearfoot cushioning", "Structured upper", "Wide fitting available"], "desc": "A tennis shoe, and the most durable option here by a clear margin. The outsole compound is built for players who wear through soles in weeks, and ASICS back the series with an outsole guarantee — which tells you how confident they are. Heavier than the K-Swiss and takes a few sessions to break in, but if abrasive outdoor courts are eating your shoes, this is the answer." },
+        "pb-shoe-006": { "anchor": "kswiss-hypercourt-express-2", "shortName": "K-Swiss Hypercourt Express 2", "note": "all-day comfort", "strength": "Support", "fit": "Standard or wide", "specs": ["Durable outsole", "Structured upper", "Cushioned midsole", "Wide fitting available"], "desc": "The shoe to wear for a full day of tournament play. More cushioned than the Express Light without giving up much lateral stability, and the upper holds its shape well over a long day of repeated direction changes. Outsole durability is good rather than ASICS-level. If you want one shoe that does everything reasonably well, this is it." }
+      }
+    },
+    {
+      "slug": "nets",
+      "productCategory": "nets",
+      "navLabel": "Nets",
+      "tableNoun": "Net",
+      "title": "Best Portable Pickleball Nets 2026: Driveway to Tournament",
+      "metaDescription": "Six portable pickleball nets compared on setup time, stability and wind resistance. Regulation dimensions explained and what actually matters in a home net.",
+      "ogTitle": "Best Portable Pickleball Nets 2026 | SportGear Finder",
+      "ogDescription": "Compare the 6 best portable pickleball nets on setup speed, frame stability and wind resistance.",
+      "listName": "Best Portable Pickleball Nets 2026",
+      "h1": "Pickleball <em>Nets</em>",
+      "heroSub": "6 real picks — portable systems that set up fast and stay taut.",
+      "intro": "A regulation pickleball net is <strong>22 feet wide</strong>, 36 inches high at the posts and 34 inches at the centre. Every net here meets that. What separates them is not dimensions but three practical things: <strong>how long setup takes</strong> (a good system is four to seven minutes for one person), <strong>whether the centre sags</strong> after twenty minutes of play, and <strong>how it behaves in wind</strong>. Heavier bases are steadier but nobody wants to carry them far — that trade is the whole decision.",
+      "tableColumns": [
+        { "label": "Setup", "key": "setup" },
+        { "label": "Frame", "key": "frame" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Occasional Use", "sub": "Fine for the driveway a few times a month" },
+        "value": { "title": "The Home Default", "sub": "What most people should buy for regular play" },
+        "premium": { "title": "Club Grade", "sub": "Stable in wind and built for daily setup" }
+      },
+      "guideHeading": "Choosing a Portable Pickleball Net",
+      "guide": [
+        { "h": "Centre Sag Is the Real Test", "p": "Almost every portable net looks fine when you first put it up. The difference shows after twenty minutes: cheaper systems sag in the middle, so the net height drops below regulation and balls that should clip the tape sail over. A centre stabiliser bar or a proper tensioning system is the feature worth paying for, and it is what separates the value tier from the budget tier here." },
+        { "h": "Weight Is a Genuine Trade-Off", "p": "Heavier bases resist wind and stay put during play, but you have to carry the thing from the car. If your net lives in the garage and comes out onto the driveway, weight barely matters. If you carry it to a park, every pound counts. Be honest about which of those you actually are before buying the heaviest option." },
+        { "h": "Setup Time Compounds", "p": "A net that takes twelve minutes to assemble gets used less than one that takes four. If you are setting up and packing down every session, that difference is the reason a net either gets played on or lives in the garage. Snap-together frames with colour-coded or captive poles are meaningfully quicker than systems with loose bolts." },
+        { "h": "Check the Bag Before You Buy", "p": "The carry bag is the first thing to fail on cheap systems, and a net you cannot transport is a net you stop using. Look for a bag with a reinforced base and a real shoulder strap rather than a thin drawstring sack. It sounds trivial until the seam splits in a car park." }
+      ],
+      "faq": [
+        { "q": "What size is a regulation pickleball net?", "a": "22 feet wide, 36 inches high at the sideline posts and 34 inches high at the centre. The court itself is 20 feet by 44 feet, so the net is slightly wider than the court. Every net on this page meets regulation dimensions — the differences are in stability and setup, not size." },
+        { "q": "How long does a portable pickleball net take to set up?", "a": "Four to seven minutes for one person with a good system, once you have done it a couple of times. Cheaper nets with loose bolts and uncoded poles can take twice that. If you set up and pack down every session, that difference matters more than almost any other feature." },
+        { "q": "Can I use a portable net in wind?", "a": "Up to a point. Standard portable nets get pushed around in anything above a light breeze because the bases are designed to be carryable. If wind is a regular problem where you play, look for a heavier-based system — the weight is the whole point, and it is why the premium options here cost more and carry worse." },
+        { "q": "Will a portable net work on grass?", "a": "It will stand up, but it will not play well. Grass is uneven so the net height varies across the width, and the bases sink slightly, which makes the centre sag worse. Pickleball genuinely needs a hard, flat surface — a driveway, a tennis court or a sports hall." },
+        { "q": "Do I need a net or can I just use a tennis net?", "a": "A tennis net is too high — 42 inches at the posts against pickleball's 36 — and too wide for the court. Some tennis facilities have adjustable systems that can be lowered. If you are playing on a tennis court regularly, a portable pickleball net set up inside the tennis court is the normal solution." }
+      ],
+      "products": {
+        "pb-net-001": { "anchor": "a11n-portable", "shortName": "A11N Portable", "note": "packs down small", "setup": "~7 min", "frame": "Steel", "specs": ["Regulation 22ft", "Steel frame", "Carry bag", "Velcro centre strap"], "desc": "The cheapest net here that is still regulation width and does not fall over. Setup is slower than the better systems because the poles are not captive, and the centre will sag over a long session without re-tensioning. For a few games a month on a driveway that is perfectly acceptable, and it packs down smaller than most." },
+        "pb-net-002": { "anchor": "boulder-portable", "shortName": "Boulder Portable", "note": "reinforced bag", "setup": "~6 min", "frame": "Steel", "specs": ["Regulation 22ft", "Powder-coated steel", "Reinforced carry bag", "Centre strap"], "desc": "A step up from the A11N mainly in the parts that usually fail first: the frame is powder-coated so it survives being left damp, and the carry bag has a reinforced base rather than a thin drawstring sack. Play-wise it is very similar — expect some centre sag — but it will still be usable in two years, which is not guaranteed at this end of the market." },
+        "pb-net-003": { "anchor": "franklin-portable", "shortName": "Franklin Portable", "note": "quick assembly", "setup": "~5 min", "frame": "Steel", "specs": ["Regulation 22ft", "Snap-together frame", "Centre stabiliser", "Carry bag"], "desc": "The default answer when someone asks which net to buy, and deservedly so. The snap-together frame goes up in about five minutes without tools, and the centre stabiliser keeps the height honest through a full session. It is not the sturdiest option in wind, but for driveway and park play it does everything most people need and has a reputation for surviving years outdoors." },
+        "pb-net-004": { "anchor": "rally-portable", "shortName": "Rally Portable", "note": "centre stabiliser", "setup": "~5 min", "frame": "Steel", "specs": ["Regulation 22ft", "Steel frame", "Centre stabiliser bar", "Carry bag"], "desc": "Very close to the Franklin, with a slightly more substantial centre stabiliser bar that holds tension noticeably better over a long session. Worth choosing over the Franklin if your group plays for hours rather than a quick game, or if you have been annoyed by sag on a previous net. Marginally heavier to carry as a result." },
+        "pb-net-005": { "anchor": "onix-portable", "shortName": "ONIX Portable", "note": "includes practice net", "setup": "~4 min", "frame": "Steel", "specs": ["Regulation 22ft", "Tension system", "Includes 10ft practice net", "Carry bag"], "desc": "The best balance of setup speed and stability here. The tension system keeps the net taut at the correct height without re-adjusting mid-session, and the reinforced frame stays planted in a way the cheaper nets do not. It also ships with a 10-foot practice net for solo drilling, which is genuinely useful and something no other option here includes." },
+        "pb-net-006": { "anchor": "franklin-x26-net", "shortName": "Franklin X-26", "note": "heavy base", "setup": "~7 min", "frame": "Heavy steel", "specs": ["Regulation 22ft", "Weighted base", "Wind stable", "Semi-permanent"], "desc": "The one to buy if wind is a constant problem or the net is going to live semi-permanently on a court. The base is substantially heavier than anything else here, which is exactly the point — it stays where you put it in conditions that shift a standard portable net. The cost is portability: this is a net you move occasionally, not one you carry to the park." }
+      }
+    },
+    {
+      "slug": "bags",
+      "productCategory": "bags",
+      "navLabel": "Bags",
+      "tableNoun": "Bag",
+      "title": "Best Pickleball Bags 2026: Sling, Backpack and Tour Bags",
+      "metaDescription": "Six pickleball bags compared. Sling bags for two paddles, backpacks for the commute, tour bags with vented shoe compartments — and which you actually need.",
+      "ogTitle": "Best Pickleball Bags 2026 — Sling to Tour | SportGear Finder",
+      "ogDescription": "Compare the 6 best pickleball bags across sling, backpack and tour styles.",
+      "listName": "Best Pickleball Bags 2026 — Sling to Tour",
+      "h1": "Pickleball <em>Bags</em>",
+      "heroSub": "6 real picks — from two-paddle slings to full tournament tour bags.",
+      "intro": "Bag choice comes down to honestly answering how you get to the court. A <strong>sling bag</strong> carries two paddles, balls and a bottle and weighs almost nothing — perfect if you drive and play for an hour. A <strong>backpack</strong> adds a shoe compartment and proper straps, which matters the moment you walk or cycle. A <strong>tour bag</strong> carries multiple paddles, a change of clothes and an insulated bottle pocket, and only makes sense if you play tournaments or spend half a day at the courts.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Paddles", "key": "paddles" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Just the Essentials", "sub": "Two paddles, balls and a bottle" },
+        "value": { "title": "Everyday Carry", "sub": "Shoe compartments and straps that survive the walk" },
+        "premium": { "title": "Tournament Kit", "sub": "For players living out of one bag all day" }
+      },
+      "guideHeading": "Choosing a Pickleball Bag",
+      "guide": [
+        { "h": "Buy for How You Travel, Not How Much You Own", "p": "The most common mistake is buying a tour bag because it looks serious, then carrying an almost-empty bag to a one-hour session. If you drive to the court and play for an hour, a sling holds everything you need and you will actually take it. Bag size should follow your routine, not your ambitions." },
+        { "h": "A Vented Shoe Compartment Is Not a Gimmick", "p": "Court shoes get sweaty and, if you play outdoors, dusty. A separate vented compartment keeps that away from your clothes and stops the whole bag smelling. It is the single feature most likely to make you glad you spent more, and it is the main practical difference between a budget sling and a mid-range backpack." },
+        { "h": "Check Paddle Protection", "p": "Paddles get chipped in bags, especially raw carbon faces that sit against zips and shoe soles. Look for a dedicated padded paddle sleeve rather than just throwing them in the main compartment. If your bag does not have one, a paddle cover does the same job for very little money." },
+        { "h": "Insulated Pockets Matter Outdoors", "p": "If you play outdoor summer sessions, an insulated bottle pocket keeps a drink cold for a couple of hours rather than twenty minutes. It sounds like a luxury until you have played three games in the sun. This is standard on tour bags and increasingly common on better backpacks." }
+      ],
+      "faq": [
+        { "q": "Do I need a dedicated pickleball bag?", "a": "Not strictly — any small backpack carries a paddle and balls. What a dedicated bag adds is a padded paddle sleeve that stops faces getting chipped, and usually a vented shoe compartment. If you are playing regularly and own a paddle worth protecting, it pays for itself in avoided damage." },
+        { "q": "What is the difference between a sling bag and a backpack?", "a": "A sling has a single strap across the body, carries two paddles and minimal extras, and is lightest. A backpack has two straps, distributes weight properly for walking or cycling, and usually adds a shoe compartment. If you walk more than a few minutes to the court, the backpack is worth it." },
+        { "q": "How many paddles should a bag hold?", "a": "Most players need space for two — your main paddle and a backup, or a partner's. Tour bags hold four or more, which only matters if you play tournaments where a cracked paddle mid-match ends your day. For social play, two is plenty." },
+        { "q": "Are pickleball bags and tennis bags interchangeable?", "a": "Largely yes, and a tennis bag will happily carry paddles. The difference is that pickleball paddle sleeves are shorter and better shaped for a paddle, so paddles do not slide around. If you already own a tennis bag, there is no urgent reason to replace it." },
+        { "q": "What should I actually carry in my bag?", "a": "Two paddles, three or four balls, a water bottle, a spare overgrip, a small towel and any tape or plasters for blisters. If you play outdoors, add sunscreen and a cap. Everything beyond that is optional, which is why most people over-buy on bag size." }
+      ],
+      "products": {
+        "pb-bag-001": { "anchor": "athletico-paddle-bag", "shortName": "Athletico Paddle Bag", "note": "lightest option", "type": "Sling", "paddles": "2", "specs": ["Sling strap", "2 paddle slots", "Ball pocket", "Water bottle holder"], "desc": "The simplest thing that works. Two paddle slots, a zip pocket for balls and keys and a bottle holder, on a single adjustable sling strap. There is no shoe compartment and no padding to speak of, but it weighs almost nothing and costs very little. If you drive to the court and play for an hour, this is genuinely all you need." },
+        "pb-bag-002": { "anchor": "franklin-paddle-bag", "shortName": "Franklin Paddle Bag", "note": "fleece paddle pocket", "type": "Sling", "paddles": "2", "specs": ["Sling strap", "Fleece-lined paddle pocket", "Ball pocket", "Bottle holder"], "desc": "The same idea as the Athletico with one meaningful upgrade: the paddle pocket is fleece-lined, so faces do not get scuffed against zips and keys. That matters more than it sounds if you are carrying a paddle with a raw carbon face. Otherwise identical in intent — light, cheap and enough for a short session." },
+        "pb-bag-003": { "anchor": "joola-tour-elite", "shortName": "JOOLA Tour Elite", "note": "vented shoe area", "type": "Duffel", "paddles": "4", "specs": ["Duffel style", "Vented shoe compartment", "4 paddle capacity", "Insulated pocket"], "desc": "The first bag here that handles a full day at the courts. A vented shoe compartment keeps sweaty trainers away from everything else, there is room for four paddles, and the insulated pocket keeps a bottle cold through a summer session. Carried as a duffel rather than a backpack, so it suits driving to a venue more than walking there." },
+        "pb-bag-004": { "anchor": "selkirk-core-backpack", "shortName": "Selkirk Core Backpack", "note": "proper shoulder straps", "type": "Backpack", "paddles": "2-3", "specs": ["Backpack straps", "Fleece paddle pocket", "Shoe compartment", "Bottle pockets"], "desc": "The one to buy if you walk or cycle to the court. Proper padded backpack straps distribute the weight in a way no sling does, and there is a separate shoe compartment plus a fleece-lined paddle pocket. Capacity sits between the slings and the tour bags, which for most regular players is exactly right." },
+        "pb-bag-005": { "anchor": "joola-vision-backpack", "shortName": "JOOLA Vision Backpack", "note": "most organised", "type": "Backpack", "paddles": "3-4", "specs": ["Backpack straps", "Vented shoe compartment", "Insulated bottle pocket", "Multiple paddle sleeves"], "desc": "The most thoroughly organised bag here. Separate vented shoe compartment, insulated bottle pocket, dedicated paddle sleeves and enough small pockets that grips, tape and keys all have a home. If you are the sort of person who is irritated by rummaging, this is the bag. Heavier empty than the Selkirk, which is the price of all those compartments." },
+        "pb-bag-006": { "anchor": "selkirk-pro-line-tour", "shortName": "Selkirk Pro Line Tour", "note": "full tournament kit", "type": "Tour bag", "paddles": "4+", "specs": ["Tour bag", "Insulated compartment", "Vented shoe area", "Multiple paddle sleeves"], "desc": "A genuine tournament bag: room for four or more paddles, a change of clothes, shoes in their own vented section and an insulated compartment that keeps drinks and food cold for hours. Overkill for social play and you will notice the bulk, but if you are at a venue from morning to afternoon it means one trip from the car and nothing forgotten." }
+      }
+    },
+    {
+      "slug": "grips",
+      "productCategory": "grips",
+      "navLabel": "Grips & Covers",
+      "tableNoun": "Product",
+      "title": "Best Pickleball Grips and Paddle Covers 2026",
+      "metaDescription": "Overgrips and paddle covers compared. Which grip works for sweaty hands, how to build up grip size, and why a cover protects a raw carbon face.",
+      "ogTitle": "Best Pickleball Grips & Covers 2026 | SportGear Finder",
+      "ogDescription": "Compare overgrips for sweaty hands and paddle covers that protect carbon faces.",
+      "listName": "Best Pickleball Grips and Covers 2026",
+      "h1": "Pickleball <em>Grips &amp; Covers</em>",
+      "heroSub": "6 real picks — the cheapest upgrade that changes how a paddle feels.",
+      "intro": "An overgrip is the highest-value few pounds in pickleball. It fixes a slippery handle, lets you build up a grip that is too small, and can be replaced when it wears instead of replacing the paddle. The choice is simple: <strong>dry-feel grips</strong> (like Tourna) absorb sweat and get tackier as they get damp, while <strong>tacky grips</strong> feel grippier in the hand when dry but turn slick once you sweat. A <strong>paddle cover</strong> is the other cheap insurance — it stops a raw carbon face getting chipped against zips and shoes in your bag.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Feel", "key": "feel" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Grip Basics", "sub": "The two grips most players end up choosing between" },
+        "value": { "title": "Comfort Grips", "sub": "Softer, more cushioned wraps for longer sessions" },
+        "premium": { "title": "Paddle Protection", "sub": "Covers that keep a carbon face intact in a packed bag" }
+      },
+      "guideHeading": "Grips, Sizing and Protection",
+      "guide": [
+        { "h": "Dry Feel or Tacky - Pick by Your Hands", "p": "This is the whole decision. Dry-feel grips such as Tourna feel slightly rough and chalky when new and become grippier as they absorb sweat, which makes them the standard choice for humid conditions and people whose hands sweat. Tacky grips feel wonderful for the first twenty minutes and then get slippery once damp. Neither is better; they suit different hands." },
+        { "h": "You Can Only Make a Grip Bigger", "p": "If a handle feels too small you can add one or two overgrips to build it up. If it feels too big there is very little you can do short of stripping the base grip, which is fiddly and often not worth it. When you are between grip sizes, always buy the smaller one — building up is easy and reversible." },
+        { "h": "Replace Grips Far More Often Than You Think", "p": "An overgrip is consumable. Playing three times a week, most people should replace it every three to four weeks. Long before it looks worn it stops absorbing sweat, and a slipping handle makes you squeeze harder, which is a direct route to tennis elbow. They are cheap — buy a multipack and change them on a schedule." },
+        { "h": "Covers Are Cheap Insurance on Expensive Paddles", "p": "Raw carbon faces are the most damage-prone part of a modern paddle, and the damage almost always happens in the bag rather than on court. A neoprene cover costs a fraction of a premium paddle and stops zips, shoe soles and keys chipping the edge and scuffing the grit off the face." }
+      ],
+      "faq": [
+        { "q": "What is the difference between a grip and an overgrip?", "a": "The grip is the base layer wrapped around the bare handle, fitted at the factory. An overgrip is a thin wrap that goes on top of it, adds a little thickness and takes all the sweat and wear. You replace overgrips regularly and the base grip almost never — that is the point of the system." },
+        { "q": "Which overgrip is best for sweaty hands?", "a": "A dry-feel grip such as Tourna Grip. It absorbs moisture and actually becomes tackier as it gets damp, which is the opposite of how a tacky grip behaves. If your hands sweat heavily or you play in humidity, this is the single most effective change you can make." },
+        { "q": "How often should I change my overgrip?", "a": "Every three to four weeks if you play three times a week, and sooner if you sweat heavily. The signal is not how it looks but how it feels: once it stops absorbing and the handle starts turning in your hand, it is done. A slipping grip makes you squeeze harder and that causes elbow pain." },
+        { "q": "How do I make my paddle grip bigger?", "a": "Add an overgrip — each one adds roughly 1/16 of an inch. Two overgrips take a 4.125 inch handle to about 4.25. You can also use a heat-shrink sleeve under the base grip for a larger jump. Going smaller is much harder, which is why you should buy the smaller grip size when in doubt." },
+        { "q": "Do I need a paddle cover?", "a": "If your paddle has a raw carbon face, yes. That surface texture is what generates spin and it wears off quickly when rubbed against zips, keys and shoe soles in a bag. On a painted budget paddle it matters much less. A cover costs very little relative to the paddle it protects." }
+      ],
+      "products": {
+        "pb-grip-001": { "anchor": "tourna-grip-original", "shortName": "Tourna Grip Original", "note": "dry feel", "type": "Overgrip", "feel": "Dry, absorbent", "specs": ["Dry feel", "Thin profile", "Absorbs moisture", "Multipack"], "desc": "The grip that most players with sweaty hands end up using, and the one you see on tour more than any other. It feels chalky and slightly rough when new, which puts some people off immediately, but it becomes grippier as it absorbs sweat rather than slicker. Thin, so it barely changes handle size. If your hand slips in humidity, start here." },
+        "pb-grip-002": { "anchor": "gamma-supreme", "shortName": "GAMMA Supreme", "note": "tacky feel", "type": "Overgrip", "feel": "Tacky, cushioned", "specs": ["Tacky feel", "Cushioned", "Multipack", "Slightly thicker"], "desc": "The opposite choice to the Tourna and the right one for dry hands. Noticeably tacky and more cushioned, which takes some sting out of hard contacts and feels immediately comfortable. The trade is that it loses grip once it gets damp, so it is a poor pick for humid outdoor sessions. Slightly thicker, so it builds up handle size a little faster." },
+        "pb-grip-003": { "anchor": "head-xtremesoft", "shortName": "HEAD Xtremesoft", "note": "soft and absorbent", "type": "Overgrip", "feel": "Soft, absorbent", "specs": ["Soft feel", "Absorbent", "Multipack", "Comfort focus"], "desc": "A middle path between the Tourna and the Gamma: softer and more comfortable than a dry grip, but with more moisture absorption than a purely tacky one. A good default if you do not have strongly sweaty or strongly dry hands and just want something comfortable that lasts a few weeks. Sold in multipacks, which is how overgrips should be bought." },
+        "pb-grip-004": { "anchor": "wilson-pro-overgrip", "shortName": "Wilson Pro Overgrip", "note": "thinnest wrap", "type": "Overgrip", "feel": "Tacky, thin", "specs": ["Tacky feel", "Very thin", "Multipack", "Minimal size increase"], "desc": "The thinnest grip here, which makes it the right choice if you like tackiness but do not want to increase your handle size. Popular with players who already find their grip on the large side or who want maximum feel through the handle. Same caveat as any tacky grip: it gets slippery once your hands are wet." },
+        "pb-grip-005": { "anchor": "franklin-paddle-cover", "shortName": "Franklin Paddle Cover", "note": "neoprene", "type": "Cover", "feel": "Neoprene", "specs": ["Neoprene", "Full face protection", "Zip closure", "Lightweight"], "desc": "Basic, cheap and does the job. A neoprene sleeve that covers the face and edge guard so nothing in your bag can chip or scuff the paddle. There is nothing clever about it, but if you have just spent serious money on a carbon paddle and are throwing it in a bag with your shoes, this is the obvious insurance." },
+        "pb-grip-006": { "anchor": "onix-paddle-cover", "shortName": "ONIX Paddle Cover", "note": "edge protection", "type": "Cover", "feel": "Padded neoprene", "specs": ["Padded neoprene", "Edge guard protection", "Zip closure", "Fits most paddles"], "desc": "A slightly more padded cover with better protection around the edge guard, which is where most bag damage actually happens. Fits standard and most elongated shapes. Worth the small premium over the Franklin if you carry your paddle in a packed tour bag rather than a near-empty sling." }
+      }
+    }
+  ]
+}
