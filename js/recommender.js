@@ -254,8 +254,9 @@
         '<div class="pcard-body">' +
           '<span class="tier-v2-badge ' + esc(p.tier) + ' finder-tier-badge">' + (TIER_LABEL[p.tier] || p.tier) + '</span>' +
           '<div class="pcard-name">' + esc(p.name) + '</div>' +
+          // No price here: Amazon Associates only permits API-sourced prices,
+          // and the tier badge above already carries the cost signal.
           '<div class="pcard-meta">' +
-            '<div class="pcard-price-block"><div class="pcard-price">' + esc(p.priceDisplay) + '</div></div>' +
             '<div class="pcard-score"><div class="pcard-score-num">' + esc(p.score) + '<span>/10</span></div><div class="pcard-score-label">Our Score</div></div>' +
           '</div>' +
           '<div class="pcard-footer">' +

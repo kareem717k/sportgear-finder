@@ -60,29 +60,85 @@ mirrors the decimal precision already used on the page.
 
 ---
 
-## Open decision: JSON-LD prices
+## remove-prices.ps1
 
-`jsonld price` is in the default `-ExcludeSites` list. It is reported but never
-written, because the two sides disagree in a way the script cannot arbitrate:
+One-off sweep (kept for re-runs) that removed hard-coded Amazon price claims
+from the pages. It is idempotent — running it again reports zero changes.
 
-- **Boxing / football / swimming** pages carry exact prices (`79.99`, `24.99`)
-  while `products.json` carries rounded ones (`75`, `25`). Here the **HTML is
-  better** — those look like real Amazon prices, and rounding them into the
-  structured data would degrade rich results.
-- **Gym** pages disagree by a lot (`25` vs `40`, `329` vs `364`, `280` vs `315`).
-  These look like genuine price updates applied to `products.json` and never
-  propagated to the pages. Here **products.json is probably better**.
+```bash
+powershell -File scripts/remove-prices.ps1
+```
 
-So `price` in `products.json` is currently a *display* value, not an exact one,
-and cannot drive structured data as-is.
+### Why
 
-**Recommended fix:** give `products.json` an exact price per product and derive
-the rounded `priceDisplay` from it, rather than storing only the rounded value.
-The Phase 2 price tracker will be fetching exact prices anyway, so this lands on
-the path we're already taking. Once that exists, run with
-`-ExcludeSites @()` to bring the structured data back in sync.
+The Amazon Associates [Program Policies](https://affiliate-program.amazon.com/help/operating/policies)
+only permit displaying prices that Amazon serves or that come from the Creators
+API, and require a retrieval timestamp adjacent to the price unless it refreshes
+hourly. Prices typed by hand into HTML meet neither condition — and went stale
+within days anyway.
 
-Until then, `-Apply` deliberately leaves all 90 JSON-LD prices alone.
+Note that PA-API was retired on **15 May 2026** and replaced by the **Creators
+API**, whose eligibility bar is **10 qualifying sales in the last 30 days**.
+Until that is reachable, the site cannot display live prices compliantly.
+
+### What it removed
+
+| Surface | Result |
+|---|---|
+| `.pcard-price` (257) | replaced by a `.pcard-tier` badge |
+| `cmp-table` Price column (42 tables) | column dropped, header and cells |
+| JSON-LD `offers.price` / `priceCurrency` | stripped; `availability` and `url` kept |
+| "Prices checked June 2026" (43) | trimmed to "Last updated: June 2026" |
+| "Prices shown are approximate…" (72) | removed |
+| `pcard-price` in the Gear Finder (`js/recommender.js`) | removed; that card already showed a tier badge |
+
+Tables are only touched when the header carries **Tier and Score and Price**.
+That gate is what protects the editorial tables — budget guides
+("Item | Pick | Cost"), the sizing calculators, and article tables with a
+different shape all fail it and are left alone.
+
+Every JSON-LD block is re-parsed after editing; a file whose structured data
+would no longer parse is not written.
+
+### Deliberately left alone
+
+These are statements about the market, not claims about a listing's current
+price, and several carry real keyword value:
+
+- **42 `Under $X` tier headings** — target high-intent queries ("rackets under $100")
+- **42 `From $X` category pills** — category-level ranges on hub pages
+- **10 page titles** containing prices, e.g. "…11 Picks from $30 Beginner to $200 Pro"
+- **9 article tables** with a Price column but no Tier/Score — non-uniform shapes, review by hand
+- **Prose prices** — "expect to pay $20–40 for strings and labour"
+
+If you want any of these gone too, they need deciding individually; removing the
+`Under $X` headings in particular would cost keyword relevance.
+
+---
+
+## Resolved: JSON-LD prices
+
+`jsonld price` remains in the default `-ExcludeSites` list, but the question is
+now moot — `remove-prices.ps1` stripped every JSON-LD price from the site, so
+there is nothing left for `sync-products.ps1` to disagree about.
+
+Kept here because it explains why the price data cannot be trusted, which still
+matters if prices ever come back:
+
+- **Boxing / football / swimming** pages carried exact prices (`79.99`, `24.99`)
+  while `products.json` carried rounded ones (`75`, `25`).
+- **Gym** pages disagreed by a lot (`25` vs `40`, `329` vs `364`, `280` vs `315`)
+  — price updates applied to `products.json` that never reached the pages.
+
+So `price` in `products.json` is a *display* value, not an exact one. It is now
+used only by the Gear Finder for "under $50"-style matching
+(`js/recommender.js`), never for display.
+
+**If prices ever return** (i.e. once Creators API access is reachable at 10
+qualifying sales in 30 days), they must be fetched live and stamped with a
+retrieval time — not stored in `products.json` and rendered statically. That is
+the only compliant shape, and it is what a future price-history feature would
+have to be built on.
 
 ## Open data issues found by the first full run
 
