@@ -346,6 +346,16 @@
     '.finder-card-overlay:focus-visible{outline:2px solid #a3c900;outline-offset:2px;}',
     '.finder-pcard .pcard-btns{position:relative;z-index:2;}',
     '.finder-pcard .pcard-img{height:180px;}',
+    /* style.css turns .pcard horizontal at min-width:768px, which suits a
+       full-width category card but not these: the finder grid gives them
+       ~268px columns while a horizontal card needs ~359px (200px image plus
+       159px body), so the name and score were clipped. Keep them stacked.
+       .pcard.finder-pcard rather than .finder-pcard so it wins on specificity
+       and not merely because this sheet is injected last. */
+    '.pcard.finder-pcard{flex-direction:column;}',
+    /* Tier lives in .tier-v2-badge above the name, so .pcard-meta holds only
+       the score - keep it hard right where the score has always sat. */
+    '.finder-pcard .pcard-meta{justify-content:flex-end;}',
     '.finder-tier-badge{align-self:flex-start;margin-bottom:8px;}',
     '.finder-compare-link{background:transparent;border:1px solid #333;color:#ccc;}',
     '.finder-compare-link:hover{border-color:#a3c900;color:#a3c900;}',
