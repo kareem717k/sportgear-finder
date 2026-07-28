@@ -8,6 +8,91 @@ That is harmless today (no secrets, no credentials), but **do not put API keys
 or tokens here.** When the Phase 2 price tracker needs Amazon credentials, they
 belong in GitHub Actions secrets, never in a file in this repo.
 
+All of these are **report-first**: they print what they would do and change
+nothing until you add `-Apply`.
+
+---
+
+## SEO scripts
+
+Three scripts fix on-site SEO problems found in a July 2026 audit. Run them in
+this order — `refresh-dates.ps1` keys off git status, so it must go last.
+
+```bash
+powershell -File scripts/rebalance-links.ps1 -Apply
+powershell -File scripts/add-breadcrumbs.ps1 -Apply
+powershell -File scripts/refresh-dates.ps1  -Apply
+```
+
+### rebalance-links.ps1
+
+Rewrites the `<div class="footer-links">` block on the 60 pages that carry one so
+it is **section-relevant**.
+
+Every page used to ship the same four columns — Tennis / Gym / Boxing / Guides —
+whatever the page was about. A swimming page linked six tennis articles and zero
+swimming ones. The result was a 15x internal-link imbalance: the ~30 articles
+hardcoded into that footer had 57–60 inbound internal links each, while
+everything published later sat on 3–7. All six pickleball articles were in the
+low group.
+
+New columns: **own sport → adjacent sport → Guides → Free Tools.**
+
+The own-sport column is deliberately **uncapped**. An early version capped every
+column at 8, which recreated the bug in miniature — tennis has 15 articles, so 7
+were silently dropped from every tennis footer and stayed orphaned.
+
+Anchor text and paths come from `sections/article-index.json`. Every path there
+is checked against disk before anything is written, so a typo fails the run
+rather than shipping a 404 into 60 footers.
+
+Result: inbound internal links per article went from **min 3 / max 60** to
+**min 9 / median 21 / max 62**.
+
+### add-breadcrumbs.ps1
+
+Adds a visible `.breadcrumb` trail *and* `BreadcrumbList` JSON-LD to all 57
+articles. Category pages already had both; articles had neither, so they showed a
+bare URL in search results instead of `sportgearfinder.com > Tennis > …`.
+
+Trail is `Home / <Sport> / <title>`, or `Home / Articles / <title>` for
+`articles/guides/*`, which has no hub of its own.
+
+Two JSON-LD shapes exist in the wild here — most articles use an array
+`[{Article},{ItemList}]`, but 14 used a bare `{Article}` object. Bare objects are
+promoted to arrays so every article ends up the same. Every block is re-parsed
+after editing; a page whose structured data would stop parsing is not written.
+
+Idempotent — pages that already have a `BreadcrumbList` are skipped, so it is
+safe to re-run after `build-articles.ps1` generates new articles.
+
+Pairs with one CSS rule in `css/style.css`:
+
+```css
+.art-hero + .breadcrumb { max-width: 800px; }
+```
+
+`.art-body` is border-box, so its 800px already includes the 24px side padding —
+matching that number is what lines the trail up with the article text.
+
+### refresh-dates.ps1
+
+Brings `dateModified`, the visible "Updated \<Month\> \<Year\>" line, and sitemap
+`<lastmod>` into agreement. They had drifted: 35 pages still declared
+`2026-06-01` on all three surfaces.
+
+**It only touches files git reports as modified.** That guard is the point.
+Restamping a page nobody edited is a freshness claim that is not true, Google
+discounts it when the main content is unchanged, and it destroys your own ability
+to tell which pages are actually stale. `-All` overrides this; think before using
+it.
+
+Be honest about what it buys: a structural change (footer, breadcrumbs) is a
+weaker freshness signal than a content revision. This makes the dates consistent;
+it does not make thin pages competitive.
+
+---
+
 ## sync-products.ps1
 
 Makes `data/products.json` the source of truth for the **volatile** product

@@ -1138,6 +1138,11 @@ nav::after {
 .breadcrumb a:hover { color: var(--lime); text-decoration: none; }
 .breadcrumb a:hover::after { display: none; }
 
+/* Article breadcrumbs sit above .art-body. Both are border-box with 24px side
+   padding, so matching .art-body's 800px max-width lines the trail up with the
+   article text instead of letting it hang left at the category-page width. */
+.art-hero + .breadcrumb { max-width: 800px; }
+
 /* ══════════════════════════════════════════
    CATEGORY PHOTO CARDS (hub index pages)
 ══════════════════════════════════════════ */
