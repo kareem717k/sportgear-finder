@@ -21,7 +21,17 @@
   }
 
   // ─── VOCAB ───────────────────────────────────────────────────────────────
+  // Order is load-bearing. detectFromKeywordMap returns the FIRST key that hits,
+  // and ping-pong's phrases are substrings of, or share words with, two other
+  // sports: "table tennis" contains 'tennis', and pickleball claims the bare
+  // word 'paddle'. So ping-pong has to be tested before both of them, or
+  // "table tennis paddle" gets answered with tennis rackets. Every keyword here
+  // is a full phrase for the same reason - a bare 'ping' would match "shipping".
+  // Badminton sits above tennis for the same reason: tennis claims the bare word
+  // 'racket', so "badminton racket" would otherwise return tennis rackets.
   var SPORT_KEYWORDS = {
+    'ping-pong': ['ping pong', 'ping-pong', 'pingpong', 'table tennis', 'tabletennis'],
+    badminton: ['badminton', 'shuttlecock', 'shuttlecocks', 'shuttle', 'birdie', 'birdies'],
     tennis: ['tennis', 'racket', 'racquet'],
     gym: ['gym', 'fitness', 'workout', 'weightlifting', 'lifting', 'dumbbell', 'strength', 'crossfit', 'home gym'],
     boxing: ['boxing', 'box', 'fight', 'sparring', 'punch', 'heavy bag', 'mma'],
@@ -97,6 +107,31 @@
       bags: ['bag', 'bags', 'backpack', 'sling', 'duffel'],
       grips: ['grip', 'grips', 'overgrip', 'cover', 'paddle cover'],
       balls: ['ball', 'balls', 'indoor ball', 'outdoor ball']
+    },
+    // Order is load-bearing here too. 'catch net' has to be read as training
+    // before 'net' claims it, 'paddle set' as sets before 'paddle' claims it,
+    // and the generic ball category goes last as everywhere else.
+    'ping-pong': {
+      training: ['robot', 'ball machine', 'training aid', 'catch net', 'collector', 'ball picker', 'multiball'],
+      custom: ['rubber', 'blade', 'tenergy', 'dignics', 'hurricane', 'sponge'],
+      sets: ['paddle set', 'racket set', 'family set', 'starter set', 'all-in-one', '4 player', 'four player', 'bundle'],
+      nets: ['net', 'nets', 'post', 'clamp', 'retractable'],
+      paddles: ['paddle', 'paddles', 'racket', 'rackets', 'bat', 'bats'],
+      balls: ['ball', 'balls', '3-star', '40+']
+    },
+    // Order is load-bearing again. Everything in this sport is described as a
+    // "racket X", so rackets has to be read last: 'racket bag' must reach bags,
+    // 'racket set' must reach sets, and 'racket string' must reach strings-grips.
+    // 'net set' likewise has to be read as sets before nets claims the bare 'net'.
+    // There is deliberately no shoes key - badminton has no shoes category, and a
+    // key pointing at an empty category returns nothing instead of falling back.
+    badminton: {
+      'strings-grips': ['string', 'strings', 'grip', 'grips', 'overgrip', 'bg65', 'restring'],
+      sets: ['racket set', 'racquet set', 'badminton set', 'net set', 'starter set', 'family set', 'backyard set', 'two player', '2 player', '4 player'],
+      bags: ['bag', 'bags', 'backpack', 'racket cover', 'thermal'],
+      nets: ['net', 'nets', 'post', 'portable net'],
+      shuttlecocks: ['shuttlecock', 'shuttlecocks', 'shuttle', 'birdie', 'birdies', 'feather', 'nylon'],
+      rackets: ['racket', 'rackets', 'racquet', 'racquets']
     }
   };
 
@@ -291,7 +326,9 @@
       container.innerHTML =
         '<p class="finder-empty">No exact matches yet — try a different sport, budget, or fewer words. ' +
         '<a href="tennis/index.html">Browse Tennis</a>, <a href="gym/index.html">Gym</a>, <a href="boxing/index.html">Boxing</a>, ' +
-        '<a href="swimming/index.html">Swimming</a>, <a href="football/index.html">Football</a>, <a href="volleyball/index.html">Volleyball</a> or <a href="pickleball/index.html">Pickleball</a> instead.</p>';
+        '<a href="swimming/index.html">Swimming</a>, <a href="football/index.html">Football</a>, <a href="volleyball/index.html">Volleyball</a>, ' +
+        '<a href="pickleball/index.html">Pickleball</a>, <a href="ping-pong/index.html">Ping Pong</a> ' +
+        'or <a href="badminton/index.html">Badminton</a> instead.</p>';
       return;
     }
     var note = '';
@@ -383,6 +420,8 @@
       '<option value="football">Football</option>' +
       '<option value="volleyball">Volleyball</option>' +
       '<option value="pickleball">Pickleball</option>' +
+      '<option value="ping-pong">Ping Pong</option>' +
+      '<option value="badminton">Badminton</option>' +
     '</select>' +
     '<select id="finder-budget" class="hero-finder-select" aria-label="Budget">' +
       '<option value="any">Any budget</option>' +

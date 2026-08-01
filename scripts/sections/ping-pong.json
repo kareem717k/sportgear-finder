@@ -1,0 +1,571 @@
+{
+  "hubName": "Ping Pong",
+  "hubShortName": "Ping Pong Hub",
+  "lastUpdated": "July 2026",
+  "categories": [
+    {
+      "slug": "paddles",
+      "productCategory": "paddles",
+      "navLabel": "Paddles",
+      "tableNoun": "Paddle",
+      "title": "Best Ping Pong Paddles 2026: 6 Picks from Beginner to Advanced",
+      "metaDescription": "Six ping pong paddles compared across Budget, Best Value and Premium. Blade construction, rubber grip and the speed/spin numbers explained so you buy the right table tennis racket first time.",
+      "ogTitle": "Best Ping Pong Paddles 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best ping pong paddles across Budget, Best Value and Premium tiers, with blade, rubber and handle explained.",
+      "listName": "Best Ping Pong Paddles 2026 — Budget to Premium",
+      "h1": "Ping Pong <em>Paddles</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. One for every level.",
+      "intro": "A ping pong paddle — a <strong>table tennis racket</strong>, if you want the official term — is a blade with a sheet of rubber glued to each side. That is the whole product. The blade sets the speed and the feel; the rubber does almost all of the work of gripping the ball and creating spin. Almost everyone buying their first paddle overspends on the blade and ignores the rubber, which is backwards: a worn rubber on a great blade plays worse than fresh rubber on a cheap one. Below are six pre-assembled paddles that make sense at their price, plus an honest note on when a pre-made paddle stops being enough.",
+      "tableColumns": [
+        { "label": "Blade", "key": "blade" },
+        { "label": "Level", "key": "level" }
+      ],
+      "tierBands": {
+        "budget": { "title": "First Real Paddles", "sub": "A genuine step up from whatever came with the table" },
+        "value": { "title": "The Step-Up", "sub": "Where a player who has learned to loop should land" },
+        "premium": { "title": "Performance Grade", "sub": "Carbon blades and tournament rubbers, ready to play" }
+      },
+      "guideHeading": "How to Choose a Ping Pong Paddle",
+      "guide": [
+        { "h": "The Rubber Matters More Than the Blade", "p": "Spin comes from the rubber gripping the ball for a fraction of a second. A fresh, grippy sheet will out-spin an old one on the same blade, and rubber wears out — with a few hours of play a week, the top sheet goes shiny and loses bite in roughly six to twelve months. If your shots have stopped biting, replace the rubber before you replace the paddle." },
+        { "h": "Ignore the Speed / Spin / Control Numbers", "p": "Nearly every paddle is sold with three numbers, usually something like Speed 99, Spin 100, Control 79. There is no standard behind them. They are set by each manufacturer for their own range and cannot be compared between brands — a STIGA 99 and a JOOLA 99 mean nothing to each other. Use them to compare two paddles within one brand's line-up, and nowhere else." },
+        { "h": "Control Beats Speed Until Your Technique Catches Up", "p": "A fast carbon blade punishes a late or loose stroke by sending the ball long. Beginners nearly always play better with an all-wood or lightly reinforced blade, because the extra dwell time gives them a chance to keep the ball on the table. Buy the fast paddle when your problem is that your good shots lack pace, not when your problem is consistency." },
+        { "h": "Handle Shape Is Personal, Not Better or Worse", "p": "Flared handles widen towards the bottom and stop the paddle sliding out of your hand — most players use them and most pre-made paddles ship with one. Straight handles suit players who rotate the bat between forehand and backhand grips. Anatomic sits between the two. None is objectively better; if you have never held one, buy flared." },
+        { "h": "When to Stop Buying Pre-Made Paddles", "p": "A pre-assembled paddle is the right buy until you can consistently loop against backspin and you know which rubber characteristics you want. At that point you are better off buying a blade and two rubbers separately — you can then replace a worn rubber for a fraction of the cost of a new paddle, and tune each side independently. Our <a href=\"custom.html\">blades and rubbers</a> page covers that step." }
+      ],
+      "faq": [
+        { "q": "What ping pong paddle should a complete beginner buy?", "a": "An all-wood or lightly reinforced blade with inverted (smooth) rubber, in the $30 to $50 range. That is enough paddle to learn every stroke properly, and cheap enough that you have not wasted much when you discover which style of play you prefer. Avoid the thin plywood paddles bundled with cheap table sets — the rubber on them has almost no grip, so you physically cannot learn to spin the ball with one." },
+        { "q": "Is an expensive paddle actually worth it?", "a": "Only once your technique can use it. A $110 carbon paddle gives you more speed and a bigger sweet spot, but it also sends loose shots off the end of the table. If you are still learning to keep rallies going, that money is better spent on a decent $40 paddle, a box of 3-star balls and a net. If you are already looping consistently and your shots feel underpowered, the upgrade is real." },
+        { "q": "What does ITTF approved mean on a paddle?", "a": "The International Table Tennis Federation maintains a list of approved rubbers, and only rubbers from that list may be used in sanctioned competition. It is a legality check, not a quality rating — plenty of excellent recreational rubber is not on the list, and being on it does not make a paddle good. It only matters if you intend to enter tournaments." },
+        { "q": "How often should I replace my paddle?", "a": "Replace the rubber, not the paddle. A blade lasts years — decades, if you do not chip it. Rubber that is played a few hours a week loses its grip in about six to twelve months, and you will feel it as spin that no longer bites. On a pre-made paddle, gluing on new rubber costs about as much as the paddle did, which is exactly why serious players move to a separate blade and rubbers." },
+        { "q": "Should the paddle have red on one side and black on the other?", "a": "Yes, if you ever want to play a match under the rules. The two sides must be clearly different colours — traditionally red and black, though other contrasting colours are now allowed — so your opponent can see which rubber you struck the ball with. Every paddle on this page follows that rule." }
+      ],
+      "products": {
+        "pp-paddle-001": {
+          "anchor": "idoraz-professional",
+          "shortName": "Idoraz Professional",
+          "note": "case included",
+          "blade": "7-ply wood",
+          "level": "Beginner",
+          "specs": ["7-ply wood blade", "ITTF-approved rubber", "Flared handle", "Carry case included"],
+          "desc": "A well-judged first paddle. The rubber is genuinely grippy rather than the slick plastic found on bundled paddles, so you can actually feel the ball bite when you brush it — which is the single thing a beginner needs in order to learn topspin at all. The all-wood blade is slow enough to be forgiving, and the included hard case is not a token gesture; it stops the rubber picking up dust, which is what kills grip fastest."
+        },
+        "pp-paddle-002": {
+          "anchor": "pro-spin-carbon",
+          "shortName": "PRO-SPIN Carbon Fibre",
+          "note": "ITTF rubber",
+          "blade": "7-ply + carbon",
+          "level": "Beginner+",
+          "specs": ["7-ply blade with carbon layer", "ITTF-approved rubber", "2.0mm sponge", "Flared handle"],
+          "desc": "The carbon layer widens the sweet spot, which is the part of a carbon blade a beginner actually benefits from — off-centre hits stay on the table instead of dying. It is quicker than the Idoraz and asks for a slightly shorter, more controlled stroke in return. If you have played casually for a while and want one paddle that will still make sense in a year, this is the sensible end of the budget tier."
+        },
+        "pp-paddle-003": {
+          "anchor": "joola-match-pro",
+          "shortName": "JOOLA Match Pro",
+          "note": "allround blade",
+          "blade": "5-ply wood",
+          "level": "Intermediate",
+          "specs": ["5-ply all-wood blade", "Grippy inverted rubber", "Ergonomic flared grip", "Allround speed"],
+          "desc": "An all-wood allround blade, which is the classic recommendation for a player learning proper strokes, and JOOLA build it well. The five plies give a soft, readable feel — you can sense where on the blade you hit the ball, which is how you correct yourself. There is nothing exotic here and that is the point: it rewards technique rather than covering for the lack of it."
+        },
+        "pp-paddle-004": {
+          "anchor": "killerspin-jet-600",
+          "shortName": "Killerspin Jet 600 Spin N2",
+          "note": "spin-oriented",
+          "blade": "5-ply wood",
+          "level": "Intermediate",
+          "specs": ["5-ply wood blade", "Nitrx-4Z rubber", "2.0mm sponge", "Flared handle"],
+          "desc": "Killerspin build this around the rubber rather than the blade, and it shows: the Nitrx sheet grips hard and generates noticeably more spin than anything in the budget tier. That makes it a good match for someone whose game is starting to revolve around looping and serving with sidespin. The trade is that the extra grip makes returns of heavy spin harder to control until you learn to angle the bat."
+        },
+        "pp-paddle-005": {
+          "anchor": "stiga-pro-carbon-blast",
+          "shortName": "STIGA Pro Carbon Blast",
+          "note": "offensive",
+          "blade": "7-ply + carbon",
+          "level": "Advanced",
+          "specs": ["7-ply blade with carbon", "Nano Composite / ACS rubber", "Offensive speed", "Flared handle"],
+          "desc": "Fast, stiff and unapologetically offensive. The carbon layers make the blade rigid, so energy goes back into the ball rather than into flex, and the sweet spot is large for a blade this quick. It suits a player who attacks third ball and finds slower paddles blunting their put-aways. It is not a forgiving paddle — loose blocks will fly long — but that is the deal you are making."
+        },
+        "pp-paddle-006": {
+          "anchor": "joola-infinity-overdrive",
+          "shortName": "JOOLA Infinity Overdrive",
+          "note": "carbon, ITTF",
+          "blade": "Carbon composite",
+          "level": "Advanced",
+          "specs": ["Carbon composite blade", "ITTF-approved rubber", "Tournament legal", "Flared handle"],
+          "desc": "The most complete pre-assembled paddle here, and the closest a ready-made bat gets to a custom setup. The carbon blade is fast without being harsh, and the rubber is approved for sanctioned play, so you can take it to a tournament without swapping anything. Buy it if you want performance now and have no interest in gluing rubber yourself — otherwise, at this price, a separate blade and two rubbers gives you more."
+        }
+      }
+    },
+    {
+      "slug": "balls",
+      "productCategory": "balls",
+      "navLabel": "Balls",
+      "tableNoun": "Ball",
+      "title": "Best Ping Pong Balls 2026: 3-Star, Training and ITTF Match Balls",
+      "metaDescription": "Which ping pong balls are worth buying. 3-star vs 1-star, 40+ plastic vs celluloid, and which table tennis balls to buy in bulk for practice versus matches.",
+      "ogTitle": "Best Ping Pong Balls 2026 — Practice to Match Grade | SportGear Finder",
+      "ogDescription": "Compare 6 sets of ping pong balls across Budget, Best Value and Premium, with the star rating system explained.",
+      "listName": "Best Ping Pong Balls 2026 — Practice to Match Grade",
+      "h1": "Ping Pong <em>Balls</em>",
+      "heroSub": "6 real picks — bulk practice balls through to ITTF match balls.",
+      "intro": "Ping pong balls are the cheapest thing in the sport and the easiest to get wrong. Since 2014 the standard has been a <strong>40+ millimetre plastic ball</strong>, which replaced the old celluloid one — if a listing still says celluloid, it is old stock. The number of stars is the thing to understand: it is a consistency grade, not a durability rating. A 3-star ball is round, evenly weighted and bounces the same every time; a 1-star ball is none of those things, which is fine for feeding a robot and useless for a match.",
+      "tableColumns": [
+        { "label": "Grade", "key": "grade" },
+        { "label": "Best Use", "key": "use" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Bulk Practice Balls", "sub": "Buy these by the hundred and stop worrying about losing them" },
+        "value": { "title": "Everyday 3-Star", "sub": "Consistent enough for real games without match-ball pricing" },
+        "premium": { "title": "Match Grade", "sub": "ITTF-approved balls for tournaments and serious training" }
+      },
+      "guideHeading": "How to Choose Ping Pong Balls",
+      "guide": [
+        { "h": "What the Stars Actually Mean", "p": "The star rating grades consistency: roundness, weight distribution and bounce height, measured across a batch. Three stars is the top grade and the only one used in serious competition. One and two star balls come off the same production lines but fail the tolerances, so they wobble slightly and bounce a little differently from one another. That is irrelevant when a robot is feeding you 200 balls and very relevant when you are trying to read spin." },
+        { "h": "40+ Plastic, Not Celluloid", "p": "The sport moved from 40mm celluloid to 40+ plastic balls in 2014. Plastic balls are slightly larger, marginally slower, take less spin and are noticeably louder. Every ball on this page is 40+ plastic. The practical reason it matters: if you learned on celluloid and your old stock finally ran out, your serves will bite less with plastic and that is the ball, not you." },
+        { "h": "Buy Practice Balls by the Hundred", "p": "The correct number of balls to own is more than you think. Multiball drills, robot work and simply not interrupting a session to crawl under the table all argue for buying a hundred at a time. Orange and white play identically — orange is easier to spot against a light floor or a pale wall, which is the only reason to prefer it." },
+        { "h": "ITTF Approved Is a Competition Rule", "p": "An ITTF-approved ball has passed the federation's testing and may be used in sanctioned events. For a home game it buys you nothing except very tight consistency. It is worth paying for if you are training seriously and want your practice ball to behave exactly like your match ball, and it is a waste of money if the balls are going to spend their lives being trodden on." },
+        { "h": "Seams, Seamless and Durability", "p": "Most balls are moulded in two halves and joined, leaving a seam; some premium balls are seamless. In practice a well-made seamed ball plays fine and seams are not the reason balls crack. Balls crack from being stepped on and from hard smashes into the table edge. Expect to lose a few from any batch — that is normal, and another argument for buying in bulk." }
+      ],
+      "faq": [
+        { "q": "Are 3-star ping pong balls worth the extra money?", "a": "For matches, yes. A 3-star ball bounces identically every time, which means when the ball does something odd you know it was the spin and not the ball. For robot feeding, warm-ups and multiball drills, cheaper balls are genuinely fine and you will get through far more of them. Most players who train seriously keep both: a bulk bag for drills and a small box of match balls." },
+        { "q": "What is the difference between orange and white ping pong balls?", "a": "Nothing but visibility. They are made to the same specification and play identically. Choose whichever contrasts better with your floor, walls and the shirts people play in — orange usually wins in a garage or basement, white in a hall with dark surroundings. Official matches use whichever colour the venue specifies." },
+        { "q": "What size is a regulation ping pong ball?", "a": "40+ millimetres in diameter and 2.7 grams, made of plastic. The plus sign is not decoration — it reflects the fact that the plastic balls introduced in 2014 run slightly over 40mm, where the old celluloid ones were exactly 40mm. Anything sold as 38mm is pre-2000 stock and no longer legal for play." },
+        { "q": "How many ping pong balls should I buy?", "a": "If you only play casual games, a box of six 3-star balls will last a long time. If you own a robot or do any multiball training, buy a hundred at a time — a robot empties a fifty-ball hopper in a couple of minutes, and stopping to collect balls every two minutes ruins the point of the drill. A ball collector or catch net pays for itself quickly at that volume." },
+        { "q": "Why do my ping pong balls crack so quickly?", "a": "Almost always because they are being stood on. Plastic 40+ balls are tough against normal hitting but split when compressed, so the killer is a foot rather than a smash. Collect balls off the floor before you move around the table, and keep them out of direct sun and hot cars, which makes the plastic brittle." }
+      ],
+      "products": {
+        "pp-ball-001": {
+          "anchor": "kevenz-3-star",
+          "shortName": "KEVENZ 3-Star 40+",
+          "note": "bulk packs",
+          "grade": "3-star",
+          "use": "Practice",
+          "specs": ["40+ plastic", "3-star grade", "Sold in bulk quantities", "White or orange"],
+          "desc": "The default answer to \"I need a lot of balls and I do not want to think about it\". Consistency is good enough that they do not feel obviously worse than a match ball in a rally, and they are cheap enough per ball that losing one under the sofa costs nothing. They are the balls to buy for a robot hopper, for multiball feeding, and for a household where balls disappear."
+        },
+        "pp-ball-002": {
+          "anchor": "mapol-100-orange",
+          "shortName": "MAPOL 100-Count Orange",
+          "note": "100 balls",
+          "grade": "3-star",
+          "use": "Practice",
+          "specs": ["40+ plastic", "3-star grade", "100 balls per pack", "High-visibility orange"],
+          "desc": "A hundred orange balls for the price of a takeaway. Orange is the right call for a garage or basement where a white ball vanishes against a pale floor, and at this quantity you can genuinely run a full multiball session without collecting. Individual balls vary a little more than a premium 3-star ball, which you will never notice while a robot is firing them at you."
+        },
+        "pp-ball-003": {
+          "anchor": "pro-spin-40-plus",
+          "shortName": "PRO-SPIN High-Performance",
+          "note": "multiple pack sizes",
+          "grade": "3-star",
+          "use": "Practice / games",
+          "specs": ["40+ plastic", "3-star grade", "ABS construction", "Multiple pack sizes"],
+          "desc": "A step up in batch consistency from the bulk options without a real step up in price, and sold in small or large packs so you can buy a dozen for the table drawer or sixty for training. The bounce is even enough for club-level games. If you want one ball that covers both practice and casual matches without keeping two boxes, this is the pick."
+        },
+        "pp-ball-004": {
+          "anchor": "stiga-3-star",
+          "shortName": "STIGA 3-Star",
+          "note": "brand-consistent",
+          "grade": "3-star",
+          "use": "Games",
+          "specs": ["40+ plastic", "3-star grade", "Consistent bounce", "STIGA quality control"],
+          "desc": "STIGA have been making table tennis equipment since 1944 and their quality control shows in how little variation there is between balls in a box. These are for the table you actually play games on: they bounce true, they hold up to normal hitting, and they cost meaningfully less than the Japanese match balls. A sensible default for a home table."
+        },
+        "pp-ball-005": {
+          "anchor": "dhs-d40-plus",
+          "shortName": "DHS D40+ 3-Star",
+          "note": "ITTF approved",
+          "grade": "3-star ITTF",
+          "use": "Match",
+          "specs": ["40+ plastic", "3-star ITTF approved", "Official size and weight", "Match legal"],
+          "desc": "DHS is the Chinese national team's supplier and the D40+ is a genuine match ball at a price that does not sting. ITTF approval means it is legal for sanctioned competition and, more usefully for most people, that the tolerances are tight — the ball you serve with in practice behaves exactly like the one you will serve with in a match. The best value in the premium tier."
+        },
+        "pp-ball-006": {
+          "anchor": "nittaku-premium",
+          "shortName": "Nittaku 3-Star Premium",
+          "note": "tournament grade",
+          "grade": "3-star premium",
+          "use": "Match",
+          "specs": ["40+ plastic", "3-star premium grade", "Japanese manufacture", "Tournament standard"],
+          "desc": "Nittaku's premium ball is the one many serious players quietly consider the benchmark, and it is priced accordingly — you are buying a handful of balls for what a hundred practice balls cost. What you get is exceptional roundness and a bounce that does not drift across a box. Worth it if you train seriously and want your practice ball to be indistinguishable from a tournament ball; overkill for anything else."
+        }
+      }
+    },
+    {
+      "slug": "nets",
+      "productCategory": "nets",
+      "navLabel": "Nets & Posts",
+      "tableNoun": "Net Set",
+      "title": "Best Ping Pong Nets 2026: Retractable, Clamp and Regulation Sets",
+      "metaDescription": "Six ping pong net and post sets compared. Retractable versus fixed, clamp versus screw mount, regulation height, and which nets fit a dining table.",
+      "ogTitle": "Best Ping Pong Nets 2026 — Retractable to Regulation | SportGear Finder",
+      "ogDescription": "Compare 6 ping pong net and post sets across Budget, Best Value and Premium, with mounting and regulation height explained.",
+      "listName": "Best Ping Pong Nets 2026 — Retractable to Regulation",
+      "h1": "Ping Pong <em>Nets &amp; Posts</em>",
+      "heroSub": "6 real picks — retractable travel nets through to club-grade posts.",
+      "intro": "The net is the part of a ping pong table that fails first and the part nobody budgets for. Two things decide which one you want: <strong>how it mounts</strong> (spring clamps grab any table edge in seconds, screw clamps hold tension better over time) and <strong>whether it retracts</strong> (a retractable net rolls into its own housing and fits a dining table, a kitchen island or a real table equally well). Regulation height is <strong>6 inches</strong> across a 6-foot span, and a net that sags below that quietly changes how the game plays.",
+      "tableColumns": [
+        { "label": "Mount", "key": "mount" },
+        { "label": "Fits", "key": "fits" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Replacements & Travel Nets", "sub": "Cheap enough to keep a spare in the cupboard" },
+        "value": { "title": "Everyday Retractables", "sub": "Set up in seconds, hold tension, fit almost any table" },
+        "premium": { "title": "Regulation & Club Grade", "sub": "Proper tension systems built to stay at 6 inches" }
+      },
+      "guideHeading": "How to Choose a Ping Pong Net",
+      "guide": [
+        { "h": "Retractable vs Fixed", "p": "A retractable net pulls out of a housing like a tape measure and locks at whatever width you need, so it fits a dining table, a conference table or a proper 9-foot table. That flexibility is the whole point and it is why retractables dominate home buying. A fixed net is a plain mesh strung between two posts: fewer moving parts, better long-term tension, and it only fits tables close to regulation width." },
+        { "h": "Spring Clamps vs Screw Clamps", "p": "Spring clamps snap on in about five seconds and are perfect if the net comes on and off constantly. Screw clamps take half a minute and tighten down hard, which stops the posts creeping when someone catches the net with a paddle. If your table lives permanently set up, choose screws. If you are converting a dining table twice a week, choose springs and accept that you will re-seat it occasionally." },
+        { "h": "Regulation Height Is 6 Inches", "p": "Under the rules the net is 15.25cm — 6 inches — high along its whole length, and 183cm (6 feet) wide. It matters more than it sounds: a net sagging to five inches in the middle makes pushes and short serves far easier than they should be, so you practise a game that does not exist. Any net with an adjustable tension mechanism should be re-tensioned every few months." },
+        { "h": "Check Your Table Thickness First", "p": "This is the single most common reason a net gets returned. Clamps have a maximum jaw opening — commonly around 2 inches — and thick tabletops, aprons under the edge and rounded rims all defeat them. Measure the edge you intend to clamp before ordering, including any lip or frame underneath, and check it against the listing." },
+        { "h": "The Cheap Net Is Often the Right Net", "p": "Nets are consumable. Mesh frays, clamps lose their grip, and someone eventually leans on one. Unless you are running a club, a mid-priced retractable that you replace every few years is a better buy than an expensive set you baby. Keep the old one as a spare — a broken net ends a game night, and nowhere sells them at 8pm." }
+      ],
+      "faq": [
+        { "q": "How high should a ping pong net be?", "a": "6 inches (15.25cm) along its entire length, over a span of 6 feet (183cm). Measure at the middle as well as at the posts — a net can be correct at the ends and sagging in the centre, which is the most common fault and the one that most changes how the game plays. Most decent net sets have a tension adjuster for exactly this reason." },
+        { "q": "Can I use a ping pong net on a dining table?", "a": "Yes, and it is the single most popular use for a retractable net. Pull it out to the width of the table and clamp it at both edges. The two things to check are the thickness of the tabletop against the clamp's jaw opening, and whether the clamps have padded feet — bare metal on a polished dining table will leave marks. A tablecloth underneath the clamps solves it." },
+        { "q": "Do I need to replace the whole net set or just the net?", "a": "Almost always the whole set. Nets and posts are sold as matched pairs, the attachment method varies between brands, and a replacement mesh that fits your specific posts is usually harder to find than a complete set costs. Given a full set is inexpensive, buy the set." },
+        { "q": "What is the difference between a clamp net and a screw-on net?", "a": "Clamp nets use a sprung jaw that grips the table edge instantly. Screw-on nets use a threaded bolt you tighten by hand, which holds far more firmly and does not creep when knocked, at the cost of taking longer to fit. Frequent setup favours clamps; a permanently assembled table favours screws." },
+        { "q": "Why does my ping pong net keep sagging?", "a": "Either the tension cord has stretched or the posts are leaning inward under load. Re-tension the cord first — most sets have an adjuster at one post. If the posts themselves are tilting, the clamps are not tight enough or the table edge is too thick or too rounded for them to bite properly, in which case a screw-clamp set will fix what no amount of re-tensioning will." }
+      ],
+      "products": {
+        "pp-net-001": {
+          "anchor": "comesee-net-set",
+          "shortName": "Comesee Net and Post Set",
+          "note": "spring clamp",
+          "mount": "Spring clamp",
+          "fits": "Standard tables",
+          "specs": ["Spring-activated clamps", "Professional-style posts", "Adjustable tension", "Replacement-grade"],
+          "desc": "A straightforward spring-clamp set that does the one job it exists for: replacing the net on a table that already has one. The spring mechanism is strong enough to keep the posts upright through normal play, and the tension adjuster works. There is no cleverness here and none is needed — this is the net you buy so that game night is not cancelled."
+        },
+        "pp-net-002": {
+          "anchor": "sportout-retractable",
+          "shortName": "Sportout Retractable",
+          "note": "72 inch",
+          "mount": "Clamp",
+          "fits": "Any table up to 72\"",
+          "specs": ["Retractable to 72 inches", "Secure clamps", "Portable housing", "Fits non-standard tables"],
+          "desc": "The cheapest sensible way to turn a dining table into a ping pong table. It retracts into its housing, extends to any width up to 72 inches and clamps on in seconds, so it lives in a drawer between games. Tension is good when new and needs occasional re-seating after heavy use — acceptable at the price, and a lot of fun per pound spent."
+        },
+        "pp-net-003": {
+          "anchor": "pro-spin-retractable",
+          "shortName": "PRO-SPIN Retractable",
+          "note": "adjustable tension",
+          "mount": "Clamp",
+          "fits": "Any table up to 72\"",
+          "specs": ["Retractable to 72 inches", "Adjustable tension", "Padded clamps", "Portable"],
+          "desc": "The retractable net to buy if it is going to be used constantly. The clamps are padded, so a dining table survives, and the tension mechanism holds its setting far better than the budget retractables — which is the difference between a net that stays at regulation height and one you re-tension every session. The best all-round choice on this page for most homes."
+        },
+        "pp-net-004": {
+          "anchor": "joola-retractable",
+          "shortName": "JOOLA Retractable",
+          "note": "fits most edges",
+          "mount": "Clamp",
+          "fits": "Wide range of thicknesses",
+          "specs": ["Retractable design", "Fits varied table thicknesses", "Quick setup", "JOOLA build quality"],
+          "desc": "JOOLA's retractable takes a wider range of table edges than most, which matters if your dining table has a thick top or a frame underneath that defeats standard clamps. Build quality is a clear step up from generic retractables — the housing does not flex and the mesh has held up well. Buy this one if a cheaper net has already failed to fit your table."
+        },
+        "pp-net-005": {
+          "anchor": "stiga-clipper",
+          "shortName": "STIGA Premium Clipper",
+          "note": "regulation",
+          "mount": "Spring clamp",
+          "fits": "Regulation tables",
+          "specs": ["Regulation 6in height", "Spring-activated clamps", "Tension adjustment", "STIGA build"],
+          "desc": "A proper regulation net for a proper table. The spring clamps set up quickly, the posts stay vertical and the tension system is designed to be adjusted rather than fought with, so holding a genuine 6 inches across the middle is realistic over a season. If you own a full-size table and care that it plays correctly, start here rather than with a retractable."
+        },
+        "pp-net-006": {
+          "anchor": "joola-wx-aluminium",
+          "shortName": "JOOLA Professional WX",
+          "note": "aluminium posts",
+          "mount": "Screw clamp",
+          "fits": "Indoor & outdoor tables",
+          "specs": ["Aluminium posts", "Quick-set screw clamps", "Indoor and outdoor rated", "Club grade"],
+          "desc": "Aluminium posts, screw clamps and weather resistance — this is the net for a table that is permanently assembled, especially one that lives outside. Nothing creeps, nothing flexes, and it holds tension between seasons rather than between sessions. It costs several times what a retractable does and is straightforwardly the wrong purchase for a dining table, but a club or a garage table earns it back."
+        }
+      }
+    },
+    {
+      "slug": "sets",
+      "productCategory": "sets",
+      "navLabel": "Paddle Sets",
+      "tableNoun": "Set",
+      "title": "Best Ping Pong Paddle Sets 2026: 2 and 4 Player Kits Compared",
+      "metaDescription": "Six ping pong paddle sets compared. Two and four player kits with balls, nets and cases, and when a set is better value than buying paddles separately.",
+      "ogTitle": "Best Ping Pong Paddle Sets 2026 — Family Kits | SportGear Finder",
+      "ogDescription": "Compare 6 ping pong paddle sets across Budget, Best Value and Premium, from travel kits to four-player family sets.",
+      "listName": "Best Ping Pong Paddle Sets 2026 — Family and Travel Kits",
+      "h1": "Ping Pong <em>Paddle Sets</em>",
+      "heroSub": "6 real picks — travel kits, family four-packs and all-in-one net sets.",
+      "intro": "A paddle set is the right purchase far more often than the internet admits. If you need to equip a household, a common room or a holiday house, four decent paddles and a box of balls in one order costs less than two paddles bought separately and gets everyone playing on the same day. The sets worth buying share three traits: <strong>rubber that actually grips</strong>, a <strong>case</strong> so the rubber does not gather dust, and — in the best ones — a <strong>retractable net</strong>, which means you do not need a ping pong table at all.",
+      "tableColumns": [
+        { "label": "Players", "key": "players" },
+        { "label": "Includes", "key": "includes" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Get Everyone Playing", "sub": "Cheap, complete and genuinely fun" },
+        "value": { "title": "Add the Net", "sub": "Kits that turn any table into a court" },
+        "premium": { "title": "Sets That Play Properly", "sub": "Real rubber and 3-star balls, not toy paddles" }
+      },
+      "guideHeading": "How to Choose a Ping Pong Set",
+      "guide": [
+        { "h": "Count the Players, Then the Paddles", "p": "Doubles needs four paddles and so does any household where two games run back to back. A two-paddle set is only right for a couple or for travel. Sets almost always cost less per paddle as they get bigger, so if you are hesitating between two and four, buy four — the spare pair matters the first time someone brings a friend." },
+        { "h": "A Set With a Net Removes the Biggest Barrier", "p": "The reason most people never buy a ping pong table is that they have nowhere to put one. A set that includes a retractable net sidesteps that entirely: clamp it to a dining table, play, and put the whole thing back in a drawer. For anyone without a spare garage, this is by far the highest-value thing on the page." },
+        { "h": "Look at the Rubber, Not the Paddle Count", "p": "The difference between a set that gets used and one that gets abandoned is whether the rubber grips. Cheap bundled paddles use hard, slick rubber that cannot hold the ball, which makes spin impossible and rallies short and dull. Every set here uses real inverted rubber with a sponge layer underneath. That is the line worth paying to stay above." },
+        { "h": "Balls: Check the Grade and the Count", "p": "Sets ship with anywhere from three to ten balls, in grades from unmarked to 3-star. Assume you will need more regardless — see our <a href=\"balls.html\">ping pong balls</a> page — but a set including 3-star balls tells you something about how seriously the rest of it was specified." },
+        { "h": "The Case Is Not a Gimmick", "p": "Rubber loses grip mainly to dust and sunlight. Paddles kept loose in a cupboard or on a shelf go dull within a year; the same paddles in a zipped case stay usable for several. Every set here includes storage, and it is a genuine reason they outlast the loose four-packs sold at the same price." }
+      ],
+      "faq": [
+        { "q": "Is a ping pong paddle set better value than buying paddles separately?", "a": "For equipping more than one person, almost always. Four set paddles typically cost less than one mid-range individual paddle, and the balls and case come free in practice. The exception is a single serious player: if only you will use it, one $50 paddle will play far better than four $12 ones, and the set is a waste." },
+        { "q": "Do I need a ping pong table to use these sets?", "a": "No, and this is the best-kept secret in the sport. Several of these sets include a retractable net that clamps onto a dining table, a kitchen island or a desk. The playing area is smaller than regulation so the game is faster and more about hands than footwork, but it is real ping pong and it needs no dedicated room." },
+        { "q": "How many paddles should a family set have?", "a": "Four. It covers doubles, it covers two players plus two waiting, and the cost difference over a two-paddle set is small. Two-paddle sets make sense for couples and for travel, where the extra pair is dead weight." },
+        { "q": "Are the paddles in a set any good?", "a": "The ones on this page are — they use real inverted rubber over sponge, which is what lets you put spin on the ball. They are not equivalent to a $70 individual paddle and are not meant to be. Think of them as good enough that a competent player enjoys a game and a beginner can learn correct strokes, which is a bar most bundled paddles fail." },
+        { "q": "What should I upgrade first from a set?", "a": "Balls, then one good paddle for yourself. Better balls improve every single rally for a few pounds. After that, buy yourself a proper paddle and leave the set paddles as guest bats — that combination covers almost every household, and it means your paddle is not the one being used as a fly swat." }
+      ],
+      "products": {
+        "pp-set-001": {
+          "anchor": "franklin-to-go",
+          "shortName": "Franklin Table Tennis to Go",
+          "note": "table-top kit",
+          "players": "2",
+          "includes": "Net, paddles, balls",
+          "specs": ["Portable table-top net", "2 paddles", "Balls included", "Clamps to most tables"],
+          "desc": "A whole game in a box small enough to pack. The net clamps onto essentially any table, the paddles are basic but real, and the entire thing takes about a minute to set up. It is the set for a holiday cottage, a caravan, a student flat or an office break room — anywhere a proper table is never going to happen but a table exists."
+        },
+        "pp-set-002": {
+          "anchor": "glymnis-set-4",
+          "shortName": "Glymnis 4-Paddle Set",
+          "note": "4 players",
+          "players": "4",
+          "includes": "4 paddles, balls, case",
+          "specs": ["4 paddles, 7-ply wood", "3-star balls included", "Zipped carry case", "Doubles ready"],
+          "desc": "Four seven-ply paddles with genuine sponge-backed rubber, plus balls and a case, for less than the price of one mid-range bat. The rubber grips well enough to learn topspin with, which is the thing that separates a set people keep playing with from one that ends up in a loft. The obvious choice for equipping a household on a budget."
+        },
+        "pp-set-003": {
+          "anchor": "fbsport-net-set",
+          "shortName": "FBSPORT Set with Net",
+          "note": "net included",
+          "players": "4",
+          "includes": "4 rackets, 8 balls, net",
+          "specs": ["4 rackets", "Retractable net included", "8 balls", "Storage bag"],
+          "desc": "Four rackets, eight balls and a retractable net in one bag — which means a dining table becomes a doubles court in under two minutes and reverts to a dining table just as fast. Nothing here is remarkable individually and the combination is exactly right for a family that wants to play tonight without buying furniture."
+        },
+        "pp-set-004": {
+          "anchor": "stiga-all-in-one",
+          "shortName": "STIGA All-in-One",
+          "note": "brand-name kit",
+          "players": "2",
+          "includes": "Net, 2 paddles, balls",
+          "specs": ["Retractable net", "2 paddles", "Balls included", "Stores compactly"],
+          "desc": "STIGA's version of the convert-any-table kit, and the build quality shows in the net mechanism more than in the paddles. It extends and locks cleanly, the clamps hold, and the whole set folds into something drawer-sized. Two paddles rather than four, so it suits a couple or a small flat rather than a full household."
+        },
+        "pp-set-005": {
+          "anchor": "joola-family-premium",
+          "shortName": "JOOLA Family Premium",
+          "note": "3-star balls",
+          "players": "4",
+          "includes": "4 paddles, 3-star balls, case",
+          "specs": ["4 advanced paddles", "3-star tournament balls", "Storage case", "JOOLA rubber"],
+          "desc": "The set where the paddles stop being an afterthought. JOOLA specify proper rubber and include 3-star balls rather than the unmarked ones bundled elsewhere, so a competent player can have a real game with one and a beginner can learn correct strokes. If the set is going to be the household's permanent equipment rather than a stopgap, this is the one to buy."
+        },
+        "pp-set-006": {
+          "anchor": "pro-spin-portable",
+          "shortName": "PRO-SPIN Portable Set",
+          "note": "net + carbon paddles",
+          "players": "2",
+          "includes": "Retractable net, paddles, balls",
+          "specs": ["Retractable net", "Carbon-layer paddles", "Balls included", "All-in-one case"],
+          "desc": "The most complete answer to \"I want to play ping pong and I have no table\". Carbon-layer paddles that are genuinely good, a retractable net that holds tension, balls and a case that swallows the lot. It costs more than the budget kits and it is the one that still gets used two years later. Our pick if you are buying a set for yourself rather than for guests."
+        }
+      }
+    },
+    {
+      "slug": "training",
+      "productCategory": "training",
+      "navLabel": "Training Aids",
+      "tableNoun": "Trainer",
+      "title": "Best Ping Pong Robots & Training Aids 2026: Practice Without a Partner",
+      "metaDescription": "Ping pong robots, ball catch nets and collectors compared. What a table tennis robot actually improves, what it cannot teach, and what to buy first.",
+      "ogTitle": "Best Ping Pong Robots & Training Aids 2026 | SportGear Finder",
+      "ogDescription": "Compare 6 table tennis training aids across Budget, Best Value and Premium — robots, catch nets and ball collectors.",
+      "listName": "Best Ping Pong Robots and Training Aids 2026",
+      "h1": "Ping Pong <em>Training Aids</em>",
+      "heroSub": "6 real picks — catch nets, collectors and robots for solo practice.",
+      "intro": "Table tennis is unusually hard to practise alone, which is why <strong>robots</strong> exist and why they are worth more here than in most sports. A robot fires a ball to the same place, with the same spin, as many times as you want — and repetition against a consistent ball is precisely how a stroke gets grooved. What a robot cannot do is read you, vary spin unpredictably or teach you to serve. Buy one to drill technique, not to replace a partner. And buy the <strong>catch net first</strong>: without one you will spend more of the session picking up balls than hitting them.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Control", "key": "control" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Stop Chasing Balls", "sub": "The cheap kit that makes solo practice actually work" },
+        "value": { "title": "First Robots", "sub": "Consistent feeding without a four-figure price" },
+        "premium": { "title": "Programmable Robots", "sub": "Drill sequences, spin control and continuous recycling" }
+      },
+      "guideHeading": "How to Choose a Table Tennis Robot",
+      "guide": [
+        { "h": "Buy the Catch Net Before the Robot", "p": "A robot with a 100-ball hopper empties in about three minutes. Without a recycling net, you then spend five minutes collecting balls off the floor — so two thirds of your session is crawling around. A catch net returns balls to the robot automatically and turns the same hour into continuous hitting. If your budget only covers one item, a catch net plus a friend beats a robot alone." },
+        { "h": "What a Robot Genuinely Improves", "p": "Stroke mechanics and footwork patterns. Because every ball arrives identically, you can hit two hundred forehand loops and feel the difference between the good ones and the bad ones, which is impossible in a rally where every ball is different. It is also the only realistic way to drill against heavy backspin repeatedly. Expect real improvement in consistency within a few weeks of regular use." },
+        { "h": "What a Robot Cannot Teach You", "p": "Serving, receiving, reading an opponent's body, and match tactics — all of which are large parts of the game. A robot ball has no disguise: you know what is coming and when. Players who train exclusively on a robot tend to have beautiful strokes and get beaten by people who read spin better. Use it as one part of practice, not all of it." },
+        { "h": "Oscillation, Spin and Programmability", "p": "The three features worth paying for, in that order. Oscillation moves the landing point side to side so you have to move your feet, which is what turns a stroke drill into a real one. Adjustable spin lets you drill against backspin and topspin separately. Programmable drill sequences — usually via an app — let you chain shots into realistic patterns, and are the main thing separating a premium robot from a basic one." },
+        { "h": "Feed It Cheap Balls", "p": "A robot will chew through balls, jam occasionally and send a few over the barrier into whatever is behind the table. Do not feed it match balls. Buy the cheapest 3-star or even 1-star balls in bulk — see our <a href=\"balls.html\">ping pong balls</a> page — and keep your good balls for games. Mixing ball types in a hopper also causes jams, so pick one and stick to it." }
+      ],
+      "faq": [
+        { "q": "Is a table tennis robot worth it?", "a": "If you play regularly and cannot always find a partner, yes — it is the most effective solo practice available and it fixes stroke consistency faster than anything else. If you play a few casual games a month, it is not: you will use it twice and then it will live under the table. The honest test is whether you already practise deliberately, or just play." },
+        { "q": "What should I buy first, a robot or a catch net?", "a": "The catch net, without hesitation. It costs a fraction as much and it multiplies the value of everything else — it makes multiball practice with a partner work, and it is what makes a robot usable rather than infuriating. Many people find that a catch net plus a training partner covers everything they needed a robot for." },
+        { "q": "How many balls do I need for a ping pong robot?", "a": "At least 100, ideally 200. A hopper empties in a few minutes and the whole point of a recycling setup is not stopping. Use cheap bulk balls rather than match balls, and use all the same type — mixing brands and grades in one hopper is a common cause of jamming." },
+        { "q": "Can a robot replace a coach?", "a": "No. A robot repeats; a coach corrects. If your forehand has a technical fault, a robot will help you practise that fault two hundred times an hour. The productive combination is a coach or a good club player telling you what to change, and a robot letting you drill the change until it is automatic." },
+        { "q": "Do cheap ping pong robots actually work?", "a": "The entry-level ones feed a consistent ball with basic topspin or backspin and no oscillation, which is genuinely enough to drill a stroke. What you give up is side-to-side movement, fine spin control and programmable sequences. If you know you will use it, the mid-range models are where the value sits; the cheapest ones are fine for one-shot repetition and little else." }
+      ],
+      "products": {
+        "pp-train-001": {
+          "anchor": "ball-collector",
+          "shortName": "Retractable Ball Collector",
+          "note": "150+ balls",
+          "type": "Collector",
+          "control": "Manual",
+          "specs": ["Retractable design", "Holds 150+ balls", "No bending required", "Collapses for storage"],
+          "desc": "A tube that picks balls off the floor by being pressed onto them, holding well over a hundred before it needs emptying. Deeply unglamorous and the best twenty pounds in solo training: it turns the five-minute collection break between robot hoppers into about forty seconds. If you do any multiball work at all, buy one before you buy anything else here."
+        },
+        "pp-train-002": {
+          "anchor": "joola-ipong-catch-net",
+          "shortName": "JOOLA iPong Catch Net",
+          "note": "recycling net",
+          "type": "Catch net",
+          "control": "Passive",
+          "specs": ["Attaches to the table", "Carbon fibre frame", "Recycles balls to one point", "Works with any robot"],
+          "desc": "The single most useful accessory in solo table tennis. It attaches across the far half of the table and funnels every ball you hit into one collection point, so a robot session becomes continuous hitting instead of hit-then-crawl. Works with any robot and with a partner feeding multiball. If you own a robot and not one of these, you are wasting most of your practice time."
+        },
+        "pp-train-003": {
+          "anchor": "ipong-original",
+          "shortName": "iPong Original Trainer",
+          "note": "topspin & backspin",
+          "type": "Robot",
+          "control": "Dial",
+          "specs": ["Topspin and backspin", "Adjustable frequency", "Sits on the table", "Runs on mains or battery"],
+          "desc": "The robot that made solo practice affordable, and still a reasonable first one. It sits on the far end of the table, feeds topspin or backspin at an adjustable rate, and does not oscillate — so you drill one stroke at a time from one position. Simple to the point of crude, and that simplicity is why it keeps working. A genuine training tool, not a toy."
+        },
+        "pp-train-004": {
+          "anchor": "suz-s102",
+          "shortName": "Suz S102 Remote Trainer",
+          "note": "wireless remote",
+          "type": "Robot",
+          "control": "Remote",
+          "specs": ["Wireless remote control", "Adjustable speed and spin", "Portable", "Quick setup"],
+          "desc": "A step up from the dial-only robots mainly because of the remote: you can change speed and spin without walking to the far end of the table, which sounds trivial and completely changes how much you actually vary your drills. Setup is quick and it packs down small. A sensible middle option if a programmable robot is more than you need."
+        },
+        "pp-train-005": {
+          "anchor": "pongbot-app-robot",
+          "shortName": "PONGBOT App-Control Robot",
+          "note": "264 drills",
+          "type": "Robot",
+          "control": "App",
+          "specs": ["App control", "264 pre-saved drills", "Spin and speed customisation", "Portable"],
+          "desc": "The point of app control is drill sequences: instead of two hundred identical forehands, you chain backspin push, topspin loop and block into a pattern that resembles an actual point. The pre-saved drills are a genuinely good starting library and you can customise spin and speed per shot. This is where a robot stops drilling strokes and starts drilling table tennis."
+        },
+        "pp-train-006": {
+          "anchor": "suz-s201",
+          "shortName": "Suz S201 with Recycling Net",
+          "note": "net + 200 balls",
+          "type": "Robot",
+          "control": "Remote",
+          "specs": ["Includes recycling net", "200 balls included", "Adjustable spin and speed", "Continuous feed"],
+          "desc": "The complete package: robot, recycling net and two hundred balls in one purchase, which is the combination that actually delivers an hour of unbroken practice. Buying the three separately costs about the same, so the value is in not having to work out whether the net fits the robot. Best pick if you are starting from nothing and intend to train seriously."
+        }
+      }
+    },
+    {
+      "slug": "custom",
+      "productCategory": "custom",
+      "navLabel": "Blades & Rubbers",
+      "tableNoun": "Item",
+      "title": "Best Table Tennis Blades & Rubbers 2026: Building Your Own Paddle",
+      "metaDescription": "Table tennis blades and rubbers compared. When to stop buying pre-made paddles, how tacky Chinese and European tensor rubbers differ, and what to buy first.",
+      "ogTitle": "Best Table Tennis Blades & Rubbers 2026 | SportGear Finder",
+      "ogDescription": "Compare 6 table tennis blades and rubbers across Budget, Best Value and Premium — build a paddle that suits your game.",
+      "listName": "Best Table Tennis Blades and Rubbers 2026",
+      "h1": "Blades &amp; <em>Rubbers</em>",
+      "heroSub": "6 real picks — the parts you assemble into a paddle that fits your game.",
+      "intro": "At some point a pre-made paddle stops being the limit on your game and starts being the limit on your equipment. The fix is to buy the two parts separately: a <strong>blade</strong> (the wooden — and often carbon-reinforced — handle and face) and two sheets of <strong>rubber</strong>, one per side, glued on yourself. It costs more up front and less over time, because when a rubber wears out you replace a sheet instead of a whole paddle. It also lets you run a grippy attacking rubber on the forehand and something entirely different on the backhand, which no pre-made paddle offers.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Character", "key": "character" }
+      ],
+      "tierBands": {
+        "budget": { "title": "First Custom Rubbers", "sub": "Cheap sheets that teach you what rubber actually does" },
+        "value": { "title": "The Real Step Up", "sub": "Where a club player's forehand starts to bite" },
+        "premium": { "title": "Elite Equipment", "sub": "What the top of the sport is actually built from" }
+      },
+      "guideHeading": "How to Build Your Own Table Tennis Paddle",
+      "guide": [
+        { "h": "Blade First, Then Rubbers", "p": "The blade is the long-term purchase — a good one lasts many years and defines the speed class of your whole setup. Rubbers are consumable and get replaced repeatedly over that blade's life. So choose the blade for the game you want to play in two years, and then choose rubbers you can afford to replace annually. Buying an elite rubber on a blade you will outgrow is the wrong order." },
+        { "h": "All-Wood vs Carbon Blades", "p": "An all-wood blade flexes on contact, which gives you dwell time, feel and control. A carbon or arylate-carbon blade is stiffer: faster, with a larger sweet spot and much less feedback about where you hit the ball. Carbon flatters power and punishes touch. The usual advice — outer-ply carbon for raw speed, inner-ply carbon for speed with some of the wood feel back — is genuinely useful." },
+        { "h": "Tacky Chinese vs European Tensor Rubbers", "p": "Chinese rubbers such as the Hurricane family use a tacky top sheet that physically sticks to the ball, producing enormous spin on slow, brushing loops but demanding a fast arm to generate speed. European and Japanese tensor rubbers are pre-stretched so the sponge does more of the work, giving easier speed and a more forgiving feel. Many players run a tacky forehand and a tensor backhand for exactly this reason." },
+        { "h": "Sponge Thickness Changes Everything", "p": "Rubbers come in sponge thicknesses, usually from about 1.5mm to 2.1mm, and the total of sponge plus top sheet may not exceed 4mm under the rules. Thicker sponge means more speed and spin and less control; thinner means the opposite and is a real option for a blocking backhand. If you do not know what you want, 2.0mm is the standard answer." },
+        { "h": "Gluing Is Easier Than It Sounds", "p": "Use water-based table tennis glue, thin coats on both blade and rubber, let them dry until clear, press together and trim around the blade with sharp scissors. It takes about twenty minutes the first time. Speed glues and boosters that were once common are banned in competition and damage blades, so do not use them. A rubber removed carefully can even be re-glued once." }
+      ],
+      "faq": [
+        { "q": "When should I stop using pre-made paddles?", "a": "When you can loop consistently against backspin and you have an opinion about what your equipment is doing wrong. Before that point a pre-made paddle is not holding you back, and the money is better spent on balls, a net and playing time. After it, the ability to choose each rubber independently — and to replace one when it wears — is a real and ongoing advantage." },
+        { "q": "How much does it cost to build a table tennis paddle?", "a": "A sensible first custom setup runs roughly $110 to $180 all in: a blade in the $50 to $110 range plus two rubbers at $20 to $40 each. Elite setups reach $300 or more, mostly because top rubbers are $70 to $90 per sheet. The ongoing cost is lower than it looks, since you only replace rubbers — typically one or two sheets a year." },
+        { "q": "What is the difference between an inner and outer carbon blade?", "a": "It is where the carbon layer sits. Outer-ply carbon sits just under the rubber, so the blade feels fast and stiff immediately on contact — maximum speed, minimum feel. Inner-ply carbon sits closer to the core, letting the outer wood flex first, so you get a softer, more wood-like touch on slow shots and the carbon's power on hard ones. Inner is the more popular choice for all-round attacking play." },
+        { "q": "How do I know when to replace a rubber?", "a": "When the surface has gone shiny and stops feeling grippy against your thumb, or when your usual spin serves stop kicking. For a few hours of play a week, that is roughly every six to twelve months on the forehand and longer on the backhand, which sees less brushing contact. Rubbers also die from dust and sunlight, so keep the paddle in a case." },
+        { "q": "Do I have to use the same rubber on both sides?", "a": "No, and most serious players do not. The two sides must be clearly different colours, but they can be entirely different rubbers — a common setup is a tacky, spin-heavy sheet on the forehand for looping and a faster, more forgiving tensor on the backhand for blocking and counter-hitting. Being able to do this is one of the main reasons to move away from pre-made paddles." }
+      ],
+      "products": {
+        "pp-custom-001": {
+          "anchor": "loki-rxton-1",
+          "shortName": "Loki RXTON 1 Rubber",
+          "note": "2.1mm, ITTF",
+          "type": "Rubber",
+          "character": "Balanced",
+          "specs": ["ITTF approved", "2.1mm sponge", "Inverted top sheet", "Entry-level tensor"],
+          "desc": "The cheapest rubber on this page that is worth gluing to a decent blade. Grip and speed are ordinary next to the premium sheets, but it behaves predictably and it is ITTF approved, so it is legal for competition. Its real job is educational: putting one of these on a blade teaches you more about what rubber does than any amount of reading, at a price that makes mistakes painless."
+        },
+        "pp-custom-002": {
+          "anchor": "dhs-hurricane-3-neo",
+          "shortName": "DHS Hurricane 3-NEO",
+          "note": "tacky Chinese",
+          "type": "Rubber",
+          "character": "Tacky, spin-heavy",
+          "specs": ["Tacky Chinese top sheet", "Hard sponge", "Huge spin potential", "Forehand rubber"],
+          "desc": "The rubber the Chinese national team's game is built on, and remarkable value at this price. The top sheet is genuinely tacky — a ball will stick to it — which produces spin levels no tensor rubber matches on a slow brushing loop. The catch is honest: the hard sponge gives nothing back, so you supply all the speed yourself. Superb forehand rubber for a player with a fast arm, punishing for anyone else."
+        },
+        "pp-custom-003": {
+          "anchor": "stiga-dna-dragon-grip",
+          "shortName": "STIGA DNA Dragon Grip 55",
+          "note": "grippy, controlled",
+          "type": "Rubber",
+          "character": "Grippy, controlled",
+          "specs": ["High-grip top sheet", "55-degree sponge", "Spin-oriented", "Control focused"],
+          "desc": "STIGA's attempt at tacky-style grip with a European sponge underneath, and it lands in a genuinely useful place: more bite than a standard tensor, more forgiveness than a Hurricane. That makes it a good first \"proper\" rubber for someone whose game is built on placement and spin rather than raw pace, and a sensible backhand partner to a tacky forehand."
+        },
+        "pp-custom-004": {
+          "anchor": "butterfly-sk-carbon",
+          "shortName": "Butterfly SK Carbon Blade",
+          "note": "TAMCA 5000",
+          "type": "Blade",
+          "character": "Fast, outer carbon",
+          "specs": ["TAMCA 5000 carbon fibre", "Outer-ply carbon", "Offensive speed", "Shakehand"],
+          "desc": "A fast outer-ply carbon blade from the brand that effectively defined the category. The carbon sits close to the surface, so it is stiff and quick with a very large sweet spot — off-centre balls still go where you aimed. Feel on slow touch shots is limited, which is the standard outer-carbon trade. A strong first carbon blade for a committed attacker."
+        },
+        "pp-custom-005": {
+          "anchor": "butterfly-dignics-05",
+          "shortName": "Butterfly Dignics 05",
+          "note": "elite tensor",
+          "type": "Rubber",
+          "character": "Elite tensor",
+          "specs": ["Spring Sponge X", "High-tension top sheet", "Maximum spin and speed", "ITTF approved"],
+          "desc": "One of the two or three rubbers at the actual top of the sport, and priced like it. The Spring Sponge X layer stores and returns energy so aggressively that shots which would sit up off a normal rubber arc over and dip onto the table. It rewards a properly accelerated stroke and gives back nothing at all to a lazy one — buy it when your technique is the thing your equipment is failing to keep up with."
+        },
+        "pp-custom-006": {
+          "anchor": "butterfly-innerforce-alc",
+          "shortName": "Butterfly Innerforce Layer ALC",
+          "note": "inner arylate-carbon",
+          "type": "Blade",
+          "character": "Inner ALC, feel-first",
+          "specs": ["Arylate-carbon, inner ply", "Wood-like touch", "Offensive but controllable", "Shakehand"],
+          "desc": "Arylate-carbon placed on the inner plies rather than under the surface, which is the whole point: the outer wood flexes first, so short touch shots feel like a wood blade, and the carbon only asserts itself when you hit hard. The result is a blade you can play a delicate drop shot with and then loop through the table. The most complete blade here, and the one most players settle on long-term."
+        }
+      }
+    }
+  ]
+}

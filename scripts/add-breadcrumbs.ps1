@@ -52,6 +52,7 @@ $Site     = 'https://sportgearfinder.com'
 $SportLabel = @{
     tennis = 'Tennis'; gym = 'Gym'; boxing = 'Boxing'; swimming = 'Swimming'
     football = 'Football'; volleyball = 'Volleyball'; pickleball = 'Pickleball'
+    'ping-pong' = 'Ping Pong'; badminton = 'Badminton'
 }
 
 function HtmlDecode { param([string]$s)

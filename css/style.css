@@ -122,6 +122,28 @@
   --lime-dim:       rgba(139,92,246,0.08);
 }
 
+.sport-ping-pong {
+  --sport-primary:  #f97316;
+  --sport-accent:   #38bdf8;
+  --sport-glow:     rgba(249,115,22,0.32);
+  --sport-hero-bg:  #1c0a02;
+  --lime:           #f97316;
+  --lime-dark:      #ea580c;
+  --lime-glow:      rgba(249,115,22,0.28);
+  --lime-dim:       rgba(249,115,22,0.08);
+}
+
+.sport-badminton {
+  --sport-primary:  #ec4899;
+  --sport-accent:   #22d3ee;
+  --sport-glow:     rgba(236,72,153,0.32);
+  --sport-hero-bg:  #200414;
+  --lime:           #ec4899;
+  --lime-dark:      #db2777;
+  --lime-glow:      rgba(236,72,153,0.28);
+  --lime-dim:       rgba(236,72,153,0.08);
+}
+
 /* ══════════════════════════════════════════
    KEYFRAMES
 ══════════════════════════════════════════ */
@@ -2766,6 +2788,14 @@ nav, section, .hero-v2, .sport-hub-hero, .stat-bar,
     radial-gradient(ellipse 55% 75% at -5% 95%, rgba(139,92,246,0.22) 0%, transparent 48%),
     radial-gradient(ellipse 35% 55% at 105% 5%, rgba(251,191,36,0.08) 0%, transparent 42%),
     #150a2e;
+}
+
+/* Ping pong: orange ball over a blue table */
+.sport-ping-pong .sport-hub-hero {
+  background:
+    radial-gradient(ellipse 55% 75% at -5% 95%, rgba(249,115,22,0.22) 0%, transparent 48%),
+    radial-gradient(ellipse 35% 55% at 105% 5%, rgba(56,189,248,0.09) 0%, transparent 42%),
+    #1c0a02;
 }
 
 /* ══════════════════════════════════════════

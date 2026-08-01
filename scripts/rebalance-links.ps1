@@ -71,13 +71,15 @@ if ($missing.Count -gt 0) {
 # (tennis/pickleball share players and gear vocabulary); the rest lean on gym,
 # which is the closest thing the site has to a general-fitness hub.
 $Adjacent = @{
-    tennis     = 'pickleball'
-    pickleball = 'tennis'
-    boxing     = 'gym'
-    gym        = 'boxing'
-    swimming   = 'gym'
-    football   = 'gym'
-    volleyball = 'gym'
+    tennis       = 'pickleball'
+    pickleball   = 'tennis'
+    'ping-pong'  = 'badminton'
+    badminton    = 'ping-pong'
+    boxing       = 'gym'
+    gym          = 'boxing'
+    swimming     = 'gym'
+    football     = 'gym'
+    volleyball   = 'gym'
 }
 
 $SportLabel = @{}
@@ -137,7 +139,7 @@ function New-FooterLinks {
         # Root, /tools/ and /articles/ have no single sport. Give them a spread
         # across sports rather than four tennis links, so link equity from the
         # homepage - the strongest page on the site - reaches every section.
-        $spread = foreach ($s in @('tennis','gym','boxing','swimming','volleyball','pickleball','football')) {
+        $spread = foreach ($s in @('tennis','gym','boxing','swimming','volleyball','pickleball','ping-pong','badminton','football')) {
             $articles | Where-Object { $_.sport -eq $s } | Select-Object -First 1
         }
         $cols += New-Column 'Popular Guides' @(

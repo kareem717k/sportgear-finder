@@ -2,9 +2,16 @@
   "_comment": "Anchor-text and sport index for every article. Drives the section-relevant footer columns (rebalance-links.ps1) and article breadcrumbs (add-breadcrumbs.ps1). Labels are the anchor text used when linking TO an article, so keep them keyword-bearing and unique sitewide.",
   "sportLabels": {
     "tennis": "Tennis", "gym": "Gym", "boxing": "Boxing", "swimming": "Swimming",
-    "football": "Football", "volleyball": "Volleyball", "pickleball": "Pickleball", "guides": "Guides"
+    "football": "Football", "volleyball": "Volleyball", "pickleball": "Pickleball",
+    "ping-pong": "Ping Pong", "badminton": "Badminton", "guides": "Guides"
   },
   "articles": [
+    { "sport": "badminton", "path": "badminton/badminton-gear-beginners-guide.html", "label": "Badminton Gear: Complete Beginner Guide" },
+    { "sport": "badminton", "path": "badminton/badminton-string-tension-guide.html", "label": "Badminton String Tension Guide" },
+    { "sport": "badminton", "path": "badminton/badminton-vs-tennis-gear.html", "label": "Badminton vs Tennis Gear" },
+    { "sport": "badminton", "path": "badminton/best-badminton-rackets-beginners.html", "label": "Best Badminton Rackets for Beginners" },
+    { "sport": "badminton", "path": "badminton/best-badminton-sets-families.html", "label": "Best Badminton Sets for Families" },
+    { "sport": "badminton", "path": "badminton/feather-vs-nylon-shuttlecocks.html", "label": "Feather vs Nylon Shuttlecocks" },
     { "sport": "boxing", "path": "boxing/best-boxing-gloves-beginners.html", "label": "Best Boxing Gloves for Beginners" },
     { "sport": "boxing", "path": "boxing/best-boxing-gloves-heavy-bag.html", "label": "Best Boxing Gloves for Heavy Bag" },
     { "sport": "boxing", "path": "boxing/best-boxing-headgear-2026.html", "label": "Best Boxing Headgear 2026" },
@@ -38,6 +45,12 @@
     { "sport": "pickleball", "path": "pickleball/pickleball-gear-beginners-guide.html", "label": "Pickleball Gear: Complete Beginner Guide" },
     { "sport": "pickleball", "path": "pickleball/pickleball-paddle-weight-guide.html", "label": "Pickleball Paddle Weight Guide" },
     { "sport": "pickleball", "path": "pickleball/pickleball-vs-tennis-gear.html", "label": "Pickleball vs Tennis Gear" },
+    { "sport": "ping-pong", "path": "ping-pong/best-ping-pong-paddles-beginners.html", "label": "Best Ping Pong Paddles for Beginners" },
+    { "sport": "ping-pong", "path": "ping-pong/best-ping-pong-sets-families.html", "label": "Best Ping Pong Sets for Families" },
+    { "sport": "ping-pong", "path": "ping-pong/blades-rubbers-vs-premade-paddles.html", "label": "Blades and Rubbers vs Pre-Made Paddles" },
+    { "sport": "ping-pong", "path": "ping-pong/is-a-table-tennis-robot-worth-it.html", "label": "Is a Table Tennis Robot Worth It?" },
+    { "sport": "ping-pong", "path": "ping-pong/ping-pong-ball-star-ratings.html", "label": "Ping Pong Ball Star Ratings Explained" },
+    { "sport": "ping-pong", "path": "ping-pong/ping-pong-gear-beginners-guide.html", "label": "Ping Pong Gear: Complete Beginner Guide" },
     { "sport": "swimming", "path": "swimming/best-swim-bags.html", "label": "Best Swim Bags" },
     { "sport": "swimming", "path": "swimming/best-swimming-fins.html", "label": "Best Swimming Fins" },
     { "sport": "swimming", "path": "swimming/best-swimming-training-equipment.html", "label": "Best Swimming Training Equipment" },

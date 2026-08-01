@@ -373,7 +373,50 @@
     { title: 'HEAD Xtremesoft Overgrip', sub: 'Grips & Covers — Best Value', tag: 'Product', url: BASE + 'pickleball/grips.html' },
     { title: 'Wilson Pro Overgrip', sub: 'Grips & Covers — Best Value', tag: 'Product', url: BASE + 'pickleball/grips.html' },
     { title: 'Franklin Sports Pickleball Paddle Cover', sub: 'Grips & Covers — Premium', tag: 'Product', url: BASE + 'pickleball/grips.html' },
-    { title: 'ONIX Pickleball Paddle Cover', sub: 'Grips & Covers — Premium', tag: 'Product', url: BASE + 'pickleball/grips.html' }
+    { title: 'ONIX Pickleball Paddle Cover', sub: 'Grips & Covers — Premium', tag: 'Product', url: BASE + 'pickleball/grips.html' },
+    { title: 'Ping Pong Hub', sub: 'All ping pong categories', tag: 'Ping Pong', url: BASE + 'ping-pong/' },
+    { title: 'Ping Pong Paddles', sub: 'Budget · Best Value · Premium', tag: 'Ping Pong', url: BASE + 'ping-pong/paddles.html' },
+    { title: 'PRO-SPIN Carbon Fibre Ping Pong Paddle', sub: 'Ping Pong Paddles — Budget', tag: 'Product', url: BASE + 'ping-pong/paddles.html' },
+    { title: 'Idoraz Professional Ping Pong Paddle', sub: 'Ping Pong Paddles — Budget', tag: 'Product', url: BASE + 'ping-pong/paddles.html' },
+    { title: 'Killerspin Jet 600 Spin N2', sub: 'Ping Pong Paddles — Best Value', tag: 'Product', url: BASE + 'ping-pong/paddles.html' },
+    { title: 'JOOLA Match Pro', sub: 'Ping Pong Paddles — Best Value', tag: 'Product', url: BASE + 'ping-pong/paddles.html' },
+    { title: 'JOOLA Infinity Overdrive', sub: 'Ping Pong Paddles — Premium', tag: 'Product', url: BASE + 'ping-pong/paddles.html' },
+    { title: 'STIGA Pro Carbon Blast', sub: 'Ping Pong Paddles — Premium', tag: 'Product', url: BASE + 'ping-pong/paddles.html' },
+    { title: 'Ping Pong Balls', sub: 'Budget · Best Value · Premium', tag: 'Ping Pong', url: BASE + 'ping-pong/balls.html' },
+    { title: 'KEVENZ 3-Star 40+ Table Tennis Balls', sub: 'Ping Pong Balls — Budget', tag: 'Product', url: BASE + 'ping-pong/balls.html' },
+    { title: 'MAPOL 100-Count 3-Star Orange Balls', sub: 'Ping Pong Balls — Budget', tag: 'Product', url: BASE + 'ping-pong/balls.html' },
+    { title: 'PRO-SPIN High-Performance 40+ Balls', sub: 'Ping Pong Balls — Best Value', tag: 'Product', url: BASE + 'ping-pong/balls.html' },
+    { title: 'STIGA 3-Star Table Tennis Balls', sub: 'Ping Pong Balls — Best Value', tag: 'Product', url: BASE + 'ping-pong/balls.html' },
+    { title: 'Nittaku 3-Star Premium Balls', sub: 'Ping Pong Balls — Premium', tag: 'Product', url: BASE + 'ping-pong/balls.html' },
+    { title: 'DHS D40+ 3-Star ITTF Balls', sub: 'Ping Pong Balls — Premium', tag: 'Product', url: BASE + 'ping-pong/balls.html' },
+    { title: 'Nets & Posts', sub: 'Budget · Best Value · Premium', tag: 'Ping Pong', url: BASE + 'ping-pong/nets.html' },
+    { title: 'Sportout Retractable Ping Pong Net', sub: 'Nets & Posts — Budget', tag: 'Product', url: BASE + 'ping-pong/nets.html' },
+    { title: 'Comesee Ping Pong Net and Post Set', sub: 'Nets & Posts — Budget', tag: 'Product', url: BASE + 'ping-pong/nets.html' },
+    { title: 'PRO-SPIN Retractable Ping Pong Net', sub: 'Nets & Posts — Best Value', tag: 'Product', url: BASE + 'ping-pong/nets.html' },
+    { title: 'JOOLA Retractable Ping Pong Net', sub: 'Nets & Posts — Best Value', tag: 'Product', url: BASE + 'ping-pong/nets.html' },
+    { title: 'JOOLA Professional WX Aluminium Net Set', sub: 'Nets & Posts — Premium', tag: 'Product', url: BASE + 'ping-pong/nets.html' },
+    { title: 'STIGA Premium Clipper Net and Post Set', sub: 'Nets & Posts — Premium', tag: 'Product', url: BASE + 'ping-pong/nets.html' },
+    { title: 'Paddle Sets', sub: 'Budget · Best Value · Premium', tag: 'Ping Pong', url: BASE + 'ping-pong/sets.html' },
+    { title: 'Glymnis Ping Pong Paddle Set of 4', sub: 'Paddle Sets — Budget', tag: 'Product', url: BASE + 'ping-pong/sets.html' },
+    { title: 'Franklin Sports Table Tennis to Go', sub: 'Paddle Sets — Budget', tag: 'Product', url: BASE + 'ping-pong/sets.html' },
+    { title: 'STIGA All-in-One Retractable Net Set', sub: 'Paddle Sets — Best Value', tag: 'Product', url: BASE + 'ping-pong/sets.html' },
+    { title: 'FBSPORT Ping Pong Set with Retractable Net', sub: 'Paddle Sets — Best Value', tag: 'Product', url: BASE + 'ping-pong/sets.html' },
+    { title: 'PRO-SPIN Portable Ping Pong Set', sub: 'Paddle Sets — Premium', tag: 'Product', url: BASE + 'ping-pong/sets.html' },
+    { title: 'JOOLA Family Premium Paddle Set of 4', sub: 'Paddle Sets — Premium', tag: 'Product', url: BASE + 'ping-pong/sets.html' },
+    { title: 'Training Aids', sub: 'Budget · Best Value · Premium', tag: 'Ping Pong', url: BASE + 'ping-pong/training.html' },
+    { title: 'JOOLA iPong Carbon Fibre Ball Catch Net', sub: 'Training Aids — Budget', tag: 'Product', url: BASE + 'ping-pong/training.html' },
+    { title: 'Retractable Ping Pong Ball Collector', sub: 'Training Aids — Budget', tag: 'Product', url: BASE + 'ping-pong/training.html' },
+    { title: 'Suz S102 Wireless Remote Table Tennis Robot', sub: 'Training Aids — Best Value', tag: 'Product', url: BASE + 'ping-pong/training.html' },
+    { title: 'iPong Original Table Tennis Trainer Robot', sub: 'Training Aids — Best Value', tag: 'Product', url: BASE + 'ping-pong/training.html' },
+    { title: 'PONGBOT App-Control Table Tennis Robot', sub: 'Training Aids — Premium', tag: 'Product', url: BASE + 'ping-pong/training.html' },
+    { title: 'Suz S201 Robot with Recycling Net', sub: 'Training Aids — Premium', tag: 'Product', url: BASE + 'ping-pong/training.html' },
+    { title: 'Blades & Rubbers', sub: 'Budget · Best Value · Premium', tag: 'Ping Pong', url: BASE + 'ping-pong/custom.html' },
+    { title: 'DHS Hurricane 3-NEO Table Tennis Rubber', sub: 'Blades & Rubbers — Budget', tag: 'Product', url: BASE + 'ping-pong/custom.html' },
+    { title: 'Loki RXTON 1 Table Tennis Rubber', sub: 'Blades & Rubbers — Budget', tag: 'Product', url: BASE + 'ping-pong/custom.html' },
+    { title: 'Butterfly SK Carbon Blade', sub: 'Blades & Rubbers — Best Value', tag: 'Product', url: BASE + 'ping-pong/custom.html' },
+    { title: 'STIGA DNA Dragon Grip 55 Rubber', sub: 'Blades & Rubbers — Best Value', tag: 'Product', url: BASE + 'ping-pong/custom.html' },
+    { title: 'Butterfly Dignics 05 Rubber', sub: 'Blades & Rubbers — Premium', tag: 'Product', url: BASE + 'ping-pong/custom.html' },
+    { title: 'Butterfly Innerforce Layer ALC Blade', sub: 'Blades & Rubbers — Premium', tag: 'Product', url: BASE + 'ping-pong/custom.html' }
   ];
 
   // ── DOM ──────────────────────────────────────────────────
@@ -393,7 +436,7 @@
           '<button class="search-esc" aria-label="Close search">ESC</button>' +
         '</div>' +
         '<hr class="search-divider">' +
-        '<div class="search-results"><p class="search-hint">Type to search 253 products across 42 categories</p></div>' +
+        '<div class="search-results"><p class="search-hint">Type to search 329 products across 54 categories</p></div>' +
       '</div>';
     document.body.appendChild(overlay);
 
@@ -410,7 +453,7 @@
     var q = input.value.trim().toLowerCase();
     highlighted = -1;
     if (!q) {
-      resultsList.innerHTML = '<p class="search-hint">Type to search 253 products across 42 categories</p>';
+      resultsList.innerHTML = '<p class="search-hint">Type to search 329 products across 54 categories</p>';
       return;
     }
     var matches = INDEX.filter(function (item) {
@@ -457,7 +500,7 @@
   function openSearch() {
     overlay.classList.add('open');
     input.value = '';
-    resultsList.innerHTML = '<p class="search-hint">Type to search 253 products across 42 categories</p>';
+    resultsList.innerHTML = '<p class="search-hint">Type to search 329 products across 54 categories</p>';
     highlighted = -1;
     setTimeout(function () { input.focus(); }, 50);
     document.body.style.overflow = 'hidden';

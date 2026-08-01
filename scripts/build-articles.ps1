@@ -49,7 +49,8 @@ $navItems = @(
     @('Home','index.html'), @('Tennis','tennis/index.html'), @('Gym','gym/index.html'),
     @('Boxing','boxing/index.html'), @('Swimming','swimming/index.html'),
     @('Football','football/index.html'), @('Volleyball','volleyball/index.html'),
-    @('Pickleball','pickleball/index.html')
+    @('Pickleball','pickleball/index.html'), @('Ping Pong','ping-pong/index.html'),
+    @('Badminton','badminton/index.html')
 )
 $navLi = foreach ($i in $navItems) {
     $cls = ''

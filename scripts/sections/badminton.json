@@ -1,0 +1,571 @@
+{
+  "hubName": "Badminton",
+  "hubShortName": "Badminton Hub",
+  "lastUpdated": "August 2026",
+  "categories": [
+    {
+      "slug": "rackets",
+      "productCategory": "rackets",
+      "navLabel": "Rackets",
+      "tableNoun": "Racket",
+      "title": "Best Badminton Rackets 2026: 6 Picks from Beginner to Advanced",
+      "metaDescription": "Six badminton rackets compared across Budget, Best Value and Premium. Balance point, shaft flex and string tension explained so you buy the right racquet the first time.",
+      "ogTitle": "Best Badminton Rackets 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best badminton rackets across Budget, Best Value and Premium tiers, with balance, flex and weight explained.",
+      "listName": "Best Badminton Rackets 2026 — Budget to Premium",
+      "h1": "Badminton <em>Rackets</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. One for every level.",
+      "intro": "A badminton racket is decided by three numbers, and only three: <strong>where the weight sits</strong>, <strong>how much the shaft bends</strong>, and <strong>what tension the strings are at</strong>. Everything else on the packaging is marketing. Head-heavy rackets hit harder and move slower; head-light rackets move faster and hit softer; a flexible shaft forgives a slow arm and a stiff one rewards a fast one. Get those matched to how you actually play and a $35 racket will out-perform a $200 one held by the same person. Below are six that make sense at their price, plus the reason most beginners buy the wrong one.",
+      "tableColumns": [
+        { "label": "Balance", "key": "balance" },
+        { "label": "Level", "key": "level" }
+      ],
+      "tierBands": {
+        "budget": { "title": "First Real Rackets", "sub": "A genuine step up from whatever came with the net set" },
+        "value": { "title": "The Step-Up", "sub": "Where a player who has learned to clear should land" },
+        "premium": { "title": "Performance Grade", "sub": "Full graphite frames built around one style of play" }
+      },
+      "guideHeading": "How to Choose a Badminton Racket",
+      "guide": [
+        { "h": "Balance Point Decides Everything Else", "p": "Rackets are sold as head-heavy, even balance or head-light, and this single property changes how the racket feels more than weight or price does. Head-heavy puts mass behind the shuttle, so smashes land harder — at the cost of taking longer to bring the head round for the next shot. Head-light does the opposite: less power, but the racket is where you need it at the front of the court. Singles players and anyone who likes to attack from the back generally want head-heavy. Doubles players who spend their time at the net want head-light. If you genuinely do not know yet, buy even balance." },
+        { "h": "Shaft Flex Should Match Your Swing Speed, Not Your Ego", "p": "A flexible shaft loads and releases like a spring, so it does some of the work for a slower arm. A stiff shaft stores energy only if you swing hard enough to bend it, and gives you back precision in exchange. Almost everyone buying their second racket over-estimates their swing speed here: with a stiff shaft and an average arm, shots feel dead and go nowhere. Flexible or medium is the correct answer until your clears reliably reach the back line." },
+        { "h": "Weight: 4U Is the Answer Nearly Every Time", "p": "Badminton weights run backwards — a bigger U number means a lighter racket. 3U is roughly 85–89g, 4U is 80–84g, 5U is 75–79g. 4U has become the default for good reason: it is light enough to swing quickly through a long rally and heavy enough to still put something on the shuttle. Go 3U only if you specifically want more mass behind your smash and have the arm to move it; go 5U if you are playing mixed doubles at the net or your wrist tires quickly." },
+        { "h": "String Tension Matters More Than the Frame You Bolt It To", "p": "Low tension (18–22 lbs) gives a trampoline effect: more power, less control, and a bigger margin for hitting off-centre. High tension (24 lbs and up) gives a flatter, more precise response but punishes anything that misses the sweet spot, and the strings break sooner. Factory-strung rackets ship around 20 lbs, which is right for most people. Do not chase 27 lbs because a professional uses it — they also have a stringer on site. Our <a href=\"strings-grips.html\">strings and grips</a> page covers restringing." },
+        { "h": "Isometric Heads and Why Cheap Rackets Feel Dead", "p": "The squared-off head shape you see on nearly every modern racket is not styling — it widens the sweet spot by keeping the cross strings closer to equal length. Combined with a one-piece frame, it is the difference between a mishit that still crosses the net and one that dribbles into it. Aluminium rackets with a separate steel shaft, the kind bundled with backyard sets, have neither, which is why they feel dead no matter how hard you swing them." }
+      ],
+      "faq": [
+        { "q": "What badminton racket should a complete beginner buy?", "a": "An even-balance or slightly head-heavy 4U racket with a flexible shaft, in the $25 to $40 range. That combination is forgiving enough to learn every shot on, light enough not to wreck your wrist, and cheap enough that you have lost nothing when you work out which style of play you prefer. Avoid the aluminium rackets bundled with cheap net sets — the frame flexes so much that the shuttle leaves before the racket has finished bending." },
+        { "q": "Is an expensive badminton racket actually worth it?", "a": "Only once your technique can load it. A $70 full-graphite frame gives you a stiffer shaft and a more precise response, but a stiff shaft only returns energy if you swing fast enough to bend it in the first place. If your clears are still landing mid-court, that money buys you nothing. If your shots feel underpowered despite good technique, the upgrade is real and immediate." },
+        { "q": "What does 4U or 3U mean on a badminton racket?", "a": "It is the unstrung weight class, and the numbering runs backwards. 3U is about 85 to 89 grams, 4U is 80 to 84 grams, and 5U is 75 to 79 grams. Lighter rackets swing faster and tire your arm less; heavier ones put more mass behind the shuttle. 4U is the modern default and the right starting point for almost everyone." },
+        { "q": "How often should I replace my badminton racket?", "a": "Replace the strings, not the racket. A graphite frame lasts years unless you clash it against a partner's racket or the floor. Strings lose tension from the moment they are fitted and go dead well before they snap — if you play twice a week, expect to restring every two to three months even if nothing has broken. A dead string bed is what makes an old racket feel slow, not the frame." },
+        { "q": "Should I buy a racket that comes pre-strung?", "a": "For a first or second racket, yes. Factory stringing at around 20 lbs is a sensible middle setting and it saves you $20 to $25 on top of the racket price. Once you know what tension you want, buy the frame unstrung — or restring a pre-strung one — because factory string is chosen for durability in a warehouse, not for how it plays." }
+      ],
+      "products": {
+        "bad-racket-001": {
+          "anchor": "yonex-gr-303i",
+          "shortName": "Yonex GR 303i",
+          "note": "full cover included",
+          "balance": "Even",
+          "level": "Beginner",
+          "specs": ["Aluminium frame", "Isometric head", "Flexible shaft", "Full cover included"],
+          "desc": "The sensible floor of the market. It is aluminium rather than graphite, so it will never feel crisp, but the frame is isometric and the shaft genuinely flexes, which are the two things the bundled net-set rackets get wrong. That is enough racket to learn a clear, a drop and a serve on without building a compensating technique you will have to unlearn. Treat it as a twelve-month racket rather than a keeper."
+        },
+        "bad-racket-002": {
+          "anchor": "yonex-astrox-attack-9",
+          "shortName": "Yonex Astrox Attack 9",
+          "note": "head-heavy feel",
+          "balance": "Head-heavy",
+          "level": "Beginner+",
+          "specs": ["Head-heavy balance", "Isometric head", "Medium flex shaft", "Pre-strung"],
+          "desc": "Astrox is Yonex's attacking line, and this is the entry point to it — enough head weight that a smash actually feels like it has something behind it, without the stiff shaft that makes the expensive Astrox frames unusable for a beginner. If you already know you like hitting down and the phrase \"play it safe\" annoys you, this is the budget racket to pick. The trade is that it comes round slower at the net."
+        },
+        "bad-racket-003": {
+          "anchor": "senston-n80",
+          "shortName": "Senston N80 Carbon Fibre",
+          "note": "full carbon, 5U",
+          "balance": "Even",
+          "level": "Intermediate",
+          "specs": ["Full carbon fibre frame", "5U — 76g", "One-piece T-joint", "24–26 lbs pre-strung"],
+          "desc": "A full-graphite one-piece frame at a price where most rackets are still aluminium hybrids, and that is the entire argument for it. At 76 grams it is genuinely quick, and the one-piece T-joint means the head does not twist independently of the shaft on off-centre hits the way a glued joint does. It is not a Yonex and the finish tells you so, but the thing you actually hit shuttles with is right."
+        },
+        "bad-racket-004": {
+          "anchor": "yonex-nanoray-10f",
+          "shortName": "Yonex Nanoray 10F",
+          "note": "hi-flex shaft",
+          "balance": "Head-light",
+          "level": "Intermediate",
+          "specs": ["Head-light balance", "Hi-Flex shaft", "Isometric head", "Pre-strung"],
+          "desc": "The racket to buy if you want one and only one recommendation. The Hi-Flex shaft loads at an ordinary club swing speed rather than a professional one, and the head-light balance makes the racket arrive early — which is the difference between blocking a smash and watching it. Twenty thousand-odd buyers agree, and it is the racket that most often ends the search for people who keep asking what to get."
+        },
+        "bad-racket-005": {
+          "anchor": "yonex-astrox-smash",
+          "shortName": "Yonex Astrox Smash",
+          "note": "attacking frame",
+          "balance": "Head-heavy",
+          "level": "Advanced",
+          "specs": ["Head-heavy balance", "Graphite frame", "Stiffer shaft", "Attacking geometry"],
+          "desc": "A proper attacking racket, and it behaves like one: mass forward, shaft stiff enough that a lazy swing produces nothing at all. Hit through it properly and the shuttle leaves noticeably flatter and faster than anything in the tiers above. Buy this when your problem is that good smashes are being retrieved, not when your problem is getting the shuttle to the back line in the first place."
+        },
+        "bad-racket-006": {
+          "anchor": "yonex-nanoflare-1000-play",
+          "shortName": "Yonex NanoFlare 1000 Play",
+          "note": "4U, head-light",
+          "balance": "Head-light",
+          "level": "Advanced",
+          "specs": ["Head-light balance", "4U — 83g", "Graphite frame", "Factory strung"],
+          "desc": "The counterpart to the Astrox: NanoFlare is Yonex's speed line, built to be somewhere before the shuttle rather than to hit it hardest. In fast doubles the difference is obvious — flat drives and net kills that a head-heavy racket simply cannot get round for. It is the most expensive racket here and also the most specific; if you play singles from the back court, buy the Astrox instead."
+        }
+      }
+    },
+    {
+      "slug": "shuttlecocks",
+      "productCategory": "shuttlecocks",
+      "navLabel": "Shuttlecocks",
+      "tableNoun": "Shuttle",
+      "title": "Best Badminton Shuttlecocks 2026: Nylon vs Feather Compared",
+      "metaDescription": "Six badminton shuttlecocks compared across Budget, Best Value and Premium. Nylon versus feather, speed ratings explained, and how long each type actually lasts.",
+      "ogTitle": "Best Badminton Shuttlecocks 2026 — Nylon to Feather | SportGear Finder",
+      "ogDescription": "Compare the 6 best badminton shuttlecocks across Budget, Best Value and Premium tiers, with nylon versus feather explained.",
+      "listName": "Best Badminton Shuttlecocks 2026 — Nylon to Feather",
+      "h1": "Badminton <em>Shuttlecocks</em>",
+      "heroSub": "6 real picks — nylon for practice, feather for match play.",
+      "intro": "Shuttlecocks are the one part of badminton that is genuinely consumable, and the choice comes down to a single fork: <strong>nylon or feather</strong>. Nylon shuttles are made of one moulded plastic skirt, survive being hit by beginners and being played outdoors, and last months. Feather shuttles are sixteen goose or duck feathers glued into a cork base, fly with a flight and a braking curve that nylon cannot reproduce, and can be destroyed in a single rally. Neither is better; they are for different situations, and buying the wrong one is the most common badminton purchase mistake there is.",
+      "tableColumns": [
+        { "label": "Material", "key": "material" },
+        { "label": "Best For", "key": "use" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Backyard Nylon", "sub": "Cheap, tough, and fine for a garden or a driveway" },
+        "value": { "title": "Club Nylon", "sub": "Consistent flight that lasts a whole training session" },
+        "premium": { "title": "Feather", "sub": "The flight the sport is actually designed around" }
+      },
+      "guideHeading": "How to Choose Badminton Shuttlecocks",
+      "guide": [
+        { "h": "Nylon vs Feather Is a Question of Where You Play", "p": "A feather shuttle decelerates hard after the initial hit, which is what makes badminton's drop shots and net play work as a game. A nylon shuttle carries further and flattens out. If you play indoors at a club and care about the actual sport, feather is not a luxury — it is the flight the tactics were built around. If you play in a garden, on grass, or with children who miss more than they hit, feather shuttles will be destroyed in an afternoon and nylon is the only sane answer." },
+        { "h": "Speed Ratings Are About Air Temperature, Not About You", "p": "Shuttles are sold as slow, medium and fast, and it is not a difficulty setting. Air density changes how far a shuttle carries, so cold halls at altitude need a faster shuttle and hot humid rooms at sea level need a slower one. A shuttle is correctly speeded when a full-power underarm clear from the back tramline lands between the back doubles service line and the baseline. Most indoor play in a heated hall wants medium or slow; buy medium if you are guessing." },
+        { "h": "Feather Shuttles Are a Running Cost, Not a Purchase", "p": "Be honest about this before you buy them. A tube of twelve feather shuttles is used up by four club players in one or two evenings of real play — feathers split, the skirt goes soft, and the flight changes long before the shuttle physically falls apart. That works out at a real per-hour cost. Clubs handle it by pooling; individuals handle it by training on nylon and saving feather for matches." },
+        { "h": "Nylon Skirts Come in Two Hardnesses", "p": "Cheaper nylon shuttles use a harder plastic that survives abuse but feels harsh off the strings and flies flat. Better ones — the Yonex Mavis range is the obvious example — use a softer, more flexible skirt that deforms slightly on impact and recovers, which gets you closer to feather's braking behaviour. It is the single upgrade most recreational players notice immediately, and it costs a few dollars a tube." },
+        { "h": "Storage Actually Matters for Feather", "p": "Feathers dry out. A tube left in a hot car or a dry heated room for a month produces shuttles that shatter on the first clean smash, which people usually blame on the manufacturer. The standard fix is to keep the tube sealed and, before a session, lightly steam or humidify the feathers — a damp cloth in the tube for a few hours is enough. Nylon needs none of this, which is another reason it is the right training shuttle." }
+      ],
+      "faq": [
+        { "q": "Are feather shuttlecocks worth it for a beginner?", "a": "Not for practice, yes for the experience. A beginner mis-hits often, and every frame hit costs feathers, so a tube that should last two sessions will last one. The sensible pattern is to train on good nylon and buy a single tube of feather so you know what the real thing flies like — because once you have felt a feather drop shot brake over the net, you will understand what the sport is actually about." },
+        { "q": "What speed shuttlecock should I buy?", "a": "Medium, unless you know your hall is unusually hot or cold. Speed is a correction for air density, not skill: cold or high-altitude air is thin and needs a faster shuttle to carry the same distance, hot humid air needs a slower one. Test it with a full underarm clear from the back tramline — the shuttle should land between the back doubles service line and the baseline." },
+        { "q": "How long do badminton shuttlecocks last?", "a": "A nylon shuttle survives weeks to months of recreational play and usually dies from a cracked skirt or a squashed cork rather than from wear. A feather shuttle lasts anywhere from a few rallies to a couple of games — club players typically budget one shuttle per game at a decent standard. If your feather shuttles are dying instantly, they are probably too dry rather than defective." },
+        { "q": "Can I use feather shuttlecocks outdoors?", "a": "You can, but you will not enjoy it. Feather shuttles are extremely light and any breeze at all makes rallies impossible, quite apart from grass and concrete destroying the feathers. Outdoor badminton is a nylon-only sport in practice, and there are heavier outdoor-specific nylon shuttles designed to fight the wind if you play in the garden regularly." },
+        { "q": "What is the difference between goose and duck feather shuttles?", "a": "Goose feathers are stronger and straighter, so goose shuttles are more durable and fly more consistently — they are what tournament-grade shuttles use. Duck feather shuttles are cheaper and perfectly usable for club training, but they break sooner and vary more from shuttle to shuttle within a tube. If a feather shuttle is unusually cheap, it is duck." }
+      ],
+      "products": {
+        "bad-shuttle-001": {
+          "anchor": "hiraliy-nylon",
+          "shortName": "HIRALIY Nylon",
+          "note": "12-pack",
+          "material": "Nylon",
+          "use": "Backyard",
+          "specs": ["Nylon skirt", "12-pack", "Outdoor-friendly", "Yellow high-visibility"],
+          "desc": "The cheapest thing on this page that is still a real shuttlecock rather than a toy. The skirt is hard nylon, so the flight is flat and the feel off the strings is blunt, but they survive concrete, grass and being trodden on — which is what a garden shuttle is actually asked to do. Buy them by the dozen and stop worrying about where they land."
+        },
+        "bad-shuttle-002": {
+          "anchor": "eagles-nylon-birdies",
+          "shortName": "EAGLES Nylon Birdies",
+          "note": "durable skirt",
+          "material": "Nylon",
+          "use": "Outdoor",
+          "specs": ["Nylon skirt", "Cork-style base", "Wind-resistant weight", "Multi-pack"],
+          "desc": "A step up in build from the cheapest nylon without a step up in price that matters. The base is heavier, which does two useful things outdoors: it fights a light breeze, and it stops the shuttle from stalling when a beginner hits it softly. Still nowhere near feather flight, but for a driveway or a park these will outlast a whole summer of casual games."
+        },
+        "bad-shuttle-003": {
+          "anchor": "yonex-mavis-200i",
+          "shortName": "Yonex Mavis 200i",
+          "note": "entry Mavis",
+          "material": "Nylon",
+          "use": "Training",
+          "specs": ["Yonex Mavis skirt", "Consistent flight", "Indoor training", "Tube of 6"],
+          "desc": "The cheapest Yonex shuttle worth owning, and the point at which nylon stops being a compromise and starts being a deliberate choice. The skirt is softer than the budget shuttles above, so it deforms on impact and brakes a little rather than sailing — noticeably closer to feather behaviour at a fraction of the running cost. This is the shuttle to train on."
+        },
+        "bad-shuttle-004": {
+          "anchor": "yonex-mavis-350",
+          "shortName": "Yonex Mavis 350",
+          "note": "club standard",
+          "material": "Nylon",
+          "use": "Club",
+          "specs": ["Yonex Mavis 350 skirt", "Slow speed variant", "Indoor club use", "Tube of 6"],
+          "desc": "The default training shuttle in club halls worldwide, and the one you will most often be handed if you turn up somewhere new. Flight is consistent tube to tube, which matters more than it sounds — practising drops against shuttles that all brake at slightly different points teaches you nothing. Expensive for nylon, cheap for how long a tube lasts."
+        },
+        "bad-shuttle-005": {
+          "anchor": "goose-feather-12-pack",
+          "shortName": "Goose Feather 12-Pack",
+          "note": "12 per tube",
+          "material": "Goose feather",
+          "use": "Match play",
+          "specs": ["16 goose feathers", "Cork base", "Medium speed", "Tube of 12"],
+          "desc": "Feather flight without the tournament-brand price, and for most club players that trade is the right one. The braking curve is the real thing — drop shots die over the tape instead of drifting to the service line — and the cork base gives you the crisp report off the strings that nylon never manages. Expect to use them up: that is what feather is."
+        },
+        "bad-shuttle-006": {
+          "anchor": "yonex-aeroclear-30",
+          "shortName": "Yonex Aeroclear 30",
+          "note": "match grade",
+          "material": "Goose feather",
+          "use": "Match play",
+          "specs": ["Yonex graded goose feather", "Cork base", "Consistent speed grading", "Tube of 12"],
+          "desc": "What you buy when the shuttle itself has to stop being a variable. Yonex grade and speed-match the feathers within a tube, so twelve shuttles fly the same way — which is the entire point at a level where you are aiming for the tramline rather than the court. It is the most expensive item in this category by a distance and it is aimed squarely at people playing real matches."
+        }
+      }
+    },
+    {
+      "slug": "sets",
+      "productCategory": "sets",
+      "navLabel": "Racket Sets",
+      "tableNoun": "Set",
+      "title": "Best Badminton Sets 2026: 6 Racket Sets for Families and Clubs",
+      "metaDescription": "Six badminton racket sets compared across Budget, Best Value and Premium. Two-player and four-player sets, what is actually included, and when a set beats buying rackets separately.",
+      "ogTitle": "Best Badminton Sets 2026 — Two and Four Player | SportGear Finder",
+      "ogDescription": "Compare the 6 best badminton racket sets across Budget, Best Value and Premium tiers, for families, gardens and club beginners.",
+      "listName": "Best Badminton Sets 2026 — Two and Four Player",
+      "h1": "Badminton <em>Racket Sets</em>",
+      "heroSub": "6 real picks — two-player pairs and full four-racket kits.",
+      "intro": "A badminton set is the right purchase in exactly one situation: when you need <strong>more than one racket at once</strong> and nobody involved has a strong opinion about balance points yet. Buying two matched rackets in a box costs less than buying them separately, the covers and shuttles are thrown in, and everyone gets the same equipment so nobody blames the racket. The catch is that sets are where manufacturers hide their worst frames, so the useful question is not \"which set is cheapest\" but \"which set contains rackets I would have bought on their own\". These six do.",
+      "tableColumns": [
+        { "label": "Players", "key": "players" },
+        { "label": "Frame", "key": "frame" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Garden Sets", "sub": "Everything needed to start playing this afternoon" },
+        "value": { "title": "The Step-Up", "sub": "Sets built around rackets worth owning separately" },
+        "premium": { "title": "Carbon Pairs", "sub": "Two proper rackets, sold together to save money" }
+      },
+      "guideHeading": "How to Choose a Badminton Set",
+      "guide": [
+        { "h": "Count the Rackets Before You Compare the Prices", "p": "The single biggest source of confusion in this category is that \"badminton set\" means two entirely different products: a pair of rackets in a bag, and a four-racket-plus-net garden kit. A $40 two-racket set and a $50 four-racket-plus-net set are not competing with each other, and the second one is not better value — it is spending the same money across twice as many frames plus a net, which is exactly where the quality goes. Decide how many people are playing first." },
+        { "h": "Aluminium and Steel Sets Are Fine, Within Limits", "p": "Most sets under $45 use an aluminium head on a steel shaft. That construction is heavier than graphite and flexes in the wrong place, so shots feel mushy and the racket arrives late — but it is also nearly indestructible, which is genuinely the right property for equipment that lives in a garage and gets lent to guests. Buy aluminium if the set is for occasional social play. Buy graphite if anyone using it intends to improve." },
+        { "h": "Carbon Two-Player Sets Are the Hidden Value Here", "p": "The interesting products in this category are the pairs of full-carbon rackets sold at roughly the price of one mid-range racket plus twenty dollars. If two people in a household both play properly, this is the cheapest way to equip both of them with frames that will not need replacing in a year. Check the weight class is stated — a set that will not tell you whether it is 4U or 5U is usually hiding an unpleasant answer." },
+        { "h": "What Is Actually in the Box", "p": "Sets vary wildly in what comes with them, and the shuttles included are almost always the cheapest hard nylon available. Treat any bundled shuttles as a temporary loan and budget for a proper tube separately — our <a href=\"shuttlecocks.html\">shuttlecocks</a> page covers the difference. The carry bag included with most sets is worth having; the grips are not, and one cheap overgrip transforms how a set racket feels in the hand." },
+        { "h": "When Not to Buy a Set", "p": "If you are buying for one person who has already played a few times and knows they enjoy it, skip this page entirely. A single $35 to $40 racket chosen for balance and flex will be better than either racket in a $45 pair, and you will not be carrying a spare you never use. Sets solve the problem of equipping a group, not the problem of equipping a player." }
+      ],
+      "faq": [
+        { "q": "Is a badminton set better value than buying rackets separately?", "a": "For two or more players, usually yes — a matched pair typically costs 20 to 30 percent less than the same two rackets bought individually, and the covers and bag are included. For one player it is worse value, because half the money goes on a racket that sits in a cupboard. The exception is if you want a spare in your bag for a broken string mid-session, which is a real reason club players own pairs." },
+        { "q": "Do badminton sets come with a net?", "a": "Some do and some do not, and the listings are not always clear about it. Two-player and four-player racket sets normally include rackets, shuttles and a bag but no net. Full garden kits include a net and posts but usually spend so little on the rackets that they are barely playable. If you want both, buying a good racket set and a separate net from our <a href=\"nets.html\">nets and posts</a> page gives a much better result for similar money." },
+        { "q": "Are the shuttlecocks included with a set any good?", "a": "Almost never. Bundled shuttles are the cheapest hard nylon on the market, chosen to make the box look full rather than to fly properly. They will work for a first afternoon. Budget ten to fifteen dollars for a tube of decent nylon shuttles alongside any set — it makes more difference to how the game feels than anything else you could spend the same money on." },
+        { "q": "Can adults use a four-player family badminton set?", "a": "Yes, but the rackets are usually standard adult length rather than junior, so children under about eight will find them long and heavy rather than the other way round. If you are buying for a mixed-age group, look for a set that states a lighter weight class, and accept that the same rackets will feel slightly underpowered to any adult who has played properly before." },
+        { "q": "What should I upgrade first on a cheap badminton set?", "a": "The shuttles, then the grip, then the rackets — in that order. Proper nylon shuttles cost about ten dollars and change how the game plays immediately. A two-dollar overgrip fixes the slippery plastic handle every cheap set ships with. Only after both of those is a racket upgrade the thing holding you back, and by then you will know what balance you want." }
+      ],
+      "products": {
+        "bad-set-001": {
+          "anchor": "hiraliy-racket-set",
+          "shortName": "HIRALIY Racket Set",
+          "note": "birdies + bag",
+          "players": "2",
+          "frame": "Aluminium",
+          "specs": ["2 rackets", "Shuttlecocks included", "Carrying bag", "Aluminium frames"],
+          "desc": "The bare-bones version of what a set is for: two rackets, some shuttles and a bag, at a price where nobody is upset if one gets left at the park. The frames are aluminium and feel it, but they are strung reasonably and the grips are usable straight out of the box. This is a garden purchase and it is honest about being one."
+        },
+        "bad-set-002": {
+          "anchor": "yonex-gr-303-combo",
+          "shortName": "Yonex GR 303 Combo",
+          "note": "matched pair",
+          "players": "2",
+          "frame": "Aluminium",
+          "specs": ["2 Yonex rackets", "Full covers included", "Isometric heads", "Flexible shafts"],
+          "desc": "Two of the GR 303 rackets from our <a href=\"rackets.html\">rackets</a> page in one box, for not much more than the price of one. That matters because it means the frames in this set are ones we would recommend individually — isometric heads, shafts that actually flex — rather than the anonymous aluminium that fills most sets. The obvious pick if two people are starting together."
+        },
+        "bad-set-003": {
+          "anchor": "yonex-zr-100-light-set",
+          "shortName": "Yonex ZR 100 Light Set",
+          "note": "light aluminium",
+          "players": "2",
+          "frame": "Aluminium blend",
+          "specs": ["2 rackets", "Light aluminium blend", "Full covers", "Pre-strung"],
+          "desc": "Lighter than the GR 303 pair, which is the reason to choose it: in a mixed-age household the limiting factor is usually how heavy the racket feels to the smallest person holding it, not how much power it can generate. The blend frame gives away some crispness to get there. Sensible if the set is going to be shared by adults and children."
+        },
+        "bad-set-004": {
+          "anchor": "senston-90g-set-of-4",
+          "shortName": "Senston 90g Set of 4",
+          "note": "4 rackets + 6 birds",
+          "players": "4",
+          "frame": "Carbon fibre",
+          "specs": ["4 rackets", "6 shuttlecocks", "Carry bag", "90g carbon frames"],
+          "desc": "Four carbon-fibre rackets is an unusual thing to find at this price — most four-racket sets are aluminium, and the difference in how a shot feels is immediate. It is the set to buy if the point is doubles in a garden and you would rather all four people had something decent than two people had something good. The bundled shuttles are, as always, the weak link."
+        },
+        "bad-set-005": {
+          "anchor": "senston-n80-2-player",
+          "shortName": "Senston N80 2-Player",
+          "note": "full carbon, 79g",
+          "players": "2",
+          "frame": "Full carbon",
+          "specs": ["2 full-carbon rackets", "5U — 79g", "One-piece frame", "Covers included"],
+          "desc": "A pair of the N80 from the rackets page, and the best straight value in this category. Two genuine one-piece carbon frames for roughly the price of one mid-range branded racket, both light enough to swing quickly through a long rally. Buy this if two people in the house are past the point of borrowing whatever is in the shed."
+        },
+        "bad-set-006": {
+          "anchor": "li-ning-xp-set-of-2",
+          "shortName": "Li-Ning XP Series Set of 2",
+          "note": "covers included",
+          "players": "2",
+          "frame": "Blend",
+          "specs": ["2 Li-Ning rackets", "Blend frame", "Full covers included", "Pre-strung"],
+          "desc": "Li-Ning is the other name that means something in badminton, and this pair is their answer to the same question. The blend frame sits between the aluminium sets and the full-carbon ones in both feel and price — noticeably crisper than the budget tier, not quite as lively as the N80 pair. Worth it if you would rather have the brand behind the racket than the last few grams."
+        }
+      }
+    },
+    {
+      "slug": "nets",
+      "productCategory": "nets",
+      "navLabel": "Nets & Posts",
+      "tableNoun": "Net",
+      "title": "Best Badminton Nets 2026: 6 Portable Nets and Post Sets",
+      "metaDescription": "Six portable badminton nets compared across Budget, Best Value and Premium. Regulation height, pole stability, wind resistance and setup time, with what actually matters in a garden.",
+      "ogTitle": "Best Badminton Nets 2026 — Portable and Adjustable | SportGear Finder",
+      "ogDescription": "Compare the 6 best portable badminton nets across Budget, Best Value and Premium tiers, for gardens, parks and driveways.",
+      "listName": "Best Badminton Nets 2026 — Portable and Adjustable",
+      "h1": "Badminton <em>Nets &amp; Posts</em>",
+      "heroSub": "6 real picks — portable, adjustable and quick to put up.",
+      "intro": "A badminton net has one job that everybody notices and one that nobody thinks about. The obvious one is height: regulation is <strong>5ft 1in at the posts and 5ft at the centre</strong>, and a net that cannot reach it turns badminton into a different game. The unnoticed one is whether the posts stay upright — most cheap net sets fail here, sagging in the middle within twenty minutes because the poles bow inwards under string tension. Below are six that hold their shape, from garden-height adjustable frames to full-size portable systems.",
+      "tableColumns": [
+        { "label": "Width", "key": "width" },
+        { "label": "Height", "key": "height" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Adjustable Garden Nets", "sub": "Height that comes down for children and up for adults" },
+        "value": { "title": "The Step-Up", "sub": "Full-width nets that go up in a couple of minutes" },
+        "premium": { "title": "Stay-Put Frames", "sub": "Steel poles and tensioning that survive a breeze" }
+      },
+      "guideHeading": "How to Choose a Badminton Net",
+      "guide": [
+        { "h": "Regulation Height, and When to Ignore It", "p": "A full badminton net is 5ft 1in high at the posts and dips to 5ft at the centre, over a court 20ft wide for doubles. If the people playing are adults who have played before, a net that cannot reach that will feel wrong immediately — clears sail out and drops become impossible. If the people playing are children, a lower net makes rallies last, which is the entire point. Height-adjustable nets exist because both of those are true at different times in the same garden." },
+        { "h": "Pole Sag Is the Real Failure Mode", "p": "Almost every complaint about cheap badminton nets is the same complaint: the middle of the net drooped. It happens because the poles are thin-walled and bow towards each other under the net's own tension, and no amount of retying fixes it. What fixes it is either thicker steel poles, guy ropes staked into the ground, or a winch that tensions the top cord independently. If a net has none of those three and is 20ft wide, expect sag." },
+        { "h": "Setup Time Decides How Often You Play", "p": "This sounds like a soft criterion and it is not. A net that takes fifteen minutes and two people to assemble gets used on planned occasions; a net that takes two minutes and one person gets used on a whim after work, which is roughly ten times more badminton per summer. Self-packing frames and pole sections joined by shock cord are worth paying for, and are the main reason the mid-tier nets here cost what they do." },
+        { "h": "Ground Type Changes What You Can Buy", "p": "Nets that anchor with ground stakes are more stable and cheaper, and completely useless on a driveway, patio or indoor floor. Freestanding nets use weighted or wide-footed bases instead, cost more, and are the only option on a hard surface. Check which one you are buying — a stake-anchored net on concrete will fall over sideways the first time somebody hits the tape." },
+        { "h": "Multi-Sport Nets Are a Real Compromise, Not a Free Upgrade", "p": "Combination volleyball and badminton nets adjust between two very different heights, which means the pole system has to be tall enough for volleyball and stable enough for badminton. Most handle it fine for casual play. What you give up is width: many combo nets are narrower than a doubles badminton court, so the tramlines simply do not exist. Fine for a garden knockabout, wrong if you are practising." }
+      ],
+      "faq": [
+        { "q": "What is the regulation height for a badminton net?", "a": "5ft 1in (1.55m) at the posts and 5ft (1.524m) at the centre of the net, measured from the ground to the top of the tape. The slight dip in the middle is intentional and is part of the rules, not a defect. Court width is 20ft for doubles and 17ft for singles, so a net narrower than 20ft cannot cover a full doubles court." },
+        { "q": "Can I use a badminton net for volleyball or pickleball?", "a": "For casual play, yes — most portable nets in this category are sold as multi-sport and adjust between the relevant heights. The compromises are width and tension: a badminton net is usually narrower than a volleyball court needs, and pickleball nets are set much lower and take heavier ball impacts. It works for a garden. It does not work for practice you intend to take seriously." },
+        { "q": "Why does my badminton net sag in the middle?", "a": "Because the poles are bending towards each other under the tension of the net cord, not because the net has stretched. Thin aluminium poles on a 20ft span will always do this. The fixes are guy ropes staked out behind each pole, a winch or ratchet that tensions the top cord separately, or thicker steel poles — which is exactly what the premium nets on this page are paying for." },
+        { "q": "Can I set up a portable badminton net on concrete?", "a": "Only if it is freestanding. Any net that relies on ground stakes for stability will topple on a hard surface. Look for nets with weighted or wide tripod-style bases, and be aware they cost more and are heavier to carry precisely because the stability has to come from the base rather than the ground. Some models ship with both stakes and feet." },
+        { "q": "How long does a portable badminton net take to set up?", "a": "Two to five minutes for a well-designed self-packing frame with shock-corded poles, and fifteen or more for a cheap set with loose pole sections and separate guy ropes. It is worth caring about: the difference in setup time is the difference between a net that lives in the garden all summer and one that stays in the garage." }
+      ],
+      "products": {
+        "bad-net-001": {
+          "anchor": "songmics-adjustable",
+          "shortName": "SONGMICS Adjustable",
+          "note": "height adjustable",
+          "width": "10ft",
+          "height": "Adjustable",
+          "specs": ["Height adjustable", "Multi-sport", "Ground stakes included", "Carry bag"],
+          "desc": "The sensible cheap net, and the height adjustment is the reason. Dropping the tape for children turns a frustrating game into a rally, and raising it back for adults takes a minute. It is narrower than a full doubles court and the poles are aluminium, so guy the ends out if there is any wind — but for a lawn with mixed ages it is the right buy."
+        },
+        "bad-net-002": {
+          "anchor": "bagail-adjustable",
+          "shortName": "BAGAIL Adjustable",
+          "note": "kids to adults",
+          "width": "10ft",
+          "height": "Adjustable",
+          "specs": ["Adjustable height", "Volleyball compatible", "Stakes and guy ropes", "Portable frame"],
+          "desc": "Very close to the SONGMICS in concept and slightly better in execution — the guy ropes are included rather than optional, which is exactly the part that stops the middle sagging. Same caveats about width and same virtue of adjusting down for children. Choose between the two on price on the day; there is not much else in it."
+        },
+        "bad-net-003": {
+          "anchor": "eastpoint-set-with-net",
+          "shortName": "EastPoint Set with 15ft Net",
+          "note": "rackets included",
+          "width": "15ft",
+          "height": "Fixed",
+          "specs": ["15ft net", "4 rackets included", "2 shuttlecocks", "Self-packing frame"],
+          "desc": "The everything-in-one-bag option: net, posts, four rackets and shuttles, and a frame that packs itself back down without a fight. The rackets are the weak part, as they always are in combined kits, but the net itself is genuinely quick to erect and the self-packing design means it gets used. Buy it for a garden where nobody owns anything yet."
+        },
+        "bad-net-004": {
+          "anchor": "boulder-portable",
+          "shortName": "Boulder Portable",
+          "note": "foldable, extendable",
+          "width": "Extendable",
+          "height": "Adjustable",
+          "specs": ["Foldable frame", "Extendable poles", "Badminton and pickleball", "Carry bag"],
+          "desc": "The portable net most people should buy, and the ratings back that up more emphatically than anything else in this category. It extends to a proper width, adjusts between badminton and pickleball heights, folds flat and goes up in a couple of minutes without a second pair of hands. Nothing about it is exotic; everything about it works."
+        },
+        "bad-net-005": {
+          "anchor": "stainless-steel-portable",
+          "shortName": "Stainless Steel Portable",
+          "note": "steel poles",
+          "width": "Extendable",
+          "height": "Adjustable",
+          "specs": ["Stainless steel poles", "Foldable and extendable", "Adjustable height", "Nylon net"],
+          "desc": "Steel rather than aluminium poles, which is the direct fix for the sag problem that ruins cheaper nets — the span holds its shape under tension and stays upright in a breeze that would fold a thin-walled frame. You pay for it in price and in carrying weight. Worth it if the net lives outside and gets used constantly rather than being packed away between sessions."
+        },
+        "bad-net-006": {
+          "anchor": "amazon-basics-combo",
+          "shortName": "Amazon Basics Combo",
+          "note": "volleyball + badminton",
+          "width": "Full size",
+          "height": "Adjustable",
+          "specs": ["Volleyball and badminton", "Full-size net", "Guy ropes and stakes", "Carry bag"],
+          "desc": "A full-size outdoor frame that switches between volleyball and badminton heights, aimed at the garden that hosts both. The poles and guy-rope system are properly specified for the volleyball height, which means they are comfortably over-engineered at badminton height and consequently very stable. Needs soft ground for the stakes and a few minutes more to put up than the Boulder."
+        }
+      }
+    },
+    {
+      "slug": "bags",
+      "productCategory": "bags",
+      "navLabel": "Racket Bags",
+      "tableNoun": "Bag",
+      "title": "Best Badminton Bags 2026: 6 Racket Bags from Cover to Kit-Bag",
+      "metaDescription": "Six badminton bags compared across Budget, Best Value and Premium. Racket covers, sling bags and thermal kit-bags, with how many rackets each really holds and why thermal lining matters.",
+      "ogTitle": "Best Badminton Bags 2026 — Covers to Kit-Bags | SportGear Finder",
+      "ogDescription": "Compare the 6 best badminton racket bags across Budget, Best Value and Premium tiers, from single covers to nine-racket thermal bags.",
+      "listName": "Best Badminton Bags 2026 — Covers to Kit-Bags",
+      "h1": "Badminton <em>Racket Bags</em>",
+      "heroSub": "6 real picks — from a simple cover to a full thermal kit-bag.",
+      "intro": "A badminton bag is protecting two things, and only one of them is obvious. The frame is tougher than people assume — graphite survives being carried around perfectly well. What does not survive is <strong>string tension</strong>, which drops measurably when a racket is left in a hot car boot or a freezing garage, and that is the whole reason thermal-lined bags exist. Everything else is a question of how much kit you carry: one racket and a water bottle needs a sling, a club night needs a proper kit-bag with a separate compartment for wet clothes.",
+      "tableColumns": [
+        { "label": "Capacity", "key": "capacity" },
+        { "label": "Carry", "key": "carry" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Cover and Carry", "sub": "Enough protection to get a racket across town" },
+        "value": { "title": "The Step-Up", "sub": "Room for kit, shoes and a change of shirt" },
+        "premium": { "title": "Club and Travel", "sub": "Thermal compartments and serious racket counts" }
+      },
+      "guideHeading": "How to Choose a Badminton Bag",
+      "guide": [
+        { "h": "Thermal Lining Is About String Tension, Not Theft", "p": "The insulated compartment on a good racket bag exists because heat and cold change string tension, and string tension is the thing you paid a stringer to set. A racket left in a car through a summer afternoon can lose several pounds of tension permanently. If your rackets live in your car between sessions — as most club players' do — a thermal compartment is the single most useful feature on this page. If your bag goes straight from hallway to sports hall, it is a luxury." },
+        { "h": "Racket Counts Are Optimistic, So Halve Them", "p": "A bag sold as a nine-racket bag holds nine rackets and nothing else, stacked without covers. In real use, a nine-racket bag carries three or four rackets, a pair of shoes, a towel, a water bottle and a change of clothes — which is exactly what it is designed for. Apply the same rule downwards: a six-racket bag is a two-racket-and-kit bag, and a three-racket bag holds one racket and a shirt." },
+        { "h": "Shoe Compartments Earn Their Space", "p": "Badminton is an indoor-shoe sport, which means most players carry court shoes to and from the hall rather than wearing them. A separate ventilated shoe pocket keeps grit off your kit and stops the whole bag smelling, and it is the feature people miss most when they buy a bag without one. If a bag lacks it, budget for a cheap mesh shoe bag and accept the lost space." },
+        { "h": "Sling, Backpack or Kit-Bag", "p": "Sling bags carry one racket across your back and are ideal if you cycle or walk to a hall. Backpack-style racket bags spread the weight properly for longer journeys and fit under a desk. Long tournament kit-bags carry the most and are the least pleasant to carry any distance, which is why you see them wheeled through airports and rarely on a bus. Match the shape to the journey, not to the racket count." },
+        { "h": "A Racket Cover Is Not a Bag", "p": "Most rackets ship with a thin fabric cover, and those are for keeping dust off a frame in a cupboard — they will not protect against a knock. A hard or padded two-racket case is the genuine minimum for carrying a racket anywhere, costs very little, and is the right purchase for someone who plays occasionally and does not need to carry shoes and kit as well." }
+      ],
+      "faq": [
+        { "q": "Do I really need a thermal badminton bag?", "a": "Only if your rackets spend time in a car or an unheated garage. String tension drops when a racket gets hot and, over repeated cycles, does not come back — so a thermal compartment protects the stringing you paid for. If your bag travels from a hallway cupboard to a sports hall and back, the thermal lining is doing very little and you can spend the money on capacity instead." },
+        { "q": "How many rackets does a badminton bag actually hold?", "a": "Roughly half what the label says once you add real kit. A six-racket bag comfortably takes two rackets, shoes, a towel, a bottle and a change of clothes. The stated number assumes bare frames stacked with nothing else in the bag, which is not how anyone packs. Buy one size up from the racket count you think you need." },
+        { "q": "Is a badminton bag different from a tennis bag?", "a": "Barely, and the two are interchangeable in practice. Badminton rackets are a little longer and much lighter, so they fit any tennis bag, and several of the picks here are sold as tennis bags. The one genuine difference is that badminton-specific bags tend to have narrower racket sleeves, which stops light frames sliding around in a bag sized for heavier tennis rackets." },
+        { "q": "What is the minimum I should buy to carry a racket?", "a": "A padded two-racket case. The thin fabric sleeve that comes with most rackets keeps dust off but will not stop a knock against a door frame or a bike, which is how frames actually get damaged. A padded case costs very little and is enough if you play occasionally and change at home." },
+        { "q": "Should I keep my racket in its bag between sessions?", "a": "Yes, but store the bag somewhere with a stable temperature — indoors, not in a car or a garage. Rackets do not need to breathe, and keeping them bagged protects the strings from dust and the frame from knocks. What harms them is temperature cycling, which is why where the bag lives matters more than whether the racket is in it." }
+      ],
+      "products": {
+        "bad-bag-001": {
+          "anchor": "yonex-racket-case-ac541",
+          "shortName": "Yonex Racket Case AC541",
+          "note": "2 rackets",
+          "capacity": "2 rackets",
+          "carry": "Handle",
+          "specs": ["Holds 2 rackets", "Lightweight fabric", "Zip closure", "Yonex branding"],
+          "desc": "The honest minimum. It is a soft case rather than a bag — no shoe pocket, no kit space, no padding to speak of — and its whole purpose is to get two rackets from a house to a hall without them rattling around loose. For a player who changes at home and carries nothing else, that is genuinely all that is needed, and it costs less than a tube of shuttles."
+        },
+        "bad-bag-002": {
+          "anchor": "athletico-sling-bag",
+          "shortName": "Athletico Sling Bag",
+          "note": "crossbody",
+          "capacity": "1–2 rackets",
+          "carry": "Sling",
+          "specs": ["Crossbody sling", "Racket sleeve", "Accessory pockets", "Padded strap"],
+          "desc": "The right shape for anyone who walks or cycles to play. The racket sits flat across your back rather than swinging off one shoulder, and there is just enough pocket space for a bottle, keys and a towel. It will not take shoes and a change of clothes as well, which is the honest limit of a sling — but for a short journey it is far more comfortable than a kit-bag."
+        },
+        "bad-bag-003": {
+          "anchor": "athletico-city-bag",
+          "shortName": "Athletico City Racket Bag",
+          "note": "shoe pocket",
+          "capacity": "1–2 rackets",
+          "carry": "Shoulder",
+          "specs": ["Padded racket sleeve", "Separate shoe pocket", "Shoulder strap", "Understated design"],
+          "desc": "A racket bag that does not announce itself as one, which is the point — it goes to an office without looking like sports kit and still swallows a racket, court shoes and a change of shirt. The shoe compartment is separate and ventilated, so the rest of the bag stays clean. Best pick here for anyone who plays straight after work."
+        },
+        "bad-bag-004": {
+          "anchor": "hundred-cosmogear",
+          "shortName": "HUNDRED Cosmogear Kit-Bag",
+          "note": "large, double zip",
+          "capacity": "3–6 rackets",
+          "carry": "Shoulder",
+          "specs": ["Double zipper compartments", "Large capacity", "Shoe section", "Badminton-specific shape"],
+          "desc": "A proper badminton kit-bag shape at a price where most bags are still generic sports holdalls. Two full compartments mean wet kit never touches your rackets, and the racket sleeves are cut narrow enough that light frames do not slide about. HUNDRED are not a household name outside the sport, which is exactly why this costs what it does."
+        },
+        "bad-bag-005": {
+          "anchor": "yonex-kit-bag",
+          "shortName": "Yonex Badminton Kit-Bag",
+          "note": "double compartment",
+          "capacity": "3–6 rackets",
+          "carry": "Shoulder",
+          "specs": ["Double zipper compartments", "Dedicated shoe space", "Padded straps", "Yonex badminton fit"],
+          "desc": "The obvious club bag, and the brand tax here is smaller than usual. Two separate compartments plus a shoe section covers the actual problem — keeping sweaty kit, dirty shoes and expensive rackets apart from each other — and the straps are padded enough for a walk from a car park. If you play twice a week, this is the size that stops being annoying."
+        },
+        "bad-bag-006": {
+          "anchor": "wilson-super-tour-9-pack",
+          "shortName": "Wilson Super Tour 9-Pack",
+          "note": "thermal, 9 rackets",
+          "capacity": "9 rackets",
+          "carry": "Backpack straps",
+          "specs": ["Thermal-lined compartments", "Holds 9 rackets", "Backpack straps", "Ventilated shoe pocket"],
+          "desc": "Tournament kit. Thermal lining across the main compartments is the feature that matters — it is what keeps string tension stable when the bag lives in a car between rounds — and the nine-racket rating means four rackets plus a full change of kit in real terms. Overkill for a weekly club night, and exactly right if you travel to play."
+        }
+      }
+    },
+    {
+      "slug": "strings-grips",
+      "productCategory": "strings-grips",
+      "navLabel": "Strings & Grips",
+      "tableNoun": "Item",
+      "title": "Best Badminton Strings and Grips 2026: What to Restring With",
+      "metaDescription": "Six badminton strings and overgrips compared across Budget, Best Value and Premium. String gauge and tension explained, plus why an overgrip is the cheapest upgrade in the sport.",
+      "ogTitle": "Best Badminton Strings and Grips 2026 | SportGear Finder",
+      "ogDescription": "Compare the 6 best badminton strings and overgrips across Budget, Best Value and Premium tiers, with gauge and tension explained.",
+      "listName": "Best Badminton Strings and Grips 2026",
+      "h1": "Badminton <em>Strings &amp; Grips</em>",
+      "heroSub": "6 real picks — the two cheapest upgrades in the sport.",
+      "intro": "These are the two parts of a badminton racket you are supposed to replace, and between them they change how a racket plays more than moving up a price tier ever will. <strong>Strings</strong> lose tension from the day they are fitted and go dead months before they snap — a fresh string bed on an old frame feels like a new racket. <strong>Overgrips</strong> cost a couple of dollars and fix the slippery moulded handle that every racket under $50 ships with. If you own a racket you like and it has stopped feeling right, the answer is almost always on this page rather than on the rackets page.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Best For", "key": "use" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Grip First", "sub": "The cheapest thing that will change how your racket feels" },
+        "value": { "title": "Restring Sets", "sub": "Single-racket string sets in the gauges clubs actually use" },
+        "premium": { "title": "Buy in Bulk", "sub": "Reels and multi-packs for anyone doing this regularly" }
+      },
+      "guideHeading": "How to Choose Badminton Strings and Grips",
+      "guide": [
+        { "h": "Gauge: Thin Strings Spin and Snap, Thick Strings Last", "p": "Badminton string is sold by diameter, typically between 0.61mm and 0.70mm. Thinner string bites into the shuttle's cork more, which gives a sharper sound and a little more control on slices and drops, and it breaks sooner — sometimes much sooner. Thicker string, 0.70mm and up, survives mis-hits and lasts months. Almost everyone should start at 0.70mm, find out how often they break strings, and only then decide whether thinner is worth the running cost." },
+        { "h": "Tension Is a Trade, Not a Skill Level", "p": "Low tension, 18 to 22 lbs, gives a trampoline effect that adds power and forgives hitting away from the sweet spot. High tension, 24 lbs and up, flattens the response and gives precision to anyone who consistently hits the middle. Copying a professional's 30 lbs when you do not is the fastest way to make a racket feel dead, and it breaks strings far quicker. Factory stringing is around 20 lbs and that is correct for most club players." },
+        { "h": "Strings Die Long Before They Break", "p": "This is the part that surprises people. A string bed loses tension continuously — fastest in the first 48 hours after stringing, then slowly forever — and a racket strung eight months ago plays soft and unresponsive even though nothing has snapped. The rule of thumb is to restring as many times a year as you play in a week. Twice a week means restring roughly every six months; five times a week means every couple of months." },
+        { "h": "An Overgrip Is the Best Two Dollars in Badminton", "p": "Every racket under about $50 ships with a moulded plastic base grip that becomes slippery the moment your hands warm up, and every serious player wraps over it. Overgrips come in two families: tacky ones that stick to your hand, and dry or perforated ones that absorb sweat. Tacky suits dry hands and cool halls, dry suits sweaty hands and hot ones. They cost a dollar or two each and last a few weeks — buy a multi-pack, not singles." },
+        { "h": "Grip Thickness Changes Your Wrist", "p": "Wrapping an overgrip adds about a millimetre to the handle, and adding two or three builds it up noticeably. This is not cosmetic: a thinner handle lets you rotate the racket freely, which is what badminton's wrist-driven shots need, while a thicker one gives a more locked-in feel that some players prefer for smashing. If your fingers feel cramped, strip the old grip before adding a new one rather than wrapping over the top." }
+      ],
+      "faq": [
+        { "q": "How often should I restring my badminton racket?", "a": "As many times a year as you play hours per week, as a rough rule. Playing twice a week means restringing roughly every six months even if nothing has broken, because tension drops continuously and a soft string bed kills control long before a string snaps. Competitive players restring every few weeks. If you cannot remember when it was last done, it is due." },
+        { "q": "What string tension should I use?", "a": "Between 20 and 24 lbs for almost every club player, and 20 to 22 if you are still learning. Lower tension adds power and forgives off-centre hits; higher tension adds control if you already hit the sweet spot consistently. Chasing the 30 lbs a professional uses will make your racket feel dead and break strings quickly, because that tension only works with their swing speed." },
+        { "q": "What is the difference between a grip and an overgrip?", "a": "The base grip — usually PU or synthetic leather — is what comes fitted to the handle and is replaced rarely. An overgrip is a thin tape you wrap over the top of it, costs a couple of dollars, and is replaced every few weeks as it wears. Overgrips are what nearly everyone actually uses; the only reason to replace a base grip is if it has hardened or come loose." },
+        { "q": "Is expensive badminton string worth it?", "a": "Fresh cheap string beats dead expensive string, every time. Within that, the differences are real but small: thinner premium strings give a crisper sound and slightly better shuttle bite. The honest advice is to restring more often with a mid-priced durable string like BG65 rather than less often with something expensive. Frequency matters more than brand." },
+        { "q": "Can I restring a badminton racket myself?", "a": "Only with a proper badminton stringing machine — badminton frames are strung at much lower tension than tennis frames and are far easier to crush in a clamp designed for tennis. Doing it by hand is not possible. If you play enough to want to, a string reel like the one on this page pays for itself quickly; otherwise a club stringer typically charges $20 to $25 including the string." }
+      ],
+      "products": {
+        "bad-grip-001": {
+          "anchor": "pangda-grip-tape-12",
+          "shortName": "Pangda Grip Tape (12-Pack)",
+          "note": "12 wraps",
+          "type": "Overgrip",
+          "use": "Everyday",
+          "specs": ["12 overgrips", "Tacky finish", "Multiple colours", "Tennis and badminton"],
+          "desc": "Twelve overgrips for the price of two branded ones, and that maths is the whole argument. Overgrips are a consumable — they go slick after a few weeks and get thrown away — so buying them one at a time is how people end up playing on a worn grip for months. The tack is decent rather than exceptional. Buy these, change them often, stop thinking about it."
+        },
+        "bad-grip-002": {
+          "anchor": "senston-perforated-grips",
+          "shortName": "Senston Perforated Grips",
+          "note": "absorbent",
+          "type": "Overgrip",
+          "use": "Sweaty hands",
+          "specs": ["Perforated surface", "High absorbency", "Anti-slip", "Multi-pack"],
+          "desc": "The other family of overgrip: perforated and absorbent rather than tacky. In a hot sports hall a tacky grip eventually turns greasy, while a perforated one keeps wicking — so if you have ever had a racket rotate in your hand mid-rally, this is the fix. Slightly less connected feeling than a tacky grip when your hands are dry, which is the trade."
+        },
+        "bad-grip-003": {
+          "anchor": "yonex-bg65-ti-set",
+          "shortName": "Yonex BG65 Ti (10m Set)",
+          "note": "single racket set",
+          "type": "String",
+          "use": "Durability",
+          "specs": ["0.70mm gauge", "Titanium-coated", "10m single-racket set", "High durability"],
+          "desc": "BG65 is the default club string for a reason, and the Ti version adds a titanium coating that makes it last longer still. At 0.70mm it survives mis-hits from players who are still finding the sweet spot, which is exactly who breaks strings. A 10m set is one racket's worth — buy it when you take the racket to a stringer rather than paying their markup on string."
+        },
+        "bad-grip-004": {
+          "anchor": "yonex-bg65-070",
+          "shortName": "Yonex BG65 0.70mm",
+          "note": "the standard",
+          "type": "String",
+          "use": "All-round",
+          "specs": ["0.70mm gauge", "Balanced repulsion", "Wide tension range", "Yonex BG65"],
+          "desc": "The plain BG65, which is the string most badminton players in the world have on their racket right now. It sits deliberately in the middle of everything: durable enough for club play, responsive enough that you are not fighting it, and happy anywhere between 20 and 26 lbs. If you have no opinion about string, this is the correct answer to have no opinion about."
+        },
+        "bad-grip-005": {
+          "anchor": "yonex-super-grap-30",
+          "shortName": "Yonex Super GRAP (30-Pack)",
+          "note": "30 wraps",
+          "type": "Overgrip",
+          "use": "Club use",
+          "specs": ["30 overgrips", "Yonex Super GRAP", "Tacky finish", "Standard club grip"],
+          "desc": "The overgrip the sport actually runs on, bought in the quantity that makes it cheap. Super GRAP is the reference point everything else is compared against — tacky without being sticky, thin enough not to bulk the handle, and consistent roll to roll. Thirty of them is two or three years for one player, or a season for a household that plays."
+        },
+        "bad-grip-006": {
+          "anchor": "yonex-bg65-ti-reel",
+          "shortName": "Yonex BG-65 Ti Reel",
+          "note": "bulk reel",
+          "type": "String",
+          "use": "Stringers",
+          "specs": ["0.70mm gauge", "Titanium-coated", "200m reel", "Roughly 20 rackets"],
+          "desc": "The same string as the 10m set, bought by the reel. This only makes sense if you or your club string rackets yourselves — 200m is around twenty rackets, and the per-racket cost drops to a fraction of buying sets. Pointless if you take your racket to a shop; obviously correct if you own a stringing machine and a group of people who play."
+        }
+      }
+    }
+  ]
+}

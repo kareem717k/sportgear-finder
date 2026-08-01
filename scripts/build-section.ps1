@@ -52,7 +52,8 @@ function Nav {
         @('Home','../index.html'), @('Tennis','../tennis/index.html'), @('Gym','../gym/index.html'),
         @('Boxing','../boxing/index.html'), @('Swimming','../swimming/index.html'),
         @('Football','../football/index.html'), @('Volleyball','../volleyball/index.html'),
-        @('Pickleball','../pickleball/index.html')
+        @('Pickleball','../pickleball/index.html'), @('Ping Pong','../ping-pong/index.html'),
+        @('Badminton','../badminton/index.html')
     )
     $li = foreach ($i in $items) {
         $cls = ''
@@ -252,8 +253,10 @@ $($cards -join "`n")
 "@
     }
 
+    # Guide paragraphs are emitted raw so they can carry contextual internal links,
+    # the same way $cat.intro does. Headings stay escaped - they are plain text.
     $guide = ($cat.guide | ForEach-Object {
-        if ($_.h) { "<h3>$(Esc $_.h)</h3>`n<p>$(Esc $_.p)</p>" } else { "<p>$(Esc $_.p)</p>" }
+        if ($_.h) { "<h3>$(Esc $_.h)</h3>`n<p>$($_.p)</p>" } else { "<p>$($_.p)</p>" }
     }) -join "`n"
 
     $faq = ($cat.faq | ForEach-Object {
