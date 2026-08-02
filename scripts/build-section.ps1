@@ -132,6 +132,7 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);
 gtag('js',new Date());
 gtag('config','G-0C1DTCG2NX');
 </script>
+<script defer src="/js/affiliate.js"></script>
 '@
 
 $Footer = [System.IO.File]::ReadAllText((Join-Path $RepoRoot 'volleyball\volleyballs.html'))
