@@ -3848,6 +3848,46 @@
       "bestFor": "Elite midfielders and dead-ball specialists"
     },
     {
+      "id": "boots-007",
+      "sport": "football",
+      "category": "boots",
+      "tier": "value",
+      "name": "adidas F50 League FG/MG",
+      "price": 87,
+      "priceDisplay": "~$87",
+      "image": "https://m.media-amazon.com/images/I/61RZMlM0NEL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "intermediate",
+        "lightweight",
+        "synthetic",
+        "speed"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0F33SPC6M?tag=sportgearfind-20",
+      "score": 8.4,
+      "bestFor": "Quick players who rotate between grass and hard pitches"
+    },
+    {
+      "id": "boots-008",
+      "sport": "football",
+      "category": "boots",
+      "tier": "value",
+      "name": "adidas F50 Hyperfast League FG",
+      "price": 90,
+      "priceDisplay": "~$90",
+      "image": "https://m.media-amazon.com/images/I/61R7swUtoxL._AC_SL300_.jpg",
+      "tags": [
+        "adidas",
+        "advanced",
+        "lightweight",
+        "synthetic",
+        "speed"
+      ],
+      "affiliateLink": "https://www.amazon.com/dp/B0FQYRHHC9?tag=sportgearfind-20",
+      "score": 8.6,
+      "bestFor": "Wingers and forwards who play on pace"
+    },
+    {
       "id": "footballs-001",
       "sport": "football",
       "category": "balls",

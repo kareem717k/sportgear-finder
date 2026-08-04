@@ -4,7 +4,12 @@
     {
       "name": "sportgear",
       "runtimeExecutable": "powershell",
-      "runtimeArgs": ["-Command", "$root='D:\\kitwebsite\\sportgear-finder'; $l=New-Object Net.HttpListener; $l.Prefixes.Add('http://localhost:3456/'); $l.Start(); Write-Host 'ready'; while($l.IsListening){ $cx=$l.GetContext(); $url=$cx.Request.Url.AbsolutePath; if($url -eq '/'){$url='/index.html'}; $fp=Join-Path $root ($url.TrimStart('/').Replace('/','\\')); if(Test-Path -LiteralPath $fp -PathType Leaf){ $bytes=[System.IO.File]::ReadAllBytes($fp); $cx.Response.ContentLength64=$bytes.LongLength; $cx.Response.OutputStream.Write($bytes,0,$bytes.Length); } else { $cx.Response.StatusCode=404 }; $cx.Response.OutputStream.Flush(); $cx.Response.Close() }"],
+      "runtimeArgs": [
+        "-NoProfile",
+        "-ExecutionPolicy", "Bypass",
+        "-File", "D:\\kitwebsite\\sportgear-finder\\scripts\\serve.ps1",
+        "-Port", "3456"
+      ],
       "port": 3456
     }
   ]
