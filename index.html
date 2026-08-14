@@ -6,6 +6,7 @@
 <title>SportGear Finder — Best Sports Gear for Every Budget</title>
 <meta content="6 real picks per category across Budget, Best Value, and Premium — Tennis, Gym, Boxing, Swimming, Football &amp; Volleyball. Skip the guesswork. Find the right gear fast." name="description"/>
 <link href="css/style.css" rel="stylesheet"/>
+<link href="css/gear-finder.css" rel="stylesheet"/>
 <link href="https://m.media-amazon.com" rel="preconnect"/>
 <link crossorigin="" href="https://m.media-amazon.com" rel="preconnect"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
@@ -138,21 +139,17 @@ gtag('config','G-0C1DTCG2NX');
   </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <span class="hero-eyebrow"><span></span> Curated Gear Reviews</span>
-    <h1>Your Sport.<br/><em>Your Price.</em><br/>Your Gear.</h1>
-    <p class="hero-sub">Real product picks across Budget, Best Value, and Premium — for every sport, every budget. No guesswork, no filler.</p>
+    <span class="hero-eyebrow"><span></span> Personalised Gear Finder</span>
+    <h1>Tell us about you.<br/><em>Get your perfect kit.</em></h1>
+    <p class="hero-sub">Answer five quick questions — your level, your budget, where you play — and we build you a complete kit from 367 reviewed products. Not a search box. An actual answer.</p>
     <div class="hero-actions">
-      <a class="btn-hero-primary" href="tennis/index.html">
-        Start Exploring
-        <svg fill="none" height="14" viewBox="0 0 14 14" width="14">
-          <path d="M3 7H11M11 7L7.5 3.5M11 7L7.5 10.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
-        </svg>
-      </a>
       <div class="hero-trust">
-        <strong>367</strong> products reviewed across <strong>60</strong> categories
+        <strong>367</strong> products reviewed across <strong>60</strong> categories · <a href="#sports">browse by sport instead</a>
       </div>
     </div>
-    <!-- Sport selector pills -->
+    <!-- Sport selector pills — these are step one of the Gear Finder as well as
+         the carousel control. gear-finder.js binds to them. -->
+    <p class="hero-pick-prompt">Start with your sport:</p>
     <div class="hero-sports" id="hero-sports">
       <button class="hero-sport-pill active" data-idx="0">Tennis<span class="hero-progress"></span></button>
       <button class="hero-sport-pill" data-idx="1">Gym<span class="hero-progress"></span></button>
@@ -188,7 +185,7 @@ gtag('config','G-0C1DTCG2NX');
 </div>
 
 <!-- ── SPORT CARDS ── -->
-<div class="container">
+<div class="container" id="sports">
   <div class="section-label" data-reveal>Choose Your Sport</div>
   <div class="sport-grid-v2" data-reveal-stagger>
 
@@ -457,7 +454,8 @@ gtag('config','G-0C1DTCG2NX');
 </footer>
 
 <script src="js/search.js"></script>
-<script src="js/recommender.js"></script>
+<script src="js/gear-fit.js"></script>
+<script src="js/gear-finder.js"></script>
 <script src="js/animations.js"></script>
 <script>
 (function(){
@@ -508,6 +506,13 @@ gtag('config','G-0C1DTCG2NX');
   initBar.style.animation = 'sgf-prog ' + DURATION + 'ms linear forwards';
 
   startAuto();
+
+  // gear-finder.js reuses the sport pills as its first question, and settles
+  // the background on the chosen sport instead of carrying on cycling.
+  window.SGF_HERO = {
+    goTo: goTo,
+    stop: function(){ clearInterval(timer); }
+  };
 })();
 </script>
 </body>
