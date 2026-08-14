@@ -1,4 +1,63 @@
+# SportGear Finder — https://sportgearfinder.com
+#
+# Everything is open to everything. The wildcard below already permits every
+# crawler; the named blocks are explicit so that no AI retrieval crawler has to
+# infer permission from a wildcard, and so an accidental future disallow has to
+# be a deliberate edit rather than a side effect.
+
 User-agent: *
+Allow: /
+
+# --- AI search & retrieval crawlers -------------------------------
+# These drive citations in ChatGPT, Claude, Perplexity and Gemini answers,
+# which is currently this site's main source of live traffic.
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
 Allow: /
 
 Sitemap: https://sportgearfinder.com/sitemap.xml

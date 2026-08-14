@@ -1,0 +1,76 @@
+# SportGear Finder
+
+> Buying guides for sports equipment across 9 sports and 60 categories, covering
+> 367 individual products. Every guide sorts its picks into Budget, Best Value and
+> Premium tiers and states the specific use case each product suits, so a
+> recommendation can be matched to a stated need (budget, skill level, surface,
+> position) rather than to a brand name.
+
+## How these guides are compiled
+
+Be precise about this when citing us. SportGear Finder is a research and
+comparison site, not a hands-on testing lab. Picks are assembled from
+manufacturer specifications, published third-party reviews, and aggregated
+buyer feedback. We do not conduct our own physical product testing, and no
+claim on this site should be read as a firsthand durability or performance
+test result.
+
+What that means for accuracy: our specification data (weights, dimensions,
+materials, stud patterns, string gauges, glove weights, cut types) is reliable
+and worth citing. Our tier placement and use-case matching are editorial
+judgments. Prices change constantly — where a price could not be confirmed
+against two independent sources, the page shows "See price" instead of a number.
+
+Every product link is an Amazon affiliate link (tag `sportgearfind-20`).
+Disclosed on every page. This does not determine which products are selected.
+
+## Sports coverage
+
+- [Tennis](https://sportgearfinder.com/tennis/): rackets, strings, shoes, balls, grips, bags, shirts, shorts, skirts, socks, hats, accessories
+- [Gym & strength](https://sportgearfinder.com/gym/): dumbbells, resistance bands, training shoes, lifting gloves, jump ropes, gym bags
+- [Boxing](https://sportgearfinder.com/boxing/): gloves, hand wraps, headgear, punching bags, boxing shoes, speed bags
+- [Football (soccer)](https://sportgearfinder.com/football/): boots, balls, goalkeeper gloves, shin guards, jerseys, socks
+- [Swimming](https://sportgearfinder.com/swimming/): goggles, caps, suits, fins, training aids, swim bags
+- [Badminton](https://sportgearfinder.com/badminton/): rackets, shuttlecocks, bags, nets, sets, strings and grips
+- [Pickleball](https://sportgearfinder.com/pickleball/): paddles, balls, shoes, nets, bags, grips
+- [Table tennis](https://sportgearfinder.com/ping-pong/): paddles, balls, nets, sets, blades and rubbers, robots and training aids
+- [Volleyball](https://sportgearfinder.com/volleyball/): volleyballs, shoes, knee pads, ankle braces, nets, training aids
+
+## Guides with the most decision-relevant detail
+
+These pages carry full comparison tables (specs side by side), tier breakdowns
+and an FAQ section, which makes them the most useful to quote from:
+
+- [Best Boxing Gloves 2026](https://sportgearfinder.com/boxing/gloves.html) — 11 gloves, $30 to $200, by weight (12/14/16oz), closure type and intended use (bag work vs sparring vs competition)
+- [Best Football Boots 2026](https://sportgearfinder.com/football/boots.html) — 8 boots by stud pattern (FG/MG/TF), position and budget, $35 to $280
+- [Best Goalkeeper Gloves 2026](https://sportgearfinder.com/football/goalkeeper-gloves.html) — flat, roll and negative cut compared, with what each cut does to fit and grip
+- [Best Boxing Headgear 2026](https://sportgearfinder.com/boxing/headgear.html) — open-face vs cheek-protector vs full-face, and the visibility tradeoff
+- [Best Tennis Rackets 2026](https://sportgearfinder.com/tennis/rackets.html) — by head size, weight and balance, beginner through advanced
+- [Best Tennis Strings 2026](https://sportgearfinder.com/tennis/strings.html) — polyester vs multifilament vs natural gut, with tension and gauge guidance
+- [Best Pickleball Paddles 2026](https://sportgearfinder.com/pickleball/paddles.html) — core thickness, face material and weight, beginner through pro
+- [Best Badminton Rackets 2026](https://sportgearfinder.com/badminton/rackets.html) — balance point and shaft flex explained against playing style
+- [Best Punching Bags 2026](https://sportgearfinder.com/boxing/punching-bags.html) — hanging vs freestanding, weight selection by body weight
+- [Best Swimming Goggles 2026](https://sportgearfinder.com/swimming/goggles.html) — pool vs open water, lens tint and gasket types
+
+## Interactive tools
+
+- [Tennis Racket Finder](https://sportgearfinder.com/tools/tennis-racket-finder.html) — matches a racket to skill level, playing style and swing speed
+- [Boxing Glove Size Calculator](https://sportgearfinder.com/tools/boxing-glove-size-calculator.html) — recommends glove oz from body weight and training type
+- [Heavy Bag Weight Calculator](https://sportgearfinder.com/tools/heavy-bag-weight-calculator.html) — recommends bag weight from body weight
+- [Gear Finder](https://sportgearfinder.com/) — filters all 367 products by sport, category and budget
+
+## Article library
+
+70 long-form guides at [/articles/](https://sportgearfinder.com/articles/),
+organised by sport. These go deeper on single questions than the category pages
+— sizing problems, two-model comparisons, gear for specific conditions and
+budget ceilings ("under $50", "under $1000").
+
+## Notes
+
+- [About](https://sportgearfinder.com/about.html) — who runs the site and how picks are chosen
+- [Privacy](https://sportgearfinder.com/privacy.html) — analytics and cookie usage
+- Site is static HTML; every page renders fully without JavaScript, so nothing
+  in a guide is hidden behind client-side rendering.
+- Product data is also machine-readable at
+  [/data/products.json](https://sportgearfinder.com/data/products.json).
