@@ -175,7 +175,7 @@ Until that is reachable, the site cannot display live prices compliantly.
 | JSON-LD `offers.price` / `priceCurrency` | stripped; `availability` and `url` kept |
 | "Prices checked June 2026" (43) | trimmed to "Last updated: June 2026" |
 | "Prices shown are approximate…" (72) | removed |
-| `pcard-price` in the Gear Finder (`js/recommender.js`) | removed; that card already showed a tier badge |
+| `pcard-price` in the Gear Finder (then `js/recommender.js`, now `js/gear-finder.js`) | removed; that card already showed a tier badge |
 
 Tables are only touched when the header carries **Tier and Score and Price**.
 That gate is what protects the editorial tables — budget guides
@@ -216,8 +216,9 @@ matters if prices ever come back:
   — price updates applied to `products.json` that never reached the pages.
 
 So `price` in `products.json` is a *display* value, not an exact one. It is now
-used only by the Gear Finder for "under $50"-style matching
-(`js/recommender.js`), never for display.
+used only by the Gear Finder (`js/gear-finder.js`) to split a stated budget
+across the slots of a kit and to decide what fits, never for display. No price
+is rendered anywhere in its output.
 
 **If prices ever return** (i.e. once Creators API access is reachable at 10
 qualifying sales in 30 days), they must be fetched live and stamped with a

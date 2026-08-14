@@ -1814,8 +1814,8 @@ nav::after {
 
 .pcard-score { text-align: right; flex-shrink: 0; }
 
-/* Gear Finder card rules live with their siblings in the stylesheet that
-   js/recommender.js injects at runtime — see the CSS array there. */
+/* Gear Finder card rules live in css/gear-finder.css, which only the homepage
+   loads — this sheet is fetched by all 146 pages. */
 
 .pcard-score-num {
   font-family: 'Barlow Condensed', 'Inter', sans-serif;
