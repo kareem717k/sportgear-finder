@@ -1,7 +1,7 @@
 # SportGear Finder
 
 Source for **[sportgearfinder.com](https://sportgearfinder.com)** — a static site
-of sports-gear buying guides covering 9 sports, 60 categories and 367 products.
+of sports-gear buying guides covering 9 sports, 60 categories and 363 products.
 
 Every guide sorts its picks into **Budget / Best Value / Premium** tiers and
 states the specific use case each pick suits, so a recommendation can be matched
@@ -18,9 +18,9 @@ volleyball, swimming, gym.
 | --- | --- |
 | `index.html` | Homepage — the Gear Finder profile flow |
 | `<sport>/` | One directory per sport: hub page plus its category pages |
-| `articles/` | 70 long-form guides, grouped by sport, plus `articles/guides/` |
+| `articles/` | 69 long-form guides, grouped by sport, plus `articles/guides/` |
 | `tools/` | Free calculators — racket finder, glove and heavy-bag sizing |
-| `data/products.json` | The product catalog: 367 entries, one source of truth |
+| `data/products.json` | The product catalog: 363 entries, one source of truth |
 | `scripts/sections/*.json` | Per-sport section data the build scripts read |
 | `js/` | Gear Finder, filtering, search, affiliate link and GA4 helpers |
 | `scripts/` | PowerShell build and maintenance scripts — see `scripts/README.md` |

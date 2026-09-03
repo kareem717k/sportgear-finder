@@ -53,6 +53,7 @@ gtag('config','G-0C1DTCG2NX');
 <script defer src="/js/affiliate.js"></script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav-v2">
 <a class="nav-logo-v2" href="../index.html">
 <div class="logo-mark">
@@ -62,8 +63,8 @@ gtag('config','G-0C1DTCG2NX');
 </div>
 <span class="logo-text"><em>SportGear</em> Finder</span>
 </a>
-<button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
-<ul class="nav-links">
+<button aria-label="Menu" aria-controls="nav-menu" aria-expanded="false" class="nav-hamburger" onclick="var m=this.closest('nav').querySelector('.nav-links');this.setAttribute('aria-expanded',m.classList.toggle('open'))"><span></span><span></span><span></span></button>
+<ul class="nav-links" id="nav-menu">
 <li><a href="../index.html">Home</a></li>
 <li><a href="../tennis/index.html">Tennis</a></li>
 <li><a href="../gym/index.html">Gym</a></li>
@@ -78,6 +79,7 @@ gtag('config','G-0C1DTCG2NX');
 <li><a href="../about.html">About</a></li>
 </ul>
 </nav>
+<div id="main" tabindex="-1"></div>
 
 <header class="tool-hero">
 <h1>Free Gear Tools</h1>
@@ -153,6 +155,5 @@ gtag('config','G-0C1DTCG2NX');
   </div>
 </footer>
 <script src="../js/animations.js"></script>
-<script type="text/javascript" src="https://s.skimresources.com/js/307953X1796249.skimlinks.js"></script>
 </body>
 </html>

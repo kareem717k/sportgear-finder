@@ -54,6 +54,7 @@ gtag('config','G-0C1DTCG2NX');
 <body class="sport-swimming">
 
 <!-- ── NAV ── -->
+<a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav-v2">
   <a class="nav-logo-v2" href="../index.html">
     <div class="logo-mark">
@@ -63,10 +64,10 @@ gtag('config','G-0C1DTCG2NX');
     </div>
     <span class="logo-text"><em>SportGear</em> Finder</span>
   </a>
-  <button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+  <button aria-label="Menu" aria-controls="nav-menu" aria-expanded="false" class="nav-hamburger" onclick="var m=this.closest('nav').querySelector('.nav-links');this.setAttribute('aria-expanded',m.classList.toggle('open'))">
     <span></span><span></span><span></span>
   </button>
-  <ul class="nav-links">
+  <ul class="nav-links" id="nav-menu">
     <li><a href="../index.html">Home</a></li>
     <li><a href="../tennis/index.html">Tennis</a></li>
     <li><a href="../gym/index.html">Gym</a></li>
@@ -87,11 +88,12 @@ gtag('config','G-0C1DTCG2NX');
     </svg>
   </button>
 </nav>
+<div id="main" tabindex="-1"></div>
 
 <!-- ── HERO ── -->
 <section class="sport-hub-hero">
   <canvas id="sport-canvas"></canvas>
-  <img alt="Swimmer in pool lane" src="https://images.unsplash.com/photo-1560090995-01632a28895b?w=1400&h=600&fit=crop&q=80" fetchpriority="high"/>
+  <img alt="Swimmer in pool lane" src="https://images.unsplash.com/photo-1560090995-01632a28895b?w=1400&h=600&fit=crop&q=80" width="1400" height="600" fetchpriority="high"/>
   <div class="hero-overlay"></div>
   <div class="hub-content">
     <span class="hub-eyebrow">
@@ -109,37 +111,37 @@ gtag('config','G-0C1DTCG2NX');
   <div class="section-label" style="margin-top:36px;" data-reveal>Equipment</div>
   <div class="cat-grid" data-reveal-stagger>
     <a class="cat-card" href="goggles.html">
-      <img alt="Swimming Goggles" src="https://images.unsplash.com/photo-1600965962102-9d260a71890d?w=600&h=400&fit=crop&q=80"/>
+      <img alt="Swimming Goggles" src="https://images.unsplash.com/photo-1600965962102-9d260a71890d?w=600&h=400&fit=crop&q=80" width="600" height="400"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Goggles</h3><span class="cat-price-pill">From $12</span></div>
     </a>
     <a class="cat-card" href="suits.html">
-      <img alt="Swimsuits" src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Swimsuits" src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Swimsuits</h3><span class="cat-price-pill">From $25</span></div>
     </a>
     <a class="cat-card" href="caps.html">
-      <img alt="Swim Caps" src="https://images.unsplash.com/photo-1560090995-01632a28895b?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Swim Caps" src="https://images.unsplash.com/photo-1560090995-01632a28895b?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Swim Caps</h3><span class="cat-price-pill">From $8</span></div>
     </a>
     <a class="cat-card" href="fins.html">
-      <img alt="Swimming Fins" src="https://images.unsplash.com/photo-1566356767553-e118792cae7f?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Swimming Fins" src="https://images.unsplash.com/photo-1566356767553-e118792cae7f?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Fins &amp; Flippers</h3><span class="cat-price-pill">From $28</span></div>
     </a>
     <a class="cat-card" href="training-aids.html">
-      <img alt="Swimming Training Aids" src="https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Swimming Training Aids" src="https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Training Aids</h3><span class="cat-price-pill">From $12</span></div>
     </a>
     <a class="cat-card" href="bags.html">
-      <img alt="Swim Bags" src="https://images.unsplash.com/photo-1595449699957-06dfc1318581?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Swim Bags" src="https://images.unsplash.com/photo-1595449699957-06dfc1318581?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Swim Bags</h3><span class="cat-price-pill">From $15</span></div>
@@ -203,6 +205,5 @@ gtag('config','G-0C1DTCG2NX');
 
 <script src="../js/search.js"></script>
 <script src="../js/animations.js"></script>
-<script type="text/javascript" src="https://s.skimresources.com/js/307953X1796249.skimlinks.js"></script>
 </body>
 </html>

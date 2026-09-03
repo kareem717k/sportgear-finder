@@ -63,7 +63,7 @@
 .related-guides li{margin-bottom:7px}
 @media(max-width:600px){.seg button{min-width:calc(50% - 4px)}}
 </style>
-<script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebApplication","name":"Tennis Racket Finder","url":"https://sportgearfinder.com/tools/tennis-racket-finder.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer"},"publisher":{"@type":"Organization","name":"SportGear Finder","url":"https://sportgearfinder.com"}},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What head size should a beginner tennis racket have?","acceptedAnswer":{"@type":"Answer","text":"Beginners should look for 100 to 110 square inches. A larger head has a bigger sweet spot, so off-centre hits still go in, which matters far more than control while your contact point is still inconsistent."}},{"@type":"Question","name":"How heavy should my tennis racket be?","acceptedAnswer":{"@type":"Answer","text":"Most adult improvers do best between 280 and 300 g strung. Lighter frames are easier to swing but get pushed around by heavy balls; heavier frames are more stable but demand earlier preparation and more fitness."}},{"@type":"Question","name":"What racket is best if I have tennis elbow?","acceptedAnswer":{"@type":"Answer","text":"Look for a slightly heavier, flexible frame with a softer string setup. Counterintuitively, very light stiff rackets transmit more shock to the arm. A multifilament string at lower tension helps more than changing frames alone."}},{"@type":"Question","name":"Does an expensive racket make you play better?","acceptedAnswer":{"@type":"Answer","text":"Not on its own. Below roughly 100 dollars you are buying playability; above that you are buying fit to your specific swing. A 60 dollar frame that matches your game beats a 250 dollar frame that does not."}}]},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sportgearfinder.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://sportgearfinder.com/tools/"},{"@type":"ListItem","position":3,"name":"Tennis Racket Finder","item":"https://sportgearfinder.com/tools/tennis-racket-finder.html"}]}]</script>
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebApplication","name":"Tennis Racket Finder","url":"https://sportgearfinder.com/tools/tennis-racket-finder.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","publisher":{"@type":"Organization","name":"SportGear Finder","url":"https://sportgearfinder.com"}},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What head size should a beginner tennis racket have?","acceptedAnswer":{"@type":"Answer","text":"Beginners should look for 100 to 110 square inches. A larger head has a bigger sweet spot, so off-centre hits still go in, which matters far more than control while your contact point is still inconsistent."}},{"@type":"Question","name":"How heavy should my tennis racket be?","acceptedAnswer":{"@type":"Answer","text":"Most adult improvers do best between 280 and 300 g strung. Lighter frames are easier to swing but get pushed around by heavy balls; heavier frames are more stable but demand earlier preparation and more fitness."}},{"@type":"Question","name":"What racket is best if I have tennis elbow?","acceptedAnswer":{"@type":"Answer","text":"Look for a slightly heavier, flexible frame with a softer string setup. Counterintuitively, very light stiff rackets transmit more shock to the arm. A multifilament string at lower tension helps more than changing frames alone."}},{"@type":"Question","name":"Does an expensive racket make you play better?","acceptedAnswer":{"@type":"Answer","text":"Not on its own. Below roughly 100 dollars you are buying playability; above that you are buying fit to your specific swing. A 60 dollar frame that matches your game beats a 250 dollar frame that does not."}}]},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sportgearfinder.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://sportgearfinder.com/tools/"},{"@type":"ListItem","position":3,"name":"Tennis Racket Finder","item":"https://sportgearfinder.com/tools/tennis-racket-finder.html"}]}]</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0C1DTCG2NX"></script>
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
@@ -73,6 +73,7 @@ gtag('config','G-0C1DTCG2NX');
 <script defer src="/js/affiliate.js"></script>
 </head>
 <body class="sport-tennis">
+<a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav-v2">
 <a class="nav-logo-v2" href="../index.html">
 <div class="logo-mark">
@@ -82,8 +83,8 @@ gtag('config','G-0C1DTCG2NX');
 </div>
 <span class="logo-text"><em>SportGear</em> Finder</span>
 </a>
-<button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
-<ul class="nav-links">
+<button aria-label="Menu" aria-controls="nav-menu" aria-expanded="false" class="nav-hamburger" onclick="var m=this.closest('nav').querySelector('.nav-links');this.setAttribute('aria-expanded',m.classList.toggle('open'))"><span></span><span></span><span></span></button>
+<ul class="nav-links" id="nav-menu">
 <li><a href="../index.html">Home</a></li>
 <li><a href="../tennis/index.html">Tennis</a></li>
 <li><a href="../gym/index.html">Gym</a></li>
@@ -98,6 +99,7 @@ gtag('config','G-0C1DTCG2NX');
 <li><a href="../about.html">About</a></li>
 </ul>
 </nav>
+<div id="main" tabindex="-1"></div>
 
 <header class="tool-hero">
 <h1>Tennis Racket Finder</h1>
@@ -350,6 +352,5 @@ gtag('config','G-0C1DTCG2NX');
 })();
 </script>
 <script src="../js/animations.js"></script>
-<script type="text/javascript" src="https://s.skimresources.com/js/307953X1796249.skimlinks.js"></script>
 </body>
 </html>

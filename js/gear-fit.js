@@ -57,12 +57,16 @@
   // The cap is what the assembler spends against. It is used for filtering
   // only — no per-listing price is ever rendered (Amazon Associates permits
   // displayed prices only from the Creators API, see scripts/remove-prices.ps1).
+  // `phrase` is the prose form used in the kit summary sentence. The labels
+  // above are button text and already carry their own preposition ("Under
+  // $100"), so pasting them after a word like "around" reads as broken
+  // English — the summary reads `phrase` instead.
   var BUDGETS = [
-    { id: 'lean',    label: 'Under $100',  cap: 100 },
-    { id: 'mid',     label: '$100 – $250', cap: 250 },
-    { id: 'serious', label: '$250 – $500', cap: 500 },
-    { id: 'full',    label: '$500+',       cap: 1200 },
-    { id: 'open',    label: 'No limit',    cap: Infinity }
+    { id: 'lean',    label: 'Under $100',  cap: 100,      phrase: 'under $100' },
+    { id: 'mid',     label: '$100 – $250', cap: 250,      phrase: 'around $100–$250' },
+    { id: 'serious', label: '$250 – $500', cap: 500,      phrase: 'around $250–$500' },
+    { id: 'full',    label: '$500+',       cap: 1200,     phrase: 'over $500' },
+    { id: 'open',    label: 'No limit',    cap: Infinity, phrase: 'with no budget limit' }
   ];
 
   // ─── KITS ────────────────────────────────────────────────────────────────
@@ -369,9 +373,16 @@
       label: 'arm comfort'
     },
     wideFeet: {
-      phrases: ['wide feet', 'wide foot', 'wide fit', 'flat feet', 'flat foot'],
-      tags: ['wide', 'roomy', 'support', 'cushioned'],
-      cats: ['shoes', 'boots', 'training-shoes', 'fins', 'socks'],
+      phrases: ['wide feet', 'wide foot', 'wide fit', 'wide fitting', 'flat feet', 'flat foot',
+                'bunion', 'bunions', 'wide toe box'],
+      // Width signals only. 'support' and 'cushioned' were here once and are
+      // the reason this flag used to explain itself on a pair of socks: they
+      // are comfort words that footwear does not own. Every tag below is a
+      // width claim and appears on real entries in products.json.
+      tags: ['wide', 'wide-available', 'roomy', 'arch-fit'],
+      // Footwear only. Socks do not come in widths, so they can no longer
+      // take the credit for a pick the shoes should be making.
+      cats: ['shoes', 'boots', 'training-shoes'],
       label: 'wide-fit footwear'
     },
     light: {
@@ -469,6 +480,12 @@
       level: level,
       budgetId: answers.budget,
       budgetLabel: typed ? ('$' + typed) : (bracket ? bracket.label : 'any budget'),
+      // Prose form for sentences. A typed figure ("under 80") becomes
+      // "around $80"; a bracket carries its own wording; skipping the step
+      // leaves the sentence with nothing to say about budget.
+      budgetPhrase: typed ? ('around $' + typed) : (bracket ? bracket.phrase : ''),
+      // The number to name when the kit cannot fit, e.g. "more than $100".
+      budgetCeiling: isFinite(cap) ? ('$' + cap) : '',
       cap: cap,
       context: answers.context || null,
       owned: answers.owned || [],

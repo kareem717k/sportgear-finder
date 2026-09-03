@@ -68,28 +68,24 @@
     { title: 'Nike Elite Doublewide Wristbands', sub: 'Accessories — Premium', tag: 'Product', url: BASE + 'tennis/accessories.html' },
     { title: 'Babolat Logo Wristband', sub: 'Accessories — Premium', tag: 'Product', url: BASE + 'tennis/accessories.html' },
     // ── Shirt products
-    { title: 'Decathlon Artengo Dry Tennis Polo', sub: 'Shirts — Budget', tag: 'Product', url: BASE + 'tennis/shirts.html' },
     { title: 'ASICS Club Polo Shirt', sub: 'Shirts — Budget', tag: 'Product', url: BASE + 'tennis/shirts.html' },
     { title: 'Nike Dri-FIT Advantage Polo', sub: 'Shirts — Best Value', tag: 'Product', url: BASE + 'tennis/shirts.html' },
     { title: 'Adidas Club Tennis Polo', sub: 'Shirts — Best Value', tag: 'Product', url: BASE + 'tennis/shirts.html' },
     { title: 'Lacoste Ultra-Dry Polo', sub: 'Shirts — Premium', tag: 'Product', url: BASE + 'tennis/shirts.html' },
     { title: 'lululemon Metal Vent Tech Polo', sub: 'Shirts — Premium', tag: 'Product', url: BASE + 'tennis/shirts.html' },
     // ── Shorts products
-    { title: 'Decathlon Artengo TSH500 Shorts', sub: 'Shorts — Budget', tag: 'Product', url: BASE + 'tennis/shorts.html' },
     { title: 'Nike Dri-FIT Training Shorts 7"', sub: 'Shorts — Budget', tag: 'Product', url: BASE + 'tennis/shorts.html' },
     { title: 'Adidas Club Tennis Shorts', sub: 'Shorts — Best Value', tag: 'Product', url: BASE + 'tennis/shorts.html' },
     { title: 'Nike Court Dri-FIT Advantage Shorts', sub: 'Shorts — Best Value', tag: 'Product', url: BASE + 'tennis/shorts.html' },
     { title: 'lululemon Pace Breaker Short 7"', sub: 'Shorts — Premium', tag: 'Product', url: BASE + 'tennis/shorts.html' },
     { title: 'Nike Court Flex Ace Shorts', sub: 'Shorts — Premium', tag: 'Product', url: BASE + 'tennis/shorts.html' },
     // ── Skirt products
-    { title: 'Decathlon Artengo Soft Tennis Skirt', sub: 'Skirts — Budget', tag: 'Product', url: BASE + 'tennis/skirts.html' },
     { title: 'Wilson Team Tennis Skirt', sub: 'Skirts — Budget', tag: 'Product', url: BASE + 'tennis/skirts.html' },
     { title: 'Nike Court Dri-FIT Victory Skirt', sub: 'Skirts — Best Value', tag: 'Product', url: BASE + 'tennis/skirts.html' },
     { title: 'Adidas Match Tennis Skirt', sub: 'Skirts — Best Value', tag: 'Product', url: BASE + 'tennis/skirts.html' },
     { title: 'lululemon Pace Rival Skirt', sub: 'Skirts — Premium', tag: 'Product', url: BASE + 'tennis/skirts.html' },
     { title: 'Nike Court Dri-FIT Advantage Pleated Skirt', sub: 'Skirts — Premium', tag: 'Product', url: BASE + 'tennis/skirts.html' },
     // ── Sock products
-    { title: 'Decathlon Artengo RS 160 Low Socks', sub: 'Socks — Budget', tag: 'Product', url: BASE + 'tennis/socks.html' },
     { title: 'Wilson Quarter Socks 3-pack', sub: 'Socks — Budget', tag: 'Product', url: BASE + 'tennis/socks.html' },
     { title: 'Nike Court Multiplier Cushioned Socks', sub: 'Socks — Best Value', tag: 'Product', url: BASE + 'tennis/socks.html' },
     { title: 'Adidas Tour Crew Tennis Socks', sub: 'Socks — Best Value', tag: 'Product', url: BASE + 'tennis/socks.html' },
@@ -416,7 +412,121 @@
     { title: 'Butterfly SK Carbon Blade', sub: 'Blades & Rubbers — Best Value', tag: 'Product', url: BASE + 'ping-pong/custom.html' },
     { title: 'STIGA DNA Dragon Grip 55 Rubber', sub: 'Blades & Rubbers — Best Value', tag: 'Product', url: BASE + 'ping-pong/custom.html' },
     { title: 'Butterfly Dignics 05 Rubber', sub: 'Blades & Rubbers — Premium', tag: 'Product', url: BASE + 'ping-pong/custom.html' },
-    { title: 'Butterfly Innerforce Layer ALC Blade', sub: 'Blades & Rubbers — Premium', tag: 'Product', url: BASE + 'ping-pong/custom.html' }
+    { title: 'Butterfly Innerforce Layer ALC Blade', sub: 'Blades & Rubbers — Premium', tag: 'Product', url: BASE + 'ping-pong/custom.html' },
+    // ── Badminton
+    { title: 'Badminton Hub', sub: 'All badminton categories', tag: 'Badminton', url: BASE + 'badminton/' },
+    { title: 'Badminton Rackets', sub: 'Budget · Best Value · Premium', tag: 'Badminton', url: BASE + 'badminton/rackets.html' },
+    { title: 'Yonex GR 303i Badminton Racquet', sub: 'Badminton Rackets — Budget', tag: 'Product', url: BASE + 'badminton/rackets.html' },
+    { title: 'Yonex Astrox Attack 9', sub: 'Badminton Rackets — Budget', tag: 'Product', url: BASE + 'badminton/rackets.html' },
+    { title: 'Senston N80 Carbon Fibre Badminton Racket', sub: 'Badminton Rackets — Best Value', tag: 'Product', url: BASE + 'badminton/rackets.html' },
+    { title: 'Yonex Nanoray 10F', sub: 'Badminton Rackets — Best Value', tag: 'Product', url: BASE + 'badminton/rackets.html' },
+    { title: 'Yonex Astrox Smash', sub: 'Badminton Rackets — Premium', tag: 'Product', url: BASE + 'badminton/rackets.html' },
+    { title: 'Yonex NanoFlare 1000 Play', sub: 'Badminton Rackets — Premium', tag: 'Product', url: BASE + 'badminton/rackets.html' },
+    { title: 'Shuttlecocks', sub: 'Budget · Best Value · Premium', tag: 'Badminton', url: BASE + 'badminton/shuttlecocks.html' },
+    { title: 'HIRALIY Nylon Badminton Shuttlecocks', sub: 'Shuttlecocks — Budget', tag: 'Product', url: BASE + 'badminton/shuttlecocks.html' },
+    { title: 'EAGLES Nylon Badminton Birdies', sub: 'Shuttlecocks — Budget', tag: 'Product', url: BASE + 'badminton/shuttlecocks.html' },
+    { title: 'Yonex Mavis 200i Nylon Shuttlecocks', sub: 'Shuttlecocks — Best Value', tag: 'Product', url: BASE + 'badminton/shuttlecocks.html' },
+    { title: 'Yonex Mavis 350 Nylon Shuttlecocks', sub: 'Shuttlecocks — Best Value', tag: 'Product', url: BASE + 'badminton/shuttlecocks.html' },
+    { title: 'Goose Feather Badminton Shuttlecocks (12-Pack)', sub: 'Shuttlecocks — Premium', tag: 'Product', url: BASE + 'badminton/shuttlecocks.html' },
+    { title: 'Yonex Aeroclear 30 Feather Shuttlecocks', sub: 'Shuttlecocks — Premium', tag: 'Product', url: BASE + 'badminton/shuttlecocks.html' },
+    { title: 'Badminton Sets', sub: 'Budget · Best Value · Premium', tag: 'Badminton', url: BASE + 'badminton/sets.html' },
+    { title: 'HIRALIY Badminton Racket Set', sub: 'Badminton Sets — Budget', tag: 'Product', url: BASE + 'badminton/sets.html' },
+    { title: 'Yonex GR 303 Combo Set of 2', sub: 'Badminton Sets — Budget', tag: 'Product', url: BASE + 'badminton/sets.html' },
+    { title: 'Yonex ZR 100 Light Set of 2', sub: 'Badminton Sets — Best Value', tag: 'Product', url: BASE + 'badminton/sets.html' },
+    { title: 'Senston 90g Badminton Set of 4', sub: 'Badminton Sets — Best Value', tag: 'Product', url: BASE + 'badminton/sets.html' },
+    { title: 'Senston N80 Carbon Fibre 2-Player Set', sub: 'Badminton Sets — Premium', tag: 'Product', url: BASE + 'badminton/sets.html' },
+    { title: 'Li-Ning XP Series Set of 2', sub: 'Badminton Sets — Premium', tag: 'Product', url: BASE + 'badminton/sets.html' },
+    { title: 'Badminton Nets', sub: 'Budget · Best Value · Premium', tag: 'Badminton', url: BASE + 'badminton/nets.html' },
+    { title: 'SONGMICS Height-Adjustable Badminton Net', sub: 'Badminton Nets — Budget', tag: 'Product', url: BASE + 'badminton/nets.html' },
+    { title: 'BAGAIL Height-Adjustable Badminton Net', sub: 'Badminton Nets — Budget', tag: 'Product', url: BASE + 'badminton/nets.html' },
+    { title: 'EastPoint Badminton Set with 15ft Net', sub: 'Badminton Nets — Best Value', tag: 'Product', url: BASE + 'badminton/nets.html' },
+    { title: 'Boulder Portable Badminton Net', sub: 'Badminton Nets — Best Value', tag: 'Product', url: BASE + 'badminton/nets.html' },
+    { title: 'Stainless Steel Portable Badminton Net Set', sub: 'Badminton Nets — Premium', tag: 'Product', url: BASE + 'badminton/nets.html' },
+    { title: 'Amazon Basics Volleyball and Badminton Combo Net', sub: 'Badminton Nets — Premium', tag: 'Product', url: BASE + 'badminton/nets.html' },
+    { title: 'Badminton Bags', sub: 'Budget · Best Value · Premium', tag: 'Badminton', url: BASE + 'badminton/bags.html' },
+    { title: 'Yonex Badminton Racket Case AC541', sub: 'Badminton Bags — Budget', tag: 'Product', url: BASE + 'badminton/bags.html' },
+    { title: 'Athletico Sling Bag', sub: 'Badminton Bags — Budget', tag: 'Product', url: BASE + 'badminton/bags.html' },
+    { title: 'Athletico City Racket Bag', sub: 'Badminton Bags — Best Value', tag: 'Product', url: BASE + 'badminton/bags.html' },
+    { title: 'HUNDRED Cosmogear Badminton Kit-Bag', sub: 'Badminton Bags — Best Value', tag: 'Product', url: BASE + 'badminton/bags.html' },
+    { title: 'Yonex Badminton Kit-Bag', sub: 'Badminton Bags — Premium', tag: 'Product', url: BASE + 'badminton/bags.html' },
+    { title: 'Wilson Super Tour 9-Pack Racket Bag', sub: 'Badminton Bags — Premium', tag: 'Product', url: BASE + 'badminton/bags.html' },
+    { title: 'Strings & Grips', sub: 'Budget · Best Value · Premium', tag: 'Badminton', url: BASE + 'badminton/strings-grips.html' },
+    { title: 'Pangda Racket Grip Tape (12-Pack)', sub: 'Strings & Grips — Budget', tag: 'Product', url: BASE + 'badminton/strings-grips.html' },
+    { title: 'Senston Perforated Racket Overgrips', sub: 'Strings & Grips — Budget', tag: 'Product', url: BASE + 'badminton/strings-grips.html' },
+    { title: 'Yonex BG65 Ti Badminton String (10m Set)', sub: 'Strings & Grips — Best Value', tag: 'Product', url: BASE + 'badminton/strings-grips.html' },
+    { title: 'Yonex BG65 Badminton String 0.70mm', sub: 'Strings & Grips — Best Value', tag: 'Product', url: BASE + 'badminton/strings-grips.html' },
+    { title: 'Yonex Super GRAP Overgrips (30-Pack)', sub: 'Strings & Grips — Premium', tag: 'Product', url: BASE + 'badminton/strings-grips.html' },
+    { title: 'Yonex BG-65 Ti String Reel', sub: 'Strings & Grips — Premium', tag: 'Product', url: BASE + 'badminton/strings-grips.html' },
+    // ── Articles — the long-form guides, searchable by title
+    { title: 'Best Tennis Bags for Beginners (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-bags-beginners.html' },
+    { title: 'Best Tennis Balls for Training vs Matches (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-balls-training-vs-matches.html' },
+    { title: 'Best Tennis Gear Bundle for Beginners (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-gear-bundle-beginners.html' },
+    { title: 'Best Tennis Grip Tape for Sweaty Hands (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-grip-tape-sweaty-hands.html' },
+    { title: 'Best Lightweight Tennis Rackets for Control (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-lightweight-rackets-control.html' },
+    { title: 'Best Power Tennis Rackets for Aggressive Players (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-power-rackets-aggressive.html' },
+    { title: 'Best Tennis Racket Overall (Updated 2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-racket-overall-2026.html' },
+    { title: 'Best Tennis Rackets for Beginners (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-rackets-beginners-2026.html' },
+    { title: 'Best Tennis Rackets for Intermediate Players (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-rackets-intermediate.html' },
+    { title: 'Best Tennis Rackets Under $100 (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-rackets-under-100.html' },
+    { title: 'Best Tennis Shoes for Hard Courts (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-shoes-hard-courts.html' },
+    { title: 'Best Tennis Shoes Under $150 (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-shoes-under-150.html' },
+    { title: 'Best Tennis Shoes for Wide Feet (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-shoes-wide-feet.html' },
+    { title: 'Best Tennis Strings for Spin (2026)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/best-strings-spin.html' },
+    { title: 'Polyester vs Multifilament Strings (Which Is Better?)', sub: 'Tennis guide', tag: 'Guide', url: BASE + 'articles/tennis/polyester-vs-multifilament.html' },
+    { title: 'Best Adjustable Dumbbells Under $300 (2026)', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/best-adjustable-dumbbells-under-300.html' },
+    { title: 'Best Dumbbells for Home Gym (Adjustable vs Fixed)', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/best-dumbbells-home-gym.html' },
+    { title: 'Best Gym Gloves for Beginners (2026)', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/best-gym-gloves-beginners.html' },
+    { title: 'Best Pre-Workout Supplements (Beginner-Safe) 2026', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/best-pre-workout-beginners.html' },
+    { title: 'Best Protein Shaker Bottles (2026)', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/best-protein-shaker-bottles.html' },
+    { title: 'Best Resistance Bands for Muscle Gain (2026)', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/best-resistance-bands-muscle-gain.html' },
+    { title: 'Best Weight Benches for Small Spaces (2026)', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/best-weight-benches-small-spaces.html' },
+    { title: 'Best Workout Shoes for Lifting (2026)', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/best-workout-shoes-lifting.html' },
+    { title: 'Home Gym Setup Under $1,000 (2026)', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/home-gym-setup-under-1000.html' },
+    { title: 'Home Gym Setup Under $500 (2026)', sub: 'Gym guide', tag: 'Guide', url: BASE + 'articles/gym/home-gym-setup-under-500.html' },
+    { title: 'Best Boxing Gloves for Beginners (2026)', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/best-boxing-gloves-beginners.html' },
+    { title: 'Best Boxing Gloves for Heavy Bag (2026)', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/best-boxing-gloves-heavy-bag.html' },
+    { title: 'Best Boxing Headgear 2026', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/best-boxing-headgear-2026.html' },
+    { title: 'Best Boxing Shoes 2026 — Ranked', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/best-boxing-shoes-2026.html' },
+    { title: 'Best Cheap Boxing Shoes (2026)', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/best-budget-boxing-shoes.html' },
+    { title: 'Best Hand Wraps for Boxing (2026)', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/best-hand-wraps-boxing.html' },
+    { title: 'Best Punching Bag Under $1,000 (2026)', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/best-punching-bag-under-1000.html' },
+    { title: 'Best Punching Bags for Home (2026)', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/best-punching-bags-home.html' },
+    { title: 'Boxing Gloves Size Guide — What Oz Do You Need?', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/boxing-gloves-size-guide.html' },
+    { title: 'Heavy Bag vs Speed Bag — Which Should You Get?', sub: 'Boxing guide', tag: 'Guide', url: BASE + 'articles/boxing/heavy-bag-vs-speed-bag.html' },
+    { title: 'Best Swim Bags (2026)', sub: 'Swimming guide', tag: 'Guide', url: BASE + 'articles/swimming/best-swim-bags.html' },
+    { title: 'Best Swimming Fins (2026)', sub: 'Swimming guide', tag: 'Guide', url: BASE + 'articles/swimming/best-swimming-fins.html' },
+    { title: 'Best Swimming Training Equipment (2026)', sub: 'Swimming guide', tag: 'Guide', url: BASE + 'articles/swimming/best-swimming-training-equipment.html' },
+    { title: 'Best Footballs Under $50 (2026)', sub: 'Football guide', tag: 'Guide', url: BASE + 'articles/football/best-footballs-under-50.html' },
+    { title: 'Best Volleyball Ankle Braces (2026)', sub: 'Volleyball guide', tag: 'Guide', url: BASE + 'articles/volleyball/best-volleyball-ankle-braces.html' },
+    { title: 'Best Volleyball Knee Pads (2026)', sub: 'Volleyball guide', tag: 'Guide', url: BASE + 'articles/volleyball/best-volleyball-knee-pads.html' },
+    { title: 'Best Volleyball Shoes for Beginners (2026)', sub: 'Volleyball guide', tag: 'Guide', url: BASE + 'articles/volleyball/best-volleyball-shoes-beginners.html' },
+    { title: 'Best Volleyballs for Beginners (2026)', sub: 'Volleyball guide', tag: 'Guide', url: BASE + 'articles/volleyball/best-volleyballs-beginners.html' },
+    { title: 'Indoor vs Beach Volleyball: Key Differences Explained', sub: 'Volleyball guide', tag: 'Guide', url: BASE + 'articles/volleyball/indoor-vs-beach-volleyball.html' },
+    { title: 'Volleyball Gear for Beginners: Complete Buying Guide', sub: 'Volleyball guide', tag: 'Guide', url: BASE + 'articles/volleyball/volleyball-gear-beginners-guide.html' },
+    { title: 'Best Pickleball Paddles for Beginners (2026)', sub: 'Pickleball guide', tag: 'Guide', url: BASE + 'articles/pickleball/best-pickleball-paddles-beginners.html' },
+    { title: 'Best Pickleball Shoes for Beginners (2026)', sub: 'Pickleball guide', tag: 'Guide', url: BASE + 'articles/pickleball/best-pickleball-shoes-beginners.html' },
+    { title: 'Indoor vs Outdoor Pickleballs', sub: 'Pickleball guide', tag: 'Guide', url: BASE + 'articles/pickleball/indoor-vs-outdoor-pickleballs.html' },
+    { title: 'Pickleball Gear for Beginners', sub: 'Pickleball guide', tag: 'Guide', url: BASE + 'articles/pickleball/pickleball-gear-beginners-guide.html' },
+    { title: 'Pickleball Paddle Weight & Core Explained', sub: 'Pickleball guide', tag: 'Guide', url: BASE + 'articles/pickleball/pickleball-paddle-weight-guide.html' },
+    { title: 'Pickleball vs Tennis Gear', sub: 'Pickleball guide', tag: 'Guide', url: BASE + 'articles/pickleball/pickleball-vs-tennis-gear.html' },
+    { title: 'Best Ping Pong Paddles for Beginners (2026)', sub: 'Ping Pong guide', tag: 'Guide', url: BASE + 'articles/ping-pong/best-ping-pong-paddles-beginners.html' },
+    { title: 'Best Ping Pong Sets for Families (2026)', sub: 'Ping Pong guide', tag: 'Guide', url: BASE + 'articles/ping-pong/best-ping-pong-sets-families.html' },
+    { title: 'Blades & Rubbers vs Pre-Made Paddles', sub: 'Ping Pong guide', tag: 'Guide', url: BASE + 'articles/ping-pong/blades-rubbers-vs-premade-paddles.html' },
+    { title: 'Is a Table Tennis Robot Worth It?', sub: 'Ping Pong guide', tag: 'Guide', url: BASE + 'articles/ping-pong/is-a-table-tennis-robot-worth-it.html' },
+    { title: 'Ping Pong Ball Star Ratings Explained', sub: 'Ping Pong guide', tag: 'Guide', url: BASE + 'articles/ping-pong/ping-pong-ball-star-ratings.html' },
+    { title: 'Ping Pong Gear: The Complete Beginner\'s Guide', sub: 'Ping Pong guide', tag: 'Guide', url: BASE + 'articles/ping-pong/ping-pong-gear-beginners-guide.html' },
+    { title: 'Badminton Gear: The Complete Beginner Guide', sub: 'Badminton guide', tag: 'Guide', url: BASE + 'articles/badminton/badminton-gear-beginners-guide.html' },
+    { title: 'Badminton String Tension Guide', sub: 'Badminton guide', tag: 'Guide', url: BASE + 'articles/badminton/badminton-string-tension-guide.html' },
+    { title: 'Badminton vs Tennis Gear', sub: 'Badminton guide', tag: 'Guide', url: BASE + 'articles/badminton/badminton-vs-tennis-gear.html' },
+    { title: 'Best Badminton Rackets for Beginners (2026)', sub: 'Badminton guide', tag: 'Guide', url: BASE + 'articles/badminton/best-badminton-rackets-beginners.html' },
+    { title: 'Best Badminton Sets for Families (2026)', sub: 'Badminton guide', tag: 'Guide', url: BASE + 'articles/badminton/best-badminton-sets-families.html' },
+    { title: 'Feather vs Nylon Shuttlecocks', sub: 'Badminton guide', tag: 'Guide', url: BASE + 'articles/badminton/feather-vs-nylon-shuttlecocks.html' },
+    { title: '7 Beginner Mistakes in Boxing (and How to Fix Them)', sub: 'How-To guide', tag: 'Guide', url: BASE + 'articles/guides/beginner-mistakes-boxing.html' },
+    { title: 'Gym Equipment You Don\'t Need (Avoid These)', sub: 'How-To guide', tag: 'Guide', url: BASE + 'articles/guides/gym-equipment-you-dont-need.html' },
+    { title: 'How to Choose a Tennis Racket — Complete Guide', sub: 'How-To guide', tag: 'Guide', url: BASE + 'articles/guides/how-to-choose-tennis-racket.html' },
+    { title: 'How to Know Your Tennis Skill Level (NTRP Guide)', sub: 'How-To guide', tag: 'Guide', url: BASE + 'articles/guides/how-to-know-tennis-skill-level.html' },
+    { title: 'How to Set Up a Home Gym — Step by Step', sub: 'How-To guide', tag: 'Guide', url: BASE + 'articles/guides/how-to-set-up-home-gym.html' },
+    { title: 'Why Your Tennis Shots Have No Power (and How to Fix It)', sub: 'How-To guide', tag: 'Guide', url: BASE + 'articles/guides/why-tennis-shots-have-no-power.html' }
   ];
 
   // ── DOM ──────────────────────────────────────────────────
@@ -436,7 +546,7 @@
           '<button class="search-esc" aria-label="Close search">ESC</button>' +
         '</div>' +
         '<hr class="search-divider">' +
-        '<div class="search-results"><p class="search-hint">Type to search 329 products across 54 categories</p></div>' +
+        '<div class="search-results"><p class="search-hint">Type to search 363 products, 60 categories and 69 guides</p></div>' +
       '</div>';
     document.body.appendChild(overlay);
 
@@ -453,12 +563,38 @@
     var q = input.value.trim().toLowerCase();
     highlighted = -1;
     if (!q) {
-      resultsList.innerHTML = '<p class="search-hint">Type to search 329 products across 54 categories</p>';
+      resultsList.innerHTML = '<p class="search-hint">Type to search 363 products, 60 categories and 69 guides</p>';
       return;
     }
-    var matches = INDEX.filter(function (item) {
-      return item.title.toLowerCase().includes(q) || item.tag.toLowerCase().includes(q) || item.sub.toLowerCase().includes(q);
-    }).slice(0, 12);
+    /* Every word in the query has to appear somewhere in the entry, but not
+     * as one contiguous run — testing the raw string meant "swimming goggles"
+     * found nothing while "goggles" found seven. Order does not matter, so
+     * "goggles swimming" works too. */
+    var terms = q.split(/\s+/).filter(Boolean);
+
+    var matches = INDEX.map(function (item) {
+      var title = item.title.toLowerCase();
+      // The URL carries the sport, which the tier line does not: without it
+      // "swimming goggles" finds the category page but none of the goggles.
+      var hay = title + ' ' + item.tag.toLowerCase() + ' ' + item.sub.toLowerCase() +
+                ' ' + item.url.toLowerCase().replace(/[\/\-_.]+/g, ' ');
+      var score = 0;
+
+      for (var i = 0; i < terms.length; i++) {
+        if (hay.indexOf(terms[i]) === -1) return null;
+        // A word in the title beats the same word buried in the tier line.
+        if (title.indexOf(terms[i]) === 0) score += 3;
+        else if (title.indexOf(terms[i]) !== -1) score += 2;
+        else score += 1;
+      }
+      // Hubs and category pages answer a broad query better than one product
+      // out of six does, so they sit above products on an equal score.
+      if (item.tag !== 'Product') score += 1;
+      return { item: item, score: score };
+    }).filter(Boolean)
+      .sort(function (a, b) { return b.score - a.score; })
+      .slice(0, 12)
+      .map(function (r) { return r.item; });
 
     if (!matches.length) {
       resultsList.innerHTML = '<p class="search-empty">No results for "<strong>' + esc(input.value) + '</strong>"</p>';
@@ -500,7 +636,7 @@
   function openSearch() {
     overlay.classList.add('open');
     input.value = '';
-    resultsList.innerHTML = '<p class="search-hint">Type to search 329 products across 54 categories</p>';
+    resultsList.innerHTML = '<p class="search-hint">Type to search 363 products, 60 categories and 69 guides</p>';
     highlighted = -1;
     setTimeout(function () { input.focus(); }, 50);
     document.body.style.overflow = 'hidden';

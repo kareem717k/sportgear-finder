@@ -251,6 +251,22 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
+  /* Slot labels are written singular because they head a single pick
+   * ("Racket", "Bag"). The compare link needs the plural — "Compare all
+   * rackets" — so it pluralises here rather than every slot carrying a
+   * second label. Anything already plural, joined with "&", or uncountable
+   * is left exactly as it is. */
+  var UNCOUNTABLE = ['apparel', 'headgear', 'training gear'];
+
+  function pluralise(label) {
+    var l = String(label || '');
+    if (!l) return l;
+    if (/s$/i.test(l)) return l;
+    if (l.indexOf('&') !== -1) return l;
+    if (UNCOUNTABLE.indexOf(l.toLowerCase()) !== -1) return l;
+    return l + 's';
+  }
+
   function categoryUrl(p) { return p.sport + '/' + p.category + '.html'; }
 
   function renderSlot(entry, profile, idx) {
@@ -283,7 +299,7 @@
               '<div class="kit-pick-actions">' +
                 '<a class="btn btn-amazon btn-sm" href="' + esc(p.affiliateLink) + '" rel="noopener sponsored" target="_blank">View on Amazon</a>' +
                 (alt ? '<button type="button" class="kit-swap" data-cat="' + esc(entry.slot.cat) + '">Show me another</button>' : '') +
-                '<a class="kit-compare" href="' + esc(categoryUrl(p)) + '">Compare all ' + esc(entry.slot.label.toLowerCase()) + '</a>' +
+                '<a class="kit-compare" href="' + esc(categoryUrl(p)) + '">Compare all ' + esc(pluralise(entry.slot.label).toLowerCase()) + '</a>' +
               '</div>' +
             '</div>' +
           '</div>' +
@@ -298,7 +314,7 @@
     bits.push(lvl[profile.level] || 'playing');
     var ctx = FIT.contextLabel(profile.sport, profile.context);
     if (ctx) bits.push(ctx.toLowerCase());
-    bits.push('around ' + profile.budgetLabel.toLowerCase());
+    if (profile.budgetPhrase) bits.push(profile.budgetPhrase);
     if (profile.owned.length) bits.push('skipping the ' + profile.owned.length + ' item' + (profile.owned.length > 1 ? 's' : '') + ' you already own');
     return bits.join(' · ');
   }
@@ -326,7 +342,8 @@
     }
 
     var warn = kit.overBudget
-      ? '<p class="kit-warn">Heads up: the essentials for this sport sit above ' + esc(profile.budgetLabel.toLowerCase()) +
+      ? '<p class="kit-warn">Heads up: a complete setup for this sport costs more than ' +
+        esc(profile.budgetCeiling || 'your budget') +
         '. This is the leanest complete setup we would actually stand behind.</p>'
       : '';
 

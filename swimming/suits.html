@@ -102,13 +102,14 @@ gtag('config','G-0C1DTCG2NX');
 <script defer src="/js/affiliate.js"></script>
 </head>
 <body class="sport-swimming">
+<a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav-v2">
 <a class="nav-logo-v2" href="../index.html">
 <div class="logo-mark"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 2L10.5 6.5H13.5L11 9.5L12 14L8 11.5L4 14L5 9.5L2.5 6.5H5.5L8 2Z" fill="#111" stroke="#111" stroke-linejoin="round" stroke-width="0.5"/></svg></div>
 <span class="logo-text"><em>SportGear</em> Finder</span>
 </a>
-<button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
-<ul class="nav-links">
+<button aria-label="Menu" aria-controls="nav-menu" aria-expanded="false" class="nav-hamburger" onclick="var m=this.closest('nav').querySelector('.nav-links');this.setAttribute('aria-expanded',m.classList.toggle('open'))"><span></span><span></span><span></span></button>
+<ul class="nav-links" id="nav-menu">
 <li><a href="../index.html">Home</a></li>
 <li><a href="../tennis/index.html">Tennis</a></li>
 <li><a href="../gym/index.html">Gym</a></li>
@@ -124,6 +125,7 @@ gtag('config','G-0C1DTCG2NX');
 </ul>
 <button class="nav-search-btn" aria-label="Search" title="Search (press /)"><svg width="17" height="17" fill="none" viewBox="0 0 20 20"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M14.5 14.5L19 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
 </nav>
+<div id="main" tabindex="-1"></div>
 
 <section class="cat-page-hero">
 <div class="cat-hero-content">
@@ -151,7 +153,7 @@ gtag('config','G-0C1DTCG2NX');
 <div class="page-intro-v2">
 <p>A good training swimsuit does two things: it doesn't stretch out in chlorine, and it doesn't slow you down with drag. Recreational swimwear degrades within weeks in a pool — training-specific suits use polyester or chlorine-resistant nylon blends that retain their shape and compression for months. The key specs to look for are <strong>chlorine resistance</strong> (polyester beats nylon beats Lycra/Spandex), <strong>compression level</strong> (higher for competition, moderate for training), and <strong>suit style</strong> (jammer for men, one-piece for women gives the most coverage and least drag).</p>
 </div>
-<p class="last-updated">Last updated: August 2026</p>
+<p class="last-updated">Last updated: September 2026</p>
 
 <div class="cmp-wrap">
 <table class="cmp-table">
@@ -381,6 +383,5 @@ gtag('config','G-0C1DTCG2NX');
 <script src="../js/filter.js"></script>
 <script src="../js/search.js"></script>
 <script src="../js/animations.js"></script>
-<script type="text/javascript" src="https://s.skimresources.com/js/307953X1796249.skimlinks.js"></script>
 </body>
 </html>

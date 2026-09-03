@@ -38,12 +38,12 @@
    "url": "https://sportgearfinder.com/football/jerseys.html",
    "numberOfItems": 6,
    "itemListElement": [
-    {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"adidas Entrada 22 Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"7.6","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B091LDV7M1"}}},
-    {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Nike Park VII Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"7.8","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B08NY22RD4"}}},
-    {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"adidas Tiro 24 Training Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"8.4","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B0DN1RMGMG"}}},
-    {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Nike Dri-FIT Stadium Replica Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"8.5","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B0F932KB8G"}}},
-    {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Nike Dri-FIT ADV Match Authentic Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"9.2","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B0FBG59HBS"}}},
-    {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"adidas Authentic Player Jersey (HEAT.RDY)","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"9.3","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B0CDQJNS1S"}}}
+    {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"adidas Entrada 22 Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"7.6","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Nike Park VII Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"7.8","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"adidas Tiro 24 Training Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"8.4","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Nike Dri-FIT Stadium Replica Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"8.5","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Nike Dri-FIT ADV Match Authentic Jersey","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"9.2","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"adidas Authentic Player Jersey (HEAT.RDY)","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"9.3","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}}
    ]
   },
   {
@@ -102,13 +102,14 @@ gtag('config','G-0C1DTCG2NX');
 <script defer src="/js/affiliate.js"></script>
 </head>
 <body class="sport-football">
+<a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav-v2">
 <a class="nav-logo-v2" href="../index.html">
 <div class="logo-mark"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 2L10.5 6.5H13.5L11 9.5L12 14L8 11.5L4 14L5 9.5L2.5 6.5H5.5L8 2Z" fill="#111" stroke="#111" stroke-linejoin="round" stroke-width="0.5"/></svg></div>
 <span class="logo-text"><em>SportGear</em> Finder</span>
 </a>
-<button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
-<ul class="nav-links">
+<button aria-label="Menu" aria-controls="nav-menu" aria-expanded="false" class="nav-hamburger" onclick="var m=this.closest('nav').querySelector('.nav-links');this.setAttribute('aria-expanded',m.classList.toggle('open'))"><span></span><span></span><span></span></button>
+<ul class="nav-links" id="nav-menu">
 <li><a href="../index.html">Home</a></li>
 <li><a href="../tennis/index.html">Tennis</a></li>
 <li><a href="../gym/index.html">Gym</a></li>
@@ -124,6 +125,7 @@ gtag('config','G-0C1DTCG2NX');
 </ul>
 <button class="nav-search-btn" aria-label="Search" title="Search (press /)"><svg width="17" height="17" fill="none" viewBox="0 0 20 20"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M14.5 14.5L19 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
 </nav>
+<div id="main" tabindex="-1"></div>
 
 <section class="cat-page-hero">
 <div class="cat-hero-content">
@@ -151,7 +153,7 @@ gtag('config','G-0C1DTCG2NX');
 <div class="page-intro-v2">
 <p>A football jersey can be everyday wear, a training top, or genuine match kit — and that intended use should drive your choice. Three things separate the tiers: <strong>fit</strong> (relaxed replica vs slim authentic), <strong>fabric</strong> (standard Dri-FIT / AEROREADY vs lighter bonded performance cloth with laser-cut vents), and <strong>construction</strong> (printed vs heat-applied badges, stitched vs bonded seams). Replicas win for casual wear and value; authentic player jerseys are for those who actually play in them or collect the exact spec.</p>
 </div>
-<p class="last-updated">Last updated: August 2026</p>
+<p class="last-updated">Last updated: September 2026</p>
 
 <div class="cmp-wrap">
 <table class="cmp-table">
@@ -372,6 +374,5 @@ gtag('config','G-0C1DTCG2NX');
 <script src="../js/filter.js"></script>
 <script src="../js/search.js"></script>
 <script src="../js/animations.js"></script>
-<script type="text/javascript" src="https://s.skimresources.com/js/307953X1796249.skimlinks.js"></script>
 </body>
 </html>

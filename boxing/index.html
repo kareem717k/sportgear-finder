@@ -54,6 +54,7 @@ gtag('config','G-0C1DTCG2NX');
 <body class="sport-boxing">
 
 <!-- ── NAV ── -->
+<a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav-v2">
   <a class="nav-logo-v2" href="../index.html">
     <div class="logo-mark">
@@ -63,10 +64,10 @@ gtag('config','G-0C1DTCG2NX');
     </div>
     <span class="logo-text"><em>SportGear</em> Finder</span>
   </a>
-  <button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+  <button aria-label="Menu" aria-controls="nav-menu" aria-expanded="false" class="nav-hamburger" onclick="var m=this.closest('nav').querySelector('.nav-links');this.setAttribute('aria-expanded',m.classList.toggle('open'))">
     <span></span><span></span><span></span>
   </button>
-  <ul class="nav-links">
+  <ul class="nav-links" id="nav-menu">
     <li><a href="../index.html">Home</a></li>
     <li><a href="../tennis/index.html">Tennis</a></li>
     <li><a href="../gym/index.html">Gym</a></li>
@@ -87,11 +88,12 @@ gtag('config','G-0C1DTCG2NX');
     </svg>
   </button>
 </nav>
+<div id="main" tabindex="-1"></div>
 
 <!-- ── HERO ── -->
 <section class="sport-hub-hero">
   <canvas id="sport-canvas"></canvas>
-  <img alt="Boxing gloves and ring" src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=1400&h=600&fit=crop&q=80" fetchpriority="high"/>
+  <img alt="Boxing gloves and ring" src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=1400&h=600&fit=crop&q=80" width="1400" height="600" fetchpriority="high"/>
   <div class="hero-overlay"></div>
   <div class="hub-content">
     <span class="hub-eyebrow">
@@ -109,37 +111,37 @@ gtag('config','G-0C1DTCG2NX');
   <div class="section-label" style="margin-top:36px;" data-reveal>Equipment</div>
   <div class="cat-grid" data-reveal-stagger>
     <a class="cat-card" href="gloves.html">
-      <img alt="Boxing Gloves" src="https://images.unsplash.com/photo-1583473848882-f9a5bc7fd2ee?w=600&h=400&fit=crop&q=80"/>
+      <img alt="Boxing Gloves" src="https://images.unsplash.com/photo-1583473848882-f9a5bc7fd2ee?w=600&h=400&fit=crop&q=80" width="600" height="400"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Boxing Gloves</h3><span class="cat-price-pill">From $25</span></div>
     </a>
     <a class="cat-card" href="punching-bags.html">
-      <img alt="Punching Bags" src="https://images.unsplash.com/photo-1716306886418-f84f6d4c2f3a?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Punching Bags" src="https://images.unsplash.com/photo-1716306886418-f84f6d4c2f3a?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Punching Bags</h3><span class="cat-price-pill">From $60</span></div>
     </a>
     <a class="cat-card" href="hand-wraps.html">
-      <img alt="Hand Wraps" src="https://images.unsplash.com/photo-1590174660039-5d5e2744f297?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Hand Wraps" src="https://images.unsplash.com/photo-1590174660039-5d5e2744f297?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Hand Wraps</h3><span class="cat-price-pill">From $8</span></div>
     </a>
     <a class="cat-card" href="shoes.html">
-      <img alt="Boxing Shoes" src="https://images.unsplash.com/photo-1583689397604-923b9f249f2c?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Boxing Shoes" src="https://images.unsplash.com/photo-1583689397604-923b9f249f2c?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Boxing Shoes</h3><span class="cat-price-pill">From $40</span></div>
     </a>
     <a class="cat-card" href="headgear.html">
-      <img alt="Boxing Headgear" src="https://images.unsplash.com/photo-1516150486159-4f71b8189d7c?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Boxing Headgear" src="https://images.unsplash.com/photo-1516150486159-4f71b8189d7c?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Headgear</h3><span class="cat-price-pill">From $35</span></div>
     </a>
     <a class="cat-card" href="speed-bags.html">
-      <img alt="Speed Bags" src="https://images.unsplash.com/photo-1633394782368-6e7260566004?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Speed Bags" src="https://images.unsplash.com/photo-1633394782368-6e7260566004?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Speed Bags</h3><span class="cat-price-pill">From $20</span></div>
@@ -212,6 +214,5 @@ gtag('config','G-0C1DTCG2NX');
 
 <script src="../js/search.js"></script>
 <script src="../js/animations.js"></script>
-<script type="text/javascript" src="https://s.skimresources.com/js/307953X1796249.skimlinks.js"></script>
 </body>
 </html>

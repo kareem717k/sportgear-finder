@@ -101,6 +101,7 @@ gtag('config','G-0C1DTCG2NX');
 <script defer src="/js/affiliate.js"></script>
 </head>
 <body class="sport-boxing">
+<a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav-v2">
 <a class="nav-logo-v2" href="../index.html">
 <div class="logo-mark">
@@ -110,8 +111,8 @@ gtag('config','G-0C1DTCG2NX');
 </div>
 <span class="logo-text"><em>SportGear</em> Finder</span>
 </a>
-<button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
-<ul class="nav-links">
+<button aria-label="Menu" aria-controls="nav-menu" aria-expanded="false" class="nav-hamburger" onclick="var m=this.closest('nav').querySelector('.nav-links');this.setAttribute('aria-expanded',m.classList.toggle('open'))"><span></span><span></span><span></span></button>
+<ul class="nav-links" id="nav-menu">
 <li><a href="../index.html">Home</a></li>
 <li><a href="../tennis/index.html">Tennis</a></li>
 <li><a href="../gym/index.html">Gym</a></li>
@@ -127,6 +128,7 @@ gtag('config','G-0C1DTCG2NX');
 </ul>
 <button class="nav-search-btn" aria-label="Search" title="Search (press /)"><svg width="17" height="17" fill="none" viewBox="0 0 20 20"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M14.5 14.5L19 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
 </nav>
+<div id="main" tabindex="-1"></div>
 <section class="cat-page-hero">
 <div class="cat-hero-content">
 <span class="cat-hero-eyebrow">Boxing Equipment</span>
@@ -162,7 +164,7 @@ gtag('config','G-0C1DTCG2NX');
 <div class="page-intro-v2">
 <p>The speed bag trains rhythm, timing, hand-eye coordination, and shoulder endurance — none of which a heavy bag can replicate. Key decisions: <strong>size</strong> (larger bags rebound slower; beginners should start medium or large), <strong>material</strong> (leather provides better feel and longevity than synthetic), and <strong>rebound consistency</strong> (the bag's shape and weighting determine how predictably it bounces). You'll also need a platform — a stable wall-mounted platform dramatically outperforms freestanding alternatives for serious training.</p>
 </div>
-<p class="last-updated">Last updated: August 2026</p>
+<p class="last-updated">Last updated: September 2026</p>
 
 <div class="cmp-wrap">
 <table class="cmp-table">
@@ -452,7 +454,6 @@ gtag('config','G-0C1DTCG2NX');
 <script src="../js/filter.js"></script>
 <script src="../js/search.js"></script>
 <script src="../js/animations.js"></script>
-<script type="text/javascript" src="https://s.skimresources.com/js/307953X1796249.skimlinks.js"></script>
 </body>
 </html>
 

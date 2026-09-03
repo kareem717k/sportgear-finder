@@ -54,6 +54,7 @@ gtag('config','G-0C1DTCG2NX');
 <body class="sport-tennis">
 
 <!-- ── NAV ── -->
+<a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav-v2">
   <a class="nav-logo-v2" href="../index.html">
     <div class="logo-mark">
@@ -63,10 +64,10 @@ gtag('config','G-0C1DTCG2NX');
     </div>
     <span class="logo-text"><em>SportGear</em> Finder</span>
   </a>
-  <button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+  <button aria-label="Menu" aria-controls="nav-menu" aria-expanded="false" class="nav-hamburger" onclick="var m=this.closest('nav').querySelector('.nav-links');this.setAttribute('aria-expanded',m.classList.toggle('open'))">
     <span></span><span></span><span></span>
   </button>
-  <ul class="nav-links">
+  <ul class="nav-links" id="nav-menu">
     <li><a href="../index.html">Home</a></li>
     <li><a class="active" href="../tennis/index.html">Tennis</a></li>
     <li><a href="../gym/index.html">Gym</a></li>
@@ -87,11 +88,12 @@ gtag('config','G-0C1DTCG2NX');
     </svg>
   </button>
 </nav>
+<div id="main" tabindex="-1"></div>
 
 <!-- ── HERO ── -->
 <section class="sport-hub-hero">
   <canvas id="sport-canvas"></canvas>
-  <img alt="Tennis court aerial view" src="https://images.unsplash.com/photo-1595435742656-5272d0b3fa82?w=1400&h=600&fit=crop&q=80" fetchpriority="high"/>
+  <img alt="Tennis court aerial view" src="https://images.unsplash.com/photo-1595435742656-5272d0b3fa82?w=1400&h=600&fit=crop&q=80" width="1400" height="600" fetchpriority="high"/>
   <div class="hero-overlay"></div>
   <div class="hub-content">
     <span class="hub-eyebrow">
@@ -110,43 +112,43 @@ gtag('config','G-0C1DTCG2NX');
   <div class="section-label" style="margin-top:36px;" data-reveal>Equipment</div>
   <div class="cat-grid" data-reveal-stagger>
     <a class="cat-card" href="rackets.html">
-      <img alt="Tennis Rackets" src="https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=600&h=400&fit=crop&q=80"/>
+      <img alt="Tennis Rackets" src="https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=600&h=400&fit=crop&q=80" width="600" height="400"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Tennis Rackets</h3><span class="cat-price-pill">From $28</span></div>
     </a>
     <a class="cat-card" href="balls.html">
-      <img alt="Tennis Balls" src="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Balls" src="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Tennis Balls</h3><span class="cat-price-pill">From $5</span></div>
     </a>
     <a class="cat-card" href="shoes.html">
-      <img alt="Tennis Shoes" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Shoes" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Tennis Shoes</h3><span class="cat-price-pill">From $45</span></div>
     </a>
     <a class="cat-card" href="bags.html">
-      <img alt="Tennis Bags" src="https://images.unsplash.com/photo-1672223303533-05fddcbf6e6c?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Bags" src="https://images.unsplash.com/photo-1672223303533-05fddcbf6e6c?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Tennis Bags</h3><span class="cat-price-pill">From $18</span></div>
     </a>
     <a class="cat-card" href="strings.html">
-      <img alt="Tennis Strings" src="https://images.unsplash.com/photo-1599280174407-fdc3e8c47856?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Strings" src="https://images.unsplash.com/photo-1599280174407-fdc3e8c47856?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Tennis Strings</h3><span class="cat-price-pill">From $5</span></div>
     </a>
     <a class="cat-card" href="grips.html">
-      <img alt="Tennis Grips" src="https://images.unsplash.com/photo-1569597773156-9e38923c0043?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Grips" src="https://images.unsplash.com/photo-1569597773156-9e38923c0043?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Grips &amp; Overgrips</h3><span class="cat-price-pill">From $7</span></div>
     </a>
     <a class="cat-card" href="accessories.html">
-      <img alt="Tennis Accessories" src="https://images.unsplash.com/photo-1578339094872-b03e321a1821?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Accessories" src="https://images.unsplash.com/photo-1578339094872-b03e321a1821?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill equipment">Equipment</span>
       <div class="cat-info"><h3>Accessories</h3><span class="cat-price-pill">From $5</span></div>
@@ -157,31 +159,31 @@ gtag('config','G-0C1DTCG2NX');
   <div class="section-label" style="margin-top:48px;" data-reveal>Clothing</div>
   <div class="cat-grid" data-reveal-stagger>
     <a class="cat-card" href="shirts.html">
-      <img alt="Tennis Shirts" src="https://images.unsplash.com/photo-1637071669555-cf9afa251964?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Shirts" src="https://images.unsplash.com/photo-1637071669555-cf9afa251964?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill clothing">Clothing</span>
       <div class="cat-info"><h3>Shirts &amp; Polos</h3><span class="cat-price-pill">From $12</span></div>
     </a>
     <a class="cat-card" href="shorts.html">
-      <img alt="Tennis Shorts" src="https://images.unsplash.com/photo-1549481467-82f84fa9a736?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Shorts" src="https://images.unsplash.com/photo-1549481467-82f84fa9a736?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill clothing">Clothing</span>
       <div class="cat-info"><h3>Tennis Shorts</h3><span class="cat-price-pill">From $12</span></div>
     </a>
     <a class="cat-card" href="skirts.html">
-      <img alt="Tennis Skirts" src="https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Skirts" src="https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill clothing">Clothing</span>
       <div class="cat-info"><h3>Skirts &amp; Dresses</h3><span class="cat-price-pill">From $15</span></div>
     </a>
     <a class="cat-card" href="socks.html">
-      <img alt="Tennis Socks" src="https://images.unsplash.com/photo-1587683437363-8c2b1e5fbd38?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Socks" src="https://images.unsplash.com/photo-1587683437363-8c2b1e5fbd38?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill clothing">Clothing</span>
       <div class="cat-info"><h3>Tennis Socks</h3><span class="cat-price-pill">From $5</span></div>
     </a>
     <a class="cat-card" href="hats.html">
-      <img alt="Tennis Hats" src="https://images.unsplash.com/photo-1758040183184-3f728fdfd466?w=600&h=400&fit=crop&q=80" loading="lazy" decoding="async"/>
+      <img alt="Tennis Hats" src="https://images.unsplash.com/photo-1758040183184-3f728fdfd466?w=600&h=400&fit=crop&q=80" width="600" height="400" loading="lazy" decoding="async"/>
       <div class="cat-overlay"></div>
       <span class="cat-type-pill clothing">Clothing</span>
       <div class="cat-info"><h3>Hats &amp; Visors</h3><span class="cat-price-pill">From $16</span></div>
@@ -258,6 +260,5 @@ gtag('config','G-0C1DTCG2NX');
 
 <script src="../js/search.js"></script>
 <script src="../js/animations.js"></script>
-<script type="text/javascript" src="https://s.skimresources.com/js/307953X1796249.skimlinks.js"></script>
 </body>
 </html>

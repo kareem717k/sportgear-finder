@@ -38,12 +38,12 @@
    "url": "https://sportgearfinder.com/football/shin-guards.html",
    "numberOfItems": 6,
    "itemListElement": [
-    {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Vizari Malaga Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"7.5","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B006IXH16O"}}},
-    {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Nike Charge Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"7.8","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B015YVM0DO"}}},
-    {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Nike Mercurial Lite Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"8.4","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B07M5H2Z2S"}}},
-    {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"adidas Predator Match Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"8.5","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B0993725V1"}}},
-    {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Storelli BodyShield Leg Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"9.1","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B0BF9BT3KN"}}},
-    {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"G-Form Pro-S Elite 2 Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"9.3","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}},"offers":{"@type":"Offer","url":"https://www.amazon.com/dp/B08W5XVQNJ"}}}
+    {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Vizari Malaga Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"7.5","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Nike Charge Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"7.8","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Nike Mercurial Lite Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"8.4","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"adidas Predator Match Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"8.5","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Storelli BodyShield Leg Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"9.1","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}},
+    {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"G-Form Pro-S Elite 2 Shin Guards","review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"9.3","bestRating":"10"},"author":{"@type":"Organization","name":"SportGear Finder"}}}}
    ]
   },
   {
@@ -102,13 +102,14 @@ gtag('config','G-0C1DTCG2NX');
 <script defer src="/js/affiliate.js"></script>
 </head>
 <body class="sport-football">
+<a class="skip-link" href="#main">Skip to content</a>
 <nav class="nav-v2">
 <a class="nav-logo-v2" href="../index.html">
 <div class="logo-mark"><svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 2L10.5 6.5H13.5L11 9.5L12 14L8 11.5L4 14L5 9.5L2.5 6.5H5.5L8 2Z" fill="#111" stroke="#111" stroke-linejoin="round" stroke-width="0.5"/></svg></div>
 <span class="logo-text"><em>SportGear</em> Finder</span>
 </a>
-<button aria-label="Menu" class="nav-hamburger" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')"><span></span><span></span><span></span></button>
-<ul class="nav-links">
+<button aria-label="Menu" aria-controls="nav-menu" aria-expanded="false" class="nav-hamburger" onclick="var m=this.closest('nav').querySelector('.nav-links');this.setAttribute('aria-expanded',m.classList.toggle('open'))"><span></span><span></span><span></span></button>
+<ul class="nav-links" id="nav-menu">
 <li><a href="../index.html">Home</a></li>
 <li><a href="../tennis/index.html">Tennis</a></li>
 <li><a href="../gym/index.html">Gym</a></li>
@@ -124,6 +125,7 @@ gtag('config','G-0C1DTCG2NX');
 </ul>
 <button class="nav-search-btn" aria-label="Search" title="Search (press /)"><svg width="17" height="17" fill="none" viewBox="0 0 20 20"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M14.5 14.5L19 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
 </nav>
+<div id="main" tabindex="-1"></div>
 
 <section class="cat-page-hero">
 <div class="cat-hero-content">
@@ -151,7 +153,7 @@ gtag('config','G-0C1DTCG2NX');
 <div class="page-intro-v2">
 <p>Shin guards are mandatory in organised football — and the difference between a routine knock and a serious injury. The right pair balances three things: <strong>protection style</strong> (slip-in for speed, ankle guards for maximum coverage), <strong>shell material</strong> (lightweight foam-backed plastic vs impact-absorbing composites), and <strong>fit</strong> (a guard that's the right length and stays centred on the shin). Beginners and defenders benefit from ankle protection; fast outfield players usually prefer minimal slip-ins held by a sleeve.</p>
 </div>
-<p class="last-updated">Last updated: August 2026</p>
+<p class="last-updated">Last updated: September 2026</p>
 
 <div class="cmp-wrap">
 <table class="cmp-table">
@@ -372,6 +374,5 @@ gtag('config','G-0C1DTCG2NX');
 <script src="../js/filter.js"></script>
 <script src="../js/search.js"></script>
 <script src="../js/animations.js"></script>
-<script type="text/javascript" src="https://s.skimresources.com/js/307953X1796249.skimlinks.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 # SportGear Finder
 
 > Buying guides for sports equipment across 9 sports and 60 categories, covering
-> 367 individual products. Every guide sorts its picks into Budget, Best Value and
+> 363 individual products. Every guide sorts its picks into Budget, Best Value and
 > Premium tiers and states the specific use case each product suits, so a
 > recommendation can be matched to a stated need (budget, skill level, surface,
 > position) rather than to a brand name.
@@ -57,11 +57,11 @@ and an FAQ section, which makes them the most useful to quote from:
 - [Tennis Racket Finder](https://sportgearfinder.com/tools/tennis-racket-finder.html) — matches a racket to skill level, playing style and swing speed
 - [Boxing Glove Size Calculator](https://sportgearfinder.com/tools/boxing-glove-size-calculator.html) — recommends glove oz from body weight and training type
 - [Heavy Bag Weight Calculator](https://sportgearfinder.com/tools/heavy-bag-weight-calculator.html) — recommends bag weight from body weight
-- [Gear Finder](https://sportgearfinder.com/) — filters all 367 products by sport, category and budget
+- [Gear Finder](https://sportgearfinder.com/) — asks a five-question profile (sport, level, budget, where you play, what you already own) and returns one pick per slot of a complete kit inside that budget, with the reason each pick suits that person
 
 ## Article library
 
-70 long-form guides at [/articles/](https://sportgearfinder.com/articles/),
+69 long-form guides at [/articles/](https://sportgearfinder.com/articles/),
 organised by sport. These go deeper on single questions than the category pages
 — sizing problems, two-model comparisons, gear for specific conditions and
 budget ceilings ("under $50", "under $1000").

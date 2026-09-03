@@ -257,7 +257,8 @@
         "hard court",
         "beginner",
         "cushioning",
-        "stability"
+        "stability",
+        "wide"
       ],
       "affiliateLink": "https://www.amazon.com/dp/B0CNKY8CB6?tag=sportgearfind-20",
       "score": 8.0,
@@ -862,27 +863,6 @@
       "bestFor": "Brand-conscious Babolat players"
     },
     {
-      "id": "shirts-001",
-      "sport": "tennis",
-      "category": "shirts",
-      "tier": "budget",
-      "name": "Decathlon Artengo Dry Tennis Polo",
-      "price": 15,
-      "priceDisplay": "~$15",
-      "image": "https://contents.mediadecathlon.com/p2214038/k$ca9e8d10dff9b4fddcc4f3c39a51f7a2/sq/artengo-tennis-polo-shirt-essential-men-navy-blue.jpg?format=auto&quality=70&f=800x800",
-      "tags": [
-        "decathlon",
-        "artengo",
-        "polo",
-        "budget",
-        "beginner",
-        "dry"
-      ],
-      "affiliateLink": "https://www.decathlon.com/collections/tennis-clothing",
-      "score": 8.0,
-      "bestFor": "Beginners on a tight budget"
-    },
-    {
       "id": "shirts-002",
       "sport": "tennis",
       "category": "shirts",
@@ -983,26 +963,6 @@
       "affiliateLink": "https://www.amazon.com/Lululemon-Metal-Short-Sleeve-Shirt/dp/B094DZL25P?tag=sportgearfind-20",
       "score": 9.5,
       "bestFor": "Players who prioritize breathability above all"
-    },
-    {
-      "id": "shorts-001",
-      "sport": "tennis",
-      "category": "shorts",
-      "tier": "budget",
-      "name": "Decathlon Artengo TSH500 Shorts",
-      "price": 15,
-      "priceDisplay": "~$15",
-      "image": "https://contents.mediadecathlon.com/p2210065/k$3cc5d3e5d5d1a1b7bba8e7c44b7e3a1c/sq/artengo-tennis-shorts-tsh500.jpg?format=auto&quality=70&f=800x800",
-      "tags": [
-        "decathlon",
-        "artengo",
-        "shorts",
-        "budget",
-        "beginner"
-      ],
-      "affiliateLink": "https://www.decathlon.com/collections/tennis-clothing",
-      "score": 7.5,
-      "bestFor": "Beginners on a tight budget"
     },
     {
       "id": "shorts-002",
@@ -1109,27 +1069,6 @@
       "bestFor": "Advanced players wanting tour-style shorts"
     },
     {
-      "id": "skirts-001",
-      "sport": "tennis",
-      "category": "skirts",
-      "tier": "budget",
-      "name": "Decathlon Artengo Soft Tennis Skirt",
-      "price": 18,
-      "priceDisplay": "~$18",
-      "image": "https://contents.mediadecathlon.com/p2217049/k$d1b2e9c3a6c3b7f3c5d2a1e4f8b6c2d1/sq/artengo-tennis-skirt.jpg?format=auto&quality=70&f=800x800",
-      "tags": [
-        "decathlon",
-        "artengo",
-        "skirt",
-        "budget",
-        "beginner",
-        "soft"
-      ],
-      "affiliateLink": "https://www.decathlon.com/collections/tennis-clothing",
-      "score": 7.5,
-      "bestFor": "Beginners on a tight budget"
-    },
-    {
       "id": "skirts-002",
       "sport": "tennis",
       "category": "skirts",
@@ -1231,27 +1170,6 @@
       "affiliateLink": "https://www.amazon.com/Nike-NikeCourt-Dri-FIT-Advantage-Pleated/dp/B0BSCSQ2TT?tag=sportgearfind-20",
       "score": 9.5,
       "bestFor": "Advanced players wanting a sleek pleated look"
-    },
-    {
-      "id": "socks-001",
-      "sport": "tennis",
-      "category": "socks",
-      "tier": "budget",
-      "name": "Decathlon Artengo RS 160 Low Socks",
-      "price": 6,
-      "priceDisplay": "~$6",
-      "image": "https://contents.mediadecathlon.com/p2129068/k$f1e2b3c4d5a6e7f8a9b0c1d2e3f4a5b6/sq/artengo-tennis-socks.jpg?format=auto&quality=70&f=800x800",
-      "tags": [
-        "decathlon",
-        "artengo",
-        "socks",
-        "low",
-        "budget",
-        "beginner"
-      ],
-      "affiliateLink": "https://www.decathlon.com/collections/tennis-socks",
-      "score": 7.0,
-      "bestFor": "Beginners on a tight budget"
     },
     {
       "id": "socks-002",
