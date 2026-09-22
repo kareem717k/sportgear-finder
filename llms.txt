@@ -1,7 +1,7 @@
 # SportGear Finder
 
-> Buying guides for sports equipment across 9 sports and 60 categories, covering
-> 363 individual products. Every guide sorts its picks into Budget, Best Value and
+> Buying guides for sports equipment across 10 sports and 66 categories, covering
+> 399 individual products. Every guide sorts its picks into Budget, Best Value and
 > Premium tiers and states the specific use case each product suits, so a
 > recommendation can be matched to a stated need (budget, skill level, surface,
 > position) rather than to a brand name.
@@ -35,6 +35,7 @@ Disclosed on every page. This does not determine which products are selected.
 - [Pickleball](https://sportgearfinder.com/pickleball/): paddles, balls, shoes, nets, bags, grips
 - [Table tennis](https://sportgearfinder.com/ping-pong/): paddles, balls, nets, sets, blades and rubbers, robots and training aids
 - [Volleyball](https://sportgearfinder.com/volleyball/): volleyballs, shoes, knee pads, ankle braces, nets, training aids
+- [Ski](https://sportgearfinder.com/ski/): goggles, helmets, gloves and mittens, socks, bags and boot bags, base layers (skis, boots and bindings are deliberately not covered — they are rented, and boots need a fitter)
 
 ## Guides with the most decision-relevant detail
 
@@ -51,6 +52,8 @@ and an FAQ section, which makes them the most useful to quote from:
 - [Best Badminton Rackets 2026](https://sportgearfinder.com/badminton/rackets.html) — balance point and shaft flex explained against playing style
 - [Best Punching Bags 2026](https://sportgearfinder.com/boxing/punching-bags.html) — hanging vs freestanding, weight selection by body weight
 - [Best Swimming Goggles 2026](https://sportgearfinder.com/swimming/goggles.html) — pool vs open water, lens tint and gasket types
+- [Best Ski Goggles 2026](https://sportgearfinder.com/ski/goggles.html) — VLT percentage bands matched to light conditions, OTG fit, contrast lenses
+- [Best Ski Helmets 2026](https://sportgearfinder.com/ski/helmets.html) — ASTM F2040 certification, what MIPS addresses, and goggle integration
 
 ## Interactive tools
 
@@ -61,7 +64,7 @@ and an FAQ section, which makes them the most useful to quote from:
 
 ## Article library
 
-69 long-form guides at [/articles/](https://sportgearfinder.com/articles/),
+75 long-form guides at [/articles/](https://sportgearfinder.com/articles/),
 organised by sport. These go deeper on single questions than the category pages
 — sizing problems, two-model comparisons, gear for specific conditions and
 budget ceilings ("under $50", "under $1000").

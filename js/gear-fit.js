@@ -29,7 +29,8 @@
     { id: 'volleyball',  label: 'Volleyball' },
     { id: 'pickleball',  label: 'Pickleball' },
     { id: 'ping-pong',   label: 'Ping Pong' },
-    { id: 'badminton',   label: 'Badminton' }
+    { id: 'badminton',   label: 'Badminton' },
+    { id: 'ski',         label: 'Ski' }
   ];
 
   // ─── LEVELS & BUDGET ─────────────────────────────────────────────────────
@@ -260,6 +261,31 @@
       { cat: 'nets', label: 'Net system', rank: 2, weight: 0.25,
         when: function (p) { return p.context === 'casual'; },
         why: 'Garden play needs posts and a net, and a proper one beats string between two chairs.' }
+    ],
+
+    // Skis, boots and bindings are deliberately not slots. They are rented
+    // until a skier knows what they want, and boots in particular need a
+    // fitter rather than a size chart - so the Gear Finder builds the kit
+    // that travels with you instead of the hardware under your feet.
+    ski: [
+      { cat: 'goggles', label: 'Goggles', rank: 1, weight: 0.26, core: true,
+        why: 'Rental goggles are scratched and their anti-fog is long gone - this is the item that most changes the day.' },
+      { cat: 'helmets', label: 'Helmet', rank: 1, weight: 0.24, core: true,
+        why: 'Certified protection, and a used helmet has an impact history you cannot see.' },
+      { cat: 'gloves', label: 'Gloves or mittens', rank: 2, weight: 0.16,
+        why: 'Cold wet hands end ski days earlier than cold anything else.' },
+      { cat: 'base-layers', label: 'Base layer', rank: 3, weight: 0.12,
+        why: 'Anything but cotton - a wet shirt on a windy chairlift is why people freeze.' },
+      { cat: 'socks', label: 'Ski socks', rank: 4, weight: 0.10,
+        why: 'One thin merino pair, never two - the cheapest fix for cold feet there is.' },
+      // Ski's context answers are fly/drive, so each bag slot gates on one of
+      // them; gating on a value the question cannot return disables the slot.
+      { cat: 'bags', label: 'Ski & boot bag', rank: 5, weight: 0.22,
+        when: function (p) { return p.context === 'fly'; },
+        why: 'Boots travel as carry-on and skis need real padding in an aircraft hold.' },
+      { cat: 'bags', label: 'Boot bag', rank: 6, weight: 0.10, optional: true,
+        when: function (p) { return p.context !== 'fly'; },
+        why: 'Vented compartments stop damp liners stewing in the back of the car.' }
     ]
   };
 
@@ -344,6 +370,16 @@
       opts: [
         { id: 'casual',      label: 'Garden & casual',    tags: ['recreational', 'nylon'] },
         { id: 'competitive', label: 'Club & competitive', tags: ['competition', 'feather', 'advanced'] }
+      ]
+    },
+    // Chosen because it decides whether a bag is in the kit at all. Lens tint
+    // is the other big ski question, but it only reorders the goggle slot, so
+    // it belongs in the free-text box rather than costing a click here.
+    ski: {
+      q: 'How do you get to the mountain?',
+      opts: [
+        { id: 'fly',   label: 'Flying to a resort',   tags: ['air-travel', 'fully-padded', 'travel'] },
+        { id: 'drive', label: 'Driving to the hill', tags: ['backpack', 'vented', 'ventilated'] }
       ]
     }
   };

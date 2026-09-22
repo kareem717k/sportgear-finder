@@ -386,12 +386,18 @@
       '</button>';
   }
 
+  // Most sports are "played" and the default phrasing works. Skiing is not,
+  // so it gets its own wording rather than "How much ski do you play?".
+  var LEVEL_Q = {
+    ski: 'How much do you ski?'
+  };
+
   function stepContent(key) {
     var a = state.answers;
 
     if (key === 'level') {
       return {
-        q: 'How much ' + sportLabel(a.sport).toLowerCase().replace(' & fitness', '') + ' do you play?',
+        q: LEVEL_Q[a.sport] || ('How much ' + sportLabel(a.sport).toLowerCase().replace(' & fitness', '') + ' do you play?'),
         body: '<div class="gfx-opts">' + FIT.LEVELS.map(function (l) {
           return chip(l.id, l.label, l.hint, a.level === l.id);
         }).join('') + '</div>'

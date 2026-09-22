@@ -1,0 +1,752 @@
+{
+  "_comment": "Ski section content. Product facts come from data/products.json (sport='ski'); this file holds only what cannot be derived. Categories are goggles, helmets, gloves, socks, bags and base layers. Skis, boots and bindings are deliberately absent - see README notes and the hub page copy.",
+  "hubName": "Ski",
+  "hubShortName": "Ski Hub",
+  "lastUpdated": "September 2026",
+  "categories": [
+    {
+      "slug": "goggles",
+      "productCategory": "goggles",
+      "navLabel": "Goggles",
+      "tableNoun": "Goggle",
+      "title": "Best Ski Goggles 2026: 6 Picks from $27 Budget to $98 Pro",
+      "metaDescription": "Six ski goggles compared across Budget, Best Value and Premium. VLT, lens tint, OTG fit and anti-fog coatings explained so you buy one pair that works in the light you actually ski in.",
+      "ogTitle": "Best Ski Goggles 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best ski goggles across Budget, Best Value and Premium tiers, with VLT, lens tint and OTG fit explained.",
+      "listName": "Best Ski Goggles 2026 — Budget to Premium",
+      "h1": "Ski <em>Goggles</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. One for every light condition.",
+      "intro": "Goggles are the piece of ski kit that most changes how the day feels, and the one most people spend the least on. The number that matters is <strong>VLT</strong> &mdash; visible light transmission, the percentage of light the lens lets through. A dark 10% lens is glorious in spring sun and genuinely dangerous in flat light, where it flattens the snow into a blank sheet and hides every bump. A 60% lens does the opposite. Everything else on the box &mdash; spherical versus cylindrical, the coating names, the frame colours &mdash; matters far less than owning a lens that suits the light where you ski. Below are six that make sense at their price, and the <a href=\"../articles/ski/ski-goggle-lens-vlt-guide.html\">lens tint guide</a> if you want the numbers.",
+      "tableColumns": [
+        { "label": "Lens", "key": "lens" },
+        { "label": "Best Light", "key": "light" }
+      ],
+      "tierBands": {
+        "budget": { "title": "First Real Goggles", "sub": "A genuine step up from the rental counter" },
+        "value": { "title": "The Step-Up", "sub": "Where interchangeable lenses start to earn their keep" },
+        "premium": { "title": "Performance Grade", "sub": "Lens technology you can actually see through the day" }
+      },
+      "guideHeading": "How to Choose Ski Goggles",
+      "guide": [
+        {
+          "h": "VLT Is the Only Spec That Changes Your Day",
+          "p": "Visible light transmission is the percentage of light a lens passes. Low numbers are dark lenses for bright days; high numbers are clear lenses for storms and night skiing. Roughly: <strong>5&ndash;20% for bright sun</strong>, <strong>20&ndash;40% for mixed or partly cloudy</strong>, <strong>40&ndash;80% for flat light, fog and snow</strong>. The mistake that ruins days is buying the darkest, coolest-looking lens and then skiing a grey week in it, where the terrain disappears into a featureless white and you ski badly without understanding why. If you can only own one lens, buy something in the 20&ndash;40% band &mdash; it is passable in sun and survivable in cloud."
+        },
+        {
+          "h": "Interchangeable Lenses Are Worth It Sooner Than You Think",
+          "p": "A second lens costs far less than a second pair of goggles, and light on a mountain changes within a single run. Magnetic systems &mdash; where the lens snaps out and in without bending the frame &mdash; are the ones people actually use, because a clip system that takes four cold minutes and a bent frame gets left in the bag. If you ski more than a handful of days a year, the magnetic tier is the single best value in this whole category."
+        },
+        {
+          "h": "OTG Means It Fits Over Glasses, and It Is Not Automatic",
+          "p": "OTG goggles have notched frame sides that make room for spectacle arms. If you wear glasses on the hill, a non-OTG goggle will press the arms into your temples until it aches, and steam up where your lenses block airflow. Every budget and value pick here is OTG. If you wear contacts it makes no difference, so ignore the label and buy on lens instead."
+        },
+        {
+          "h": "Anti-Fog Is a Coating, and Coatings Wear Out",
+          "p": "Dual-pane lenses with an inner anti-fog coating are the standard, and they work &mdash; until you wipe the inside with a glove. The coating is microscopically soft and a single wipe with cold wet fabric takes it off, after which the goggle fogs permanently and no amount of drying brings it back. Never touch the inner lens. Shake water off, leave them open to dry, and use the bag they came in rather than a pocket full of grit."
+        },
+        {
+          "h": "Fit Is Decided at the Nose and the Helmet Gap",
+          "p": "Two failures matter. If the foam does not seal at the bridge of your nose, warm breath rises straight onto the lens and fogs it whatever the coating claims. If there is a gap between the top of the goggle and the brim of your <a href=\"helmets.html\">helmet</a>, that strip of forehead takes the cold and the sun all day. Try the two together before deciding they work &mdash; the polite term for the gap is \"gaper gap\", and it is a comfort problem long before it is a fashion one."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What VLT should I buy if I can only afford one lens?",
+          "a": "Something between 20% and 40%. That band is dark enough not to hurt on a bright groomer morning and light enough that you can still read the snow when cloud rolls in. The single-lens goggles in the budget tier here sit roughly in that range for exactly this reason. Buy a dedicated low-light lens as your second purchase, not your first."
+        },
+        {
+          "q": "Are expensive ski goggles actually better?",
+          "a": "In one specific way, yes: contrast-enhancing lenses like Smith's ChromaPop genuinely make bumps and ice patches easier to see in flat light, and that is not marketing - it is selective filtering of wavelengths that muddy the image. Whether it is worth three times the price depends on how often you ski in bad light. Frame quality, foam comfort and lens durability also improve, but far less dramatically than the price gap suggests."
+        },
+        {
+          "q": "Why do my goggles fog up and how do I stop it?",
+          "a": "Almost always one of three things: you wiped the inside of the lens and destroyed the anti-fog coating, your face mask or neck gaiter is funnelling breath up behind the lens, or you pushed the goggles onto your forehead on a lift and let sweat condense on them. The fixes are to never touch the inner lens, wear the gaiter below the goggle foam rather than tucked under it, and leave goggles on your face or around your neck rather than on your helmet."
+        },
+        {
+          "q": "Do I need OTG goggles if I wear glasses?",
+          "a": "Yes, if you plan to keep the glasses on. Standard goggles have no channel for the arms, so they press into your temples and the extra lens sits too close to the goggle, trapping warm air and fogging both. OTG frames are wider and notched, and cost almost nothing extra. The alternative is contact lenses or a prescription insert, both of which give better optics if you are willing."
+        },
+        {
+          "q": "Can I use ski goggles for snowboarding?",
+          "a": "Yes - there is no meaningful difference. Goggles are sold interchangeably for both, and every pair here is listed for skiing and snowboarding alike. Fit against your helmet and the lens tint for your local light are the only things worth choosing on."
+        }
+      ],
+      "products": {
+        "ski-goggles-001": {
+          "anchor": "findway-otg",
+          "shortName": "findway OTG",
+          "note": "fits over glasses",
+          "lens": "Fixed",
+          "light": "Mixed",
+          "specs": ["OTG frame", "Dual-pane anti-fog", "100% UV400", "Helmet compatible"],
+          "desc": "The cheapest pair here that is not a toy. It is a fixed single lens with a dual-pane anti-fog build and a genuinely wide OTG cut, which is the whole reason to pick it: spectacle wearers pay a premium almost everywhere else. The lens is a mid tint, so it is fine in cloud and merely adequate in hard sun. Treat it as a first pair, or as the spare that lives in the car for the friend who forgot theirs."
+        },
+        "ski-goggles-002": {
+          "anchor": "outdoormaster-otg",
+          "shortName": "OutdoorMaster OTG",
+          "note": "10,000+ ratings",
+          "lens": "Fixed",
+          "light": "Mixed",
+          "specs": ["OTG frame", "Dual-layer lens", "UV400 protection", "Triple-layer foam"],
+          "desc": "The default answer at this price and the most reviewed goggle on the mountain for a reason. The foam is three-layer rather than the single strip budget goggles usually get, which is what makes it seal at the nose instead of venting your breath onto the lens. Optics are ordinary and the lens does not come off, but nothing about it actively fails. If you want one pair that works and no decisions, this is it."
+        },
+        "ski-goggles-003": {
+          "anchor": "outdoormaster-pro",
+          "shortName": "OutdoorMaster PRO",
+          "note": "lens sold separately",
+          "lens": "Interchangeable",
+          "light": "All",
+          "specs": ["Interchangeable lens", "OTG frame", "Spherical lens", "20+ lens options"],
+          "desc": "The first pick here where you can change the lens, and that single feature is why it out-earns the pair above it. The frame takes more than twenty lens options at low cost, so a low-light lens for grey weeks is a cheap add-on rather than a second goggle. The swap uses clips rather than magnets, which is fiddlier in gloves but perfectly workable indoors the night before."
+        },
+        "ski-goggles-004": {
+          "anchor": "zionor-x4",
+          "shortName": "ZIONOR X4",
+          "note": "magnetic swap",
+          "lens": "Magnetic",
+          "light": "All",
+          "specs": ["Magnetic quick-change", "OTG frame", "Anti-fog coating", "UV400"],
+          "desc": "Magnetic lens changes at roughly half what the named brands charge for the same convenience. The lens pops off and snaps back without flexing the frame, which matters because clip systems are the reason most people own a spare lens they never fit. Optical quality is a clear step behind the Smith at the top of this page, but the mechanism is the point and it works cold and gloved."
+        },
+        "ski-goggles-005": {
+          "anchor": "zionor-x11",
+          "shortName": "ZIONOR X11",
+          "note": "wide cylindrical lens",
+          "lens": "Magnetic",
+          "light": "All",
+          "specs": ["Magnetic quick-change", "Cylindrical lens", "Wide field of view", "OTG frame"],
+          "desc": "The X4's frame stretched wider, which buys real peripheral vision - useful on busy runs where what you need to see is the person arriving from your left. Still magnetic, still OTG, still well under the price of a brand-name frame. The reason it sits in premium rather than value is simply what it costs; the technology is the same family as the X4 below it."
+        },
+        "ski-goggles-006": {
+          "anchor": "smith-squad-chromapop",
+          "shortName": "Smith Squad ChromaPop",
+          "note": "contrast lens",
+          "lens": "Interchangeable",
+          "light": "Flat / all",
+          "specs": ["ChromaPop contrast lens", "Cylindrical", "Bonus low-light lens", "Smith fit system"],
+          "desc": "The one pair here where you can see the difference rather than read about it. ChromaPop filters the specific wavelengths that blur into each other in flat light, so bumps, ice and the edge of a shadow separate out instead of merging into white. It ships with a second low-light lens, which quietly closes most of the price gap. If you ski a lot of grey days, this is the upgrade that changes how you ski rather than how you look."
+        }
+      }
+    },
+    {
+      "slug": "helmets",
+      "productCategory": "helmets",
+      "navLabel": "Helmets",
+      "tableNoun": "Helmet",
+      "title": "Best Ski Helmets 2026: 6 Certified Picks from $46 to $75",
+      "metaDescription": "Six ski helmets compared across Budget, Best Value and Premium. What ASTM F2040 certification means, whether MIPS is worth it, and how to get a helmet that fits your goggles.",
+      "ogTitle": "Best Ski Helmets 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best ski helmets across Budget, Best Value and Premium tiers, with MIPS, certification and goggle fit explained.",
+      "listName": "Best Ski Helmets 2026 — Budget to Premium",
+      "h1": "Ski <em>Helmets</em>",
+      "heroSub": "6 certified picks — Budget, Best Value and Premium. All ASTM F2040.",
+      "intro": "A ski helmet is the cheapest insurance in the sport and one of the few pieces of gear where the budget option is genuinely close to the expensive one. Every helmet sold in the US for snowsports has to meet <strong>ASTM F2040</strong>, and every pick on this page does, which means a $46 lid and a $75 lid have both passed the same impact test. What the extra money buys is fit, ventilation, weight, and on some models <a href=\"../articles/ski/do-you-need-a-ski-helmet.html\">MIPS</a> &mdash; a slip layer that reduces rotational force in an angled impact. What it does not buy is permission to skip the certification check. Below are six that fit well and are certified, plus the two fit tests worth doing before you keep one.",
+      "tableColumns": [
+        { "label": "Shell", "key": "shell" },
+        { "label": "Rotational", "key": "rotational" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Certified and Sensible", "sub": "ASTM F2040 at the lowest price that is not a gamble" },
+        "value": { "title": "The Step-Up", "sub": "Better venting, better fit, and MIPS appears" },
+        "premium": { "title": "Performance Grade", "sub": "Goggle integration and shells built for repeat knocks" }
+      },
+      "guideHeading": "How to Choose a Ski Helmet",
+      "guide": [
+        {
+          "h": "Check the Certification, Then Stop Worrying About Impact",
+          "p": "In the US, snowsport helmets are tested to <strong>ASTM F2040</strong>; in Europe the equivalent is CE EN 1077. A helmet carrying one of those has passed a standardised impact test, and a $46 certified helmet has passed the same test as a $200 one. Price buys comfort, weight, venting and features. It does not buy a meaningfully higher pass mark. What should worry you is an uncertified novelty helmet, or a second-hand one with an unknown history &mdash; foam liners are single-impact by design and a helmet that has taken a real hit is finished even if it looks fine."
+        },
+        {
+          "h": "MIPS Addresses a Different Kind of Crash",
+          "p": "Standard helmet testing measures straight-line impact. Most real falls are angled, and an angled impact twists the head as well as stopping it &mdash; rotational force is strongly associated with concussion. MIPS is a low-friction layer inside the helmet that lets the shell rotate a few millimetres around your skull, shedding some of that twist. It typically adds $10&ndash;30. The evidence is good enough that it is worth having if the budget stretches, and not so overwhelming that a certified non-MIPS helmet is a bad choice."
+        },
+        {
+          "h": "The Fit Test Takes Ten Seconds and Most People Skip It",
+          "p": "Put the helmet on without fastening the strap and shake your head firmly side to side and up and down. It should move your scalp rather than slide independently, and it should not rock forward onto your eyebrows. Then tighten the rear dial until it is snug, not clamped. A helmet that slides when unbuckled is too big, and a too-big helmet rotates out of position in exactly the impact you bought it for. Between two sizes, take the smaller one and let the pads compress."
+        },
+        {
+          "h": "Buy the Helmet and the Goggles as One Decision",
+          "p": "The brim of the helmet and the top of the <a href=\"goggles.html\">goggle</a> need to meet without a stripe of bare forehead between them, and the goggle strap needs to sit in the helmet's rear clip rather than riding up. Brands fit their own goggles best, which is most of the argument for the Smith at the top of this page if you already own Smith goggles. If you are buying both at once, order together and try them together before the tags come off."
+        },
+        {
+          "h": "Vents Matter More Than Beginners Expect",
+          "p": "Skiing is an on-and-off activity: you are freezing on the lift and sweating four turns into the run. A helmet with closable vents lets you dump heat on the way down and shut it on the way up, and that single control is the difference between a comfortable day and a soaked liner. Removable, washable ear pads are the other quietly useful feature, because a helmet liner after a season smells exactly as you would expect."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is a cheap ski helmet as safe as an expensive one?",
+          "a": "Against straight-line impact, essentially yes, provided it carries ASTM F2040 or CE EN 1077. Both have passed the same standardised test. The expensive helmet gives you lighter weight, better and adjustable ventilation, a more refined fit system, better goggle integration and often MIPS. Those are real benefits - a helmet you find comfortable is one you actually wear - but they are comfort and rotational-injury benefits, not a higher impact rating."
+        },
+        {
+          "q": "Is MIPS worth the extra money?",
+          "a": "If it is within budget, yes. MIPS targets rotational force, which standard impact testing does not measure and which is strongly linked to concussion in the angled falls that make up most ski crashes. It usually costs $10 to $30 more. That said, a well-fitting certified helmet without MIPS beats a badly fitting one with it, so fit comes first."
+        },
+        {
+          "q": "When should I replace my ski helmet?",
+          "a": "Immediately after any real impact, even if there is no visible damage - the EPS foam works by crushing, and once crushed it cannot absorb a second hit. Otherwise most manufacturers suggest around five years, because the foam and the shell bonding degrade with UV, sweat and temperature cycling. Never buy a used helmet: you cannot see a crushed liner and you have no way to know its history."
+        },
+        {
+          "q": "How should a ski helmet fit?",
+          "a": "Snug all round with no pressure points, and it should move your scalp rather than slide when you shake your head with the strap undone. It should not rock forward over your eyebrows or tip back off your forehead. Measure the circumference of your head just above the ears and compare against the specific brand's chart - sizing varies noticeably between makers. If you are between sizes, choose the smaller one."
+        },
+        {
+          "q": "Can I wear a beanie under my ski helmet?",
+          "a": "A thin one, at most. Anything thick changes the fit the helmet was sized for and lets it move in an impact, which defeats the point. Modern helmets have insulated, removable liners and closable vents that handle cold better than a hat does. If you are cold with the vents shut, the helmet is probably too large rather than underinsulated."
+        }
+      ],
+      "products": {
+        "ski-helmet-001": {
+          "anchor": "outdoormaster-kelvin-ii",
+          "shortName": "OutdoorMaster Kelvin II",
+          "note": "ASTM F2040",
+          "shell": "ABS hard shell",
+          "rotational": "No",
+          "specs": ["ASTM F2040 certified", "Adjustable vents", "Removable liner", "Dial fit system"],
+          "desc": "The lowest price here that still buys a genuinely certified helmet, and it is not a compromise on the thing that matters. ABS hard shell, adjustable venting, washable removable liner and a rear dial - the full feature list of a helmet costing twice as much, minus refinement and a few grams. The fit runs slightly round, which suits some heads and not others. Buy it knowing you may need to exchange a size."
+        },
+        "ski-helmet-002": {
+          "anchor": "retrospec-comstock",
+          "shortName": "Retrospec Comstock",
+          "note": "washable earmuffs",
+          "shell": "ABS hard shell",
+          "rotational": "No",
+          "specs": ["ASTM F2040 certified", "Vents", "Removable washable earmuffs", "Adjustable fit"],
+          "desc": "The alternative at the same money and a slightly more oval fit, which is worth knowing if the Kelvin II pinches you front to back. Certification is the same, venting is adequate rather than generous, and the earmuffs come out and go in the wash - a feature you will care about in March. A sensible pick for someone who skis a handful of days a year and wants it to be over quickly."
+        },
+        "ski-helmet-003": {
+          "anchor": "outdoormaster-kelvin",
+          "shortName": "OutdoorMaster Kelvin",
+          "note": "12,000+ ratings",
+          "shell": "ABS hard shell",
+          "rotational": "No",
+          "specs": ["ASTM F2040 certified", "9 adjustable vents", "Goggle compatible", "Removable liner"],
+          "desc": "The most-reviewed ski helmet on Amazon and the one most first-time buyers end up in. Nine adjustable vents is a real count rather than a marketing one, and the shape is neutral enough to suit most heads, which is why it accumulates ratings faster than anything else here. No MIPS at this price. If you want one recommendation and no research, take this."
+        },
+        "ski-helmet-004": {
+          "anchor": "outdoormaster-elk-mips",
+          "shortName": "OutdoorMaster ELK MIPS",
+          "note": "MIPS included",
+          "shell": "ABS hard shell",
+          "rotational": "MIPS",
+          "specs": ["MIPS rotational layer", "ASTM F2040 certified", "Adjustable vents", "Dial fit"],
+          "desc": "The cheapest genuine MIPS helmet worth owning, and the pick that makes the strongest argument on this page. You get the slip layer that addresses rotational force for roughly what an uncertified novelty helmet costs, on top of the same certified shell as the Kelvin. It is a little heavier and the liner is plainer than the premium pair. If your budget stops anywhere on this page, stop here."
+        },
+        "ski-helmet-005": {
+          "anchor": "smith-holt",
+          "shortName": "Smith Holt",
+          "note": "AirEvac venting",
+          "shell": "In-mold",
+          "rotational": "No",
+          "specs": ["ASTM F2040 certified", "AirEvac ventilation", "Goggle integration", "In-mold construction"],
+          "desc": "Bought for one reason: if you ski in Smith goggles, this is the helmet they were designed against, and AirEvac pulls warm air out from behind the goggle rather than letting it fog. In-mold construction makes it noticeably lighter on a long day than the ABS shells above. No MIPS in this model, which is the trade against the ELK - you are paying for fit and venting instead."
+        },
+        "ski-helmet-006": {
+          "anchor": "giro-ledge",
+          "shortName": "Giro Ledge",
+          "note": "park-durable shell",
+          "shell": "Hard shell",
+          "rotational": "No",
+          "specs": ["ASTM F2040 certified", "Hard shell", "Low-profile park fit", "Durable finish"],
+          "desc": "A hard-shell park helmet built to take repeated small knocks - rails, boxes, and the low-consequence falls that come with learning tricks - without cosmetically falling apart the way in-mold shells do. Heavier than the Smith and less vented, which is the honest trade. If your skiing happens mostly between features rather than on open groomers, this is the shell that lasts."
+        }
+      }
+    },
+    {
+      "slug": "gloves",
+      "productCategory": "gloves",
+      "navLabel": "Gloves & Mittens",
+      "tableNoun": "Glove",
+      "title": "Best Ski Gloves and Mittens 2026: 6 Picks from $18 to $85",
+      "metaDescription": "Six ski gloves and mittens compared across Budget, Best Value and Premium. Gloves versus mittens, what waterproof actually means, and why cold hands are usually a fit problem.",
+      "ogTitle": "Best Ski Gloves & Mittens 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best ski gloves and mittens across Budget, Best Value and Premium tiers, with waterproofing and insulation explained.",
+      "listName": "Best Ski Gloves and Mittens 2026 — Budget to Premium",
+      "h1": "Ski <em>Gloves &amp; Mittens</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. Gloves and mittens both.",
+      "intro": "Cold hands end ski days earlier than cold anything else, and the cause is usually not the insulation rating. It is <strong>wet</strong>, and it is <strong>fit</strong>. A glove that soaks through at the cuff stops insulating within an hour no matter how it was marketed, and a glove tight enough to squeeze the fingertips cuts off the circulation that was supposed to warm them. Those two failures account for most miserable hands on a mountain. The choice between gloves and mittens is the other real decision: mittens are meaningfully warmer because your fingers share heat, gloves let you work a zip or a buckle without taking them off. Below are six of each kind that hold up.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Waterproofing", "key": "waterproof" }
+      ],
+      "tierBands": {
+        "budget": { "title": "First Real Gloves", "sub": "Better than the pair in your coat pocket" },
+        "value": { "title": "The Step-Up", "sub": "Where the cuff finally keeps snow out" },
+        "premium": { "title": "Performance Grade", "sub": "Gore-Tex membranes and gauntlets that stay dry all day" }
+      },
+      "guideHeading": "How to Choose Ski Gloves",
+      "guide": [
+        {
+          "h": "Mittens Are Warmer. Gloves Are More Useful. Pick Your Problem.",
+          "p": "In a mitten your fingers sit in one chamber and warm each other, which is worth more than any amount of extra insulation in a five-fingered glove. If your hands run genuinely cold, a mid-price mitten will beat an expensive glove every time. The cost is dexterity: you cannot easily work a boot buckle, a zip, a phone or a lift pass without taking it off, and taking it off is how gloves get dropped from chairlifts. Many people end up owning a mitten for deep cold and a glove for spring."
+        },
+        {
+          "h": "\"Waterproof\" Covers Two Very Different Things",
+          "p": "A cheap glove is waterproof because the outer fabric has a coating on it, and that coating wears off at the palm and the fingertips &mdash; the places you touch snow. A membrane glove has a waterproof-breathable layer like Gore-Tex laminated inside, which does not rub away and also lets sweat vapour out so your hand is not damp from the inside. The difference shows up on the fourth wet day, not the first. If you ski in maritime snow &mdash; the Alps in spring, the Pacific Northwest, Scotland &mdash; the membrane is the upgrade to make."
+        },
+        {
+          "h": "The Cuff Decides More Than the Insulation",
+          "p": "A <strong>gauntlet</strong> cuff is the long one that goes over your jacket sleeve and cinches down. It is what keeps snow out when you fall, and falling is how snow gets in. An <strong>undercuff</strong> is the short one that tucks inside the sleeve; it is less bulky and fine on a groomed resort day, provided your jacket cuff seals well. If you are learning, falling often, or skiing powder, buy the gauntlet &mdash; a single faceplant packs snow into a short cuff and the day is effectively over."
+        },
+        {
+          "h": "Too Tight Is Colder Than Too Thin",
+          "p": "Insulation works by trapping still air, and a glove that is snug on your fingers has no air to trap. Worse, pressure on the fingers restricts the blood flow doing the actual warming. If you are between sizes, take the larger one. The same logic explains a trick that surprises people: adding a thin liner glove inside a slightly loose glove is warmer than wearing a thicker glove on its own, and it gives you something to keep on when you take the outer off."
+        },
+        {
+          "h": "Leashes Are Not Optional Above the Treeline",
+          "p": "A glove dropped from a chairlift is gone. Wrist leashes look fussy in the shop and stop being funny the first time you watch a mitten fall two hundred feet into a gully. Every value and premium pick here has one or accepts one. Use it on the lift, particularly if you are taking a glove off to handle a phone."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are mittens really warmer than ski gloves?",
+          "a": "Yes, and it is not a small difference. Fingers in one chamber share heat and have far less surface area losing it, so a mid-priced mitten typically outperforms a more expensive glove of similar construction. The trade is dexterity: buckles, zips, phones and lift passes all become two-handed operations or require taking the mitten off. If your hands run cold, buy the mitten."
+        },
+        {
+          "q": "What does Gore-Tex actually do in a ski glove?",
+          "a": "It is a waterproof, breathable membrane laminated inside the glove rather than a coating sprayed on the outside. That means it does not wear off at the palm and fingertips where you contact snow, and it lets sweat vapour escape so your hand does not end up damp from the inside. The practical difference appears on long wet days and over multiple seasons, not on a single cold dry morning."
+        },
+        {
+          "q": "Should I buy gauntlet or undercuff ski gloves?",
+          "a": "Gauntlet if you fall often, ski powder, or are still learning - the long cuff cinches over your jacket sleeve and keeps snow out when you go down. Undercuff if you ski groomed runs in reliable conditions and prefer less bulk under a well-sealed jacket cuff. A single fall with a short cuff packs snow against your wrist and effectively ends the day."
+        },
+        {
+          "q": "Why are my hands still cold in expensive ski gloves?",
+          "a": "Usually fit or damp, not insulation. A glove that squeezes your fingertips has no trapped air to insulate with and restricts the circulation that warms them, so tighter is colder. If the glove is wet - from snow through the cuff or sweat trapped inside a non-breathable shell - it stops insulating almost entirely. Try a size up, add a thin liner, and check that the cuff actually seals."
+        },
+        {
+          "q": "Do I need ski-specific gloves or will winter gloves do?",
+          "a": "For a first day or two, warm waterproof winter gloves are survivable. The differences that matter are the cuff design, a reinforced palm that resists wet abrasion from snow and edges, and a wrist leash. Ordinary winter gloves have short cuffs, soak at the palm quickly and have nothing to stop them falling off a chairlift, which is why the cheap end of this page still beats them."
+        }
+      ],
+      "products": {
+        "ski-glove-001": {
+          "anchor": "ihuan-waterproof",
+          "shortName": "ihuan Waterproof",
+          "note": "touchscreen fingertips",
+          "type": "Glove",
+          "waterproof": "Coated",
+          "specs": ["Waterproof coating", "Touchscreen tips", "Unisex sizing", "Elastic cuff"],
+          "desc": "The cheapest thing here that is not a dress glove, and honest about what it is: coated fabric rather than a membrane, so it keeps snow off for a morning and wets out by mid-afternoon. Touchscreen fingertips are genuinely useful and the fit is unisex and forgiving. Buy it as the spare pair that lives in the car for the friend who forgot theirs, not as your only gloves for a week in the Alps."
+        },
+        "ski-glove-002": {
+          "anchor": "carhartt-gl0910m",
+          "shortName": "Carhartt GL0910M",
+          "note": "high dexterity",
+          "type": "Glove",
+          "waterproof": "Water-resistant",
+          "specs": ["Thermal lining", "High-dexterity fit", "Open cuff", "Grip palm"],
+          "desc": "A work glove that skis well on cold dry days. The appeal is dexterity - it is thin enough to work a buckle or a binding without removing it, and the palm grip is better than anything else at this price. The compromise is the open cuff and the water resistance: it handles cold far better than it handles wet. A good spring glove and a poor powder one."
+        },
+        "ski-glove-003": {
+          "anchor": "mcti-ski-gloves",
+          "shortName": "MCTi Ski Gloves",
+          "note": "12,000+ ratings",
+          "type": "Glove",
+          "waterproof": "Waterproof insert",
+          "specs": ["Waterproof insert", "3M Thinsulate", "Wrist leash", "Zip pocket"],
+          "desc": "The all-round resort glove and the volume seller in this category. It has the things the tier below does not: a waterproof insert rather than a coating, Thinsulate rather than generic fill, a wrist leash so it does not go under a chairlift, and a small zip pocket that fits a hand warmer. Not a Gore-Tex glove and not pretending to be. For most people skiing most weeks, this is enough glove."
+        },
+        "ski-glove-004": {
+          "anchor": "carhartt-knit-cuff",
+          "shortName": "Carhartt Knit Cuff",
+          "note": "37,000+ ratings",
+          "type": "Glove",
+          "waterproof": "Waterproof insert",
+          "specs": ["Waterproof insert", "Insulated", "Knit cuff", "Reinforced palm"],
+          "desc": "Built for people who work outdoors in wet snow all day, which turns out to describe a ski holiday reasonably well. The palm reinforcement outlasts anything else at this price and the waterproofing holds up under sustained abrasion. The knit cuff is the catch: it is warm and comfortable but it is not a gauntlet, so a proper faceplant will pack snow into it. Excellent for lift-served groomers, wrong for deep days."
+        },
+        "ski-glove-005": {
+          "anchor": "gordini-gore-gauntlet",
+          "shortName": "Gordini Gore Gauntlet",
+          "note": "warmest here",
+          "type": "Mitten",
+          "waterproof": "Gore-Tex",
+          "specs": ["Gore-Tex membrane", "Gauntlet cuff", "Mitten construction", "Insulated"],
+          "desc": "The warmest option on this page and the answer for hands that never come back once they are cold. Mitten construction plus a Gore-Tex membrane plus a full gauntlet cuff that cinches over the jacket - each of the three things that actually govern warmth, all present. You give up the ability to handle a buckle or a phone without taking it off. Worth it if cold hands are the thing that ends your days."
+        },
+        "ski-glove-006": {
+          "anchor": "burton-gore-tex",
+          "shortName": "Burton Gore-Tex",
+          "note": "removable liner",
+          "type": "Glove",
+          "waterproof": "Gore-Tex",
+          "specs": ["Gore-Tex membrane", "Removable liner", "Touchscreen tech", "Leather palm reinforcement"],
+          "desc": "The most complete glove here and the one that lasts seasons rather than one. Gore-Tex keeps it dry from both directions, the leather palm survives edges and rails, and the liner comes out - which means it dries overnight instead of staying damp, and doubles as a thin glove for the walk to the lift. Expensive, and the only pick here that genuinely needs no excuses made for it."
+        }
+      }
+    },
+    {
+      "slug": "socks",
+      "productCategory": "socks",
+      "navLabel": "Ski Socks",
+      "tableNoun": "Sock",
+      "title": "Best Ski Socks 2026: 6 Merino Picks from $19 to $31",
+      "metaDescription": "Six ski socks compared across Budget, Best Value and Premium. Why one thin merino sock beats two thick ones, what cushioning actually does in a boot, and which socks carry a lifetime warranty.",
+      "ogTitle": "Best Ski Socks 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best ski socks across Budget, Best Value and Premium tiers, with merino, cushioning and boot fit explained.",
+      "listName": "Best Ski Socks 2026 — Budget to Premium",
+      "h1": "Ski <em>Socks</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. All merino, all over-the-calf.",
+      "intro": "Ski socks are the cheapest upgrade in this entire section and the one that most reliably fixes cold feet, because almost everyone gets them wrong in the same two ways. They <strong>wear two pairs</strong>, and they <strong>wear cotton</strong>. Two pairs fill the space in the boot that your foot needs for circulation, so your feet get colder, not warmer. Cotton holds sweat against the skin and stays wet all day. The correct answer is one thin merino sock, over the calf, with no seam under the boot cuff &mdash; and if your feet are still cold after that, the problem is the boot, not the sock. Six below that do the job, from a $19 two-pack to a pair guaranteed for life.",
+      "tableColumns": [
+        { "label": "Cushion", "key": "cushion" },
+        { "label": "Pack", "key": "pack" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Merino Without the Markup", "sub": "The real material at the lowest sensible price" },
+        "value": { "title": "The Step-Up", "sub": "Targeted cushioning and enough pairs for a week" },
+        "premium": { "title": "Performance Grade", "sub": "Lifetime warranties and the best fit in a stiff boot" }
+      },
+      "guideHeading": "How to Choose Ski Socks",
+      "guide": [
+        {
+          "h": "One Thin Sock. Never Two.",
+          "p": "This is the single most useful thing on this page. A ski boot is fitted to your foot with a specific amount of space, and that space is what lets blood circulate and warm your toes. Two pairs of socks, or one very thick pair, fill it &mdash; so the boot squeezes, circulation drops, and your feet get colder than they would have in one thin sock. The friction between two sock layers is also where blisters start. If you are cold in one thin merino sock, the fix is a better boot fit or a boot heater, not more sock."
+        },
+        {
+          "h": "Merino, Not Cotton, and It Is Not Close",
+          "p": "Cotton absorbs sweat and holds it against your skin, where it conducts heat away all day. Merino wool absorbs moisture into the fibre itself and still insulates when damp, which is exactly the condition a foot inside a plastic boot lives in. It also resists odour well enough that a three-day sock is genuinely fine, which matters on a trip. Synthetic blends are a reasonable second &mdash; they dry faster than merino &mdash; but cotton in a ski boot is simply a mistake."
+        },
+        {
+          "h": "Over-the-Calf Is About Seams, Not Warmth",
+          "p": "Ski boots have a hard cuff that ends partway up your calf. A crew sock stops below that line, so the bare skin and the top edge of the sock sit exactly where the plastic presses, and both rub. Over-the-calf socks run past the cuff so the boot only ever contacts fabric. That is the whole reason for the height. Every pick on this page is over-the-calf, and it is not a preference &mdash; it is why your shins hurt in rental gear."
+        },
+        {
+          "h": "Cushioning Is a Fit Adjustment, Not a Comfort Feature",
+          "p": "Extra padding takes up volume. In a boot that already fits snugly, full cushioning will make it too tight and cost you circulation; in a boot that is slightly loose, it fills the gap and stops your heel lifting. <strong>Targeted</strong> cushioning &mdash; padding over the shin and instep only, thin everywhere else &mdash; is the useful middle, protecting the two places a stiff boot presses without changing the overall volume. Choose cushioning against your boot, not against how cosy it sounds."
+        },
+        {
+          "h": "Buy Enough Pairs, and Check the Warranty",
+          "p": "Merino dries slowly, so a single pair on a week-long trip means putting on a damp sock more than once. Three pairs is the comfortable number for a week. At the top end, some makers guarantee their socks for life and genuinely replace them &mdash; which over several seasons quietly makes the expensive sock the cheaper one. It is the only category on this site where a lifetime warranty is a normal feature rather than a marketing flourish."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should I wear two pairs of ski socks?",
+          "a": "No. This is the most common mistake in skiing. A boot is fitted with a specific amount of space for circulation, and a second sock fills it - so the boot compresses your foot, blood flow drops and your toes get colder, not warmer. The layer of friction between the two socks is also where blisters form. Wear one thin merino sock. If you are still cold, the boot fit or a heated insole is the answer."
+        },
+        {
+          "q": "Why do ski socks need to be over-the-calf?",
+          "a": "Because a ski boot's hard plastic cuff ends partway up your calf. A crew-height sock finishes below that line, leaving the sock's top edge and a strip of bare skin exactly where the cuff presses and rubs. An over-the-calf sock runs past the cuff so the boot only ever touches fabric. It is about eliminating a seam and a pressure point, not about extra warmth."
+        },
+        {
+          "q": "Is merino wool worth it for ski socks?",
+          "a": "Yes, more than in most garments. A foot inside a sealed plastic boot sweats heavily, and merino keeps insulating while damp where cotton does not insulate at all once wet. It also resists odour well enough to wear for multiple days, which matters on a trip where drying is slow. Synthetic blends are an acceptable alternative; cotton is not."
+        },
+        {
+          "q": "How many pairs of ski socks do I need for a week?",
+          "a": "Three is comfortable. Merino dries slowly in a hotel room, so two pairs means putting on a damp sock at least once, and damp socks are how cold feet and blisters start. Three lets one dry fully while you rotate the others. The three-pack options on this page exist precisely for week-long trips."
+        },
+        {
+          "q": "What is the difference between full and targeted cushioning?",
+          "a": "Full cushioning pads the whole foot and leg, which adds warmth and fills volume - good in a boot that is slightly too roomy, bad in one that already fits snugly. Targeted cushioning pads only the shin and instep, the two places a stiff boot presses hardest, and stays thin elsewhere so it does not change the boot's fit. If your boots fit well and your shins ache, targeted is the one you want."
+        }
+      ],
+      "products": {
+        "ski-sock-001": {
+          "anchor": "weierya-merino",
+          "shortName": "WEIERYA Merino",
+          "note": "2 pairs",
+          "cushion": "Full",
+          "pack": "2 pairs",
+          "specs": ["Merino blend", "Over-the-calf", "Full cushion", "2-pack"],
+          "desc": "The cheapest way onto merino, and the point at which you stop skiing in cotton. It is a blend rather than high-percentage wool so it is less odour-resistant and less durable than the socks above it, but the things that matter structurally - over-the-calf height, no seam under the boot cuff, wool against the skin - are all there. Two pairs is a weekend, not a week."
+        },
+        "ski-sock-002": {
+          "anchor": "smartwool-full-cushion",
+          "shortName": "Smartwool Full Cushion",
+          "note": "fills a roomy boot",
+          "cushion": "Full",
+          "pack": "1 pair",
+          "specs": ["Merino wool", "Full cushion", "Over-the-calf", "Flat-knit toe seam"],
+          "desc": "Proper Smartwool merino at an unusually low price for the brand, with full cushioning that makes it the right pick for a boot with a little too much room - it fills volume and stops the heel lifting. In a snug boot it will be too much sock. The flat toe seam is the detail worth paying for: it is the one place a sock reliably raises a blister, and this does not have a ridge there."
+        },
+        "ski-sock-003": {
+          "anchor": "outdoormaster-merino-3pack",
+          "shortName": "OutdoorMaster Merino",
+          "note": "3 pairs",
+          "cushion": "Cushioned",
+          "pack": "3 pairs",
+          "specs": ["Merino blend", "3-pack", "Cushioned", "Unisex sizing"],
+          "desc": "The trip-sized option: three pairs for roughly what one premium sock costs, which is the correct number for a week when merino takes a night to dry. Wool content is lower than the Darn Tough pair at the top, so they will not last as many seasons, but for a package holiday where the alternative is washing socks in a sink this is the sensible buy. Unisex sizing runs generous."
+        },
+        "ski-sock-004": {
+          "anchor": "smartwool-targeted-cushion",
+          "shortName": "Smartwool Targeted",
+          "note": "shin padding",
+          "cushion": "Targeted",
+          "pack": "1 pair",
+          "specs": ["Merino wool", "Targeted shin cushion", "Over-the-calf", "Performance fit"],
+          "desc": "The specific answer to shin bang - the ache across the front of the leg where a stiff boot cuff presses. Padding sits over the shin and instep only and the sock stays thin everywhere else, so it protects the sore spot without adding the volume that would tighten the boot. If your boots fit properly and your shins still hurt, this is the sock to buy before you blame the boot."
+        },
+        "ski-sock-005": {
+          "anchor": "darn-tough-solstice",
+          "shortName": "Darn Tough Solstice",
+          "note": "lifetime warranty",
+          "cushion": "Lightweight",
+          "pack": "1 pair",
+          "specs": ["Merino wool", "Lightweight", "Over-the-calf", "Unconditional lifetime warranty"],
+          "desc": "A thin, dense, precisely knitted sock and the one that best suits a well-fitted boot, because it adds almost no volume. Made in Vermont and covered by an unconditional lifetime guarantee that the company actually honours - wear a hole in it in year four and they send a new pair. Over several seasons that quietly makes the most expensive sock here the cheapest one."
+        },
+        "ski-sock-006": {
+          "anchor": "darn-tough-yeti",
+          "shortName": "Darn Tough Yeti",
+          "note": "women's fit",
+          "cushion": "Cushioned",
+          "pack": "1 pair",
+          "specs": ["Merino wool", "Women's specific fit", "Over-the-calf", "Unconditional lifetime warranty"],
+          "desc": "The same construction and the same lifetime guarantee as the Solstice, cut for a narrower foot and a different calf shape rather than simply made smaller - which is the difference between a sock that stays put and one that slides down inside the boot. Slightly more cushioned than the Solstice. The right pick if unisex socks have always bunched at your ankle."
+        }
+      }
+    },
+    {
+      "slug": "bags",
+      "productCategory": "bags",
+      "navLabel": "Ski Bags",
+      "tableNoun": "Bag",
+      "title": "Best Ski Bags and Boot Bags 2026: 6 Picks from $35 to $55",
+      "metaDescription": "Six ski bags and boot bags compared across Budget, Best Value and Premium. Padded versus unpadded for flights, why boots travel as carry-on, and what airlines actually charge for skis.",
+      "ogTitle": "Best Ski Bags & Boot Bags 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best ski bags and boot bags across Budget, Best Value and Premium tiers, for air travel and road trips.",
+      "listName": "Best Ski Bags and Boot Bags 2026 — Budget to Premium",
+      "h1": "Ski <em>Bags &amp; Boot Bags</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. For flights and for car boots.",
+      "intro": "A ski bag is the one piece of gear you buy for the airport rather than the mountain, and the decision is simpler than the product listings suggest. If you are <strong>flying</strong>, you want padding &mdash; baggage handlers are not gentle and an unpadded sleeve is protection against scratches, not against being dropped. If you are <strong>driving</strong>, an unpadded bag is lighter, cheaper and keeps wet skis off the upholstery, which is all it needs to do. The second decision is whether boots travel with the skis or separately, and the answer is almost always separately: a boot bag is carry-on sized, and boots are the one item you genuinely cannot rent a substitute for if the airline loses your luggage.",
+      "tableColumns": [
+        { "label": "Carries", "key": "carries" },
+        { "label": "Padding", "key": "padding" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Gets It There", "sub": "For road trips and the occasional short-haul flight" },
+        "value": { "title": "The Step-Up", "sub": "Real padding for skis that go in an aircraft hold" },
+        "premium": { "title": "Performance Grade", "sub": "Vented compartments and backpack carries that survive seasons" }
+      },
+      "guideHeading": "How to Choose a Ski Bag",
+      "guide": [
+        {
+          "h": "Padded for Flying, Unpadded for Driving",
+          "p": "This is the whole decision for the ski bag itself. An unpadded bag is a fabric sleeve: it keeps edges off your car seats, keeps melting snow off everything else, and costs very little. Put the same bag in an aircraft hold and it is protecting a $600 pair of skis with one layer of nylon. A <strong>fully padded</strong> bag &mdash; foam all the way round, not just a strip along the base &mdash; is what actually survives being thrown onto a conveyor. If you fly with skis even once a year, buy padded and be done."
+        },
+        {
+          "h": "Boots Should Travel Separately, and Usually as Carry-On",
+          "p": "Ski boots are the one item on the mountain you cannot sensibly replace at short notice. Rental skis are fine; rental boots in your size on the morning your luggage did not arrive are a lottery. Most boot bags are sized to pass as cabin baggage, which is why the smart pattern is skis and poles in the hold, boots on your back. It also keeps the ski bag under the airline's weight limit, which is usually where the extra charges start."
+        },
+        {
+          "h": "Buy for Your Ski Length Plus Ten Centimetres",
+          "p": "Ski bags are sold by the maximum length they take, and the number is the internal length &mdash; a 185cm bag genuinely will not close over 190cm skis. Measure your skis rather than trusting your memory of what you bought, and allow a little room for bindings, which add height rather than length but stop a tight bag zipping. A bag rated to 200cm covers almost every adult ski; the shorter bags are cheaper and fine if you know your length."
+        },
+        {
+          "h": "A Boot Bag Is Really a Kit Bag",
+          "p": "The better boot bags are backpacks with separate vented compartments for each boot and a dry central section for a <a href=\"helmets.html\">helmet</a>, <a href=\"goggles.html\">goggles</a> and <a href=\"gloves.html\">gloves</a>. The venting is not a gimmick: boot liners hold a surprising amount of sweat, and a sealed bag turns that into mildew by the end of a trip. Backpack straps matter more than they sound &mdash; a loaded boot bag is heavy, and resort car parks are a long walk."
+        },
+        {
+          "h": "Check the Airline Before You Buy the Bag",
+          "p": "Ski carriage rules vary more than any other sports equipment. Some carriers take a ski bag plus a boot bag as one standard checked item; some charge a flat sports-equipment fee; some count each separately and charge twice. The bag you should buy depends on which of those you are flying, and a combo bag that puts skis and boots together is either a saving or a weight-limit problem depending entirely on the airline. Look it up before you spend."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need a padded ski bag to fly with skis?",
+          "a": "If you value the skis, yes. An unpadded bag protects against scratches and keeps water off other luggage, but it offers essentially nothing against the impacts skis take in an aircraft hold. Fully padded means foam all the way around rather than a reinforcing strip along the base. For driving to the hill, unpadded is genuinely all you need."
+        },
+        {
+          "q": "Should ski boots go in the ski bag or a separate boot bag?",
+          "a": "Separate, and ideally as carry-on. Boots are the one piece of kit you cannot practically replace at short notice - rental skis are fine, rental boots in your exact size on short notice are not. Carrying them on also keeps the checked ski bag under the airline weight limit, which is where extra charges usually begin."
+        },
+        {
+          "q": "What size ski bag do I need?",
+          "a": "Your ski length plus about 10cm. Bag sizes quote the internal length, so a 185cm bag will not close over 190cm skis. Measure rather than guessing, and allow for bindings, which add bulk that can stop a tight bag zipping even when the length is right. A 200cm bag fits almost any adult ski if you are unsure."
+        },
+        {
+          "q": "Can I put two pairs of skis in one ski bag?",
+          "a": "Only in a bag specifically sold as a double, and even then check the weight limit before you do it. Two pairs plus bindings in one bag climbs past most airlines' 23kg allowance quickly, and the overweight charge often exceeds what a second bag would have cost. Single-ski bags are also better padded per ski, since there is less to protect."
+        },
+        {
+          "q": "How do I stop my ski boots smelling after a trip?",
+          "a": "Pull the liners out at the end of each day and let them dry in the room rather than sealed in the bag, and use a boot bag with vented boot compartments so anything still damp can breathe in transit. The mildew smell people associate with ski boots is almost entirely the result of wet liners spending a week zipped inside an airtight bag."
+        }
+      ],
+      "products": {
+        "ski-bag-001": {
+          "anchor": "athletico-combo",
+          "shortName": "Athletico Combo",
+          "note": "bag + boot bag",
+          "carries": "Skis + boots",
+          "padding": "Unpadded",
+          "specs": ["Ski bag and boot bag", "Fits skis to 200cm", "Shoulder straps", "Unpadded"],
+          "desc": "Both bags you need in one purchase at the lowest price on the page, which is the entire argument for it. Unpadded, so it belongs in a car boot rather than an aircraft hold - it keeps edges off the upholstery and melting snow off everything else, and does nothing more ambitious than that. Fits skis to 200cm. The sensible first buy for someone who drives to the hill."
+        },
+        "ski-bag-002": {
+          "anchor": "resvin-65l",
+          "shortName": "RESVIN 65L",
+          "note": "carries on your back",
+          "carries": "Boots + kit",
+          "padding": "Padded",
+          "specs": ["65L capacity", "1680D nylon", "Waterproof", "Backpack straps"],
+          "desc": "A boot bag rather than a ski bag, and a well-built one - 1680D nylon is genuinely tough fabric and the waterproofing holds up in a snowy car park. Sixty-five litres swallows boots, helmet, goggles and a jacket, which makes it a carry-on that takes your whole soft kit. Heavy when full, but backpack straps mean you can actually walk with it."
+        },
+        "ski-bag-003": {
+          "anchor": "athletico-mogul",
+          "shortName": "Athletico Mogul",
+          "note": "fully padded",
+          "carries": "One pair of skis",
+          "padding": "Fully padded",
+          "specs": ["Fully padded", "Single ski pair", "Air travel rated", "Adjustable strap"],
+          "desc": "The first pick here you can genuinely put on a plane. Padding runs all the way round rather than along the base only, which is the difference between a scratched topsheet and a cracked one. It takes one pair, which is also why it protects them well - there is less to cushion. If you fly with skis at all, this is the entry point and the value pick on the page."
+        },
+        "ski-bag-004": {
+          "anchor": "kemimoto-combo",
+          "shortName": "KEMIMOTO Combo",
+          "note": "up to 200cm",
+          "carries": "Skis + boots",
+          "padding": "Padded",
+          "specs": ["Padded", "Fits skis to 200cm", "Ski and boot bag set", "Snowboard compatible"],
+          "desc": "The padded version of the combo idea: both bags, both with real padding, and a 200cm ski bag that also swallows a snowboard. It is the pick if you fly and want one purchase to cover it, with the caveat from the guide above - check whether your airline counts the two bags as one item or two, because that changes the economics entirely."
+        },
+        "ski-bag-005": {
+          "anchor": "unigear-boot-backpack",
+          "shortName": "Unigear Boot Backpack",
+          "note": "vented boot compartments",
+          "carries": "Boots + kit",
+          "padding": "Padded",
+          "specs": ["50L / 70L options", "Separate vented boot compartments", "Helmet compartment", "Backpack carry"],
+          "desc": "The best-reviewed bag here and the one that solves the smell problem properly. Each boot gets its own vented compartment so damp liners breathe in transit instead of stewing, and the centre section holds a helmet and goggles dry and separate. Carries as a proper backpack, which matters walking from a resort car park. If you only buy one bag on this page, this is the one that earns it."
+        },
+        "ski-bag-006": {
+          "anchor": "athletico-boot-bag",
+          "shortName": "Athletico Boot Bag",
+          "note": "boots, helmet, goggles",
+          "carries": "Boots + kit",
+          "padding": "Padded",
+          "specs": ["Vented boot compartments", "Helmet section", "Goggle pocket", "Backpack straps"],
+          "desc": "The same idea as the Unigear with a slightly more structured build and a dedicated goggle pocket, which stops the one item on your kit list that scratches from riding loose against a boot buckle. Vented boot sections, separate helmet space, backpack straps. Choose between the two on capacity: this is the tidier bag, the Unigear is the bigger one."
+        }
+      }
+    },
+    {
+      "slug": "base-layers",
+      "productCategory": "base-layers",
+      "navLabel": "Base Layers",
+      "tableNoun": "Base Layer",
+      "title": "Best Ski Base Layers 2026: 6 Picks from $17 to $85",
+      "metaDescription": "Six ski base layers compared across Budget, Best Value and Premium. Merino versus synthetic, why cotton is the one real mistake, and how to layer for a lift-and-run day.",
+      "ogTitle": "Best Ski Base Layers 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best ski base layers across Budget, Best Value and Premium tiers, with merino, synthetic and layering explained.",
+      "listName": "Best Ski Base Layers 2026 — Budget to Premium",
+      "h1": "Ski <em>Base Layers</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. Merino and synthetic both.",
+      "intro": "A base layer has one job: move sweat off your skin so that when you stop moving, you are not wearing it. Skiing is unusually hard on this, because it alternates between hard work going down and sitting still in the wind going up, several times an hour. Get it right and you barely notice the cold; get it wrong and you spend the lift chilled in a damp shirt. There is really only one rule &mdash; <strong>no cotton</strong> &mdash; and then one choice, <a href=\"../articles/ski/merino-vs-synthetic-base-layers.html\">merino or synthetic</a>. Merino handles smell and stays warm when damp; synthetic dries faster and costs a fraction as much. Below are six of both, and a straight answer on when the wool is worth it.",
+      "tableColumns": [
+        { "label": "Fabric", "key": "fabric" },
+        { "label": "Pieces", "key": "pieces" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Anything But Cotton", "sub": "Synthetic sets that fix the one real mistake" },
+        "value": { "title": "The Step-Up", "sub": "Better fabric, better fit, still synthetic money" },
+        "premium": { "title": "Performance Grade", "sub": "100% merino for trips where washing is not an option" }
+      },
+      "guideHeading": "How to Choose a Ski Base Layer",
+      "guide": [
+        {
+          "h": "The Only Real Mistake Is Cotton",
+          "p": "Cotton absorbs sweat and holds it. On a mountain that means you work hard down a run, soak a cotton shirt, then sit on a chairlift in the wind wearing a wet layer against your skin, and the evaporation pulls heat out of you exactly when you have stopped generating it. There is an old hill-walking phrase &mdash; cotton kills &mdash; and while a resort day is not that serious, the mechanism is real and it is why people who dress warmly still end up cold. Everything on this page is synthetic or wool. That alone is most of the upgrade."
+        },
+        {
+          "h": "Merino Versus Synthetic, Honestly",
+          "p": "Merino keeps insulating when damp, resists odour so well that three days is genuinely fine, and feels better against skin than most synthetics. Synthetic wicks faster, dries much faster, costs a quarter as much and survives being tumble dried. For a week-long trip where washing is awkward, merino earns its price &mdash; you can wear it repeatedly without offending anyone. For a few days a season near home, a good synthetic set does the same thermal job for a fraction of the money. Neither is wrong; they solve different problems."
+        },
+        {
+          "h": "Fit Snug, Not Tight",
+          "p": "A base layer moves moisture by contact, so it has to touch your skin over most of its area &mdash; a loose one leaves gaps where sweat sits instead of wicking. It should feel like a second skin rather than compression gear. Too tight restricts movement and, at the wrist and ankle, circulation. The other thing to check is length: a top that rides up when you reach for a lift bar leaves a cold strip at your back all day, so look for a longer cut or a tail."
+        },
+        {
+          "h": "Fleece-Lined Is Warmer and Wicks Less Well",
+          "p": "Most budget \"thermal\" sets are a synthetic face with a brushed fleece inside. The fleece traps air and is genuinely warm, but it is also slower to move moisture than a smooth technical knit, so it suits cold static days better than hard skiing. If you run hot or ski aggressively, a thinner non-fleeced layer with a proper mid-layer over it will work better than one thick fleecy one. Layering beats bulk, in base layers as everywhere else."
+        },
+        {
+          "h": "Bottoms Matter Less Than You Think, Until They Do",
+          "p": "Legs generate heat and modern ski trousers are well insulated, so plenty of people ski comfortably with nothing under them. Where base layer bottoms earn their place is cold lift-heavy days, spring slush where your trousers wet out, and anyone who feels the cold in the thighs on a long exposed chair. Buying the set is usually cheaper than buying the top alone, which is why most of this page is two-piece &mdash; but if you only wear one piece, make it the top."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What should I wear under ski trousers?",
+          "a": "A thin non-cotton base layer, or in many cases nothing at all. Legs produce a lot of heat and ski trousers are already insulated, so base layer bottoms matter most on cold, lift-heavy days or if you feel the cold in your thighs. What you should not wear is cotton leggings or jeans - they hold sweat and slush water against the skin and stay cold all day."
+        },
+        {
+          "q": "Is merino or synthetic better for ski base layers?",
+          "a": "Merino if you are travelling and cannot wash easily - it resists odour for several days and keeps insulating when damp. Synthetic if you ski close to home and can launder between days - it wicks and dries faster and costs roughly a quarter as much. Thermally they are close enough that the choice comes down to trip length, budget and how your skin feels about wool."
+        },
+        {
+          "q": "How many layers should I wear skiing?",
+          "a": "Three is the standard: a thin base layer against the skin to move sweat, a mid layer such as fleece or a light down piece for insulation, and a waterproof shell against wind and snow. The point of three thin layers rather than one thick coat is that you can remove the middle one when the sun comes out. Adding a fourth layer usually just restricts movement."
+        },
+        {
+          "q": "Can I wear a cotton t-shirt under my ski jacket?",
+          "a": "You can, but it is the single most common reason people are cold while dressed warmly. Cotton soaks up sweat on the way down and holds it against your skin on the lift back up, where wind evaporates it and takes your body heat with it. Any cheap synthetic base layer - including the budget picks on this page - fixes it for very little money."
+        },
+        {
+          "q": "How tight should a ski base layer be?",
+          "a": "Snug enough to be in contact with your skin almost everywhere, because that contact is how it moves moisture, but not compressive. If it bags anywhere, sweat pools there instead of wicking. Check the length as well: a top that pulls out of your waistband when you reach up for a chairlift bar leaves a cold gap at the small of your back for the rest of the day."
+        }
+      ],
+      "products": {
+        "ski-base-003": {
+          "anchor": "herobiker-fleece-lined",
+          "shortName": "HEROBIKER Set",
+          "note": "top and bottoms",
+          "fabric": "Fleece-lined synthetic",
+          "pieces": "2-piece",
+          "specs": ["Fleece-lined", "Four-way stretch", "Two-piece set", "Moisture-wicking face"],
+          "desc": "A full set for less than the price of one merino top, and it fixes the actual problem - it is not cotton. Brushed fleece inside makes it warm for cold static days, with the usual trade that fleece moves moisture more slowly than a smooth technical knit, so it suits cruising more than charging. The stretch is better than the price suggests. A completely reasonable first base layer."
+        },
+        "ski-base-001": {
+          "anchor": "jzcreater-set",
+          "shortName": "JZCreater Set",
+          "note": "cheapest set here",
+          "fabric": "Fleece-lined synthetic",
+          "pieces": "2-piece",
+          "specs": ["Fleece-lined", "Synthetic", "Two-piece set", "Elastic waistband"],
+          "desc": "The floor of the category, and honestly assessed: the fabric is thicker and less breathable than anything above it, so you will notice it on a hard run. For one cold weekend a year, or as a spare set in a family's kit bag, it does the job that matters - keeping cotton off the skin. Do not expect it to manage sweat well if you ski hard."
+        },
+        "ski-base-002": {
+          "anchor": "spyder-thermal-set",
+          "shortName": "Spyder Set",
+          "note": "actual ski brand",
+          "fabric": "Fleece-lined synthetic",
+          "pieces": "2-piece",
+          "specs": ["Fleece-lined stretch", "Two-piece set", "Ski-brand cut", "Flatlock seams"],
+          "desc": "A real ski brand at a synthetic price, and the cut is where that shows: the top is longer in the back so it stays tucked when you reach for a lift bar, and the seams are flatlock rather than ridged, which matters under a pack strap. The fabric itself is comparable to the budget sets. Buy it for the fit rather than the badge, and the fit is genuinely better."
+        },
+        "ski-base-004": {
+          "anchor": "weerti-thermal-set",
+          "shortName": "WEERTI Set",
+          "note": "widest size range",
+          "fabric": "Fleece-lined synthetic",
+          "pieces": "2-piece",
+          "specs": ["Fleece-lined", "Moisture-wicking", "Two-piece set", "Wide size range"],
+          "desc": "The pick for anyone who has struggled to find thermals that fit, with a size range that runs considerably further in both directions than the rest of this page. Fabric and construction sit alongside the Spyder rather than above it - the reason to choose it is the fit, and for a garment that only works when it is in contact with your skin, a size that fits is worth more than a better fabric that does not."
+        },
+        "ski-base-005": {
+          "anchor": "merino-tech-pants",
+          "shortName": "Merino.tech Bottoms",
+          "note": "bottoms only",
+          "fabric": "100% merino",
+          "pieces": "Bottoms",
+          "specs": ["100% merino wool", "Bottoms only", "Odour-resistant", "Flatlock seams"],
+          "desc": "Merino bottoms on their own, which is the sensible way to upgrade if you already own a top you like. One hundred percent wool rather than a blend, so the odour resistance is real - these genuinely go several days. Slow to dry, as all merino is, which is the argument for owning two pairs on a long trip. Warm without bulk, which is exactly what you want under a ski trouser."
+        },
+        "ski-base-006": {
+          "anchor": "merino-tech-set",
+          "shortName": "Merino.tech Set",
+          "note": "top and bottoms",
+          "fabric": "100% merino",
+          "pieces": "2-piece",
+          "specs": ["100% merino wool", "Two-piece set", "Odour-resistant", "Multi-day wear"],
+          "desc": "The best base layer here and the one that changes how a week-long trip works. One hundred percent merino top and bottoms that you can wear three or four days running without anyone noticing, which on a trip with no laundry is worth more than any thermal spec. It stays warm when damp, which synthetics do not, and feels better against skin than everything above it. Expensive, and the only pick on this page that needs no qualification."
+        }
+      }
+    }
+  ]
+}

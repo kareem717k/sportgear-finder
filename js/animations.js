@@ -14,6 +14,7 @@
             : body.classList.contains('sport-volleyball') ? 'volleyball'
             : body.classList.contains('sport-ping-pong') ? 'pingpong'
             : body.classList.contains('sport-badminton') ? 'badminton'
+            : body.classList.contains('sport-ski')       ? 'ski'
             : 'home';
 
   /* ─── Sport accent colors ────────────────────────────────── */
@@ -25,7 +26,8 @@
     swimming: { primary: [  6, 214, 160], secondary: [  0, 180, 216] },
     volleyball: { primary: [139,  92, 246], secondary: [251, 191,  36] },
     pingpong: { primary: [249, 115,  22], secondary: [ 56, 189, 248] },
-    badminton: { primary: [236,  72, 153], secondary: [ 34, 211, 238] }
+    badminton: { primary: [236,  72, 153], secondary: [ 34, 211, 238] },
+    ski:      { primary: [ 59, 130, 246], secondary: [125, 211, 252] }
   };
 
   var colors = SPORT_COLORS[sport] || SPORT_COLORS.home;

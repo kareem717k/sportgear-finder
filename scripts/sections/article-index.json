@@ -3,7 +3,7 @@
   "sportLabels": {
     "tennis": "Tennis", "gym": "Gym", "boxing": "Boxing", "swimming": "Swimming",
     "football": "Football", "volleyball": "Volleyball", "pickleball": "Pickleball",
-    "ping-pong": "Ping Pong", "badminton": "Badminton", "guides": "Guides"
+    "ping-pong": "Ping Pong", "badminton": "Badminton", "ski": "Ski", "guides": "Guides"
   },
   "articles": [
     { "sport": "badminton", "path": "badminton/badminton-gear-beginners-guide.html", "label": "Badminton Gear: Complete Beginner Guide" },
@@ -74,6 +74,12 @@
     { "sport": "volleyball", "path": "volleyball/best-volleyball-shoes-beginners.html", "label": "Best Volleyball Shoes for Beginners" },
     { "sport": "volleyball", "path": "volleyball/best-volleyballs-beginners.html", "label": "Best Volleyballs for Beginners" },
     { "sport": "volleyball", "path": "volleyball/indoor-vs-beach-volleyball.html", "label": "Indoor vs Beach Volleyball" },
-    { "sport": "volleyball", "path": "volleyball/volleyball-gear-beginners-guide.html", "label": "Volleyball Gear: Complete Beginner Guide" }
+    { "sport": "volleyball", "path": "volleyball/volleyball-gear-beginners-guide.html", "label": "Volleyball Gear: Complete Beginner Guide" },
+    { "sport": "ski", "path": "ski/best-ski-goggles-beginners.html", "label": "Best Ski Goggles for Beginners" },
+    { "sport": "ski", "path": "ski/do-you-need-a-ski-helmet.html", "label": "Do You Need a Ski Helmet?" },
+    { "sport": "ski", "path": "ski/merino-vs-synthetic-base-layers.html", "label": "Merino vs Synthetic Base Layers" },
+    { "sport": "ski", "path": "ski/ski-gear-beginners-guide.html", "label": "Ski Gear: Complete Beginner Guide" },
+    { "sport": "ski", "path": "ski/ski-goggle-lens-vlt-guide.html", "label": "Ski Goggle Lens Tint and VLT Guide" },
+    { "sport": "ski", "path": "ski/what-to-pack-ski-trip.html", "label": "What to Pack for a Ski Trip" }
   ]
 }

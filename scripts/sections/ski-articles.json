@@ -1,0 +1,317 @@
+{
+  "_comment": "Ski articles. Product facts in 'pick' blocks are looked up from data/products.json by id, so names and affiliate links cannot drift from the category pages.",
+  "sportLabel": "Ski",
+  "updatedLabel": "September 2026",
+  "datePublished": "2026-09-22",
+  "dateModified": "2026-09-22",
+  "articles": [
+    {
+      "slug": "ski-gear-beginners-guide",
+      "title": "Ski Gear: Complete Beginner Guide (2026) - What to Buy and What to Rent",
+      "headline": "Ski Gear: Complete Beginner Guide",
+      "kicker": "Buying Guide",
+      "metaDescription": "What ski gear to buy as a beginner and what to rent. Why skis and boots should stay rented, which four items you should own from day one, and what a sensible first kit costs.",
+      "h1": "Ski Gear: <em>Complete Beginner Guide</em>",
+      "readTime": 9,
+      "body": [
+        { "type": "p", "text": "Skiing has the worst beginner-gear problem of any sport we cover. The equipment is expensive, the shops are enthusiastic, and the thing you are told to buy first - skis - is the thing you should buy last. Meanwhile the items that genuinely change how your first week feels cost less than a lift pass between them." },
+        { "type": "p", "text": "This is the order that actually makes sense: <strong>rent the hardware, own the things that touch you</strong>. Skis, boots and bindings stay rented until you know what kind of skier you are. Goggles, a helmet, gloves and socks you buy immediately, because they are cheap, they are personal, and the rental versions of them are genuinely unpleasant." },
+        { "type": "h2", "text": "Rent the Skis. Rent Them for Longer Than You Think." },
+        { "type": "p", "text": "A beginner cannot tell a good ski from a bad one, which is not an insult - the differences between a carving ski, an all-mountain ski and a park ski only become legible once you can reliably link turns. Buying before then means buying on colour, price or a shop assistant's commission, and skis are the single most expensive thing on the mountain." },
+        { "type": "p", "text": "Renting also means you ski a different ski each trip, which is how you find out what you actually like. And modern rental fleets are genuinely good - resorts replace them every year or two, so a rental ski is frequently newer than one a keen amateur owns. Most people should be three or four weeks into skiing before buying skis, and many never need to." },
+        { "type": "h2", "text": "Rent the Boots Too - Until You Can Afford a Proper Fitting" },
+        { "type": "p", "text": "Ski boots are the exception to every rule about gear, because they are the one item where fit is everything and where buying online is genuinely a bad idea. A boot is sized in Mondopoint - the length of your foot in centimetres - but two boots in the same Mondo size can differ enormously in width, volume and how the cuff sits against your calf." },
+        { "type": "p", "text": "The right way to buy boots is an hour in a shop with a bootfitter who measures your foot, watches you flex, and heat-moulds the liner. That costs money and cannot be replicated by a size chart. Until you are skiing enough weeks a year to justify it, rent - and if rental boots hurt, go back and ask them to change the size rather than enduring it, which is what almost every beginner does." },
+        { "type": "h2", "text": "Buy These Four, Straight Away" },
+        { "type": "p", "text": "Everything in this list is cheap relative to a ski holiday, personal enough that renting is unpleasant, and makes a difference you will notice on day one." },
+        { "type": "ul", "items": [
+          "<strong><a href=\"../../ski/goggles.html\">Goggles</a></strong> - rental goggles are scratched, and a scratched lens in flat light is genuinely dangerous. This is the item that most changes your day.",
+          "<strong><a href=\"../../ski/helmets.html\">A helmet</a></strong> - rental helmets have unknown impact histories, and a helmet that has taken a hit is finished. Yours costs about the price of three days' rental.",
+          "<strong><a href=\"../../ski/gloves.html\">Gloves</a></strong> - nobody rents gloves. Cold wet hands end more beginner days than cold feet.",
+          "<strong><a href=\"../../ski/socks.html\">Ski socks</a></strong> - the cheapest item here and the one that fixes the most complaints. One thin merino pair, never two."
+        ] },
+        { "type": "h2", "text": "The Three Mistakes Almost Every Beginner Makes" },
+        { "type": "h3", "text": "Wearing two pairs of socks" },
+        { "type": "p", "text": "The reasoning is intuitive and completely wrong. A ski boot is fitted with a specific amount of space around your foot, and that space is what lets blood circulate and keep your toes warm. Two socks fill it, the boot squeezes, circulation drops and your feet get colder. The friction between the two layers is also where blisters start. Wear one thin merino sock." },
+        { "type": "h3", "text": "Wearing a cotton t-shirt under the jacket" },
+        { "type": "p", "text": "You work hard going down, sweat into the cotton, then sit still on a chairlift in the wind wearing a wet layer against your skin. The evaporation pulls heat out of you at exactly the moment you have stopped producing any. Any cheap synthetic <a href=\"../../ski/base-layers.html\">base layer</a> fixes it for very little money - see <a href=\"merino-vs-synthetic-base-layers.html\">merino versus synthetic</a> for which kind to buy." },
+        { "type": "h3", "text": "Buying the darkest goggle lens" },
+        { "type": "p", "text": "Dark lenses look good and work beautifully in spring sunshine. In flat light - cloud, fog, falling snow, which is most of a European winter - they flatten the terrain into a featureless white sheet and hide every bump. If you can only own one lens, buy one in the 20 to 40 percent VLT range. The <a href=\"ski-goggle-lens-vlt-guide.html\">lens tint guide</a> has the numbers." },
+        { "type": "h2", "text": "A Sensible First Kit" },
+        { "type": "p", "text": "Four items, bought once, used every trip. These are the picks we would put in a first-timer's bag." },
+        { "type": "pick", "id": "ski-goggles-002", "badge": "Best First Goggles", "badgeClass": "b-budget", "moreHref": "../../ski/goggles.html", "moreLabel": "All goggle picks", "text": "The most-reviewed goggle on the mountain and the default first pair for good reason. Three-layer face foam is what makes it seal at the nose instead of venting your breath onto the lens, which is the failure that ruins cheap goggles. The lens is a mid tint, so it is workable in both cloud and sun, and it fits over glasses. Optics are ordinary, nothing actively fails, and you can stop thinking about it." },
+        { "type": "pick", "id": "ski-helmet-003", "badge": "Best First Helmet", "badgeClass": "b-budget", "moreHref": "../../ski/helmets.html", "moreLabel": "All helmet picks", "text": "ASTM F2040 certified, which means it has passed the same impact test as helmets costing four times as much. Nine genuinely adjustable vents let you dump heat on the way down and shut it on the lift, which is the single control that makes a helmet comfortable rather than tolerable. The shape is neutral enough to suit most heads. If you want one recommendation and no research, this is it." },
+        { "type": "pick", "id": "ski-glove-003", "badge": "Best All-Round Glove", "badgeClass": "b-value", "moreHref": "../../ski/gloves.html", "moreLabel": "All glove picks", "text": "The things the cheaper gloves lack, all present: a waterproof insert rather than a coating that rubs off the palm, Thinsulate rather than generic fill, and a wrist leash so it does not go under a chairlift when you take it off for your phone. Not a Gore-Tex glove and not pretending to be. For a first week on groomed runs, this is comfortably enough glove." },
+        { "type": "pick", "id": "ski-sock-001", "badge": "Cheapest Real Fix", "badgeClass": "b-budget", "moreHref": "../../ski/socks.html", "moreLabel": "All sock picks", "text": "The cheapest item in this guide and the one that fixes the most complaints. It is a merino blend rather than high-percentage wool, so it is less durable and less odour-resistant than the premium socks - but the things that structurally matter are all there: wool against the skin, over-the-calf height, and no seam sitting under the hard boot cuff. Two pairs covers a weekend." },
+        { "type": "verdict", "label": "The short version", "text": "Rent skis and boots until you have three or four weeks under you and can afford a proper bootfitting. Buy goggles, a helmet, gloves and socks before your first day - they cost a fraction of the holiday and they are the four things that decide whether you are comfortable. Do not wear two pairs of socks, do not wear cotton, and do not buy the darkest lens." },
+        { "type": "h2", "text": "What to Add Next" },
+        { "type": "p", "text": "Once the basics are covered and you are skiing more than one trip a year, the next purchases are a merino <a href=\"../../ski/base-layers.html\">base layer</a> set, a second goggle lens for low light, and a <a href=\"../../ski/bags.html\">boot bag</a> if you are flying. Boots come after that, from a fitter. Skis come last, if at all." },
+        { "type": "p", "text": "If you are packing for a first trip, <a href=\"what-to-pack-ski-trip.html\">what to pack for a ski trip</a> covers the full list including the things people forget, and <a href=\"do-you-need-a-ski-helmet.html\">do you need a ski helmet</a> deals with the certification and MIPS question properly." }
+      ],
+      "faq": [
+        { "q": "Should a beginner buy or rent skis?", "a": "Rent, for at least the first three or four weeks of skiing. A beginner cannot yet tell a carving ski from an all-mountain ski, so buying means choosing on price or colour, and skis are the most expensive item on the mountain. Renting also lets you try something different each trip, which is how you find out what suits you. Resort rental fleets are replaced every year or two, so the ski is often newer than one a keen amateur owns." },
+        { "q": "What ski gear should I buy first?", "a": "Goggles, a helmet, gloves and ski socks. All four are cheap relative to the cost of a ski holiday, all four are personal enough that renting them is unpleasant or impossible, and all four change how your first day feels. Rental goggles are scratched, rental helmets have unknown impact histories, and nobody rents gloves or socks at all." },
+        { "q": "How much should a first ski kit cost?", "a": "Goggles, a helmet, gloves and socks together come to roughly $120 to $160 at the budget end of our picks, and that covers everything you should own as a beginner. Add a synthetic base layer set for about $17 more. Skis, boots and bindings stay rented, which is where the real money would otherwise go." },
+        { "q": "Do I need to buy ski boots as a beginner?", "a": "No, and buying them online is a genuinely bad idea. Boots are the one item where fit decides everything, and two boots in the same Mondopoint size can differ substantially in width and volume. Buying properly means an hour with a bootfitter who measures your foot and heat-moulds the liner. Rent until you ski enough to justify that, and if rental boots hurt, go back and change the size rather than enduring them." },
+        { "q": "What is the most common beginner ski gear mistake?", "a": "Wearing two pairs of socks. The logic seems sound and it is exactly backwards: a boot is fitted with a set amount of space for circulation, and a second sock fills it, so the boot compresses your foot and your toes get colder. The friction between the layers also causes blisters. One thin merino sock is the correct answer, every time." }
+      ],
+      "related": [
+        { "href": "what-to-pack-ski-trip.html", "label": "What to Pack for a Ski Trip" },
+        { "href": "do-you-need-a-ski-helmet.html", "label": "Do You Need a Ski Helmet?" },
+        { "href": "ski-goggle-lens-vlt-guide.html", "label": "Ski Goggle Lens Tint and VLT Guide" },
+        { "href": "../../ski/index.html", "label": "All Ski Gear Picks" }
+      ]
+    },
+    {
+      "slug": "ski-goggle-lens-vlt-guide",
+      "title": "Ski Goggle Lens Tint and VLT Guide (2026) - Which Lens for Which Light",
+      "headline": "Ski Goggle Lens Tint and VLT Guide",
+      "kicker": "Buying Guide",
+      "metaDescription": "What VLT means on ski goggles and which lens tint to buy. The percentage bands for sun, cloud and flat light, why one lens is a compromise, and when contrast lenses are worth it.",
+      "h1": "Ski Goggle <em>Lens Tint and VLT</em> Guide",
+      "readTime": 8,
+      "body": [
+        { "type": "p", "text": "Every ski goggle listing quotes a VLT percentage, almost none of them explain it, and it is the only specification on the box that changes how your day goes. VLT stands for <strong>visible light transmission</strong>: the percentage of available light the lens lets through to your eye." },
+        { "type": "p", "text": "A 10% lens passes a tenth of the light. A 70% lens passes most of it. Low numbers are dark lenses for bright days; high numbers are near-clear lenses for storms, fog and night skiing. Buying the wrong one is the difference between reading the snow and skiing blind down a white sheet." },
+        { "type": "h2", "text": "The VLT Bands, and What They Are For" },
+        { "type": "ul", "items": [
+          "<strong>5&ndash;20% - bright sun.</strong> Spring bluebird days, high-altitude glare, snow reflecting at you from every direction. Anything higher than this and you will squint all day.",
+          "<strong>20&ndash;40% - mixed and partly cloudy.</strong> The all-rounder band. Passable in sun, survivable in cloud. If you can only own one lens, own one from here.",
+          "<strong>40&ndash;60% - overcast and light snow.</strong> Where most European winter days actually sit. Preserves contrast when the sky goes grey.",
+          "<strong>60&ndash;90% - flat light, fog, heavy snow, night.</strong> Nearly clear. Feels like wearing nothing, which is exactly right when there is no light to spare."
+        ] },
+        { "type": "h2", "text": "Flat Light Is the Problem Dark Lenses Cannot Solve" },
+        { "type": "p", "text": "\"Flat light\" is what happens when cloud diffuses the sunlight so completely that shadows disappear. Without shadows there is no way to see where the snow rises and falls, so a mogul, a lip and a flat patch all look identical. Your brain has nothing to work with, and you ski tentatively and badly without quite knowing why." },
+        { "type": "p", "text": "A dark lens makes this dramatically worse, because it removes light from a situation that already has too little of it. This is the specific scenario where people who bought the cool-looking mirrored goggle discover they cannot see, and it accounts for most of the disappointment in this category." },
+        { "type": "h2", "text": "Why Rose, Amber and Yellow Lenses Exist" },
+        { "type": "p", "text": "Tint colour does something different from tint darkness. Rose, amber and yellow lenses filter out blue light, which is the wavelength that scatters most in cloud and fog and turns the view into a flat haze. Cutting it back increases the apparent contrast between surfaces, so edges and bumps reappear." },
+        { "type": "p", "text": "This is why a yellow lens feels like it brightens a grey day even though it is not adding any light. Grey and smoke lenses do the opposite - they cut all wavelengths evenly, preserving natural colour, which is what you want in bright sun. As a rough rule: <strong>warm tints for bad light, neutral tints for good light</strong>." },
+        { "type": "h2", "text": "Contrast Lenses Are the One Premium Feature That Earns It" },
+        { "type": "p", "text": "Lenses marketed as contrast-enhancing - Smith's ChromaPop is the best known - take the filtering idea further, selectively removing the narrow bands of wavelength where the eye's colour receptors overlap and confuse each other. The effect in flat light is real and immediate: bumps, ice patches and the edges of shadows separate out instead of merging into white." },
+        { "type": "p", "text": "This is not marketing in the way that most goggle features are. Whether it justifies the price depends entirely on how often you ski in bad light. If you ski a week a year in reliable sunshine, it is a luxury; if you ski grey maritime winters, it is the upgrade that changes how you ski." },
+        { "type": "pick", "id": "ski-goggles-006", "badge": "Best in Flat Light", "badgeClass": "b-premium", "moreHref": "../../ski/goggles.html", "moreLabel": "All goggle picks", "text": "The pair where you can see the difference rather than read about it. ChromaPop filters the specific wavelengths that blur together when the light goes flat, so terrain that had disappeared into white comes back as shapes you can actually ski. It ships with a second low-light lens, which quietly closes a good part of the price gap against the tier below. If you ski a lot of grey days, this is the one worth saving for." },
+        { "type": "h2", "text": "One Lens or Two?" },
+        { "type": "p", "text": "Light on a mountain changes within a single run, and no single lens covers a bluebird morning and a whiteout afternoon. The practical answer is a frame that takes interchangeable lenses, because a second lens costs a fraction of a second pair of goggles." },
+        { "type": "p", "text": "The mechanism matters more than people expect. Clip systems require bending the frame, which is awkward in gloves and cold hands, so the lens stays in the bag and never gets fitted. Magnetic systems snap out and in, and people actually use them. If you ski more than a handful of days a year, a magnetic frame is the best value in this whole category." },
+        { "type": "pick", "id": "ski-goggles-004", "badge": "Best Lens Swap", "badgeClass": "b-value", "moreHref": "../../ski/goggles.html", "moreLabel": "All goggle picks", "text": "Magnetic lens changes at roughly half what the named brands charge for the same convenience, and the mechanism is the entire point. The lens pops off and snaps back without flexing the frame, which is why you will actually swap it on a chairlift rather than promising yourself you will do it tonight. Optics sit a clear step behind the Smith above, but it works cold and gloved, which the clip systems do not." },
+        { "type": "verdict", "label": "The short version", "text": "VLT is the percentage of light a lens passes. Buy 5 to 20 percent for bright sun, 40 to 80 percent for flat light and storms, and 20 to 40 percent if you can only own one. Warm tints - rose, amber, yellow - increase contrast in bad light; grey and smoke preserve colour in good light. If you ski more than a few days a year, buy a magnetic interchangeable frame and a second low-light lens before you buy anything more expensive." },
+        { "type": "h2", "text": "Looking After the Lens" },
+        { "type": "p", "text": "One rule, and it is absolute: <strong>never wipe the inside of the lens</strong>. The anti-fog layer is a microscopically soft coating, and a single wipe with a cold wet glove removes it permanently. After that the goggle fogs whatever you do, and no amount of drying brings it back." },
+        { "type": "p", "text": "Shake water off instead, leave them open to air dry rather than zipped in a pocket, and store them in the soft bag they came with rather than loose in a <a href=\"../../ski/bags.html\">boot bag</a> next to a buckle. Goggles are a consumable if you treat them badly and last many seasons if you do not." }
+      ],
+      "faq": [
+        { "q": "What VLT should I buy for ski goggles?", "a": "For bright sun, 5 to 20 percent. For mixed or partly cloudy days, 20 to 40 percent. For overcast, 40 to 60 percent. For flat light, fog, heavy snow or night skiing, 60 to 90 percent. If you can only own one lens, choose something in the 20 to 40 percent band - it is dark enough for a sunny groomer and light enough to still read the snow when cloud arrives." },
+        { "q": "What is flat light and why can't I see in it?", "a": "Flat light is when cloud diffuses sunlight so evenly that shadows disappear. Without shadows there is nothing to tell you where the snow rises and falls, so bumps, lips and flat patches all look identical and your brain has no depth information to work with. A dark lens makes it considerably worse by removing light from a situation that already lacks it." },
+        { "q": "Are yellow or rose ski goggle lenses better for cloudy days?", "a": "Yes. Warm tints like rose, amber and yellow filter out blue light, which is the wavelength that scatters most in cloud and fog and flattens the view into haze. Removing it increases apparent contrast so bumps and edges become visible again. The lens is not adding light - it is removing the part that was blurring the picture." },
+        { "q": "Is ChromaPop worth the money?", "a": "If you regularly ski in flat or variable light, yes - the effect is real rather than marketing. It filters narrow wavelength bands where your eye's colour receptors overlap, which separates terrain features that would otherwise merge into white. If you only ski a week a year in reliable sunshine, it is a luxury rather than a fix, and a mid-price interchangeable goggle would serve you better." },
+        { "q": "How do I stop the anti-fog coating wearing off my goggles?", "a": "Never wipe the inside of the lens. The anti-fog layer is an extremely soft coating and a single wipe with a wet glove takes it off permanently, after which the goggles fog no matter what you do. Shake water off, let them air dry open rather than zipped in a pocket, and store them in their soft bag rather than loose against buckles and zips." }
+      ],
+      "related": [
+        { "href": "ski-gear-beginners-guide.html", "label": "Ski Gear: Complete Beginner Guide" },
+        { "href": "best-ski-goggles-beginners.html", "label": "Best Ski Goggles for Beginners" },
+        { "href": "do-you-need-a-ski-helmet.html", "label": "Do You Need a Ski Helmet?" },
+        { "href": "../../ski/goggles.html", "label": "All Ski Goggle Picks" }
+      ]
+    },
+    {
+      "slug": "best-ski-goggles-beginners",
+      "title": "Best Ski Goggles for Beginners (2026) - What to Buy First",
+      "headline": "Best Ski Goggles for Beginners (2026)",
+      "kicker": "Buying Guide",
+      "metaDescription": "The best beginner ski goggles in 2026. Why rental goggles are the worst item on the mountain, what OTG means if you wear glasses, and which pairs are worth buying first.",
+      "h1": "Best Ski Goggles for <em>Beginners</em> (2026)",
+      "readTime": 7,
+      "body": [
+        { "type": "p", "text": "Goggles are the first thing a beginner should buy and usually the last thing they think about. The reasoning is simple: rental goggles are the worst item in the whole rental shop. They have been worn by hundreds of people, the inside of the lens has been wiped by most of them, and a wiped lens has no anti-fog coating left." },
+        { "type": "p", "text": "So you end up on a mountain looking through a scratched, permanently fogging lens, in light you cannot read, wondering why skiing feels harder than it looked. A $30 pair of your own fixes it completely." },
+        { "type": "h2", "text": "What Actually Matters on a First Pair" },
+        { "type": "h3", "text": "A mid-tint lens, not a dark one" },
+        { "type": "p", "text": "The instinct is to buy the darkest, most mirrored lens because that is what looks like skiing. It is the wrong call for a first pair. Dark lenses are wonderful in spring sun and genuinely hazardous in the flat light that makes up most of a winter, where they erase the terrain entirely. A mid tint - somewhere in the 20 to 40 percent <a href=\"ski-goggle-lens-vlt-guide.html\">VLT</a> range - works acceptably in both." },
+        { "type": "h3", "text": "Face foam, which nobody checks" },
+        { "type": "p", "text": "Cheap goggles use a single strip of foam; better ones use three layers. This sounds like a trivial spec and it is the main reason budget goggles fog: if the foam does not seal against the bridge of your nose, every breath you take rises straight onto the inside of the lens. Three-layer foam is the single feature worth paying an extra ten dollars for." },
+        { "type": "h3", "text": "OTG, if you wear glasses" },
+        { "type": "p", "text": "OTG means \"over the glasses\" - the frame is cut wider with notches for spectacle arms. Without it, the arms press into your temples until it genuinely aches, and your glasses lenses block the airflow that would otherwise keep things clear, so both surfaces fog. OTG goggles cost almost nothing extra and every beginner pick here is one." },
+        { "type": "h2", "text": "The Picks" },
+        { "type": "pick", "id": "ski-goggles-002", "badge": "Best First Goggles", "badgeClass": "b-budget", "moreHref": "../../ski/goggles.html", "moreLabel": "All goggle picks", "text": "The default answer and the most-reviewed goggle on the mountain. Three-layer face foam is the reason to pick it over anything cheaper - it seals at the nose rather than venting your breath onto the lens, which is the failure mode that ruins budget goggles. The lens is a mid tint so it works in cloud and is adequate in sun, and the OTG cut fits over glasses. Optics are ordinary; nothing about it fails." },
+        { "type": "pick", "id": "ski-goggles-001", "badge": "Best for Glasses on a Budget", "badgeClass": "b-budget", "moreHref": "../../ski/goggles.html", "moreLabel": "All goggle picks", "text": "The cheapest pair here that is not a toy, and the pick if you wear glasses and are watching the money - the OTG cut is genuinely wide rather than nominally wide, which is not true of every goggle claiming the label. Dual-pane anti-fog construction and a mid tint. The lens does not come off, and optical quality is a step behind the OutdoorMaster, but for a first week it does the job." },
+        { "type": "pick", "id": "ski-goggles-003", "badge": "Best If You'll Ski Again", "badgeClass": "b-value", "moreHref": "../../ski/goggles.html", "moreLabel": "All goggle picks", "text": "The first pair here where the lens comes off, which is what makes it the better buy for anyone who expects to ski more than one trip. The frame takes more than twenty lens options cheaply, so a low-light lens for a grey week becomes a small add-on instead of a second pair of goggles. The swap uses clips rather than magnets - fiddly in gloves, perfectly fine indoors the night before." },
+        { "type": "verdict", "label": "The short version", "text": "Buy your own goggles before your first day - rental pairs are scratched and permanently fogged, and they make skiing harder than it needs to be. Choose a mid-tint lens in the 20 to 40 percent VLT range rather than the darkest one, check for three-layer face foam, and buy OTG if you wear glasses. If you already know you will ski again, spend a little more on an interchangeable frame." },
+        { "type": "h2", "text": "Two Things That Will Save Your Goggles" },
+        { "type": "p", "text": "First: never wipe the inside of the lens, not even with the soft bag. The anti-fog coating comes off with one cold wet wipe and never comes back. Shake the water out and let them air dry instead." },
+        { "type": "p", "text": "Second: do not park them on your helmet on the lift. Warm air rises off your head, condenses on the cold lens, and you spend the next run looking through fog. Keep them on your face or around your neck. Between those two habits and a pair that fits your <a href=\"../../ski/helmets.html\">helmet</a> without a gap, a set of goggles lasts many seasons." }
+      ],
+      "faq": [
+        { "q": "Should I buy ski goggles or use rental ones?", "a": "Buy your own, and buy them before anything else. Rental goggles have been worn by hundreds of people and most of them wiped the inside of the lens, which permanently removes the anti-fog coating. You end up looking through a scratched, fogging lens in light you cannot read. A pair of your own for around $30 fixes it completely and lasts seasons." },
+        { "q": "What lens tint should a beginner buy?", "a": "A mid tint, roughly 20 to 40 percent VLT. The instinct is to buy the darkest mirrored lens because that is what skiing looks like, but dark lenses erase terrain in the flat light that makes up most of a winter. A mid tint is acceptable in sun and still lets you read the snow when it clouds over, which is the right compromise for a single-lens goggle." },
+        { "q": "What does OTG mean on ski goggles?", "a": "Over The Glasses. The frame is cut wider with notches in the sides to make room for spectacle arms. Without it, a goggle presses the arms into your temples until it aches, and the extra lens sitting close to the goggle traps warm air so both surfaces fog. OTG frames cost very little extra, and if you wear glasses on the hill they are not optional." },
+        { "q": "How much should beginner ski goggles cost?", "a": "Around $27 to $40 buys a genuinely good first pair with dual-pane anti-fog construction, three-layer face foam and an OTG cut. Below about $20 the face foam is usually a single strip that does not seal at the nose, which is what makes cheap goggles fog. Spending past $40 mainly buys interchangeable lenses, which are worth it only if you expect to ski regularly." },
+        { "q": "Why do my ski goggles keep fogging up?", "a": "Usually one of three things. You wiped the inside of the lens at some point and removed the anti-fog coating. Your neck gaiter or mask is tucked under the goggle foam and funnelling warm breath up behind the lens. Or you rested the goggles on your helmet on the lift, where rising body heat condensed on the cold lens. All three are habits rather than product faults." }
+      ],
+      "related": [
+        { "href": "ski-goggle-lens-vlt-guide.html", "label": "Ski Goggle Lens Tint and VLT Guide" },
+        { "href": "ski-gear-beginners-guide.html", "label": "Ski Gear: Complete Beginner Guide" },
+        { "href": "do-you-need-a-ski-helmet.html", "label": "Do You Need a Ski Helmet?" },
+        { "href": "../../ski/goggles.html", "label": "All Ski Goggle Picks" }
+      ]
+    },
+    {
+      "slug": "do-you-need-a-ski-helmet",
+      "title": "Do You Need a Ski Helmet? (2026) - Certification, MIPS and Fit Explained",
+      "headline": "Do You Need a Ski Helmet?",
+      "kicker": "Buying Guide",
+      "metaDescription": "Whether you need a ski helmet, what ASTM F2040 certification actually guarantees, whether MIPS is worth the money, and why a cheap certified helmet is not less safe than an expensive one.",
+      "h1": "Do You Need a <em>Ski Helmet</em>?",
+      "readTime": 8,
+      "body": [
+        { "type": "p", "text": "Short answer: yes, and it is the cheapest decision on this list. Helmet use in resorts has gone from a minority habit to near-universal within about twenty years, and the reason is not fashion - it is that head injuries are the ones that end badly, and a helmet is a $50 item that meaningfully reduces them." },
+        { "type": "p", "text": "The more useful question is which one, because this is one of the few categories where the budget option is genuinely close to the expensive one, and the marketing works hard to obscure that." },
+        { "type": "h2", "text": "Certification Is the Thing to Check, and Then Stop Worrying" },
+        { "type": "p", "text": "In the US, snowsport helmets are tested against <strong>ASTM F2040</strong>. In Europe the equivalent is <strong>CE EN 1077</strong>. Both involve dropping the helmet in a controlled impact test and measuring what reaches the headform inside." },
+        { "type": "p", "text": "Here is the part people find surprising: a $46 certified helmet has passed the same test as a $200 one. There is no premium pass grade. What the extra money buys is lighter weight, better and adjustable ventilation, a more refined fit system, goggle integration, and on some models MIPS. Those are real benefits - a comfortable helmet is one you actually wear - but they are not a higher impact rating." },
+        { "type": "p", "text": "What should worry you is an uncertified novelty helmet bought on price alone, or a second-hand one." },
+        { "type": "h2", "text": "Never Buy a Used Ski Helmet" },
+        { "type": "p", "text": "The protective part of a helmet is expanded polystyrene foam, and it works by crushing. Once it has crushed in an impact, that section cannot absorb a second one - and crucially, the crush is often invisible from the outside, hidden under an intact-looking shell." },
+        { "type": "p", "text": "So a used helmet is a helmet with an unknown history and no way to inspect it. The same logic applies to your own: if you take a real hit, replace it, even if it looks perfect. Otherwise, most makers suggest around five years, because foam and shell bonding degrade with UV, sweat and temperature cycling." },
+        { "type": "h2", "text": "What MIPS Actually Does" },
+        { "type": "p", "text": "Standard certification tests measure straight-line impact - a helmet dropped directly onto a surface. Most real ski falls are not like that. You catch an edge and go down at an angle, and an angled impact does not just stop your head, it twists it. That rotational acceleration is strongly associated with concussion, and the standard test does not measure it at all." },
+        { "type": "p", "text": "MIPS is a low-friction liner that lets the shell rotate a few millimetres around your skull during an impact, shedding some of that twisting force before it reaches your brain. It usually adds $10 to $30 to the price." },
+        { "type": "p", "text": "Is it worth it? The evidence is good enough that we would take it if the budget stretches, and not so overwhelming that a certified non-MIPS helmet is a bad purchase. The ordering that matters: <strong>a well-fitting certified helmet without MIPS beats a badly fitting one with it</strong>." },
+        { "type": "pick", "id": "ski-helmet-004", "badge": "Best MIPS Value", "badgeClass": "b-value", "moreHref": "../../ski/helmets.html", "moreLabel": "All helmet picks", "text": "The cheapest genuine MIPS helmet worth owning, and the strongest argument on the page. You get the slip layer that addresses rotational force - the injury mechanism standard testing ignores - for roughly what an uncertified novelty helmet costs, on top of the same certified shell as the rest of the range. Slightly heavier than the premium models and the liner is plainer. If your budget stops anywhere in this category, stop here." },
+        { "type": "h2", "text": "The Fit Test That Takes Ten Seconds" },
+        { "type": "p", "text": "Put the helmet on and leave the chin strap undone. Shake your head firmly side to side, then nod hard. The helmet should move your scalp with it, not slide independently, and it should not rock forward onto your eyebrows." },
+        { "type": "p", "text": "Then tighten the rear dial until it is snug rather than clamped. If the helmet slid around in the shake test, it is too big - and a too-big helmet rotates out of position in exactly the impact you bought it for, which means the certification it passed no longer describes what will happen to your head." },
+        { "type": "p", "text": "Measure your head circumference just above the ears and check it against the specific brand's chart, because sizing varies noticeably between makers. Between two sizes, take the smaller one and let the pads compress." },
+        { "type": "pick", "id": "ski-helmet-003", "badge": "Best First Helmet", "badgeClass": "b-budget", "moreHref": "../../ski/helmets.html", "moreLabel": "All helmet picks", "text": "The most-reviewed ski helmet on Amazon and where most first-time buyers land. ASTM F2040 certified, nine genuinely adjustable vents rather than a marketing count, and a neutral shape that suits most heads - which is why it accumulates ratings faster than anything else in the category. No MIPS at this price. If you want one recommendation and no further research, take this one." },
+        { "type": "h2", "text": "Buy It With Your Goggles" },
+        { "type": "p", "text": "The helmet brim and the top of your <a href=\"../../ski/goggles.html\">goggles</a> need to meet without a stripe of exposed forehead between them, and the goggle strap needs to sit in the helmet's rear clip rather than riding up over it. Brands fit their own goggles best, which is the main argument for matching them if you are buying both at once." },
+        { "type": "p", "text": "Order them together and try them on together before removing any tags. The gap between helmet and goggle is a comfort problem long before it is a fashion one - that strip of forehead takes the wind and the sun for the whole day." },
+        { "type": "verdict", "label": "The short version", "text": "Yes, wear a helmet. Check it carries ASTM F2040 or CE EN 1077 and then stop worrying about impact ratings - a $46 certified helmet passed the same test as a $200 one. Take MIPS if the budget stretches, because it addresses rotational injury that standard testing ignores. Never buy used, replace after any real impact, and make sure it does not slide when you shake your head with the strap undone." }
+      ],
+      "faq": [
+        { "q": "Do I really need a ski helmet?", "a": "Yes. Head injuries are the ones with the worst outcomes in skiing, and a certified helmet costing around $50 measurably reduces them. Helmet use in resorts has gone from a minority habit to near-universal in about twenty years for exactly this reason. Some resorts and most ski schools now require them for children regardless." },
+        { "q": "Is an expensive ski helmet safer than a cheap one?", "a": "Against straight-line impact, no - both have passed the same ASTM F2040 or CE EN 1077 test, and there is no premium pass grade. What more money buys is lighter weight, better adjustable ventilation, a more refined fit system, goggle integration and sometimes MIPS. Those are genuine benefits, and a comfortable helmet is one you actually wear, but they are not a higher impact rating." },
+        { "q": "Is MIPS worth paying extra for in a ski helmet?", "a": "If it fits the budget, yes. Standard certification measures straight-line impacts, but most real falls are angled, and angled impacts twist the head - rotational acceleration that is strongly linked to concussion and that the standard test does not measure. MIPS adds a slip layer that sheds some of that twist, usually for $10 to $30 more. Fit still comes first: a well-fitting non-MIPS helmet beats a poorly fitting MIPS one." },
+        { "q": "Can I buy a second-hand ski helmet?", "a": "No. The protective EPS foam works by crushing, and once crushed it cannot absorb another impact - but that crushing is frequently invisible beneath an undamaged-looking shell. A used helmet has an unknown history and no way to inspect it. The same applies to your own helmet after any real hit: replace it even if it looks fine." },
+        { "q": "How often should I replace my ski helmet?", "a": "Immediately after any significant impact, and otherwise around every five years. The foam liner and the bonding between shell and liner degrade over time with UV exposure, sweat and repeated temperature cycling, so an old helmet protects less than a new one even if it has never been hit. Check the manufacturer's stated lifespan, which is usually printed inside." }
+      ],
+      "related": [
+        { "href": "ski-gear-beginners-guide.html", "label": "Ski Gear: Complete Beginner Guide" },
+        { "href": "best-ski-goggles-beginners.html", "label": "Best Ski Goggles for Beginners" },
+        { "href": "what-to-pack-ski-trip.html", "label": "What to Pack for a Ski Trip" },
+        { "href": "../../ski/helmets.html", "label": "All Ski Helmet Picks" }
+      ]
+    },
+    {
+      "slug": "merino-vs-synthetic-base-layers",
+      "title": "Merino vs Synthetic Ski Base Layers (2026) - Which to Buy",
+      "headline": "Merino vs Synthetic Base Layers",
+      "kicker": "Comparison",
+      "metaDescription": "Merino or synthetic for ski base layers. How each handles sweat, warmth when damp, odour and drying time, what each costs, and a straight answer on which to buy for your trip.",
+      "h1": "Merino vs <em>Synthetic</em> Ski Base Layers",
+      "readTime": 7,
+      "body": [
+        { "type": "p", "text": "There is exactly one rule about ski base layers that is not negotiable: <strong>not cotton</strong>. Cotton absorbs sweat and holds it against your skin, so you soak it going down a run and then sit in the wind on a chairlift wearing a wet shirt, losing heat precisely when you have stopped generating any." },
+        { "type": "p", "text": "Past that, the choice is merino wool or synthetic, and both are correct answers to different questions. Here is what actually separates them." },
+        { "type": "h2", "text": "Warmth When Damp" },
+        { "type": "p", "text": "This is merino's real advantage and it is not marketing. Wool fibres absorb moisture <em>into</em> the fibre structure rather than holding it on the surface, so the air pockets that do the insulating stay intact. A damp merino layer still keeps you warm. A damp synthetic one insulates considerably less, though far better than cotton." },
+        { "type": "p", "text": "Skiing is exactly the activity where this matters, because you alternate between sweating hard and sitting still in the wind several times an hour." },
+        { "type": "h2", "text": "Drying Speed" },
+        { "type": "p", "text": "Synthetic wins this one decisively. Polyester and polypropylene do not absorb water at all - they move it along the fibre surface and it evaporates, often within an hour or two. Merino holds moisture internally and takes far longer, which on a trip means a layer washed in a hotel sink on Tuesday night may still be damp on Wednesday morning." },
+        { "type": "p", "text": "Synthetics also tolerate a tumble dryer, which merino generally does not." },
+        { "type": "h2", "text": "Odour" },
+        { "type": "p", "text": "Merino's other genuine advantage. Wool is naturally antimicrobial, so the bacteria that produce body odour do not establish themselves the way they do on synthetic fibre. A merino top is genuinely fine on day three. A synthetic one is usually noticeable by the end of day two and unpleasant by day three." },
+        { "type": "p", "text": "On a week's trip with no laundry, this single property is worth more than most thermal specifications, because it decides how many layers you need to pack." },
+        { "type": "h2", "text": "Price, Which Is Not Close" },
+        { "type": "p", "text": "A full synthetic base layer set - top and bottoms - runs around $17 to $30. A 100% merino set is roughly $50 to $85. That is a three-to-four times difference for a thermal benefit that is real but modest, and an odour benefit that is large but only matters on longer trips." },
+        { "type": "p", "text": "Merino is also less durable. It is a natural fibre and it abrades, particularly at the shoulders under a pack strap, where synthetics simply last longer." },
+        { "type": "h2", "text": "So Which One?" },
+        { "type": "p", "text": "<strong>Buy merino</strong> if you are travelling for a week or more without easy laundry, if you feel the cold badly, or if synthetics irritate your skin. The odour resistance alone changes how much you pack." },
+        { "type": "p", "text": "<strong>Buy synthetic</strong> if you ski close to home and can wash between days, if you are buying your first set and want to fix the cotton problem cheaply, or if you ski hard and want the fastest-drying option. A good synthetic set does most of the thermal job for a quarter of the money." },
+        { "type": "pick", "id": "ski-base-006", "badge": "Best Merino Set", "badgeClass": "b-premium", "moreHref": "../../ski/base-layers.html", "moreLabel": "All base layer picks", "text": "The set that changes how a week-long trip works. One hundred percent merino top and bottoms - not a blend - which is what makes the odour resistance genuine: three or four days of wear without anyone noticing, on a trip where washing means a hotel sink. It stays warm when damp, which synthetics do not, and feels better against skin than anything else here. Expensive, and the only base layer on our list that needs no qualification." },
+        { "type": "pick", "id": "ski-base-002", "badge": "Best Synthetic Set", "badgeClass": "b-value", "moreHref": "../../ski/base-layers.html", "moreLabel": "All base layer picks", "text": "A real ski brand at synthetic prices, and the cut is where that shows rather than the fabric: the top is longer in the back so it stays put when you reach for a lift bar, and the seams are flatlock rather than ridged, which you notice under a pack strap. The fabric itself is comparable to cheaper sets. Buy it for the fit, and the fit is genuinely better than the price suggests." },
+        { "type": "pick", "id": "ski-base-003", "badge": "Cheapest Sensible Fix", "badgeClass": "b-budget", "moreHref": "../../ski/base-layers.html", "moreLabel": "All base layer picks", "text": "A full set for less than the price of a single merino top, and it solves the problem that actually matters - it is not cotton. Brushed fleece inside makes it warm on cold static days, with the usual trade that fleece moves moisture more slowly than a smooth technical knit, so it suits cruising better than charging. The stretch is better than the price implies. A completely reasonable first base layer." },
+        { "type": "verdict", "label": "The short version", "text": "Anything but cotton. Merino stays warm when damp and resists odour for days, which makes it worth the three-to-four times price premium on week-long trips without laundry. Synthetic wicks and dries faster, survives a tumble dryer and costs a quarter as much, which makes it the right buy for skiing near home or for a first set. Both are correct - the deciding factor is trip length, not performance." },
+        { "type": "h2", "text": "Getting the Fit Right, Whichever You Buy" },
+        { "type": "p", "text": "A base layer moves moisture by touching your skin, so it needs contact over most of its area. Loose fabric leaves gaps where sweat pools instead of wicking, which undoes the point of buying one. It should feel like a second skin rather than compression gear - too tight restricts movement and, at the wrists and ankles, circulation." },
+        { "type": "p", "text": "Check the length of the top as well. One that pulls out of your waistband when you reach up for a chairlift bar leaves a cold strip across the small of your back for the rest of the day, which is why the better cuts are longer at the rear." },
+        { "type": "p", "text": "And remember the same fibre logic applies to <a href=\"../../ski/socks.html\">ski socks</a>, where merino is even more clearly the right answer - a foot inside a sealed plastic boot is the single sweatiest place in your kit." }
+      ],
+      "faq": [
+        { "q": "Is merino or synthetic better for ski base layers?", "a": "Merino if you are travelling for a week or more without easy laundry - it resists odour for several days and keeps insulating when damp. Synthetic if you ski near home and can wash between days - it wicks and dries considerably faster and costs roughly a quarter as much. Thermally they are close enough that trip length and budget should decide it rather than performance." },
+        { "q": "Why can't I wear cotton under a ski jacket?", "a": "Cotton absorbs sweat and holds it against your skin. You soak it working hard down a run, then sit still on a chairlift in the wind, and the evaporating moisture pulls body heat away exactly when you have stopped producing any. It is the most common reason people who dressed warmly still end up cold. Any cheap synthetic base layer fixes it." },
+        { "q": "How many days can you wear a merino base layer?", "a": "Three to four days is normal and genuinely inoffensive, because wool is naturally antimicrobial and the bacteria that cause body odour do not establish on it the way they do on synthetic fibre. A synthetic layer is usually noticeable by the end of day two. On a week's trip with no laundry, this is the property that decides how much you have to pack." },
+        { "q": "Is merino worth the extra money for skiing?", "a": "On longer trips, yes. A merino set costs roughly three to four times a synthetic one, and the thermal advantage alone would not justify that - but staying warm when damp plus wearing it for several days without washing changes what you pack and how comfortable a week feels. For a couple of days a season near home, synthetic is the smarter buy." },
+        { "q": "Do I need base layer bottoms for skiing?", "a": "Less often than you would think. Legs generate a lot of heat and ski trousers are already insulated, so plenty of people ski comfortably with nothing underneath. Bottoms earn their place on cold lift-heavy days, in spring slush where trousers wet out, and for anyone who feels the cold in the thighs on long exposed chairlifts. If you only buy one piece, buy the top." }
+      ],
+      "related": [
+        { "href": "ski-gear-beginners-guide.html", "label": "Ski Gear: Complete Beginner Guide" },
+        { "href": "what-to-pack-ski-trip.html", "label": "What to Pack for a Ski Trip" },
+        { "href": "do-you-need-a-ski-helmet.html", "label": "Do You Need a Ski Helmet?" },
+        { "href": "../../ski/base-layers.html", "label": "All Base Layer Picks" }
+      ]
+    },
+    {
+      "slug": "what-to-pack-ski-trip",
+      "title": "What to Pack for a Ski Trip (2026) - The Complete Checklist",
+      "headline": "What to Pack for a Ski Trip",
+      "kicker": "Checklist",
+      "metaDescription": "A complete ski trip packing list. What goes in the hold, what should be carry-on, how many pairs of socks you actually need, and the small items everyone forgets until they are on the mountain.",
+      "h1": "What to Pack for a <em>Ski Trip</em>",
+      "readTime": 8,
+      "body": [
+        { "type": "p", "text": "Ski packing goes wrong in a specific and predictable way. People pack carefully for the mountain and forget that the trip has an airport at each end, a hotel room with no drying space in the middle, and a lot of walking in ski boots that were designed for none of it." },
+        { "type": "p", "text": "This is the list, organised by where each thing should actually travel." },
+        { "type": "h2", "text": "Carry This On: The Things You Cannot Replace" },
+        { "type": "p", "text": "The governing principle is simple. Rental shops have skis and poles in every length. What they cannot conjure on the morning your luggage did not arrive is a boot that fits your foot, or a helmet you trust." },
+        { "type": "ul", "items": [
+          "<strong>Ski boots</strong> - the one item where a substitute genuinely does not work. Most <a href=\"../../ski/bags.html\">boot bags</a> are sized to pass as cabin baggage for exactly this reason.",
+          "<strong>Helmet and goggles</strong> - bulky but light, and both are easily crushed in a hold. They fit in the boot bag alongside the boots.",
+          "<strong>Gloves</strong> - small, and the single most annoying thing to replace at resort prices.",
+          "<strong>One base layer set and one pair of ski socks</strong> - enough to ski your first day if the hold bag is delayed."
+        ] },
+        { "type": "p", "text": "This has a second benefit: moving boots out of the ski bag usually keeps it under the airline's weight limit, which is where the extra charges begin." },
+        { "type": "h2", "text": "In the Hold" },
+        { "type": "ul", "items": [
+          "<strong>Skis and poles</strong>, in a <a href=\"../../ski/bags.html\">padded bag</a> if you own them - an unpadded sleeve protects against scratches, not against being dropped onto a conveyor.",
+          "<strong>Ski jacket and trousers</strong> - bulky, robust, and nothing bad happens to them in a hold.",
+          "<strong>Mid layers</strong> - a fleece or light down piece. Two is plenty.",
+          "<strong>Three pairs of ski socks</strong> - see below, this is the number people get wrong.",
+          "<strong>Evening clothes and proper winter boots</strong> - resort villages are icy and ski boots are miserable to walk in."
+        ] },
+        { "type": "h2", "text": "How Many Socks: Three" },
+        { "type": "p", "text": "Two is the intuitive answer and it is one short. Merino dries slowly in a hotel room with no airing cupboard, so with two pairs you will put on a damp sock at least once during the week - and a damp sock is where cold feet and blisters both start." },
+        { "type": "p", "text": "Three lets one dry fully while you rotate the other two. It is why three-packs exist in this category." },
+        { "type": "pick", "id": "ski-sock-003", "badge": "Best for a Week", "badgeClass": "b-value", "moreHref": "../../ski/socks.html", "moreLabel": "All sock picks", "text": "Three pairs for roughly what a single premium sock costs, which is exactly the right shape for a week-long trip where merino takes overnight to dry. Wool content is lower than the lifetime-warranty socks, so they will not last as many seasons - but for a package holiday where the alternative is washing socks in a sink and skiing in a damp pair, this is the sensible buy. Sizing runs generous." },
+        { "type": "h2", "text": "The Things Everyone Forgets" },
+        { "type": "ul", "items": [
+          "<strong>Sunscreen, high factor</strong> - altitude plus snow reflection burns faster than a beach, and the underside of your nose and chin get it worst.",
+          "<strong>Lip balm with SPF</strong> - the single most common regret by day three.",
+          "<strong>A neck gaiter</strong> - worn <em>below</em> the goggle foam, not tucked under it, or it funnels your breath onto the lens and fogs it.",
+          "<strong>A small backpack</strong> for the mountain - water, a layer, and somewhere to put the gloves you took off.",
+          "<strong>Blister plasters</strong> - rental boots and new boots both cause them, and resort pharmacies know it.",
+          "<strong>A power bank</strong> - cold destroys phone batteries, and your lift pass or trail map may be on it."
+        ] },
+        { "type": "h2", "text": "Packing the Bags Themselves" },
+        { "type": "p", "text": "Check the ski bag length against your skis rather than your memory - bag sizes quote internal length, so a 185cm bag genuinely will not close over 190cm skis, and bindings add bulk that can stop a tight bag zipping even when the length is right." },
+        { "type": "p", "text": "Get a boot bag with <strong>vented</strong> boot compartments. Liners hold a startling amount of sweat, and a week of damp boots sealed inside an airtight bag is precisely where the smell people associate with ski boots comes from. Pull the liners out to dry in the room each evening as well." },
+        { "type": "pick", "id": "ski-bag-005", "badge": "Best Boot Bag", "badgeClass": "b-premium", "moreHref": "../../ski/bags.html", "moreLabel": "All bag picks", "text": "The best-reviewed bag in the category and the one that solves the damp-boot problem properly. Each boot gets its own vented compartment so liners breathe in transit instead of stewing, and the centre section keeps a helmet and goggles dry and separate from buckles. Carries as a proper backpack, which matters on the walk from a resort car park with a full load. If you buy one bag for a trip, this is it." },
+        { "type": "p", "text": "Before you buy either bag, check what your airline charges. Carriage rules vary more for skis than for any other sports equipment: some carriers take a ski bag plus a boot bag as a single checked item, some charge a flat sports-equipment fee, and some count each bag separately and charge twice." },
+        { "type": "verdict", "label": "The short version", "text": "Carry on boots, helmet, goggles, gloves and one set of base layers and socks - those are the things you cannot replace if the hold bag is delayed. Skis, poles, outerwear and the rest go in the hold. Pack three pairs of ski socks, not two. Use a boot bag with vented compartments, check your ski bag length against your actual skis, and check the airline's ski charges before you buy anything." },
+        { "type": "p", "text": "If you are still assembling the kit rather than packing it, <a href=\"ski-gear-beginners-guide.html\">the beginner gear guide</a> covers what to buy and what to keep renting, and <a href=\"merino-vs-synthetic-base-layers.html\">merino versus synthetic</a> deals with the layers." }
+      ],
+      "faq": [
+        { "q": "What should I carry on rather than check for a ski trip?", "a": "Ski boots, helmet, goggles, gloves, and one set of base layers and socks. Rental shops have skis and poles in every length, but they cannot produce a boot that fits your foot at short notice, and a helmet with an unknown history is not one you should wear. Carrying boots also usually keeps the checked ski bag under the airline weight limit." },
+        { "q": "How many pairs of ski socks do I need for a week?", "a": "Three. Merino dries slowly in a hotel room without an airing cupboard, so two pairs means putting on a damp sock at least once - and damp socks are where cold feet and blisters both begin. Three lets one dry completely while you rotate the other two, which is why three-packs are common in this category." },
+        { "q": "Do I need a padded ski bag for flying?", "a": "If you own the skis, yes. An unpadded bag keeps edges off your car seats and water off other luggage, but it offers essentially nothing against the impacts skis take in an aircraft hold. Fully padded means foam right around the bag, not a reinforcing strip along the base. For driving to the hill, unpadded is all you need." },
+        { "q": "What do people always forget to pack for skiing?", "a": "High-factor sunscreen and SPF lip balm, which matter more at altitude with snow reflecting from below than they do on a beach. After that: a neck gaiter, blister plasters, a power bank for a phone that cold will drain, and proper winter boots for walking around an icy resort village in the evening." },
+        { "q": "How do I stop my ski boots smelling on a trip?", "a": "Pull the liners out every evening and let them dry in the room rather than sealed in the bag, and use a boot bag with vented boot compartments so anything still damp can breathe in transit. The smell associated with ski boots is almost entirely the result of wet liners spending a week zipped inside an airtight bag." }
+      ],
+      "related": [
+        { "href": "ski-gear-beginners-guide.html", "label": "Ski Gear: Complete Beginner Guide" },
+        { "href": "merino-vs-synthetic-base-layers.html", "label": "Merino vs Synthetic Base Layers" },
+        { "href": "do-you-need-a-ski-helmet.html", "label": "Do You Need a Ski Helmet?" },
+        { "href": "../../ski/index.html", "label": "All Ski Gear Picks" }
+      ]
+    }
+  ]
+}
