@@ -76,6 +76,7 @@ $Adjacent = @{
     'ping-pong'  = 'badminton'
     badminton    = 'ping-pong'
     ski          = 'swimming'
+    running      = 'gym'
     boxing       = 'gym'
     gym          = 'boxing'
     swimming     = 'gym'
@@ -140,7 +141,7 @@ function New-FooterLinks {
         # Root, /tools/ and /articles/ have no single sport. Give them a spread
         # across sports rather than four tennis links, so link equity from the
         # homepage - the strongest page on the site - reaches every section.
-        $spread = foreach ($s in @('tennis','gym','boxing','swimming','volleyball','pickleball','ping-pong','badminton','football','ski')) {
+        $spread = foreach ($s in @('tennis','gym','boxing','swimming','volleyball','pickleball','ping-pong','badminton','football','ski','running')) {
             $articles | Where-Object { $_.sport -eq $s } | Select-Object -First 1
         }
         $cols += New-Column 'Popular Guides' @(

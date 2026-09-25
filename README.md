@@ -10,7 +10,7 @@ brand name. Product links are Amazon affiliate links (tag `sportgearfind-20`),
 disclosed on every page.
 
 Sports covered: tennis, badminton, pickleball, ping-pong, boxing, football,
-volleyball, swimming, gym.
+volleyball, swimming, gym, ski, running.
 
 ## Layout
 

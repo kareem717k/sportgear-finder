@@ -1,0 +1,752 @@
+{
+  "_comment": "Running section content. Product facts come from data/products.json (sport='running'); this file holds only what cannot be derived. Categories are shoes, socks, belts, hydration, recovery and visibility. GPS watches and headphones are deliberately absent for now: both were unverifiable from a non-US Amazon location (export-restricted electronics), and this site ships no ASIN without a verified US buy box. The hub page copy says so too.",
+  "hubName": "Running",
+  "hubShortName": "Running Hub",
+  "lastUpdated": "September 2026",
+  "categories": [
+    {
+      "slug": "shoes",
+      "productCategory": "shoes",
+      "navLabel": "Running Shoes",
+      "tableNoun": "Shoe",
+      "title": "Best Running Shoes 2026: 6 Picks from $75 Budget to $170 Max Cushion",
+      "metaDescription": "Six running shoes compared across Budget, Best Value and Premium. Neutral vs stability, how much cushion you need, and why the right fit matters more than the right brand.",
+      "ogTitle": "Best Running Shoes 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best running shoes across Budget, Best Value and Premium tiers, with neutral vs stability and cushioning explained.",
+      "listName": "Best Running Shoes 2026 — Budget to Premium",
+      "h1": "Running <em>Shoes</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. Neutral, stability and max cushion.",
+      "intro": "Shoes are the one piece of running kit that actually matters, and the one where the marketing is loudest. Strip it back and there are only two questions. First, <strong>neutral or stability</strong> &mdash; does your foot roll inward enough on landing that you want a shoe that resists it? Most runners do not, and a neutral shoe is the right default. Second, <strong>how much cushion</strong> &mdash; which depends far more on how many miles you run a week than on how serious you are. Beyond that, the right shoe is the one that fits your foot, and no review can tell you that. Below are six that are sensible at their price, from a first pair to a high-mileage cruiser. The links go to the men's listing; every model here is also made in a women's version, and three come in wide fittings. New to it? Start with the <a href=\"../articles/running/running-gear-beginners-guide.html\">beginner gear guide</a>.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Cushion", "key": "cushion" }
+      ],
+      "tierBands": {
+        "budget": { "title": "A Real First Pair", "sub": "Proper running shoes, not fashion trainers, at the lowest sensible price" },
+        "value": { "title": "The Daily Trainers", "sub": "Where most runners should spend, and stay" },
+        "premium": { "title": "Stability and Max Cushion", "sub": "For specific feet and high weekly mileage" }
+      },
+      "guideHeading": "How to Choose Running Shoes",
+      "guide": [
+        {
+          "h": "Neutral Is the Right Default",
+          "p": "Every foot rolls inward a little when it lands &mdash; that is pronation, and it is how the foot absorbs shock. A <strong>stability</strong> shoe adds firmer material or guide rails on the inside to limit that roll. The research on prescribing shoes by foot type is weaker than the shoe wall suggests, and most runners do best in a <strong>neutral</strong> shoe chosen for comfort. If you have a history of shin, knee or arch pain that neutral shoes have not solved, or a shop has watched you run and your ankles visibly collapse, try a stability shoe like the <a href=\"#brooks-adrenaline-gts-25\">Adrenaline</a>. Otherwise, do not go looking for a problem to fix."
+        },
+        {
+          "h": "Cushion Follows Mileage, Not Ambition",
+          "p": "A beginner running three 20-minute sessions a week does not need a maximum-cushion shoe, and will often feel less connected to the ground in one. As weekly distance climbs past about 20 miles, more foam genuinely helps, because the same legs are absorbing far more impacts. That is the whole logic of this page: the budget shoes are moderate, the <a href=\"#brooks-ghost-17\">Ghost</a> is the middle, and the <a href=\"#hoka-bondi-9\">Bondi</a> is for people stacking up miles or protecting sore joints."
+        },
+        {
+          "h": "Fit Beats Every Other Specification",
+          "p": "Leave roughly a thumb's width between your longest toe and the end of the shoe, because feet swell on a run and toes hit the front on downhills. The heel should not lift as you walk, and nothing should press on the widest part of your foot. Buy in the afternoon, when feet are largest, and wear the socks you run in. If a shoe needs \"breaking in\", it is the wrong shoe &mdash; modern running shoes should feel right on the first run."
+        },
+        {
+          "h": "Wide Feet Have Real Options Now",
+          "p": "If shoes pinch across the ball of your foot, going up a size is the wrong fix &mdash; it makes the shoe too long and your foot slides. Buy a wide fitting instead. The <a href=\"#brooks-ghost-17\">Ghost 17</a>, <a href=\"#brooks-adrenaline-gts-25\">Adrenaline GTS 25</a> and <a href=\"#hoka-bondi-9\">Bondi 9</a> all come in wide versions on Amazon; choose the width in the size selector on the listing."
+        },
+        {
+          "h": "When to Replace Them",
+          "p": "Running shoe foam loses its bounce long before the upper looks worn. The usual guidance is somewhere between 300 and 500 miles, and the honest signal is that the shoe feels flat and your legs ache after runs that used to feel easy. If you run three times a week, that is roughly once a year. Keep an old pair for wet days and yard work, and do not race or do long runs in shoes that are finished."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What running shoes should a beginner buy?",
+          "a": "A neutral, moderately cushioned shoe that fits well - which means either of the budget picks here, or the Brooks Ghost 17 if you can stretch to it. Beginners do not need stability features unless they have a known problem, and do not need maximum cushion at low mileage. Fit and comfort on the first run matter far more than the model name."
+        },
+        {
+          "q": "How do I know if I need a stability shoe?",
+          "a": "The honest answer is that most runners do not. Consider one if you have recurring shin, knee or arch pain that neutral shoes have not fixed, or if someone has watched you run and your ankles visibly collapse inward on landing. A running shop can film you on a treadmill in a few minutes. If you are comfortable and injury-free in a neutral shoe, stay in it."
+        },
+        {
+          "q": "Are expensive running shoes better?",
+          "a": "Up to a point. The jump from a $75 shoe to a $150 daily trainer buys noticeably better foam that stays lively for more miles, and a more refined upper. The jump beyond that mostly buys specialisation - stability systems, extra stack height, racing plates - which helps specific runners and does nothing for others. The best shoe for you is the one that fits, not the one that costs most."
+        },
+        {
+          "q": "How often should I replace running shoes?",
+          "a": "Typically every 300 to 500 miles. The foam compresses and loses its rebound before the upper shows much wear, so go by feel: if the shoe feels flat and your legs ache after easy runs, the cushioning is gone. Heavier runners and people who run mostly on concrete tend to reach the end sooner."
+        },
+        {
+          "q": "Can I use running shoes for the gym?",
+          "a": "For cardio machines and light circuits, yes. For heavy lifting, no - a soft, high-cushion running shoe compresses unevenly under a loaded barbell and makes you less stable. The Brooks Revel 8 is the most versatile shoe here for mixed use. For serious lifting, see our cross-training shoes on the gym pages."
+        }
+      ],
+      "products": {
+        "run-shoes-001": {
+          "anchor": "under-armour-charged-assert-10",
+          "shortName": "UA Charged Assert 10",
+          "note": "24,000+ ratings",
+          "type": "Neutral",
+          "cushion": "Moderate",
+          "specs": ["Neutral", "Charged Cushioning foam", "Breathable mesh upper", "Low price per mile"],
+          "desc": "The cheapest shoe here that is built for running rather than for looking like it. The foam is firmer and less lively than anything further down the page, and it will feel flat sooner, but for someone running two or three short sessions a week it is completely adequate. It also has one of the largest review bases of any running shoe on Amazon, which is its own kind of reassurance. The right first pair if the budget is tight and the plan is couch-to-5K."
+        },
+        "run-shoes-002": {
+          "anchor": "asics-gel-excite-11",
+          "shortName": "ASICS Gel-Excite 11",
+          "note": "rearfoot gel",
+          "type": "Neutral",
+          "cushion": "Moderate",
+          "specs": ["Neutral", "Rearfoot GEL unit", "Softer heel landing", "Engineered mesh upper"],
+          "desc": "ASICS's entry-level trainer, with a gel insert in the heel that softens the landing for people who strike heel-first - which is most beginners. It feels plusher underfoot than the Under Armour, and the fit is a little more generous in the forefoot. Not as responsive as the daily trainers above it, and it is not meant to be. A comfortable, dependable shoe for building up from nothing."
+        },
+        "run-shoes-003": {
+          "anchor": "brooks-revel-8",
+          "shortName": "Brooks Revel 8",
+          "note": "most versatile",
+          "type": "Neutral",
+          "cushion": "Moderate",
+          "specs": ["Neutral", "Lighter than the Ghost", "Firmer, stable platform", "Works for gym and runs"],
+          "desc": "Brooks's lighter, lower-priced trainer and the most versatile shoe on this page. It is firmer and closer to the ground than the Ghost, which makes it feel quicker on short runs and more stable if you also use it for gym sessions and a day on your feet. On long runs you will miss the extra foam. For someone running a few times a week who wants one pair to do everything, it is the smart buy."
+        },
+        "run-shoes-004": {
+          "anchor": "brooks-ghost-17",
+          "shortName": "Brooks Ghost 17",
+          "note": "the default pick",
+          "type": "Neutral",
+          "cushion": "Balanced",
+          "specs": ["Neutral", "DNA Loft v3 foam", "Smooth heel-to-toe transition", "Wide fitting available"],
+          "desc": "If you asked a room full of running-shop staff for one shoe to recommend to someone they have never met, a lot of them would say the Ghost, and this is why: it does nothing badly. The cushioning is soft without being mushy, the ride is smooth for heel and midfoot strikers alike, and the fit suits a wide range of feet - with a genuine wide option for those it does not. It is neither the lightest nor the plushest shoe here. It is the one least likely to be wrong."
+        },
+        "run-shoes-005": {
+          "anchor": "brooks-adrenaline-gts-25",
+          "shortName": "Brooks Adrenaline GTS 25",
+          "note": "stability",
+          "type": "Stability",
+          "cushion": "Balanced",
+          "specs": ["Stability", "GuideRails support", "DNA Loft v3 foam", "Wide fitting available"],
+          "desc": "The Ghost's stability sibling, and one of the longest-running stability shoes on the market. Instead of the old approach of a hard wedge under the arch, Brooks's GuideRails sit along both sides of the heel and only really engage when your foot rolls too far - so if you do not need the help, it mostly feels like a normal neutral shoe. Buy it if you have a reason to, not by default. For runners who do overpronate, it is the one to try first."
+        },
+        "run-shoes-006": {
+          "anchor": "hoka-bondi-9",
+          "shortName": "Hoka Bondi 9",
+          "note": "maximum cushion",
+          "type": "Neutral",
+          "cushion": "Maximum",
+          "specs": ["Neutral", "Maximum stack height", "Rocker geometry", "Wide fitting available"],
+          "desc": "The most cushioned shoe here by a distance, and the one that looks it. A tall stack of foam and a rocker-shaped sole roll you from landing to toe-off, so the shoe does a lot of the work that tired legs cannot. That makes it excellent for high weekly mileage, long slow runs, recovery days and anyone with sore knees or feet - and a poor choice for fast running, where it feels heavy and disconnected. A specialist tool that many runners end up loving."
+        }
+      }
+    },
+    {
+      "slug": "socks",
+      "productCategory": "socks",
+      "navLabel": "Running Socks",
+      "tableNoun": "Sock",
+      "title": "Best Running Socks 2026: 6 Anti-Blister Picks from $14 to $21",
+      "metaDescription": "Six running socks compared across Budget, Best Value and Premium. Why cotton causes blisters, what cushioning actually does, and when merino is worth paying for.",
+      "ogTitle": "Best Running Socks 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best running socks across Budget, Best Value and Premium tiers, with blisters, cushioning and merino explained.",
+      "listName": "Best Running Socks 2026 — Budget to Premium",
+      "h1": "Running <em>Socks</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. No cotton anywhere.",
+      "intro": "Socks are the cheapest fix for the most common running complaint, which is blisters. Blisters come from <strong>friction plus moisture</strong>: a sock that holds sweat softens the skin, and a sock that slides or bunches rubs it. Cotton does both, which is why a pack of cotton sports socks is the single worst thing most new runners wear. A synthetic or merino running sock wicks sweat away, fits snugly enough not to move, and has no bulky seam across the toes. That is genuinely all you need to know. Below are six, from a six-pack that costs less than one pair of the premium socks, to a merino pair with a lifetime guarantee.",
+      "tableColumns": [
+        { "label": "Material", "key": "material" },
+        { "label": "Pack", "key": "pack" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Multi-Packs That Work", "sub": "Synthetic, wicking and cheap enough to own a week's worth" },
+        "value": { "title": "The Blister Fixers", "sub": "Seamless toes, snug fits and proper cushioning" },
+        "premium": { "title": "Merino Grade", "sub": "Wool that manages sweat and temperature, built to last" }
+      },
+      "guideHeading": "How to Choose Running Socks",
+      "guide": [
+        {
+          "h": "Cotton Is the Problem, Not the Solution",
+          "p": "Cotton absorbs sweat and holds it against your skin, and wet skin blisters far more easily than dry skin. It also loses its shape when damp, so the sock loosens and starts to slide inside the shoe &mdash; the second ingredient of a blister. Any sock sold for running will be a polyester, nylon or merino blend that moves moisture away from the skin instead. If you change nothing else about your kit, change this."
+        },
+        {
+          "h": "Cushion Is a Preference, Fit Is Not",
+          "p": "Thin socks give more feel for the ground and leave more room in the shoe; thicker, cushioned socks add comfort under the ball of the foot and the heel. Neither is right. What matters is that the sock fits closely with no wrinkles, because a wrinkle is a friction point. One caution: if you switch from thin to thick socks, your shoes can suddenly feel a half-size smaller. Try new socks with the shoes you run in."
+        },
+        {
+          "h": "No-Show Socks Need a Heel Tab",
+          "p": "Very low socks look tidy and are cooler in summer, but a no-show sock without a raised tab at the back lets the shoe's heel collar rub straight onto your Achilles. Every no-show pick on this page has a tab for that reason. If you get blisters on the back of the heel specifically, a tab or a quarter-length sock is usually the fix."
+        },
+        {
+          "h": "When Merino Earns Its Price",
+          "p": "Merino wool manages moisture and temperature better than synthetics: it stays warm when damp, feels less clammy, and resists odour for longer. That makes it genuinely worth it for winter running, long runs and multi-day trips. For short summer runs a good synthetic sock is just as effective and cheaper. The <a href=\"#darn-tough-run-no-show\">Darn Tough</a> also carries a lifetime guarantee, which changes the maths if you tend to wear through socks."
+        },
+        {
+          "h": "Blisters That Persist Are Usually the Shoe",
+          "p": "If you have tried good socks and still blister in the same spot, the cause is almost always the shoe &mdash; wrong size, wrong width, or a seam in the wrong place. See the <a href=\"shoes.html\">running shoe guide</a> for fit checks. Lacing tweaks such as a heel-lock loop fix a lot of heel slippage for free."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do running socks really make a difference?",
+          "a": "For blisters, yes - more than almost anything else you can buy. Running socks are made from materials that move sweat off the skin and are knitted to fit closely without bunching, which removes both causes of blisters: moisture and friction. Cotton sports socks do the opposite. The difference is noticeable from the first run."
+        },
+        {
+          "q": "Are thick or thin socks better for running?",
+          "a": "Neither is objectively better. Thin socks give more ground feel and leave more room in the shoe; cushioned socks add comfort under the heel and forefoot. Pick by preference and by how your shoes fit - moving to a thicker sock can make a well-fitting shoe feel tight. What matters in either case is a close, wrinkle-free fit."
+        },
+        {
+          "q": "Is merino wool good for running socks?",
+          "a": "Very good, especially in cold weather and on long runs. Merino stays warm when wet, feels drier against the skin, and resists odour far better than synthetics. It is more expensive and, in thin summer socks, the advantage over a good synthetic is smaller. Most merino running socks are blended with nylon for durability."
+        },
+        {
+          "q": "How do I stop getting blisters when running?",
+          "a": "Start with non-cotton running socks that fit snugly, and make sure your shoes are the right length and width. If blisters persist in one spot, look at the shoe first - a heel-lock lacing loop fixes most heel slippage. Anti-chafe balm on known hotspots helps on long runs. Break up very long runs in new shoes rather than doing a half-marathon in them straight out of the box."
+        },
+        {
+          "q": "How many pairs of running socks do I need?",
+          "a": "Enough to cover every run between laundry days, which for most people running three or four times a week is four to six pairs. That is why a budget multi-pack is a sensible start, with one or two premium pairs added later for long runs and cold weather."
+        }
+      ],
+      "products": {
+        "run-socks-001": {
+          "anchor": "saucony-rundry-no-show",
+          "shortName": "Saucony RunDry",
+          "note": "6 pairs",
+          "material": "Synthetic",
+          "pack": "6 pairs",
+          "specs": ["Polyester blend", "Mesh ventilation", "No-show", "6-pair pack"],
+          "desc": "The cheapest way to stop running in cotton, and one of the most-reviewed running socks on Amazon. Thin, light and ventilated with mesh panels, they dry fast and suit warm weather and shorter runs. There is not much cushioning and they are not built to last for years, but at this price per pair that hardly matters. If you currently run in cotton, buy these first and notice the difference immediately."
+        },
+        "run-socks-002": {
+          "anchor": "cs-celersport-ankle",
+          "shortName": "CS Celersport",
+          "note": "cushioned 6-pack",
+          "material": "Synthetic",
+          "pack": "6 pairs",
+          "specs": ["Cushioned sole", "Ankle height with tab", "Moisture-wicking", "6-pair pack"],
+          "desc": "The cushioned alternative to the Saucony at almost the same price. The padded sole takes the edge off hard pavements, and the ankle height with a raised heel tab protects the Achilles from the shoe collar. Heavier and a touch warmer than the Saucony, which makes it a better choice for cooler months and longer runs. A week's worth of perfectly competent running socks for the price of one premium pair."
+        },
+        "run-socks-003": {
+          "anchor": "balega-hidden-comfort",
+          "shortName": "Balega Hidden Comfort",
+          "note": "blister fighter",
+          "material": "Synthetic",
+          "pack": "1 pair",
+          "specs": ["Seamless toe", "Deep heel pocket", "Mid cushion", "Heel tab"],
+          "desc": "A long-standing running-shop answer to blisters. The toe is seamless, so there is no ridge across the toes to rub, and the deep heel pocket stops the sock creeping down inside the shoe - the two usual culprits. The cushioning is soft and even without being bulky. Individually priced, so it costs noticeably more per pair than a multi-pack, but this is the point at which socks stop being something you notice."
+        },
+        "run-socks-004": {
+          "anchor": "feetures-elite-max-cushion",
+          "shortName": "Feetures Elite",
+          "note": "left & right specific",
+          "material": "Synthetic",
+          "pack": "1 pair",
+          "specs": ["Left/right anatomical", "Max cushion", "Targeted compression", "Heel tab"],
+          "desc": "A sock shaped specifically for the left and right foot, with light compression through the arch that holds it snugly in place. The effect is a fit closer to a second skin than a sock, which is exactly what stops friction. This is the max-cushion version, so it is plush underfoot - excellent for long runs on hard surfaces, a little warm in summer. Runners who like a locked-in feel tend to become loyal to these."
+        },
+        "run-socks-005": {
+          "anchor": "darn-tough-run-no-show",
+          "shortName": "Darn Tough Run",
+          "note": "lifetime guarantee",
+          "material": "Merino blend",
+          "pack": "1 pair",
+          "specs": ["Merino wool blend", "Ultra-lightweight", "Light cushion", "Lifetime guarantee"],
+          "desc": "The sock to buy if you are tired of buying socks. Darn Tough guarantees its socks for life, and the dense merino knit is the reason it can afford to: these genuinely take years of wear. It is thin, with light cushioning, so it suits runners who prefer ground feel, and the merino keeps feet comfortable across a wide range of temperatures. The most expensive pair you will buy once."
+        },
+        "run-socks-006": {
+          "anchor": "smartwool-run-targeted-cushion",
+          "shortName": "Smartwool Run",
+          "note": "winter pick",
+          "material": "Merino blend",
+          "pack": "1 pair",
+          "specs": ["Merino wool blend", "Targeted cushion", "Ankle height", "Mesh ventilation zones"],
+          "desc": "Merino with cushioning placed only where your foot lands - under the heel and ball - and thinner, ventilated knit elsewhere. It is warmer than the Darn Tough and the best choice here for cold-weather running, when merino's ability to stay warm when damp really shows. Less durable than the Darn Tough and without the guarantee. Buy it for winter, and for runners whose feet run cold."
+        }
+      }
+    },
+    {
+      "slug": "belts",
+      "productCategory": "belts",
+      "navLabel": "Belts & Armbands",
+      "tableNoun": "Belt",
+      "title": "Best Running Belts & Armbands 2026: 6 Picks from $13 to $49",
+      "metaDescription": "Six running belts and phone armbands compared across Budget, Best Value and Premium. How to carry a phone without bounce, belt vs armband, and which designs stay put.",
+      "ogTitle": "Best Running Belts & Armbands 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best running belts and phone armbands across Budget, Best Value and Premium tiers, with bounce and fit explained.",
+      "listName": "Best Running Belts & Armbands 2026 — Budget to Premium",
+      "h1": "Running <em>Belts &amp; Armbands</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. Your phone, keys and a gel, without the bounce.",
+      "intro": "Nearly everyone runs with a phone now, and a phone in a shorts pocket is miserable: it swings, it bounces and it drags your waistband down with every stride. The fix is a carrier that holds it <strong>close to the body's centre of mass</strong>, which is why a snug waist belt is the answer for most people and an armband for the rest. The thing to judge is <strong>bounce</strong>. A belt that moves a few millimetres with each step becomes intolerable after 20 minutes, so fit and design matter far more than capacity. Below are six, from a $13 armband to the tube belts that most regular runners end up in.",
+      "tableColumns": [
+        { "label": "Style", "key": "style" },
+        { "label": "Closure", "key": "closure" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Carry the Phone, Cheaply", "sub": "An armband and a pouch belt that do the basic job well" },
+        "value": { "title": "Built Not to Bounce", "sub": "More room, better elastic and race-day features" },
+        "premium": { "title": "The Tube Belts", "sub": "Buckle-free, bounce-free, and what most regular runners end up using" }
+      },
+      "guideHeading": "How to Choose a Running Belt",
+      "guide": [
+        {
+          "h": "Belt or Armband?",
+          "p": "A waist belt carries the load at your centre of mass, where it bounces least, and has room for keys, cards and gels as well as a phone. An armband keeps the screen visible and touchable, which suits people who follow a running app or change music a lot, but it puts weight on one arm and today's large phones make armbands feel heavy. For most runners, a belt is the better answer. Choose an armband if you want the screen in sight."
+        },
+        {
+          "h": "Bounce Is the Only Real Test",
+          "p": "Every belt holds a phone when you are standing still. What separates them is whether it stays put at running pace. A belt should sit snug on the hips or low waist &mdash; tight enough not to move, loose enough to breathe &mdash; and the load should sit at the front or the small of the back. Wider, stretchier bands like the <a href=\"#flipbelt-classic\">FlipBelt</a> spread the pressure and bounce least. Narrow belts with a single pouch depend on getting the tension exactly right."
+        },
+        {
+          "h": "Tube Belts Need the Right Size",
+          "p": "Buckle-free tube belts like the FlipBelt are sized, not adjustable, and a tube belt that is too big will bounce however you wear it. Measure where you will actually wear it &mdash; hips or waist &mdash; and follow the brand's size chart for that position. If you are between sizes, choose the smaller one, because the fabric relaxes a little with use."
+        },
+        {
+          "h": "Think About What Else You Carry",
+          "p": "A phone is the obvious thing. The less obvious ones are a car key or house key you genuinely cannot lose, a card for emergencies, and gels on long runs. A zipped pocket is the only way to be sure about a key. If you are running long enough to need water too, a <a href=\"hydration.html\">hydration belt or vest</a> will carry everything at once."
+        },
+        {
+          "h": "Race Day Features",
+          "p": "Some belts include bib toggles, so you can clip your race number to the belt instead of putting pins through your shirt. That makes it easy to move the number when you strip off a layer, and it is a small thing that is surprisingly welcome at the start line. The SPIbelt range and many hydration belts offer it; for most training runs it does not matter."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best way to carry a phone while running?",
+          "a": "For most runners, a snug waist belt worn low on the hips or at the small of the back. It carries the phone close to your centre of mass, which is where it moves least, and it leaves room for keys and a card. An armband is the alternative if you want to see and touch the screen. Shorts pockets and hand-carrying are the least comfortable options on anything but very short runs."
+        },
+        {
+          "q": "Do running belts bounce?",
+          "a": "A well-fitting one should not. Bounce usually comes from a belt that is too loose, too narrow or overloaded. Wide, stretchy tube belts spread the load and move least; narrow pouch belts work well when tightened properly. If a belt bounces, try wearing it lower on the hips and snugger, and move the heaviest item to the back."
+        },
+        {
+          "q": "Will my phone fit in a running belt?",
+          "a": "Almost all modern phones fit in the belts on this page, including large models - check the listing's stated maximum size if your phone is unusually big or in a thick case. Armbands are more restrictive, and the phone's case can make the difference. The expandable SPIbelt pocket and the FlipBelt tubes are the most forgiving."
+        },
+        {
+          "q": "Is a running armband or belt better?",
+          "a": "A belt is more comfortable for most people, carries more and bounces less. An armband wins only if you need the screen in view - for example to follow navigation or an interval app. With today's larger, heavier phones, many people who start with an armband move to a belt."
+        },
+        {
+          "q": "How should a FlipBelt fit?",
+          "a": "Snugly, with no sagging when loaded. It is not adjustable, so the size is everything: measure around the point where you will wear it - lower on the hips needs a larger size than at the natural waist - and follow FlipBelt's size chart. If you are between sizes, go smaller."
+        }
+      ],
+      "products": {
+        "run-belt-001": {
+          "anchor": "guzack-running-armband",
+          "shortName": "GUZACK Armband",
+          "note": "screen in view",
+          "style": "Armband",
+          "closure": "Hook & loop",
+          "specs": ["Fits phones to about 6.8\"", "Touchscreen window", "Zip key pocket", "10-16\" arm range"],
+          "desc": "The cheapest carrier here and the only armband, for runners who want to see and use the screen mid-run. The clear window works with the touchscreen, a small zipped pocket holds a key, and the strap adjusts to a wide range of arm sizes. The trade is the one every armband makes: a large phone on one arm feels heavy after a while, and sweat collects under it. For short runs with an app open, it does the job well."
+        },
+        "run-belt-002": {
+          "anchor": "fitgriff-running-belt",
+          "shortName": "Fitgriff Belt",
+          "note": "16,000+ ratings",
+          "style": "Pouch belt",
+          "closure": "Buckle",
+          "specs": ["Fits most phones", "Two compartments", "Reflective strips", "Sized to fit"],
+          "desc": "A simple zipped pouch on an elastic belt, and the best value way to get a phone off your arm and out of your pocket. It is sized rather than one-size, which is why it stays put better than most cheap belts - measure your waist and use the chart. Two compartments separate the phone from keys, and the reflective strip along the zip is a nice touch for dark mornings. The belt most people should start with."
+        },
+        "run-belt-003": {
+          "anchor": "waterfly-running-belt",
+          "shortName": "WATERFLY Belt",
+          "note": "three pockets",
+          "style": "Pouch belt",
+          "closure": "Buckle",
+          "specs": ["Three pockets", "Headphone port", "Fits 27-48\" waists", "Reflective logo"],
+          "desc": "A wider, stretchier belt than the Fitgriff with three pockets instead of one, so the phone, keys, card and a gel each get their own space. The wider band distributes the weight better, which reduces bounce, and it adjusts across a generous waist range. It is bulkier than the minimalist options, so it suits people who carry more than a phone. A step up in comfort for regular runners."
+        },
+        "run-belt-004": {
+          "anchor": "spibelt-original",
+          "shortName": "SPIbelt Original",
+          "note": "race favourite",
+          "style": "Pouch belt",
+          "closure": "Buckle",
+          "specs": ["Expandable pocket", "Narrow 1\" belt", "Fits 25-47\" waists", "No logo"],
+          "desc": "The belt that made the category, and still a favourite for racing. The pocket starts small and expands to fit a phone, passport or gels, so when it is lightly loaded it all but disappears. The narrow band is less bulky than anything else here, but it relies on getting the tension right to avoid bounce. Clip-on bib toggles are sold for it. For runners who want the least belt possible."
+        },
+        "run-belt-005": {
+          "anchor": "flipbelt-classic",
+          "shortName": "FlipBelt Classic",
+          "note": "zero bounce",
+          "style": "Tube belt",
+          "closure": "None (sized)",
+          "specs": ["Buckle-free tube", "Four pocket openings", "Internal key hook", "Moisture-wicking fabric"],
+          "desc": "A wide tube of stretch fabric with slots around it: you drop items into the openings, flip the belt over so they face inward, and they are held against your body all the way round. Because the load is spread across the whole band rather than hung from a pouch, it bounces less than anything else here - even with a large phone and gels. It has to be sized correctly, as it does not adjust. The belt many regular runners end up with."
+        },
+        "run-belt-006": {
+          "anchor": "flipbelt-zipper",
+          "shortName": "FlipBelt Zipper",
+          "note": "zip pocket",
+          "style": "Tube belt",
+          "closure": "None (sized)",
+          "specs": ["Buckle-free tube", "One zipped pocket", "Three open slots", "Internal key hook"],
+          "desc": "The Classic with one of its openings replaced by a zipped pocket. That sounds minor and is the whole reason to pay more: a car key, a credit card or a hotel key card can go in the zip pocket with no chance of working its way out on a long run. Otherwise it is the same bounce-free tube. If you only ever carry a phone, save the money and buy the Classic."
+        }
+      }
+    },
+    {
+      "slug": "hydration",
+      "productCategory": "hydration",
+      "navLabel": "Hydration",
+      "tableNoun": "Carrier",
+      "title": "Best Running Hydration 2026: 6 Handhelds, Belts & Vests from $20 to $138",
+      "metaDescription": "Six ways to carry water on a run, compared across Budget, Best Value and Premium. When you actually need water, and whether a handheld, belt or vest suits your distance.",
+      "ogTitle": "Best Running Hydration 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best running hydration belts, handhelds and vests across Budget, Best Value and Premium tiers.",
+      "listName": "Best Running Hydration 2026 — Budget to Premium",
+      "h1": "Running <em>Hydration</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. Handhelds, belts and vests.",
+      "intro": "Most runs do not need water at all. For an easy run under about an hour in normal weather, drinking beforehand is enough. Carrying water starts to matter on <strong>long runs, hot days and trails</strong> without a tap along the way, and then the question becomes <strong>how</strong> to carry it. A handheld bottle is simplest for up to about 90 minutes. A hydration belt frees your hands. A vest carries the most and bounces least, which is why marathon and trail runners use them. Below are two of each type across three price bands. Distance decides the type; budget decides the tier.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Capacity", "key": "capacity" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Try It Out", "sub": "A belt and a vest at prices that let you find out what you like" },
+        "value": { "title": "The Everyday Carriers", "sub": "Better bottles, better fit and less bounce" },
+        "premium": { "title": "Race Grade", "sub": "Soft flasks and vests built for marathons and trails" }
+      },
+      "guideHeading": "How to Choose Running Hydration",
+      "guide": [
+        {
+          "h": "Do You Need to Carry Water at All?",
+          "p": "For runs under about an hour in mild conditions, most healthy runners do not need to drink during the run &mdash; arriving hydrated is enough. Carry water on runs longer than that, in heat and humidity, and on trails without a water source. Thirst is a reasonable guide for most people. If a route passes fountains or shops, planning around them is lighter than carrying anything."
+        },
+        {
+          "h": "Handheld, Belt or Vest",
+          "p": "A <strong>handheld</strong> is a bottle with a strap that holds it to your hand; it is simple, cheap and easy to drink from, and good for up to 90 minutes or so. A <strong>hydration belt</strong> carries small bottles on your waist, so your hands are free, but belts with bottles can bounce. A <strong>vest</strong> carries soft flasks on the chest or a bladder on the back, holds the most and moves the least, and has space for a jacket and food &mdash; the standard for marathon training and trail running."
+        },
+        {
+          "h": "Soft Flasks Beat Hard Bottles",
+          "p": "A soft flask collapses as you drink, so it does not slosh and it does not get in the way when half-empty. That is why the premium picks here use them. They are quieter and more comfortable, and they roll up small when empty. Hard bottles are cheaper, easier to clean and more durable. Insulated bottles like the <a href=\"#nathan-speeddraw-plus\">Nathan SpeedDraw</a> keep water cool on hot runs."
+        },
+        {
+          "h": "Bladder vs Flasks in a Vest",
+          "p": "A bladder on the back carries a lot &mdash; one and a half to two litres &mdash; and suits long unsupported trail days. Front flasks are easier to refill at aid stations, let you see how much you have left, and keep the weight on the front where it balances better. Most race vests are built around front flasks, with a bladder sleeve as an option."
+        },
+        {
+          "h": "Fit Decides Whether You Will Use It",
+          "p": "A vest should fit like a snug waistcoat, with the chest straps holding it still without restricting breathing. Try it with the flasks full and run a few strides before deciding it works; a vest that is comfortable empty can bounce when loaded. Wash bladders and flasks after every use, and dry them fully, or they will grow mould faster than you would believe."
+        }
+      ],
+      "faq": [
+        {
+          "q": "When should I carry water on a run?",
+          "a": "On runs longer than about an hour, in hot or humid weather, and on trails without water along the route. For shorter runs in mild conditions most people do not need to drink during the run, provided they start well hydrated. Thirst is a reasonable guide for most healthy runners."
+        },
+        {
+          "q": "Is a hydration vest or belt better?",
+          "a": "A vest carries more, bounces less and has room for food and a jacket, which is why it is the standard for marathon training and trail running. A belt is lighter and cooler for shorter runs where you need only a little water. If you run long regularly, a vest is the better investment."
+        },
+        {
+          "q": "How much water should I carry on a long run?",
+          "a": "A common starting point is roughly 400 to 800 ml per hour, adjusted for heat, body size and sweat rate - but individual needs vary a lot. Plan refills around fountains or shops where you can, carry more on hot days and remote trails, and consider electrolytes on runs over about two hours."
+        },
+        {
+          "q": "Are handheld water bottles annoying to run with?",
+          "a": "Less than people expect. A good handheld has a strap that holds the bottle to your palm, so you do not have to grip it, and most runners stop noticing it after a few runs. Swap hands occasionally to avoid asymmetry. For runs over about 90 minutes, a vest or belt becomes more practical."
+        },
+        {
+          "q": "How do I clean a hydration bladder?",
+          "a": "Rinse it after every use, then wash it with warm soapy water or a cleaning tablet and let it dry completely with the bladder propped open. Mould grows quickly in a bladder left damp. Storing a clean, dry bladder in the freezer is an old trick that also stops growth between uses."
+        }
+      ],
+      "products": {
+        "run-hydration-001": {
+          "anchor": "airuntech-hydration-belt",
+          "shortName": "AiRunTech Belt",
+          "note": "two bottles",
+          "type": "Belt",
+          "capacity": "2 x 300 ml",
+          "specs": ["Two 300 ml bottles", "Phone pocket", "Race bib toggles", "Headphone port"],
+          "desc": "Two small bottles on a belt with a phone pocket in between, which is enough water for a long run in normal weather and leaves your hands free. It includes bib toggles for race day. The limitation is the one all bottle belts share: with both bottles full, there is more movement than a vest, so tighten it snugly and wear it low. A good way to find out whether you want to carry water at all."
+        },
+        "run-hydration-002": {
+          "anchor": "inoxto-hydration-vest",
+          "shortName": "INOXTO Vest",
+          "note": "1.5 L bladder",
+          "type": "Vest",
+          "capacity": "1.5 L bladder",
+          "specs": ["1.5 L bladder included", "Adjustable chest straps", "Reflective trim", "Front and back pockets"],
+          "desc": "A full hydration vest with a bladder included for barely more than the belt above. It is heavier and less refined than the race vests further down - the fabric is less breathable and the fit less adjustable - but it holds far more water, and for trail runs and long hot outings that is what matters. Try a vest at this price before deciding whether to spend real money on one."
+        },
+        "run-hydration-003": {
+          "anchor": "nathan-speeddraw-plus",
+          "shortName": "Nathan SpeedDraw Plus",
+          "note": "insulated handheld",
+          "type": "Handheld",
+          "capacity": "18 oz",
+          "specs": ["18 oz insulated bottle", "Adjustable hand strap", "Zip pocket for phone", "Reflective trim"],
+          "desc": "The classic handheld, done well. The adjustable strap and thumb loop hold the bottle to your hand so you do not grip it, the double-walled bottle keeps water cool for longer on hot runs, and the zip pocket takes a phone or keys. It carries enough for a run up to about 90 minutes. The simplest possible way to carry water, and for many runners the only one they need."
+        },
+        "run-hydration-004": {
+          "anchor": "zelvot-running-vest",
+          "shortName": "Zelvot Vest",
+          "note": "2 L bladder",
+          "type": "Vest",
+          "capacity": "2 L bladder",
+          "specs": ["2 L bladder included", "Front chest pack", "Waterproof zip pockets", "Reflective details"],
+          "desc": "A two-litre bladder on the back and a zipped chest pack on the front, so water, phone, keys and food are all carried close to the body. The chest pack keeps everything reachable without taking the vest off. Heavier and more structured than a race vest, which suits long trail days and hiking-running mixes more than fast road running. A lot of carrying capacity for the money."
+        },
+        "run-hydration-005": {
+          "anchor": "nathan-exodraw-2",
+          "shortName": "Nathan ExoDraw 2.0",
+          "note": "soft flask handheld",
+          "type": "Handheld",
+          "capacity": "Soft flask",
+          "specs": ["Collapsible soft flask", "Push/pull race cap", "Removable flask", "Small stash pocket"],
+          "desc": "A handheld built around a soft flask rather than a rigid bottle, so it shrinks as you drink and never sloshes. The flask can be removed and used in a vest, which makes it a sensible first piece of race kit. A rigid spine keeps it shaped for your hand. More expensive than the SpeedDraw and it holds less, but it is quieter, lighter when empty and far more pleasant to race with."
+        },
+        "run-hydration-006": {
+          "anchor": "salomon-adv-hydra-vest-4",
+          "shortName": "Salomon ADV Hydra 4",
+          "note": "race vest",
+          "type": "Vest",
+          "capacity": "Two soft flasks",
+          "specs": ["Race-vest fit", "Two soft flasks included", "Front flask pockets", "Stretch storage"],
+          "desc": "A proper race vest from the brand that defined the category. It fits close like a garment rather than a backpack, carries two soft flasks on the chest where they are easy to reach and refill, and has just enough stretch storage for gels, a phone and a light jacket. It barely moves at pace. More than a beginner needs; exactly what a marathon or trail runner wants."
+        }
+      }
+    },
+    {
+      "slug": "recovery",
+      "productCategory": "recovery",
+      "navLabel": "Recovery",
+      "tableNoun": "Tool",
+      "title": "Best Running Recovery Tools 2026: 6 Rollers, Sticks & Balls from $8 to $58",
+      "metaDescription": "Six running recovery tools compared across Budget, Best Value and Premium. Foam rollers, massage sticks and massage balls - what each is for, and how firm to go.",
+      "ogTitle": "Best Running Recovery Tools 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best foam rollers, massage sticks and massage balls for runners across Budget, Best Value and Premium tiers.",
+      "listName": "Best Running Recovery Tools 2026 — Budget to Premium",
+      "h1": "Running <em>Recovery</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. Rollers, sticks and balls.",
+      "intro": "Recovery tools are the area of running where the claims most outrun the evidence. Foam rolling does not \"break up\" anything, flush out lactic acid or prevent injury by itself. What it <strong>does</strong> reliably do is make tight, sore muscles feel better and move more freely for a while, which is reason enough for most runners &mdash; and it costs very little. The rules are simple: spend a minute or two on calves, quads, hamstrings, glutes and the hips, <strong>go gentler than you think</strong>, and never roll directly over a joint, bone or an acute injury. Below are six tools, three types, and one sensible order to buy them in.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Firmness", "key": "firmness" }
+      ],
+      "tierBands": {
+        "budget": { "title": "Under Ten Dollars", "sub": "A massage ball and a stick that cover most of what runners need" },
+        "value": { "title": "The First Roller", "sub": "Full-length rolling for quads, glutes and back" },
+        "premium": { "title": "Rollers That Last", "sub": "Hollow-core rollers that keep their shape for years" }
+      },
+      "guideHeading": "How to Choose a Recovery Tool",
+      "guide": [
+        {
+          "h": "What Rolling Actually Does",
+          "p": "The best evidence suggests foam rolling gives a short-term increase in range of motion and a reduction in perceived soreness, likely through the nervous system rather than by changing the tissue itself. It does not prevent injury on its own, and it is not a substitute for easy days and sleep. Used as a few minutes of maintenance after runs, it is a cheap way to feel better &mdash; and that is a perfectly good reason to do it."
+        },
+        {
+          "h": "Roller, Stick or Ball?",
+          "p": "A <strong>foam roller</strong> uses your body weight, so it suits big muscles &mdash; quads, hamstrings, glutes, upper back. A <strong>massage stick</strong> is held in your hands, which makes it better for calves and shins and easy to use sitting down or while travelling. A <strong>massage ball</strong> gets into small, deep spots a roller cannot reach &mdash; the glutes, the hip, and especially the sole of the foot, where many runners carry tension."
+        },
+        {
+          "h": "Softer Is Usually Better",
+          "p": "Rolling should feel like firm pressure, not pain. If you are wincing, you are tensing, and a tense muscle does not relax. Beginners should start with a medium-density roller like the <a href=\"#amazon-basics-foam-roller\">Amazon Basics</a> or <a href=\"#321-strong-massage-roller\">321 STRONG</a>. Extra-firm rollers like the <a href=\"#triggerpoint-grid-x\">GRID X</a> are for people who find a standard roller too soft, not for getting better results faster."
+        },
+        {
+          "h": "The IT Band Myth",
+          "p": "Many runners grind away at the outside of the thigh because they have been told to roll the IT band. The IT band is a thick sheet of connective tissue and does not meaningfully stretch or release under a roller. If the outside of your knee hurts, roll the muscles around it &mdash; glutes, hip and quads &mdash; and see a physio if it persists, because the usual fix is strength work, not rolling."
+        },
+        {
+          "h": "Where to Start",
+          "p": "If you buy one thing, buy a <a href=\"#massage-lacrosse-balls\">massage ball</a>: it costs almost nothing and reaches the foot and glute spots that matter most to runners. Add a stick if calves are your problem, or a roller if you want to work the big leg muscles. Hollow-core rollers like the GRID keep their shape for years; cheap solid foam rollers eventually soften and dent."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is foam rolling good for runners?",
+          "a": "It is useful, within limits. Rolling reliably reduces perceived soreness and temporarily improves range of motion, which makes it a good post-run habit. It does not prevent injuries on its own or repair muscle damage. A few minutes on the major leg muscles after runs is plenty."
+        },
+        {
+          "q": "Should I foam roll before or after running?",
+          "a": "Either works. Light rolling before a run can help you feel looser as part of a warm-up; longer rolling after a run or in the evening helps with soreness. Keep pre-run rolling brief and gentle - it is not a substitute for easing into the run itself."
+        },
+        {
+          "q": "How firm should a foam roller be?",
+          "a": "Firm enough to feel pressure, soft enough that you can relax on it. Beginners should start medium. Extra-firm rollers are for experienced users who find standard density too soft. If rolling is painful enough that you tense up, the roller is too firm or you are pressing too hard."
+        },
+        {
+          "q": "Should I foam roll my IT band?",
+          "a": "Rolling directly on the IT band is uncomfortable and does little, because it is dense connective tissue that does not release under a roller. Roll the muscles that attach to it - glutes, hip and quads - instead. Persistent pain on the outside of the knee is worth seeing a physiotherapist about."
+        },
+        {
+          "q": "What is a massage ball good for?",
+          "a": "Small, deep areas a roller cannot reach - the glutes, the hip, the shoulders and especially the sole of the foot. Rolling a ball under the foot is one of the most popular self-care habits among runners with tight arches. Lacrosse balls are firm; start gently on sensitive areas."
+        }
+      ],
+      "products": {
+        "run-recovery-001": {
+          "anchor": "massage-lacrosse-balls",
+          "shortName": "Lacrosse Balls",
+          "note": "set of 2",
+          "type": "Massage ball",
+          "firmness": "Firm",
+          "specs": ["Set of two", "Solid rubber", "Fits in a pocket", "Feet, glutes and hips"],
+          "desc": "The single best-value recovery tool a runner can own. Stand on one and roll the sole of your foot, sit on one to work into the glutes, or lean against a wall to reach the hips and upper back. Solid rubber is firm, so go gently at first, and two let you work both sides of the spine. If you buy nothing else on this page, buy these."
+        },
+        "run-recovery-002": {
+          "anchor": "idson-muscle-roller-stick",
+          "shortName": "Idson Stick",
+          "note": "calves & shins",
+          "type": "Roller stick",
+          "firmness": "Adjustable by hand",
+          "specs": ["17.5\" long", "Rotating spindles", "Grip handles", "Travel friendly"],
+          "desc": "A handheld stick of rotating spindles that you press into the muscle yourself, which means you control the pressure precisely. It is the best tool here for calves and the front of the shin, which are awkward on a floor roller, and it is light enough to take to races and on trips. Less effective on the big muscles of the thigh and glutes, where a roller wins."
+        },
+        "run-recovery-003": {
+          "anchor": "amazon-basics-foam-roller",
+          "shortName": "Amazon Basics 18\"",
+          "note": "first roller",
+          "type": "Foam roller",
+          "firmness": "High density",
+          "specs": ["18\" long", "Smooth surface", "High-density foam", "Lightweight"],
+          "desc": "A plain, smooth, high-density foam roller at a price that makes it an easy first buy. The smooth surface is gentler than the textured rollers above it, which suits beginners, and 18 inches is long enough to roll both legs or the back. Solid foam will eventually soften and dent with heavy use, which is when the hollow-core rollers start to make sense."
+        },
+        "run-recovery-004": {
+          "anchor": "321-strong-massage-roller",
+          "shortName": "321 STRONG",
+          "note": "42,000+ ratings",
+          "type": "Foam roller",
+          "firmness": "Medium",
+          "specs": ["Three texture zones", "Medium density", "13\" long", "Solid core"],
+          "desc": "A textured roller with three zones of different knobbliness, so you can choose gentler or more targeted pressure by moving along the roller rather than buying two. Medium density makes it forgiving for beginners. It is among the most-reviewed rollers on Amazon. A good step up from a smooth roller for anyone who wants more targeted work without going to extra-firm."
+        },
+        "run-recovery-005": {
+          "anchor": "triggerpoint-grid",
+          "shortName": "TriggerPoint GRID",
+          "note": "hollow core",
+          "type": "Foam roller",
+          "firmness": "Firm",
+          "specs": ["Hollow core", "Multi-density surface", "13\" x 5.5\"", "Holds its shape"],
+          "desc": "The roller physios and running shops recommend most often. A rigid hollow core wrapped in a patterned EVA surface means it holds its shape for years where solid foam rollers sag, and the mixed-density grid gives a feel closer to a massage than a smooth cylinder. It is firmer than the Amazon Basics and shorter, so it packs into a bag. The one to buy if you want to buy once."
+        },
+        "run-recovery-006": {
+          "anchor": "triggerpoint-grid-x",
+          "shortName": "TriggerPoint GRID X",
+          "note": "extra firm",
+          "type": "Foam roller",
+          "firmness": "Extra firm",
+          "specs": ["About 50% firmer than GRID", "Hollow core", "13\" long", "Sweat-proof surface"],
+          "desc": "The GRID in an extra-firm version, for runners who have used a standard roller for a long time and find it too soft to do anything. Firmer is not better for most people - it makes you tense up, which defeats the point - so treat this as a specialist tool. For experienced athletes with heavily muscled legs, it is the roller that finally feels like it is reaching something."
+        }
+      }
+    },
+    {
+      "slug": "visibility",
+      "productCategory": "visibility",
+      "navLabel": "Visibility",
+      "tableNoun": "Light",
+      "title": "Best Running Lights & Reflective Gear 2026: 6 Picks from $8 to $130",
+      "metaDescription": "Six ways to be seen and see where you are going on dark runs, compared across Budget, Best Value and Premium. Reflective vests, chest lights, light-up vests and headlamps.",
+      "ogTitle": "Best Running Lights & Reflective Gear 2026 — Budget to Premium | SportGear Finder",
+      "ogDescription": "Compare the 6 best reflective vests, running lights and headlamps across Budget, Best Value and Premium tiers.",
+      "listName": "Best Running Lights & Reflective Gear 2026 — Budget to Premium",
+      "h1": "Running <em>Lights &amp; Visibility</em>",
+      "heroSub": "6 real picks — Budget, Best Value and Premium. Be seen, and see.",
+      "intro": "For half the year, most people who run before or after work are running in the dark, and the kit most of them wear is black. Visibility gear solves two separate problems. <strong>Being seen</strong> by drivers is about reflective material and lights that move with your body. <strong>Seeing</strong> the ground is about a beam bright enough to show a kerb or a tree root before you trip on it. On lit streets you mainly need the first; on unlit roads and trails you need both. Below are six options, from a reflective vest that costs less than a coffee to a headlamp built for trail running at night.",
+      "tableColumns": [
+        { "label": "Type", "key": "type" },
+        { "label": "Solves", "key": "solves" }
+      ],
+      "tierBands": {
+        "budget": { "title": "The Essentials", "sub": "A reflective vest and a headlamp for the price of one lunch" },
+        "value": { "title": "Chest Lights", "sub": "A steady beam that does not bounce like a headlamp" },
+        "premium": { "title": "Seen From Everywhere", "sub": "A light-up vest and a trail-grade headlamp" }
+      },
+      "guideHeading": "How to Choose Running Lights",
+      "guide": [
+        {
+          "h": "Reflective Only Works When Light Hits It",
+          "p": "Reflective material bounces a car's headlights back towards the driver, which makes it highly visible from the front and behind at night &mdash; and completely invisible from the side, under street lights, or to a cyclist without a light. It is the cheapest and most important layer, and it needs no batteries. Add an active light for everything reflective material cannot do."
+        },
+        {
+          "h": "Movement Is What Drivers Notice",
+          "p": "Research on pedestrian visibility consistently finds that reflective material on moving parts &mdash; ankles, wrists, knees &mdash; is recognised as a person far sooner than the same material on the torso, because the eye picks up the motion of walking or running. A reflective vest plus reflective shoe details or ankle bands is noticeably better than a vest alone."
+        },
+        {
+          "h": "Headlamp or Chest Light?",
+          "p": "A <strong>headlamp</strong> points wherever you look and is the best tool for trails and technical ground. On a run, though, it moves with your head and can bounce. A <strong>chest light</strong> is mounted lower, so the beam is steadier and shadows on the ground are longer and easier to read &mdash; many road runners prefer it. On unlit trails, a good headlamp is the one to have."
+        },
+        {
+          "h": "Lumens: How Much Is Enough",
+          "p": "For being seen on lit streets, almost any light is enough. For seeing the ground on unlit roads, a few hundred lumens is comfortable at running pace. For trails at night, more is better, and reactive lighting that adjusts to what you are looking at, like the <a href=\"#petzl-swift-rl\">Petzl Swift RL</a>, saves the battery while keeping the beam bright where you need it."
+        },
+        {
+          "h": "Use a Rear Red Light on Roads",
+          "p": "If you run on roads without pavements, a red light on your back tells drivers approaching from behind which way you are facing. Many headlamps and vests have a red mode for exactly this. And whatever you wear, run facing oncoming traffic where there is no pavement &mdash; you can see what is coming and step off the road."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What should I wear to be seen running at night?",
+          "a": "Reflective material plus an active light. A reflective vest is highly visible to drivers whose headlights hit it, and a light makes you visible from the side and under street lights where reflective material does nothing. Reflective details on moving parts - ankles and wrists - help drivers recognise you as a person sooner."
+        },
+        {
+          "q": "Is a headlamp or chest light better for running?",
+          "a": "A chest light gives a steadier beam and longer shadows on the ground, which many road runners prefer. A headlamp points where you look, which is better on trails and technical ground. Both work; if you run mainly on roads, try a chest light, and for trails at night choose a good headlamp."
+        },
+        {
+          "q": "How many lumens do I need for night running?",
+          "a": "To be seen on lit streets, almost any light. To see the ground on unlit roads, around 200 to 500 lumens is comfortable. For trail running at night, 500 lumens and above, ideally with a spot-and-flood beam, makes a real difference. More lumens drain the battery faster, so check runtime at the brightness you will actually use."
+        },
+        {
+          "q": "Do reflective vests actually work?",
+          "a": "Yes, when car headlights hit them - they return the light towards the driver and are visible from a long distance. They do not work from the side, in street lighting, or for cyclists and pedestrians without lights. That is why pairing one with an active light is the safest combination."
+        },
+        {
+          "q": "Which side of the road should I run on?",
+          "a": "Where there is no pavement, run facing oncoming traffic, so you can see vehicles approaching and step aside. Be careful on blind bends, where crossing to the outside of the bend can be safer. Wear something reflective and lit regardless of which side you choose."
+        }
+      ],
+      "products": {
+        "run-vis-001": {
+          "anchor": "reflective-running-vest-2-pack",
+          "shortName": "Reflective Vest 2-Pack",
+          "note": "no batteries",
+          "type": "Reflective vest",
+          "solves": "Being seen",
+          "specs": ["Two vests", "360-degree reflective", "Adjustable straps", "No batteries"],
+          "desc": "A lightweight strap-style vest with reflective bands front and back, sold as a pair for less than most single vests. It adjusts to fit over a T-shirt or a winter jacket, weighs almost nothing and never needs charging. It only works when a car's lights hit it, so pair it with a light on unlit roads. The cheapest meaningful safety upgrade in running."
+        },
+        "run-vis-002": {
+          "anchor": "lepro-led-headlamp",
+          "shortName": "Lepro Headlamp",
+          "note": "29,000+ ratings",
+          "type": "Headlamp",
+          "solves": "Seeing and being seen",
+          "specs": ["USB rechargeable", "5 modes incl. red", "About 2.9 oz", "IPX4 water resistant"],
+          "desc": "A light, rechargeable headlamp with a red mode, at a price that makes it an easy add to a first dark-running kit. It is bright enough to show the ground on unlit streets and light enough that it does not bounce much once the strap is snug. It is not a trail headlamp and the beam is simple, but for pavements and dark parks it is plenty."
+        },
+        "run-vis-003": {
+          "anchor": "iseyou-running-light",
+          "shortName": "ISEYOU Chest Light",
+          "note": "500 lumens",
+          "type": "Chest light vest",
+          "solves": "Seeing and being seen",
+          "specs": ["500-lumen front light", "45-degree tilt", "Reflective harness", "USB rechargeable"],
+          "desc": "A chest-mounted light on a reflective harness, so one purchase gives you both a beam and reflectivity. Mounted at chest height the beam barely moves as you run, and the tilting head lets you aim it at the ground a few strides ahead. It is bulkier than a headlamp, but many road runners find it more comfortable. A strong all-in-one choice for dark road running."
+        },
+        "run-vis-004": {
+          "anchor": "viccux-running-light",
+          "shortName": "Viccux Chest Light",
+          "note": "flood or spot",
+          "type": "Chest light vest",
+          "solves": "Seeing and being seen",
+          "specs": ["500-lumen front light", "Flood and spot beams", "Reflective harness", "Multiple colour modes"],
+          "desc": "The same idea as the ISEYOU, with a choice between a wide flood beam for nearby ground and a focused spot for looking further ahead - useful if your routes mix lit streets with unlit stretches. The harness is reflective all round. The difference between the two chest lights is small; buy this one if you want the extra beam options."
+        },
+        "run-vis-005": {
+          "anchor": "noxgear-tracer2",
+          "shortName": "Noxgear Tracer2",
+          "note": "360-degree light",
+          "type": "Light-up vest",
+          "solves": "Being seen",
+          "specs": ["Fibre-optic light-up vest", "Eight colour modes", "Reflective and fluorescent", "Rechargeable"],
+          "desc": "A vest that glows. Fibre-optic strands run around the whole harness and light up in a choice of colours, so you are visible from every direction including the sides, where reflective vests do nothing - and it is reflective and fluorescent as well. It does not light the ground, so add a headlamp on unlit roads. For runners on busy roads before dawn, nothing else here makes you as hard to miss."
+        },
+        "run-vis-006": {
+          "anchor": "petzl-swift-rl",
+          "shortName": "Petzl Swift RL",
+          "note": "1100 lumens",
+          "type": "Headlamp",
+          "solves": "Seeing",
+          "specs": ["1100 lumens max", "Reactive lighting", "Split headband", "USB-C rechargeable"],
+          "desc": "A trail-grade headlamp from the brand most night trail runners use. Reactive lighting reads the light around you and adjusts brightness and beam automatically - bright and focused when you look down the trail, dimmer when you look at your map - which extends battery life without you touching a button. The split headband keeps it stable at pace. More than a road runner needs; the right tool for real darkness."
+        }
+      }
+    }
+  ]
+}

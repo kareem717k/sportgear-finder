@@ -30,7 +30,8 @@
     { id: 'pickleball',  label: 'Pickleball' },
     { id: 'ping-pong',   label: 'Ping Pong' },
     { id: 'badminton',   label: 'Badminton' },
-    { id: 'ski',         label: 'Ski' }
+    { id: 'ski',         label: 'Ski' },
+    { id: 'running',     label: 'Running' }
   ];
 
   // ─── LEVELS & BUDGET ─────────────────────────────────────────────────────
@@ -286,6 +287,27 @@
       { cat: 'bags', label: 'Boot bag', rank: 6, weight: 0.10, optional: true,
         when: function (p) { return p.context !== 'fly'; },
         why: 'Vented compartments stop damp liners stewing in the back of the car.' }
+    ],
+
+    // GPS watches and headphones are not slots because they are not in the
+    // catalog yet - both were unverifiable from a non-US Amazon location, and
+    // nothing ships here without a verified US buy box.
+    running: [
+      { cat: 'shoes', label: 'Running shoes', rank: 1, weight: 0.55, core: true,
+        why: 'The only genuinely essential item - the wrong shoe is the fastest route to sore shins.' },
+      { cat: 'socks', label: 'Running socks', rank: 2, weight: 0.06,
+        why: 'Cotton socks cause most beginner blisters; synthetic ones fix it for almost nothing.' },
+      { cat: 'belts', label: 'Phone belt', rank: 3, weight: 0.07,
+        when: function (p) { return p.context !== 'long'; },
+        why: 'A phone in a shorts pocket bounces and drags your waistband down every stride.' },
+      { cat: 'hydration', label: 'Water carrier', rank: 3, weight: 0.16,
+        when: function (p) { return p.context === 'long'; },
+        why: 'Past about an hour, or in heat, you need water - and it needs to carry your phone too.' },
+      { cat: 'visibility', label: 'Light & reflective', rank: 3, weight: 0.10,
+        when: function (p) { return p.context === 'dark'; },
+        why: 'Most running kit is black; in the dark, drivers genuinely cannot see you.' },
+      { cat: 'recovery', label: 'Recovery tool', rank: 5, weight: 0.06, optional: true,
+        why: 'A massage ball or roller for calves and feet once you are running several times a week.' }
     ]
   };
 
@@ -380,6 +402,18 @@
       opts: [
         { id: 'fly',   label: 'Flying to a resort',   tags: ['air-travel', 'fully-padded', 'travel'] },
         { id: 'drive', label: 'Driving to the hill', tags: ['backpack', 'vented', 'ventilated'] }
+      ]
+    },
+    // One question, three answers, because it gates three different slots:
+    // darkness adds lights, distance swaps the phone belt for water. A runner
+    // who does long runs in the dark gets the water and can add a light from
+    // the free-text box - the rarer case pays the click, not the common one.
+    running: {
+      q: 'What do most of your runs look like?',
+      opts: [
+        { id: 'daylight', label: 'Short runs in daylight',     tags: ['short-run'] },
+        { id: 'dark',     label: 'Before or after work, dark', tags: ['dark'] },
+        { id: 'long',     label: 'Long runs & races',          tags: ['long-run', 'marathon'] }
       ]
     }
   };

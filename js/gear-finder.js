@@ -389,7 +389,8 @@
   // Most sports are "played" and the default phrasing works. Skiing is not,
   // so it gets its own wording rather than "How much ski do you play?".
   var LEVEL_Q = {
-    ski: 'How much do you ski?'
+    ski: 'How much do you ski?',
+    running: 'How much do you run?'
   };
 
   function stepContent(key) {

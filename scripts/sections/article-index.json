@@ -3,7 +3,7 @@
   "sportLabels": {
     "tennis": "Tennis", "gym": "Gym", "boxing": "Boxing", "swimming": "Swimming",
     "football": "Football", "volleyball": "Volleyball", "pickleball": "Pickleball",
-    "ping-pong": "Ping Pong", "badminton": "Badminton", "ski": "Ski", "guides": "Guides"
+    "ping-pong": "Ping Pong", "badminton": "Badminton", "ski": "Ski", "running": "Running", "guides": "Guides"
   },
   "articles": [
     { "sport": "badminton", "path": "badminton/badminton-gear-beginners-guide.html", "label": "Badminton Gear: Complete Beginner Guide" },
@@ -80,6 +80,12 @@
     { "sport": "ski", "path": "ski/merino-vs-synthetic-base-layers.html", "label": "Merino vs Synthetic Base Layers" },
     { "sport": "ski", "path": "ski/ski-gear-beginners-guide.html", "label": "Ski Gear: Complete Beginner Guide" },
     { "sport": "ski", "path": "ski/ski-goggle-lens-vlt-guide.html", "label": "Ski Goggle Lens Tint and VLT Guide" },
-    { "sport": "ski", "path": "ski/what-to-pack-ski-trip.html", "label": "What to Pack for a Ski Trip" }
+    { "sport": "ski", "path": "ski/what-to-pack-ski-trip.html", "label": "What to Pack for a Ski Trip" },
+    { "sport": "running", "path": "running/best-running-shoes-beginners.html", "label": "Best Running Shoes for Beginners" },
+    { "sport": "running", "path": "running/how-to-carry-phone-water-running.html", "label": "How to Carry Your Phone and Water" },
+    { "sport": "running", "path": "running/how-to-stop-running-blisters.html", "label": "How to Stop Blisters When Running" },
+    { "sport": "running", "path": "running/neutral-vs-stability-running-shoes.html", "label": "Neutral vs Stability Running Shoes" },
+    { "sport": "running", "path": "running/running-gear-beginners-guide.html", "label": "Running Gear: Complete Beginner Guide" },
+    { "sport": "running", "path": "running/running-in-the-dark-what-to-wear.html", "label": "Running in the Dark: What to Wear" }
   ]
 }

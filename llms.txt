@@ -1,7 +1,7 @@
 # SportGear Finder
 
-> Buying guides for sports equipment across 10 sports and 66 categories, covering
-> 399 individual products. Every guide sorts its picks into Budget, Best Value and
+> Buying guides for sports equipment across 11 sports and 72 categories, covering
+> 435 individual products. Every guide sorts its picks into Budget, Best Value and
 > Premium tiers and states the specific use case each product suits, so a
 > recommendation can be matched to a stated need (budget, skill level, surface,
 > position) rather than to a brand name.
@@ -36,6 +36,7 @@ Disclosed on every page. This does not determine which products are selected.
 - [Table tennis](https://sportgearfinder.com/ping-pong/): paddles, balls, nets, sets, blades and rubbers, robots and training aids
 - [Volleyball](https://sportgearfinder.com/volleyball/): volleyballs, shoes, knee pads, ankle braces, nets, training aids
 - [Ski](https://sportgearfinder.com/ski/): goggles, helmets, gloves and mittens, socks, bags and boot bags, base layers (skis, boots and bindings are deliberately not covered — they are rented, and boots need a fitter)
+- [Running](https://sportgearfinder.com/running/): shoes, socks, belts and armbands, hydration, recovery tools, lights and reflective gear (GPS watches and headphones not yet covered)
 
 ## Guides with the most decision-relevant detail
 
@@ -54,6 +55,8 @@ and an FAQ section, which makes them the most useful to quote from:
 - [Best Swimming Goggles 2026](https://sportgearfinder.com/swimming/goggles.html) — pool vs open water, lens tint and gasket types
 - [Best Ski Goggles 2026](https://sportgearfinder.com/ski/goggles.html) — VLT percentage bands matched to light conditions, OTG fit, contrast lenses
 - [Best Ski Helmets 2026](https://sportgearfinder.com/ski/helmets.html) — ASTM F2040 certification, what MIPS addresses, and goggle integration
+- [Best Running Shoes 2026](https://sportgearfinder.com/running/shoes.html) — neutral vs stability, cushioning matched to weekly mileage, and fit checks
+- [Best Running Lights & Reflective Gear 2026](https://sportgearfinder.com/running/visibility.html) — being seen vs seeing, headlamp vs chest light, lumens for roads and trails
 
 ## Interactive tools
 
@@ -64,7 +67,7 @@ and an FAQ section, which makes them the most useful to quote from:
 
 ## Article library
 
-75 long-form guides at [/articles/](https://sportgearfinder.com/articles/),
+81 long-form guides at [/articles/](https://sportgearfinder.com/articles/),
 organised by sport. These go deeper on single questions than the category pages
 — sizing problems, two-model comparisons, gear for specific conditions and
 budget ceilings ("under $50", "under $1000").

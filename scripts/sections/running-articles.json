@@ -1,0 +1,272 @@
+{
+  "_comment": "Running articles. Product facts in 'pick' blocks are looked up from data/products.json by id, so names and affiliate links cannot drift from the category pages.",
+  "sportLabel": "Running",
+  "updatedLabel": "September 2026",
+  "datePublished": "2026-09-26",
+  "dateModified": "2026-09-26",
+  "articles": [
+    {
+      "slug": "running-gear-beginners-guide",
+      "title": "Running Gear: Complete Beginner Guide (2026) - What You Actually Need",
+      "headline": "Running Gear: Complete Beginner Guide",
+      "kicker": "Buying Guide",
+      "metaDescription": "What running gear a beginner actually needs. Why shoes are the only essential, the two cheap items that fix most beginner complaints, and what can wait until you are running regularly.",
+      "h1": "Running Gear: <em>Complete Beginner Guide</em>",
+      "readTime": 8,
+      "body": [
+        { "type": "p", "text": "Running has the shortest essential kit list of any sport we cover, and the longest list of things people will try to sell you. The honest version is this: you need <strong>one pair of proper running shoes</strong>. Everything else either fixes a specific problem you may or may not have, or makes running more pleasant once you are doing it regularly." },
+        { "type": "p", "text": "That is good news for beginners, because it means the right way to start is to spend money on one thing, go running for a few weeks, and let the problems you actually run into tell you what to buy next." },
+        { "type": "h2", "text": "The One Essential: Shoes That Fit" },
+        { "type": "p", "text": "A running shoe is designed to cushion repeated landings and roll you forward smoothly. Fashion trainers, tennis shoes and old gym shoes do neither well, and running in them is the fastest way to sore shins. You do not need an expensive shoe to start &mdash; you need a neutral, moderately cushioned running shoe that fits." },
+        { "type": "p", "text": "Fit means a thumb's width of space in front of your longest toe, no heel slip when you walk, and nothing pressing on the widest part of your foot. If a shoe needs \"breaking in\", it is the wrong shoe. The <a href=\"best-running-shoes-beginners.html\">beginner shoe guide</a> has specific picks, and <a href=\"neutral-vs-stability-running-shoes.html\">neutral vs stability</a> explains the one technical decision worth understanding." },
+        { "type": "pick", "id": "run-shoes-001", "badge": "Cheapest Real Running Shoe", "badgeClass": "b-budget", "moreHref": "../../running/shoes.html", "moreLabel": "All running shoe picks", "text": "Built for running rather than for looking like it, with one of the biggest review bases of any running shoe on Amazon. The foam is firmer and will flatten sooner than the daily trainers, but for two or three short runs a week while you build up, it is completely adequate. If the budget is tight, start here." },
+        { "type": "pick", "id": "run-shoes-004", "badge": "If You Can Stretch", "badgeClass": "b-value", "moreHref": "../../running/shoes.html", "moreLabel": "All running shoe picks", "text": "The shoe running shops recommend when they know nothing about you, because it does nothing badly. Soft without being mushy, smooth for most running styles, and available in a wide fitting. It costs twice the budget pick and lasts noticeably longer before the foam goes flat. The safest single recommendation in running." },
+        { "type": "h2", "text": "Two Cheap Things That Fix Most Complaints" },
+        { "type": "h3", "text": "Running socks, not cotton" },
+        { "type": "p", "text": "Most beginner blisters come from cotton socks, which hold sweat against the skin and loosen when wet. A multi-pack of synthetic running socks costs about the same as a sandwich and fixes the problem outright. See <a href=\"how-to-stop-running-blisters.html\">how to stop blisters</a> if you already have them." },
+        { "type": "pick", "id": "run-socks-001", "badge": "Cheapest Fix", "badgeClass": "b-budget", "moreHref": "../../running/socks.html", "moreLabel": "All sock picks", "text": "Six pairs of thin, ventilated synthetic running socks for less than one premium pair. They dry fast, do not bunch and suit warm weather and short runs. If you are running in cotton now, this is the single most noticeable upgrade you can make for the money." },
+        { "type": "h3", "text": "Somewhere to put your phone" },
+        { "type": "p", "text": "A phone in a shorts pocket bounces, swings and drags your waistband down. A simple running belt holds it at your waist where it barely moves. It sounds like a luxury; after one run with a phone in your pocket, most people buy one." },
+        { "type": "pick", "id": "run-belt-002", "badge": "First Belt", "badgeClass": "b-budget", "moreHref": "../../running/belts.html", "moreLabel": "All belt and armband picks", "text": "A zipped pouch on a sized elastic belt, which is why it stays put better than most cheap belts. Two compartments keep keys off your phone screen, and a reflective strip helps on dark mornings. The belt most beginners should start with." },
+        { "type": "h2", "text": "What Can Wait" },
+        { "type": "ul", "items": [
+          "<strong>A GPS watch.</strong> Your phone's free running app tracks distance and pace well enough for your first months. Buy a watch when you know you will keep running.",
+          "<strong>Water on the run.</strong> For runs under an hour in normal weather, drink beforehand and you are fine. <a href=\"../../running/hydration.html\">Hydration gear</a> matters for long runs and hot days.",
+          "<strong>Technical clothing.</strong> Any non-cotton T-shirt and shorts will do. Cotton gets heavy and chafes, but you probably already own synthetic sportswear.",
+          "<strong>Recovery tools.</strong> A <a href=\"../../running/recovery.html\">massage ball</a> for under $10 is worth having once you are running several times a week. Rollers can come later."
+        ] },
+        { "type": "h2", "text": "If You Run in the Dark" },
+        { "type": "p", "text": "The exception to \"it can wait\" is visibility. If your runs are before or after work in winter, something reflective and a light are safety kit, not accessories &mdash; most running clothes are black, and drivers genuinely cannot see you. <a href=\"running-in-the-dark-what-to-wear.html\">Running in the dark</a> covers what works." },
+        { "type": "verdict", "label": "The short version", "text": "Buy one pair of properly fitting running shoes. Add synthetic running socks and a belt for your phone when you notice you need them, which will be soon. Leave watches, hydration and recovery tools until running is a habit - and if you run in the dark, get a reflective vest and a light straight away." }
+      ],
+      "faq": [
+        { "q": "What do I need to start running?", "a": "A pair of running shoes that fit well. That is the only essential. Synthetic running socks and a belt for your phone are cheap additions that fix the most common beginner complaints, blisters and a bouncing phone. Everything else can wait until you are running regularly." },
+        { "q": "How much should beginner running shoes cost?", "a": "A proper entry-level running shoe costs around $75 to $100. Mid-range daily trainers around $150 use better foam that stays cushioned for more miles. You do not need an expensive shoe to start, but you do need a running shoe rather than a fashion or tennis shoe." },
+        { "q": "Do I need a running watch as a beginner?", "a": "No. A free app on your phone tracks distance, pace and time well enough for the first months. A GPS watch is convenient and more accurate, but it makes more sense once you know running is going to stick." },
+        { "q": "Can I run in normal gym clothes?", "a": "Yes, as long as they are not cotton. Cotton absorbs sweat, gets heavy and chafes. Most synthetic sportswear works fine for running. Dedicated running clothing adds things like better ventilation and pockets, but it is not necessary to start." },
+        { "q": "What is the most common beginner running gear mistake?", "a": "Running in the wrong shoes - fashion trainers, old gym shoes or tennis shoes - followed closely by cotton socks. The first causes sore shins and knees; the second causes blisters. Both are cheap to fix." }
+      ],
+      "related": [
+        { "href": "best-running-shoes-beginners.html", "label": "Best Running Shoes for Beginners" },
+        { "href": "how-to-stop-running-blisters.html", "label": "How to Stop Blisters When Running" },
+        { "href": "how-to-carry-phone-water-running.html", "label": "How to Carry Your Phone and Water on a Run" },
+        { "href": "../../running/index.html", "label": "All Running Gear Picks" }
+      ]
+    },
+    {
+      "slug": "best-running-shoes-beginners",
+      "title": "Best Running Shoes for Beginners (2026) - Four Picks and How to Choose",
+      "headline": "Best Running Shoes for Beginners (2026)",
+      "kicker": "Buying Guide",
+      "metaDescription": "The best running shoes for beginners in 2026. Why a neutral, moderately cushioned shoe is the right start, how to check fit at home, and four picks from $75 to $150.",
+      "h1": "Best Running Shoes <em>for Beginners</em>",
+      "readTime": 7,
+      "body": [
+        { "type": "p", "text": "The right first running shoe is not the most advanced one or the one a friend who runs marathons swears by. It is a <strong>neutral, moderately cushioned shoe that fits your foot</strong>, bought at a price that does not make you afraid to wear it out." },
+        { "type": "p", "text": "Here are four that fit that description, from the cheapest shoe we would recommend to the one most running shops would hand you, plus what to check before you commit." },
+        { "type": "h2", "text": "What a Beginner Actually Needs" },
+        { "type": "p", "text": "<strong>Neutral, not stability.</strong> Stability shoes add support for feet that roll inward a lot. Most runners do not need it, and the evidence for prescribing it by foot shape is weaker than shops suggest. Start neutral unless you have a known problem &mdash; <a href=\"neutral-vs-stability-running-shoes.html\">neutral vs stability</a> explains how to tell." },
+        { "type": "p", "text": "<strong>Moderate cushion, not maximum.</strong> Cushioning needs follow mileage. Three 20-minute runs a week do not need a maximum-stack shoe, and many beginners feel less stable in one." },
+        { "type": "pick", "id": "run-shoes-001", "badge": "Best on a Tight Budget", "badgeClass": "b-budget", "moreHref": "../../running/shoes.html", "moreLabel": "All running shoe picks", "text": "The cheapest shoe we would recommend for running. The foam is firm and will not stay lively as long as the pricier picks, but for a couch-to-5K plan it does everything it needs to, and tens of thousands of reviewers agree. Available in a wide range of sizes and colours." },
+        { "type": "pick", "id": "run-shoes-002", "badge": "Softest Budget Landing", "badgeClass": "b-budget", "moreHref": "../../running/shoes.html", "moreLabel": "All running shoe picks", "text": "ASICS's entry trainer, with a gel unit in the heel that softens landings for heel strikers - which describes most new runners. Plusher underfoot than the Under Armour and a little roomier in the forefoot. A comfortable, dependable shoe to build up from nothing in." },
+        { "type": "pick", "id": "run-shoes-003", "badge": "Most Versatile", "badgeClass": "b-value", "moreHref": "../../running/shoes.html", "moreLabel": "All running shoe picks", "text": "Lighter and firmer than a typical daily trainer, which makes it feel quick on short runs and stable enough for gym sessions and long days on your feet. If you want one shoe for running a few times a week plus everything else, this is the smart buy." },
+        { "type": "pick", "id": "run-shoes-004", "badge": "Best Overall", "badgeClass": "b-value", "moreHref": "../../running/shoes.html", "moreLabel": "All running shoe picks", "text": "The shoe to buy if you want the least chance of getting it wrong. Balanced cushioning, a smooth ride for most running styles, and a genuine wide option. It costs more than the budget picks and repays it with foam that stays comfortable for many more miles." },
+        { "type": "h2", "text": "How to Check the Fit at Home" },
+        { "type": "ul", "items": [
+          "<strong>Try them in the afternoon</strong>, when your feet are at their largest, wearing the socks you will run in.",
+          "<strong>Leave a thumb's width</strong> between your longest toe and the end of the shoe. Feet swell and slide forward on downhills.",
+          "<strong>Walk and jog on a hard floor.</strong> The heel should not lift, and nothing should pinch across the widest part of your foot.",
+          "<strong>If it pinches across the ball of the foot</strong>, do not size up &mdash; look for a wide fitting instead.",
+          "<strong>Test indoors first.</strong> Amazon accepts returns on unworn shoes; a shoe that has been run in outdoors usually cannot go back."
+        ] },
+        { "type": "h2", "text": "When to Upgrade" },
+        { "type": "p", "text": "Replace running shoes roughly every 300 to 500 miles, or when they feel flat and your legs ache after easy runs. When that time comes, you will know much more about what you like. That is the moment to consider the <a href=\"../../running/shoes.html\">stability and max-cushion shoes</a> on our main shoe page, not before." },
+        { "type": "verdict", "label": "The short version", "text": "Buy a neutral, moderately cushioned running shoe that fits. The Under Armour Charged Assert 10 is the budget answer, the ASICS Gel-Excite 11 the softest cheap option, and the Brooks Ghost 17 the one to buy if you can stretch to it. Check the fit indoors before your first run." }
+      ],
+      "faq": [
+        { "q": "What is the best running shoe for a beginner?", "a": "A neutral, moderately cushioned shoe that fits your foot. The Brooks Ghost 17 is the safest all-round recommendation; the Under Armour Charged Assert 10 and ASICS Gel-Excite 11 are good cheaper options. Fit matters more than the model." },
+        { "q": "Should beginners buy stability running shoes?", "a": "Usually not. Stability shoes are for runners whose feet roll inward enough to cause problems, and most people are comfortable in neutral shoes. Consider stability only if you have recurring pain that neutral shoes have not solved, or a gait assessment shows significant overpronation." },
+        { "q": "How should running shoes fit?", "a": "About a thumb's width of space in front of your longest toe, a secure heel that does not lift as you walk, and no pressure across the widest part of your foot. They should feel comfortable immediately - running shoes should not need breaking in." },
+        { "q": "Can I use walking shoes for running?", "a": "For very short, occasional runs they will do, but running shoes are built to cushion much bigger impacts and roll you forward. If you plan to run regularly, a proper running shoe noticeably reduces the aches that put beginners off." }
+      ],
+      "related": [
+        { "href": "neutral-vs-stability-running-shoes.html", "label": "Neutral vs Stability Running Shoes" },
+        { "href": "running-gear-beginners-guide.html", "label": "Running Gear: Complete Beginner Guide" },
+        { "href": "how-to-stop-running-blisters.html", "label": "How to Stop Blisters When Running" },
+        { "href": "../../running/shoes.html", "label": "All Running Shoe Picks" }
+      ]
+    },
+    {
+      "slug": "neutral-vs-stability-running-shoes",
+      "title": "Neutral vs Stability Running Shoes (2026) - Which Do You Need?",
+      "headline": "Neutral vs Stability Running Shoes",
+      "kicker": "Explainer",
+      "metaDescription": "Neutral vs stability running shoes explained. What pronation actually is, why most runners belong in neutral shoes, and the signs that a stability shoe is worth trying.",
+      "h1": "Neutral vs <em>Stability</em> Running Shoes",
+      "readTime": 7,
+      "body": [
+        { "type": "p", "text": "Walk into a running shop and there is a good chance someone will watch you jog and tell you that you \"overpronate\" and need a stability shoe. Sometimes that is right. Often it is not. This is what the two categories actually are, and how to decide without being sold to." },
+        { "type": "h2", "text": "What Pronation Actually Is" },
+        { "type": "p", "text": "When your foot lands, it rolls inward slightly and the arch flattens. That is <strong>pronation</strong>, and it is normal &mdash; it is how the foot absorbs shock. \"Overpronation\" means the foot rolls inward further than average. The idea behind stability shoes is that limiting this roll reduces strain on the shins, knees and arch." },
+        { "type": "p", "text": "The complication is that decades of research have struggled to show that assigning shoes by foot type prevents injuries. Studies that gave runners shoes matched to their pronation found little difference in injury rates compared with runners who simply chose the most comfortable shoe. <strong>Comfort turns out to be a better guide than foot shape.</strong>" },
+        { "type": "h2", "text": "What Each Kind of Shoe Does" },
+        { "type": "ul", "items": [
+          "<strong>Neutral shoes</strong> cushion the landing without trying to control how your foot moves. They suit the large majority of runners.",
+          "<strong>Stability shoes</strong> add firmer foam, guide rails or a wider base on the inner side to resist excessive inward roll. Modern ones are much subtler than the rigid \"motion control\" shoes of the past."
+        ] },
+        { "type": "pick", "id": "run-shoes-004", "badge": "The Neutral Benchmark", "badgeClass": "b-value", "moreHref": "../../running/shoes.html", "moreLabel": "All running shoe picks", "text": "The most widely recommended neutral daily trainer, and the one to try first if you have no specific problems. Soft, smooth and forgiving of different running styles, with a wide option." },
+        { "type": "pick", "id": "run-shoes-005", "badge": "The Stability Twin", "badgeClass": "b-best", "moreHref": "../../running/shoes.html", "moreLabel": "All running shoe picks", "text": "Brooks's stability version of the Ghost. Its GuideRails sit along both sides of the heel and only really engage when the foot rolls too far, so it feels close to a neutral shoe for runners who do not need the help and supportive for those who do. The first stability shoe to try." },
+        { "type": "h2", "text": "Signs a Stability Shoe Is Worth Trying" },
+        { "type": "ul", "items": [
+          "Recurring pain on the inside of the shin, knee or arch that neutral shoes have not solved.",
+          "Your shoes wear heavily on the inner edge of the sole, and the heel counter visibly tilts inward.",
+          "A gait video - many running shops will film you for free - shows your ankles clearly collapsing inward on each landing.",
+          "You have been advised to by a physiotherapist or podiatrist who has assessed you."
+        ] },
+        { "type": "p", "text": "If none of those apply and you are comfortable, stay in neutral shoes. There is nothing to fix." },
+        { "type": "h2", "text": "What About Maximum Cushion?" },
+        { "type": "p", "text": "Cushion level is a separate question from stability. A maximum-cushion shoe like the <a href=\"../../running/shoes.html#hoka-bondi-9\">Hoka Bondi 9</a> is neutral but has a very tall stack of foam, which suits high mileage and sore joints. Its wide base also gives it a naturally stable feel, which is why some runners who dislike traditional stability shoes get on well with max-cushion neutrals." },
+        { "type": "verdict", "label": "The short version", "text": "Start in a neutral shoe and choose on comfort. Try a stability shoe like the Brooks Adrenaline GTS 25 only if you have recurring inner-leg pain that neutral shoes have not fixed, or an assessment shows your ankles collapsing inward. Most runners never need one." }
+      ],
+      "faq": [
+        { "q": "How do I know if I overpronate?", "a": "The most reliable way is a gait video - many running shops will film you on a treadmill for free. Signs include ankles visibly rolling inward on landing and heavy wear on the inner edge of your shoe soles. Remember that some pronation is normal, and even overpronation only matters if it is causing problems." },
+        { "q": "Is it bad to run in stability shoes if I do not need them?", "a": "Modern stability shoes are subtle and many neutral runners are comfortable in them, so it is rarely harmful. But there is no benefit either, and they tend to be slightly heavier and firmer. Choose on comfort." },
+        { "q": "Are stability shoes better for flat feet?", "a": "Not automatically. Flat feet do not always mean excessive pronation, and many people with flat feet run happily in neutral shoes. If you have flat feet and recurring pain, a stability shoe is worth trying - but let comfort and symptoms decide, not arch shape alone." },
+        { "q": "Can a neutral runner use a max-cushion shoe?", "a": "Yes. Maximum-cushion shoes like the Hoka Bondi 9 are neutral shoes with more foam. They are good for high mileage, recovery runs and sore joints, and their wide base gives a stable feel without any stability technology." }
+      ],
+      "related": [
+        { "href": "best-running-shoes-beginners.html", "label": "Best Running Shoes for Beginners" },
+        { "href": "running-gear-beginners-guide.html", "label": "Running Gear: Complete Beginner Guide" },
+        { "href": "how-to-stop-running-blisters.html", "label": "How to Stop Blisters When Running" },
+        { "href": "../../running/shoes.html", "label": "All Running Shoe Picks" }
+      ]
+    },
+    {
+      "slug": "how-to-stop-running-blisters",
+      "title": "How to Stop Blisters When Running (2026) - Socks, Shoes and Lacing",
+      "headline": "How to Stop Blisters When Running",
+      "kicker": "How-To",
+      "metaDescription": "How to stop getting blisters when running. The two causes - moisture and friction - and the fixes that work: the right socks, the right shoe size, heel-lock lacing and what to do on long runs.",
+      "h1": "How to Stop <em>Blisters</em> When Running",
+      "readTime": 6,
+      "body": [
+        { "type": "p", "text": "Blisters are the most common and most fixable running complaint. They come from two things together: <strong>moisture</strong>, which softens the skin, and <strong>friction</strong>, which rubs it. Take away either one and blisters mostly stop. Here is the order to fix things in, cheapest first." },
+        { "type": "h2", "text": "Step 1: Get Rid of Cotton Socks" },
+        { "type": "p", "text": "Cotton absorbs sweat and holds it against your skin, and it loosens and wrinkles when wet. That is both blister causes in one sock. Synthetic or merino running socks wick moisture away and hold their shape. This single change fixes a large share of beginner blisters." },
+        { "type": "pick", "id": "run-socks-001", "badge": "Cheapest Fix", "badgeClass": "b-budget", "moreHref": "../../running/socks.html", "moreLabel": "All sock picks", "text": "Six pairs of thin, fast-drying synthetic running socks for less than one premium pair. If you are currently running in cotton, start here - the difference is immediate." },
+        { "type": "pick", "id": "run-socks-003", "badge": "Best for Blister-Prone Feet", "badgeClass": "b-value", "moreHref": "../../running/socks.html", "moreLabel": "All sock picks", "text": "A seamless toe removes the ridge that rubs across the toes, and a deep heel pocket stops the sock creeping down inside the shoe. A long-standing running-shop answer for people who blister even in running socks." },
+        { "type": "h2", "text": "Step 2: Check Your Shoe Size and Width" },
+        { "type": "p", "text": "If you still blister in the same spot after changing socks, the shoe is usually the cause. Blisters on the tips of the toes or black toenails mean the shoe is too short &mdash; leave a thumb's width in front of the longest toe. Blisters on the sides of the foot mean it is too narrow; look for a <a href=\"../../running/shoes.html\">wide fitting</a> rather than sizing up. Blisters on the back of the heel usually mean the heel is slipping." },
+        { "type": "h2", "text": "Step 3: Lock the Heel With Your Laces" },
+        { "type": "p", "text": "Most running shoes have an extra eyelet at the top that nobody uses. It is for a <strong>heel-lock</strong> (or \"runner's loop\"): thread each lace through the top eyelet on the same side to make a small loop, then cross each lace through the opposite loop before tying. It pulls the shoe snugly around the ankle and stops the heel lifting, which fixes most heel blisters for free." },
+        { "type": "h2", "text": "Step 4: Protect Hotspots on Long Runs" },
+        { "type": "ul", "items": [
+          "<strong>Anti-chafe balm</strong> on known trouble spots reduces friction for a couple of hours.",
+          "<strong>Tape or blister plasters</strong> applied before a run to a spot that always blisters work better than after.",
+          "<strong>Keep feet dry</strong> on very long runs - some marathon and trail runners carry a spare pair of socks.",
+          "<strong>Do not do long runs in brand-new shoes.</strong> Build up over a few shorter runs first."
+        ] },
+        { "type": "h2", "text": "When Merino Helps" },
+        { "type": "p", "text": "Merino socks manage moisture better than synthetics on long and cold runs, and stay comfortable when damp. For blister-prone runners doing long distances, they are worth the premium." },
+        { "type": "pick", "id": "run-socks-005", "badge": "Merino, Guaranteed for Life", "badgeClass": "b-best", "moreHref": "../../running/socks.html", "moreLabel": "All sock picks", "text": "A thin, dense merino running sock with light cushioning and a lifetime guarantee. It keeps feet comfortable across a wide range of temperatures and genuinely lasts years." },
+        { "type": "verdict", "label": "The short version", "text": "Swap cotton socks for synthetic or merino running socks. If blisters persist in one spot, check shoe length and width, and use a heel-lock lacing loop for heel blisters. On long runs, protect known hotspots before you start rather than after they hurt." }
+      ],
+      "faq": [
+        { "q": "Why do I get blisters when running?", "a": "Blisters form when moisture softens the skin and friction rubs it. Cotton socks, shoes that are too small or too narrow, heels that slip, and long runs in new shoes are the usual causes. Fixing the socks and the fit prevents most of them." },
+        { "q": "What socks prevent blisters?", "a": "Synthetic or merino running socks that fit snugly without wrinkles. Features that help include seamless toes, a deep heel pocket, and a raised heel tab on low socks. Avoid cotton." },
+        { "q": "Should I pop a running blister?", "a": "Generally, leave small intact blisters alone and cover them - the skin protects against infection. If a large blister is painful and likely to burst anyway, many runners drain it with a sterilised needle at the edge, leave the skin in place and cover it. Seek medical advice if it looks infected, and people with diabetes should not self-treat." },
+        { "q": "What is heel-lock lacing?", "a": "A lacing technique that uses the extra top eyelet on running shoes. You make a small loop on each side and thread the laces through the opposite loops before tying. It holds the heel firmly in the shoe and stops the slipping that causes heel blisters." }
+      ],
+      "related": [
+        { "href": "best-running-shoes-beginners.html", "label": "Best Running Shoes for Beginners" },
+        { "href": "running-gear-beginners-guide.html", "label": "Running Gear: Complete Beginner Guide" },
+        { "href": "neutral-vs-stability-running-shoes.html", "label": "Neutral vs Stability Running Shoes" },
+        { "href": "../../running/socks.html", "label": "All Running Sock Picks" }
+      ]
+    },
+    {
+      "slug": "how-to-carry-phone-water-running",
+      "title": "How to Carry Your Phone and Water on a Run (2026) - Belts, Armbands and Vests",
+      "headline": "How to Carry Your Phone and Water on a Run",
+      "kicker": "How-To",
+      "metaDescription": "How to carry your phone, keys and water when running. Belt vs armband, when you need water at all, and how to choose between a handheld, a hydration belt and a vest.",
+      "h1": "How to Carry Your <em>Phone and Water</em> on a Run",
+      "readTime": 7,
+      "body": [
+        { "type": "p", "text": "The question of how to carry things on a run has one rule behind every answer: <strong>weight close to your centre of mass bounces least</strong>. A phone in a shorts pocket swings with every stride; the same phone in a snug belt at your waist barely moves. Here is how to apply that to a phone, keys and water." },
+        { "type": "h2", "text": "Your Phone and Keys" },
+        { "type": "p", "text": "For most runners, a <strong>waist belt</strong> is the answer. It carries the load at your hips, holds keys and a card as well as a phone, and leaves your arms free. An <strong>armband</strong> suits people who want to see and touch the screen during a run, but a large modern phone on one arm feels heavy after a while." },
+        { "type": "pick", "id": "run-belt-002", "badge": "Best First Belt", "badgeClass": "b-budget", "moreHref": "../../running/belts.html", "moreLabel": "All belt and armband picks", "text": "A zipped pouch on a sized elastic belt. The sizing is why it stays put better than most cheap belts. Two compartments, a reflective strip, and a price that makes it an easy first buy." },
+        { "type": "pick", "id": "run-belt-005", "badge": "Least Bounce", "badgeClass": "b-best", "moreHref": "../../running/belts.html", "moreLabel": "All belt and armband picks", "text": "A wide tube of stretch fabric with slots all the way round. Items sit against your body across the whole band rather than hanging from a pouch, so it bounces less than anything else we cover - even with a large phone and gels. Size it carefully; it does not adjust." },
+        { "type": "p", "text": "If you carry a car or house key you cannot afford to lose, make sure it goes in a <strong>zipped</strong> pocket. Open slots and stretch pockets are secure for phones but a small key can work its way out over many miles." },
+        { "type": "h2", "text": "Do You Need Water at All?" },
+        { "type": "p", "text": "For runs under about an hour in mild weather, most healthy runners do not need to drink on the run if they start hydrated. Carry water on longer runs, in heat and humidity, and on trails without taps. Planning routes past fountains or shops is lighter than carrying anything." },
+        { "type": "h2", "text": "Handheld, Belt or Vest" },
+        { "type": "ul", "items": [
+          "<strong>Handheld bottle</strong> - simplest and cheapest, fine for up to about 90 minutes. A good strap means you do not have to grip it.",
+          "<strong>Hydration belt</strong> - small bottles on your waist, hands free. Can bounce when full, so wear it low and snug.",
+          "<strong>Vest</strong> - carries the most, bounces least, has space for a jacket and food. The standard for marathon training and trails."
+        ] },
+        { "type": "pick", "id": "run-hydration-003", "badge": "Best Handheld", "badgeClass": "b-value", "moreHref": "../../running/hydration.html", "moreLabel": "All hydration picks", "text": "An insulated bottle on an adjustable hand strap with a zip pocket for your phone or keys. Keeps water cool on hot runs and is the simplest way to carry water for runs up to about 90 minutes." },
+        { "type": "pick", "id": "run-hydration-006", "badge": "Best Race Vest", "badgeClass": "b-best", "moreHref": "../../running/hydration.html", "moreLabel": "All hydration picks", "text": "A close-fitting race vest with two soft flasks on the chest and stretch storage for gels, a phone and a light jacket. It barely moves at pace. More than a beginner needs; exactly what a marathon or trail runner wants." },
+        { "type": "h2", "text": "One Carrier or Two?" },
+        { "type": "p", "text": "Once you are carrying water, you rarely need a separate belt as well &mdash; handhelds and vests have pockets for a phone and keys. Most runners end up with a belt for everyday runs and a handheld or vest for long ones." },
+        { "type": "verdict", "label": "The short version", "text": "Carry your phone in a snug waist belt; choose an armband only if you want the screen in view. Skip water on runs under an hour in mild weather. For longer runs, a handheld works up to about 90 minutes, and a vest is the answer for marathon training and trails." }
+      ],
+      "faq": [
+        { "q": "What is the best way to carry a phone while running?", "a": "A snug waist belt worn low on the hips or at the small of the back. It keeps the phone close to your centre of mass, where it moves least, and has room for keys and a card. An armband is the alternative if you need to see the screen." },
+        { "q": "How long can I run without water?", "a": "Most healthy runners are fine without water for runs up to about an hour in mild conditions, if they start well hydrated. In heat, humidity or on longer runs, carry water or plan a route past fountains. Thirst is a reasonable guide for most people." },
+        { "q": "Do hydration belts bounce?", "a": "They can, especially with full bottles. Wear the belt low on the hips and snug, and choose one with bottles sitting close to the back. If bounce bothers you, a handheld or a vest moves less." },
+        { "q": "Is a running vest worth it?", "a": "If you run longer than about 90 minutes regularly, train for marathons or run trails, yes. Vests carry more water and kit than any alternative and move less once fitted. For shorter runs they are more than you need." }
+      ],
+      "related": [
+        { "href": "running-gear-beginners-guide.html", "label": "Running Gear: Complete Beginner Guide" },
+        { "href": "running-in-the-dark-what-to-wear.html", "label": "Running in the Dark: What to Wear" },
+        { "href": "../../running/belts.html", "label": "All Belt and Armband Picks" },
+        { "href": "../../running/hydration.html", "label": "All Hydration Picks" }
+      ]
+    },
+    {
+      "slug": "running-in-the-dark-what-to-wear",
+      "title": "Running in the Dark: What to Wear to Be Seen (2026)",
+      "headline": "Running in the Dark: What to Wear to Be Seen",
+      "kicker": "Safety Guide",
+      "metaDescription": "What to wear running in the dark. Why reflective gear alone is not enough, where to put it so drivers notice you, and how to choose between a headlamp, a chest light and a light-up vest.",
+      "h1": "Running in the Dark: <em>What to Wear</em>",
+      "readTime": 7,
+      "body": [
+        { "type": "p", "text": "Most running clothing is black or dark grey, and for months of the year most people who run before or after work do so in the dark. From a driver's seat, a runner in black on an unlit road is close to invisible until very late. Fixing that is cheap. It just needs two different things, because <strong>being seen</strong> and <strong>seeing</strong> are separate problems." },
+        { "type": "h2", "text": "Being Seen: Reflective Plus Light" },
+        { "type": "p", "text": "Reflective material returns a car's headlight beam to the driver, which makes it very visible from in front and behind at night. It does nothing from the side, under street lighting, or to anyone without a light of their own. An active light fills those gaps. The safe combination is both." },
+        { "type": "pick", "id": "run-vis-001", "badge": "Cheapest Upgrade", "badgeClass": "b-budget", "moreHref": "../../running/visibility.html", "moreLabel": "All visibility picks", "text": "A pair of lightweight reflective strap vests for less than most single vests. They fit over a T-shirt or a winter jacket, weigh almost nothing and never need charging. The cheapest meaningful safety upgrade in running." },
+        { "type": "h2", "text": "Put Reflective Material Where It Moves" },
+        { "type": "p", "text": "Research on pedestrian visibility has found that drivers recognise a person much sooner when reflective material is on the <strong>moving joints</strong> &mdash; ankles, knees, wrists &mdash; than when the same amount is on the torso, because the eye picks up the rhythm of running. A vest is good; a vest plus reflective shoe details or ankle bands is noticeably better." },
+        { "type": "pick", "id": "run-vis-005", "badge": "Hardest to Miss", "badgeClass": "b-best", "moreHref": "../../running/visibility.html", "moreLabel": "All visibility picks", "text": "A vest that lights up all the way round in a choice of colours, so you are visible from every angle including the side - and it is reflective and fluorescent too. It does not light the ground, so pair it with a headlamp on unlit roads. For busy roads before dawn, nothing else here makes you as obvious." },
+        { "type": "h2", "text": "Seeing: Headlamp or Chest Light" },
+        { "type": "p", "text": "On lit streets you may not need a beam at all. On unlit roads and paths, you do &mdash; a kerb, pothole or tree root in the dark is how ankles get sprained. A <strong>headlamp</strong> points where you look and is best on trails. A <strong>chest light</strong> sits lower, so the beam is steadier and the ground's texture shows up better in its longer shadows, which many road runners prefer." },
+        { "type": "pick", "id": "run-vis-002", "badge": "Best Budget Headlamp", "badgeClass": "b-budget", "moreHref": "../../running/visibility.html", "moreLabel": "All visibility picks", "text": "A light, rechargeable headlamp with a red mode. Bright enough for pavements and dark parks and light enough that it does not bounce much once the strap is snug. Not a trail lamp, but more than adequate for road running." },
+        { "type": "pick", "id": "run-vis-003", "badge": "Best Chest Light", "badgeClass": "b-value", "moreHref": "../../running/visibility.html", "moreLabel": "All visibility picks", "text": "A 500-lumen chest light on a reflective harness, so one purchase solves both problems. The beam barely moves as you run and tilts to light the ground a few strides ahead." },
+        { "type": "h2", "text": "Road Habits That Matter as Much as Gear" },
+        { "type": "ul", "items": [
+          "<strong>Run facing traffic</strong> where there is no pavement, so you can see what is coming and step aside.",
+          "<strong>Use a red rear light</strong> on roads without pavements; many headlamps and vests have a red mode.",
+          "<strong>Keep one ear free</strong> or the volume low. Hearing a car before it reaches you is part of being safe.",
+          "<strong>Choose lit routes</strong> for dark runs where you can, and tell someone where you are going."
+        ] },
+        { "type": "verdict", "label": "The short version", "text": "Wear something reflective, ideally with reflective details on your ankles or wrists, and add an active light so you are visible from the side and under street lights. On unlit roads and trails, carry a headlamp or chest light to see the ground. Run facing traffic where there is no pavement." }
+      ],
+      "faq": [
+        { "q": "What colour should I wear running at night?", "a": "Colour matters much less than reflective material and lights. Bright fluorescent colours help in daylight and dusk, but at night they look dark unless light hits them. Reflective material and an active light are what make you visible after dark." },
+        { "q": "Is a reflective vest enough for night running?", "a": "On its own, no. It is very visible to drivers whose headlights hit it, but invisible from the side and under street lighting. Pair it with an active light, and add reflective details on moving parts like ankles for the best visibility." },
+        { "q": "Should I use a headlamp for road running?", "a": "A headlamp works well on roads, and it is the best choice for trails. Many road runners prefer a chest light instead because the beam is steadier and does not move with the head. Either is fine - the important thing is having a light on unlit routes." },
+        { "q": "Is it safe to run in the dark?", "a": "It can be, with the right precautions: be visible with reflective gear and a light, see the ground with a headlamp or chest light, run facing traffic where there is no pavement, keep your hearing available, and prefer familiar, lit routes." }
+      ],
+      "related": [
+        { "href": "running-gear-beginners-guide.html", "label": "Running Gear: Complete Beginner Guide" },
+        { "href": "how-to-carry-phone-water-running.html", "label": "How to Carry Your Phone and Water on a Run" },
+        { "href": "../../running/visibility.html", "label": "All Visibility Picks" },
+        { "href": "../../running/index.html", "label": "All Running Gear Picks" }
+      ]
+    }
+  ]
+}

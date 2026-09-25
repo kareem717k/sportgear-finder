@@ -155,6 +155,17 @@
   --lime-dim:       rgba(59,130,246,0.08);
 }
 
+.sport-running {
+  --sport-primary:  #f59e0b;
+  --sport-accent:   #fde68a;
+  --sport-glow:     rgba(245,158,11,0.32);
+  --sport-hero-bg:  #1a1204;
+  --lime:           #f59e0b;
+  --lime-dark:      #d97706;
+  --lime-glow:      rgba(245,158,11,0.28);
+  --lime-dim:       rgba(245,158,11,0.08);
+}
+
 /* ══════════════════════════════════════════
    KEYFRAMES
 ══════════════════════════════════════════ */
@@ -2823,6 +2834,21 @@ nav, section, .hero-v2, .sport-hub-hero, .stat-bar,
     radial-gradient(ellipse 80% 120% at -8% 65%, rgba(59,130,246,0.20) 0%, transparent 55%),
     radial-gradient(ellipse 45% 70% at 105% 5%, rgba(125,211,252,0.07) 0%, transparent 45%),
     linear-gradient(155deg, #101a2b 0%, #061529 100%);
+}
+
+/* Running: early-morning amber, low sun on the road */
+.sport-running .sport-hub-hero {
+  background:
+    radial-gradient(ellipse 55% 75% at -5% 95%, rgba(245,158,11,0.22) 0%, transparent 48%),
+    radial-gradient(ellipse 35% 55% at 105% 5%, rgba(253,230,138,0.09) 0%, transparent 42%),
+    #1a1204;
+}
+
+.sport-running .cat-page-hero {
+  background:
+    radial-gradient(ellipse 80% 120% at -8% 65%, rgba(245,158,11,0.20) 0%, transparent 55%),
+    radial-gradient(ellipse 45% 70% at 105% 5%, rgba(253,230,138,0.07) 0%, transparent 45%),
+    linear-gradient(155deg, #231a0c 0%, #1a1204 100%);
 }
 
 /* ══════════════════════════════════════════

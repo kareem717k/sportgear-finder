@@ -50,7 +50,8 @@ $navItems = @(
     @('Boxing','boxing/index.html'), @('Swimming','swimming/index.html'),
     @('Football','football/index.html'), @('Volleyball','volleyball/index.html'),
     @('Pickleball','pickleball/index.html'), @('Ping Pong','ping-pong/index.html'),
-    @('Badminton','badminton/index.html'), @('Ski','ski/index.html')
+    @('Badminton','badminton/index.html'), @('Ski','ski/index.html'),
+    @('Running','running/index.html')
 )
 $navLi = foreach ($i in $navItems) {
     $cls = ''
